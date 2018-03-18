@@ -1,7 +1,4 @@
 #!/bin/bash
-
-###Run from genymotion tools as ::::: bash /c/Strace/Task.sh /c/Strace/APKfiles/
-
 for app in $1/*
 do
 	
@@ -12,11 +9,9 @@ do
 	adb install -t $app
 	adb shell monkey -p $pkgname 1
 	prcsid=$(adb shell ps | grep $pkgname | gawk -v FS=" " '{print $2}')
-	#echo "thsi is the pid"$prcsid
+	#echo "this is the pid"$prcsid
 	nametosave=$(sha1sum $app |gawk -v FS=" " '{print $1}' )
 	#echo "this is nametosave"$nametosave
-	#filename=$(echo "/StraceOut/"&nametosave)
-	#adb shell strace -p $prcsid -C  &> /StraceOUT/$nametosave
 	adb shell strace -p $prcsid -C -o $nametosave &
 	adb shell monkey -p $pkgname -v 50 -s 1521601858763 
 	#sleep 5
