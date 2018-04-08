@@ -50,6 +50,8 @@ To initiate an IPC transaction, ioctl() call with BINDER_READ_WRITE command is i
 
 [Details on linux system calls can be easily accessed here](http://syscalls.kernelgrok.com/)
 
+[Strace Hello World](http://timetobleed.com/hello-world/)
+
 
 ### Q3. Does strace record all the system calls associated with that process (that specific anadroid application)? 
 
