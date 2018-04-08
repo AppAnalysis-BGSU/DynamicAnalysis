@@ -54,7 +54,7 @@ To initiate an IPC transaction, ioctl() call with BINDER_READ_WRITE command is i
 [Strace Hello World](http://timetobleed.com/hello-world/)
 
 
-### Q3. Does strace record all the system calls associated with that process (that specific anadroid application)? 
+### Q3. Does strace record system calls associated with ONLY that specific android application (which is attached to strace)? 
 
 In my understanding, **YES** .
 
