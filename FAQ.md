@@ -1,4 +1,4 @@
-### Q1. Do we obtain same list of system calls on running the same android application again?
+### Q1. Do we obtain the same list of system calls on running the same android application again?
 
 > As per official documentation, `Running monkey with a same seed value generates the same sequence of events.` We expected same seed value will thus generate same events and thus same list of system calls. However, **experiment shows it is not the case.**
 
