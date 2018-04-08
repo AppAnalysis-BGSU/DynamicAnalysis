@@ -12,7 +12,8 @@
   
   This explains why we get different system calls. 
   
-### Q2. Could you try to explain each word in these two system calls? As an example, we want to know what is the meaning of `38` in first param, and so on. What is `=16`?
+### Q2. Could you try to explain each word in two example system calls? 
+
  `sendto(38, "\3\0\0\0X\\\246\377\200\0\0\0\1\36H\350", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16`
  
 From strace man page: 
