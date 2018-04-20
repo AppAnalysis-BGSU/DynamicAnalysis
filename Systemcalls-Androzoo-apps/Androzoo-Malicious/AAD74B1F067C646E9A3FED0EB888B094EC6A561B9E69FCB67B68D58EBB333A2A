@@ -1,0 +1,15 @@
+22:08:51.351029 read(31, 0xf1349000, 4096) = ? ERESTARTSYS (To be restarted if SA_RESTART is set) <5.603565>
+22:08:56.955000 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=12329, si_uid=10236} ---
+22:08:56.955314 futex(0xe46b4314, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000270>
+22:08:56.955902 futex(0xe46b4314, FUTEX_WAIT_BITSET_PRIVATE, 6, {10541, 182088268}, ffffffff) = -1 EAGAIN (Try again) <0.000249>
+22:08:56.956433 futex(0xe46b4314, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000260>
+22:08:56.956961 rt_sigreturn()          = 3 <0.000255>
+22:08:56.957481 read(31,  <unfinished ...>
+22:09:08.294285 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.004000        4000         1         1 read
+  0.00    0.000000           0         1           rt_sigreturn
+  0.00    0.000000           0         3         1 futex
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.004000                     5         2 total

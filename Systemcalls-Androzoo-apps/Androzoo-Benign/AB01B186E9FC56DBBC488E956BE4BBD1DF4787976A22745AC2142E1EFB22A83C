@@ -1,0 +1,162 @@
+15:06:49.536194 ioctl(8, BINDER_WRITE_READ, 0xffeb5338) = 0 <0.000208>
+15:06:49.536921 ioctl(8, BINDER_WRITE_READ, 0xffeb5338) = 0 <0.000483>
+15:06:49.537789 getuid32()              = 10774 <0.000418>
+15:06:49.538572 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}], 16, 0, NULL, 8) = 1 <0.000809>
+15:06:49.539808 recvfrom(43, "nysv\0\0\0\0.\367\220Zl\2\0\0\236\35\1\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000204>
+15:06:49.540490 recvfrom(43, 0xffeb7058, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000267>
+15:06:49.541272 write(42, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000309>
+15:06:49.541750 futex(0xe72b22a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000212>
+15:06:49.542227 futex(0xddea9814, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000251>
+15:06:49.542710 futex(0xddea9818, FUTEX_WAIT_BITSET_PRIVATE, 12, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000096>
+15:06:49.542949 getuid32()              = 10774 <0.000255>
+15:06:49.543684 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000246>
+15:06:49.544277 recvfrom(50, 0xe72f8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000545>
+15:06:49.545170 recvfrom(49, 0xda140a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000261>
+15:06:49.545832 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000146>
+15:06:49.546750 recvfrom(43, 0xffeb69c8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.001004>
+15:06:49.548392 ioctl(8, BINDER_WRITE_READ, 0xffeb70d8) = 0 <0.000615>
+15:06:49.551809 write(42, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000524>
+15:06:49.552792 futex(0xe72b22a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000243>
+15:06:49.553467 write(42, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000239>
+15:06:49.554075 futex(0xe72b22a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000382>
+15:06:49.554725 futex(0xddea9814, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000683>
+15:06:49.555808 futex(0xddea9818, FUTEX_WAIT_BITSET_PRIVATE, 16, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000246>
+15:06:49.556587 ioctl(8, BINDER_WRITE_READ, 0xffeb7618) = 0 <0.000699>
+15:06:49.557700 ioctl(8, BINDER_WRITE_READ, 0xffeb7618) = 0 <0.018446>
+15:06:49.576657 write(42, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000417>
+15:06:49.577347 futex(0xe72b22a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000332>
+15:06:49.578010 ioctl(8, BINDER_WRITE_READ, 0xffeb7588) = 0 <0.000405>
+15:06:49.595397 ioctl(8, BINDER_WRITE_READ, 0xffeb7588) = 0 <0.000208>
+15:06:49.602838 ioctl(8, BINDER_WRITE_READ, 0xffeb76c8) = 0 <0.004261>
+15:06:49.607260 ioctl(8, BINDER_WRITE_READ, 0xffeb76c8) = 0 <0.001517>
+15:06:49.610705 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.000470>
+15:06:49.611819 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.001241>
+15:06:49.613214 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.011790>
+15:06:49.625205 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.024938>
+15:06:49.650537 futex(0xddea0e68, FUTEX_WAKE, 1) = 1 <0.000145>
+15:06:49.650824 futex(0xda733e80, FUTEX_WAKE, 1) = 1 <0.000227>
+15:06:49.651199 futex(0xda71e550, FUTEX_WAKE, 1) = 1 <0.001808>
+15:06:49.653206 futex(0xda71e570, FUTEX_WAKE, 1) = 1 <0.000302>
+15:06:49.653705 futex(0xda71e550, FUTEX_WAKE, 1) = 1 <0.000262>
+15:06:49.654401 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.000205>
+15:06:49.654748 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.000131>
+15:06:49.656620 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.000202>
+15:06:49.657062 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.000326>
+15:06:49.658514 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000033>
+15:06:49.658648 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000025>
+15:06:49.658800 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.002549>
+15:06:49.661692 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000415>
+15:06:49.666290 futex(0xddeaa038, FUTEX_WAIT_BITSET_PRIVATE, 12, NULL, ffffffff) = 0 <0.210513>
+15:06:49.877071 ioctl(8, BINDER_WRITE_READ, 0xffeb7618) = 0 <0.000165>
+15:06:49.877389 ioctl(8, BINDER_WRITE_READ, 0xffeb7618) = 0 <0.123501>
+15:06:50.001336 write(42, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000199>
+15:06:50.001858 futex(0xe72b22a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000040>
+15:06:50.001970 ioctl(8, BINDER_WRITE_READ, 0xffeb7648) = 0 <0.000385>
+15:06:50.002596 ioctl(8, BINDER_WRITE_READ, 0xffeb7648) = 0 <0.027554>
+15:06:50.030509 ioctl(8, BINDER_WRITE_READ, 0xffeb7588) = 0 <0.000364>
+15:06:50.031423 ioctl(8, BINDER_WRITE_READ, 0xffeb7588) = 0 <0.001140>
+15:06:50.033370 write(42, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000266>
+15:06:50.034036 getuid32()              = 10774 <0.000504>
+15:06:50.034745 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=43, u64=43}}], 16, 0, NULL, 8) = 2 <0.000116>
+15:06:50.035210 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000382>
+15:06:50.035999 recvfrom(43, "nysv\0\0\0\0003f\212^l\2\0\0\240\35\1\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000204>
+15:06:50.036650 recvfrom(43, 0xffeb7058, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000231>
+15:06:50.037328 ioctl(8, BINDER_WRITE_READ, 0xffeb7118) = 0 <0.000433>
+15:06:50.038026 ioctl(8, BINDER_WRITE_READ, 0xffeb7118) = 0 <0.001611>
+15:06:50.040747 getuid32()              = 10774 <0.000965>
+15:06:50.042629 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000593>
+15:06:50.043484 futex(0xddeaa038, FUTEX_WAIT_BITSET_PRIVATE, 16, NULL, ffffffff) = 0 <0.002306>
+15:06:50.046359 getuid32()              = 10774 <0.000792>
+15:06:50.047480 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000594>
+15:06:50.048603 ioctl(8, BINDER_WRITE_READ, 0xffeb7768) = 0 <0.000681>
+15:06:50.049695 ioctl(8, BINDER_WRITE_READ, 0xffeb7768) = 0 <0.000535>
+15:06:50.050768 write(42, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000792>
+15:06:50.051842 futex(0xe72b22a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.001324>
+15:06:50.053555 futex(0xddeaa174, FUTEX_WAKE_PRIVATE, 1) = 1 <0.001206>
+15:06:50.055559 futex(0xddeaa178, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000363>
+15:06:50.056444 write(42, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000434>
+15:06:50.057223 futex(0xe72b22a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000960>
+15:06:50.059138 futex(0xddeaa174, FUTEX_WAKE_PRIVATE, 1) = 1 <0.001004>
+15:06:50.060411 futex(0xddeaa178, FUTEX_WAIT_BITSET_PRIVATE, 4, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000677>
+15:06:50.062334 write(42, "\1\0\0\0\0\0\0\0", 8) = 8 <0.001838>
+15:06:50.064845 futex(0xe72b22a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000382>
+15:06:50.065623 futex(0xddeaa178, FUTEX_WAIT_BITSET_PRIVATE, 8, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000766>
+15:06:50.066779 write(42, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000643>
+15:06:50.067680 futex(0xe72b22a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000380>
+15:06:50.068889 ioctl(8, BINDER_WRITE_READ, 0xffeb77e8) = 0 <0.000317>
+15:06:50.069533 ioctl(8, BINDER_WRITE_READ, 0xffeb77e8) = 0 <0.004581>
+15:06:50.074652 dup(54)                 = 55 <0.000423>
+15:06:50.075150 fcntl64(55, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.000042>
+15:06:50.076198 close(54)               = 0 <0.000427>
+15:06:50.076921 epoll_ctl(29, EPOLL_CTL_ADD, 55, {EPOLLIN, {u32=55, u64=55}}) = 0 <0.002429>
+15:06:50.080037 getuid32()              = 10774 <0.000972>
+15:06:50.081223 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000222>
+15:06:50.081895 writev(3, [{"\0n?\312\350\330Z&\205\335\4", 11}, {"\4", 1}, {"Choreographer\0", 14}, {"Skipped 31 frames!  The applicat"..., 83}], 4) = 109 <0.000617>
+15:06:50.082871 recvfrom(50, 0xe72f8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.001494>
+15:06:50.086283 recvfrom(49, 0xda140a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.001701>
+15:06:50.089608 recvfrom(55, 0xda163210, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000420>
+15:06:50.090585 recvfrom(43, 0xffeb6e28, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.006450>
+15:06:50.097542 ioctl(8, BINDER_WRITE_READ, 0xffeb7538) = 0 <0.001106>
+15:06:50.099318 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000857>
+15:06:50.100736 write(42, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000352>
+15:06:50.101514 futex(0xe72b22a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000327>
+15:06:50.102238 futex(0xddea9814, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000591>
+15:06:50.102886 futex(0xddea9818, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000026>
+15:06:50.104036 ioctl(8, BINDER_WRITE_READ, 0xffeb7618) = 0 <0.000390>
+15:06:50.104487 ioctl(8, BINDER_WRITE_READ, 0xffeb7618) = 0 <0.037070>
+15:06:50.141764 writev(2, [{"Invalid address 0xcceaa130 passe"..., 62}, {"\n", 1}], 2) = 63 <0.000178>
+15:06:50.142127 socket(PF_LOCAL, SOCK_DGRAM|SOCK_CLOEXEC, 0) = 56 <0.000187>
+15:06:50.142476 fcntl64(56, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.000151>
+15:06:50.143031 connect(56, {sa_family=AF_LOCAL, sun_path="/dev/socket/logdw"}, 110) = 0 <0.000119>
+15:06:50.143344 writev(56, [{"\4", 1}, {"n?", 2}, {"\312\350\330Z,\16\212\10", 8}, {"\7", 1}, {"libc\0", 5}, {"Invalid address 0xcceaa130 passe"..., 63}], 6) = 80 <0.001364>
+15:06:50.144911 close(56)               = 0 <0.000263>
+15:06:50.145416 mmap2(NULL, 67, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xe077b000 <0.000154>
+15:06:50.145705 madvise(0xe077b000, 67, MADV_MERGEABLE) = 0 <0.000135>
+15:06:50.145987 rt_sigprocmask(SIG_SETMASK, [HUP INT QUIT ILL TRAP BUS FPE KILL USR1 SEGV USR2 PIPE ALRM TERM STKFLT CHLD CONT STOP TSTP TTIN TTOU URG XCPU XFSZ VTALRM PROF WINCH IO PWR SYS RTMIN], [QUIT USR1 PIPE], 8) = 0 <0.000192>
+15:06:50.146373 tgkill(16238, 16238, SIGABRT) = 0 <0.000147>
+15:06:50.146742 --- SIGABRT {si_signo=SIGABRT, si_code=SI_TKILL, si_pid=16238, si_uid=10774} ---
+15:06:50.146892 sigaction(SIGABRT, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0xebb8b130}, {0xebaf91d0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO|SA_ONSTACK, 0xebb8b140}) = 0 <0.000178>
+15:06:50.147214 sigaction(SIGABRT, {0xebaf91d0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO|SA_ONSTACK, 0xebb8b140}, NULL) = 0 <0.000197>
+15:06:50.147563 prctl(PR_GET_NAME, "touria.eggcrack") = 0 <0.000132>
+15:06:50.147901 socket(PF_LOCAL, SOCK_DGRAM|SOCK_CLOEXEC, 0) = 56 <0.000132>
+15:06:50.148199 fcntl64(56, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.000128>
+15:06:50.148523 connect(56, {sa_family=AF_LOCAL, sun_path="/dev/socket/logdw"}, 110) = 0 <0.000142>
+15:06:50.148839 writev(56, [{"\4", 1}, {"n?", 2}, {"\312\350\330Z\222\266\335\10", 8}, {"\7", 1}, {"libc\0", 5}, {"Fatal signal 6 (SIGABRT), code -"..., 65}], 6) = 82 <0.000171>
+15:06:50.149149 close(56)               = 0 <0.000032>
+15:06:50.149229 socket(PF_LOCAL, SOCK_DGRAM|SOCK_CLOEXEC, 0) = 54 <0.000029>
+15:06:50.149496 fcntl64(54, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.000028>
+15:06:50.149570 connect(54, {sa_family=AF_LOCAL, sun_path="/dev/socket/logdw"}, 110) = 0 <0.000031>
+15:06:50.149670 writev(54, [{"\0", 1}, {"n?", 2}, {"\312\350\330Z\27<\353\10", 8}, {"\4", 1}, {"libc\0", 5}, {"Another thread contacted debugge"..., 68}], 6) = 85 <0.000048>
+15:06:50.149801 close(54)               = 0 <0.000030>
+15:06:50.149894 openat(AT_FDCWD, "/dev/__properties__/u:object_r:debug_prop:s0", O_RDONLY|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC) = 54 <0.000031>
+15:06:50.149974 fstat64(54, {st_mode=0, st_size=1, ...}) = 0 <0.000025>
+15:06:50.150045 mmap2(NULL, 131072, PROT_READ, MAP_SHARED, 54, 0) = 0xcc7ce000 <0.000031>
+15:06:50.150120 close(54)               = 0 <0.000024>
+15:06:50.150186 futex(0xebbc3000, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, ffffffff <unfinished ...>
+15:06:50.703320 +++ killed by SIGSEGV +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 53.01    0.229238        7164        32           ioctl
+ 42.00    0.181641        6487        28         6 futex
+  2.46    0.010649         968        11         9 recvfrom
+  0.66    0.002833         218        13           write
+  0.59    0.002549         510         5           rt_sigprocmask
+  0.56    0.002429        2429         1           epoll_ctl
+  0.34    0.001469         245         6           getuid32
+  0.14    0.000617         123         5           writev
+  0.14    0.000593          99         6           epoll_pwait
+  0.10    0.000423         423         1           dup
+  0.00    0.000000           0         2           sigaction
+  0.00    0.000000           0         1           prctl
+  0.00    0.000000           0         2           mmap2
+  0.00    0.000000           0         1           fstat64
+  0.00    0.000000           0         1           madvise
+  0.00    0.000000           0         4           fcntl64
+  0.00    0.000000           0         1           tgkill
+  0.00    0.000000           0         1           openat
+  0.00    0.000000           0         3           socket
+  0.00    0.000000           0         3           connect
+  0.00    0.000000           0         1           read
+  0.00    0.000000           0         5           close
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.432441                   133        15 total

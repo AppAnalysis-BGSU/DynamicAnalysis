@@ -1,0 +1,22 @@
+10:27:34.612423 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000190>
+10:27:34.613075 futex(0xdb9a9778, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.134438>
+10:27:34.747751 futex(0xdccfbfd8, FUTEX_WAKE, 1) = 1 <0.000140>
+10:27:34.748072 futex(0xd812fa90, FUTEX_WAKE, 1) = 1 <0.000160>
+10:27:34.748375 futex(0xde485010, FUTEX_WAKE, 1) = 1 <0.000283>
+10:27:34.748802 futex(0xde485030, FUTEX_WAKE, 1) = 1 <0.000125>
+10:27:34.749054 futex(0xde485010, FUTEX_WAKE, 1) = 1 <0.000136>
+10:27:34.749344 futex(0xd810b4f0, FUTEX_WAKE, 1) = 0 <0.000111>
+10:27:34.749583 futex(0xd810b510, FUTEX_WAKE, 1) = 1 <0.000134>
+10:27:34.749840 futex(0xd810b4f0, FUTEX_WAKE, 1) = 1 <0.000121>
+10:27:34.750085 futex(0xe4d40180, FUTEX_WAKE, 1) = 1 <0.000122>
+10:27:34.750289 futex(0xe4d30138, FUTEX_WAIT, 709, {0, 249997141}) = -1 EAGAIN (Try again) <0.000023>
+10:27:34.750599 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000035>
+10:27:34.750683 futex(0xdb9a9700, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = 0 <0.271989>
+10:27:35.022749 futex(0xdb9a9778, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff <unfinished ...>
+10:27:35.448878 +++ killed by SIGABRT +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.008121         677        12         1 futex
+  0.00    0.000000           0         2           write
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.008121                    14         1 total

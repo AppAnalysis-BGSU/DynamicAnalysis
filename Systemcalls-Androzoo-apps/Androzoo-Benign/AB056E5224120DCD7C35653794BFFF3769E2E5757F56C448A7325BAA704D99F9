@@ -1,0 +1,46 @@
+16:30:10.863713 futex(0xdf029778, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.284314>
+16:30:11.148549 ioctl(8, BINDER_WRITE_READ, 0xffb7e778) = 0 <0.003787>
+16:30:11.152427 ioctl(8, BINDER_WRITE_READ, 0xffb7e778) = 0 <0.054490>
+16:30:11.207307 futex(0xe83c0180, FUTEX_WAKE, 1) = 0 <0.000038>
+16:30:11.207395 futex(0xe83b0138, FUTEX_WAIT, 1018, NULL) = 0 <0.184877>
+16:30:11.392435 ioctl(8, BINDER_WRITE_READ, 0xffb7e658) = 0 <0.000367>
+16:30:11.392870 ioctl(8, BINDER_WRITE_READ, 0xffb7e658) = 0 <0.046972>
+16:30:11.439950 futex(0xdb89a168, FUTEX_WAKE, 1) = 1 <0.000088>
+16:30:11.440084 futex(0xdb8b4d50, FUTEX_WAKE, 1) = 0 <0.000019>
+16:30:11.440143 ioctl(8, BINDER_WRITE_READ, 0xffb7e528) = 0 <0.000112>
+16:30:11.440289 ioctl(8, BINDER_WRITE_READ, 0xffb7e528) = 0 <0.000019>
+16:30:11.440353 sendto(37, "\36'\0\0\f\0\0\0\352'\0\0", 12, 0, NULL, 0) = 12 <0.000059>
+16:30:11.440456 munmap(0xcddee000, 6889472) = 0 <0.000386>
+16:30:11.440898 close(42)               = 0 <0.000025>
+16:30:11.440982 futex(0xec5852d0, FUTEX_WAKE, 1) = 1 <0.000024>
+16:30:11.441036 futex(0xec5852b0, FUTEX_WAKE, 1) = 0 <0.000049>
+16:30:11.441322 futex(0xec5852b0, FUTEX_WAKE, 1) = 0 <0.000063>
+16:30:11.441759 futex(0xec5852d0, FUTEX_WAKE, 1) = 1 <0.000184>
+16:30:11.442099 futex(0xec5852b0, FUTEX_WAKE, 1) = 0 <0.000149>
+16:30:11.442326 ioctl(8, BINDER_WRITE_READ, 0xffb7e658) = 0 <0.000513>
+16:30:11.442900 ioctl(8, BINDER_WRITE_READ, 0xffb7e658) = 0 <0.243487>
+16:30:11.688067 ioctl(8, BINDER_WRITE_READ, 0xffb7e658) = 0 <0.001315>
+16:30:11.689449 ioctl(8, BINDER_WRITE_READ, 0xffb7e658) = 0 <0.051383>
+16:30:11.741010 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000060>
+16:30:11.741142 futex(0xdf029778, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000034>
+16:30:11.741587 futex(0xec4b3254, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000024>
+16:30:11.741705 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000046>
+16:30:11.741807 futex(0xdf029700, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = ? ERESTARTSYS (To be restarted if SA_RESTART is set) <4.744443>
+16:30:16.486306 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=18565, si_uid=10792} ---
+16:30:16.486396 futex(0xdb8b8d14, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000043>
+16:30:16.486485 futex(0xdb8b8d14, FUTEX_WAIT_BITSET_PRIVATE, 6, {3069, 486474288}, ffffffff) = 0 <0.001009>
+16:30:16.487796 futex(0xdb8b8d14, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000035>
+16:30:16.487866 rt_sigreturn()          = 240 <0.000021>
+16:30:16.487918 futex(0xdf029700, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff <unfinished ...>
+16:30:28.568493 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 88.59    0.528000       33000        16         2 futex
+ 11.41    0.068000        6800        10           ioctl
+  0.00    0.000000           0         2           write
+  0.00    0.000000           0         1           close
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         1           rt_sigreturn
+  0.00    0.000000           0         1           sendto
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.596000                    32         2 total

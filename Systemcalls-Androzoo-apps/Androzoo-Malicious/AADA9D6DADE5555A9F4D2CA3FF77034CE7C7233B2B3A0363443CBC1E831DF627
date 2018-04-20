@@ -1,0 +1,1519 @@
+22:56:05.023986 wait4(23529, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 23529 <0.092412>
+22:56:05.116617 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=23529, si_uid=10283, si_status=0, si_utime=26, si_stime=5} ---
+22:56:05.116728 fdatasync(40)           = 0 <0.000241>
+22:56:05.117066 close(40)               = 0 <0.000086>
+22:56:05.117252 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/app_zxlk/bvfg.dex", {st_mode=S_IFIFO|0743, st_size=1, ...}, 0) = 0 <0.000088>
+22:56:05.117476 fstatat64(AT_FDCWD, "/data", {st_mode=0160453, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000081>
+22:56:05.117661 fstatat64(AT_FDCWD, "/data/user", {st_mode=0160453, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000153>
+22:56:05.117927 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=0160453, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000084>
+22:56:05.118114 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000084>
+22:56:05.118307 fstatat64(AT_FDCWD, "/data", {st_mode=0160453, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000092>
+22:56:05.118504 fstatat64(AT_FDCWD, "/data/data", {st_mode=0160453, st_size=87, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000082>
+22:56:05.118692 fstatat64(AT_FDCWD, "/data/data/com.g365.locf", {st_mode=0160453, st_size=8, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000083>
+22:56:05.118879 fstatat64(AT_FDCWD, "/data/data/com.g365.locf/app_zxlk", {st_mode=0160453, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000083>
+22:56:05.119078 fstatat64(AT_FDCWD, "/data/data/com.g365.locf/app_zxlk/bvfg.dex", {st_mode=0160453, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000083>
+22:56:05.119269 mprotect(0xe82df000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+22:56:05.119450 mprotect(0xf57ae000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000082>
+22:56:05.119626 mprotect(0xf5a18000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000085>
+22:56:05.119804 mprotect(0xf5a19000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000084>
+22:56:05.119988 mprotect(0xf5a83000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+22:56:05.120164 mprotect(0xf55cb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000087>
+22:56:05.120349 mprotect(0xf5618000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000106>
+22:56:05.120555 mprotect(0xf5673000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000089>
+22:56:05.120740 mprotect(0xf56c5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000084>
+22:56:05.120927 mprotect(0xf5750000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+22:56:05.121105 mprotect(0xf5796000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000084>
+22:56:05.121283 mprotect(0xf58a7000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000087>
+22:56:05.121466 mprotect(0xf58f1000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000084>
+22:56:05.121892 mprotect(0xf5a10000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000156>
+22:56:05.122188 mprotect(0xf5a58000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000122>
+22:56:05.122407 mprotect(0xf5b16000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000103>
+22:56:05.122625 mprotect(0xe82ab000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000084>
+22:56:05.122821 mprotect(0xf5a12000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000084>
+22:56:05.123002 mprotect(0xf13b0000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+22:56:05.123179 mprotect(0xf55d8000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000082>
+22:56:05.123356 mprotect(0xf5619000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000087>
+22:56:05.123539 mprotect(0xf567a000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000084>
+22:56:05.123717 mprotect(0xf5694000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+22:56:05.123895 mprotect(0xf56eb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000084>
+22:56:05.124082 mprotect(0xf5b18000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000082>
+22:56:05.124260 mprotect(0xf5b19000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000087>
+22:56:05.124457 mprotect(0xf0242000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000084>
+22:56:05.124654 openat(AT_FDCWD, "/data/data/com.g365.locf/app_zxlk/bvfg.dex", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 40 <0.000089>
+22:56:05.124843 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd85e6000 <0.000095>
+22:56:05.125035 madvise(0xd85e6000, 8192, MADV_MERGEABLE) = 0 <0.000081>
+22:56:05.125210 prctl(0x53564d41 /* PR_??? */, 0, 0xd85e6000, 8192, "linker_alloc_lob") = 0 <0.000081>
+22:56:05.125491 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd85e4000 <0.000081>
+22:56:05.125800 madvise(0xd85e4000, 8192, MADV_MERGEABLE) = 0 <0.000090>
+22:56:05.125994 prctl(0x53564d41 /* PR_??? */, 0, 0xd85e4000, 8192, "linker_alloc_lob") = 0 <0.000092>
+22:56:05.126195 readlinkat(AT_FDCWD, "/proc/self/fd/40", "/data/data/com.g365.locf/app_zxl"..., 4096) = 42 <0.000096>
+22:56:05.126401 munmap(0xd85e4000, 8192) = 0 <0.000086>
+22:56:05.126584 munmap(0xd85e6000, 8192) = 0 <0.000084>
+22:56:05.126766 fstat64(40, {st_mode=S_IFCHR|S_ISUID|S_ISVTX|0220, st_rdev=makedev(129, 164), ...}) = 0 <0.000080>
+22:56:05.126958 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xea89b000 <0.000091>
+22:56:05.127145 madvise(0xea89b000, 4096, MADV_MERGEABLE) = 0 <0.000080>
+22:56:05.127317 prctl(0x53564d41 /* PR_??? */, 0, 0xea89b000, 4096, "linker_alloc_small_objects") = 0 <0.000080>
+22:56:05.127507 pread64(40, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\0\0\0004\0\0\0"..., 52, 0) = 52 <0.000083>
+22:56:05.127689 mmap2(NULL, 328, PROT_READ, MAP_PRIVATE, 40, 0) = 0xe4300000 <0.000083>
+22:56:05.127867 mmap2(NULL, 488, PROT_READ, MAP_PRIVATE, 40, 0x87000) = 0xe4194000 <0.000083>
+22:56:05.128056 mmap2(NULL, 56, PROT_READ, MAP_PRIVATE, 40, 0x86000) = 0xe4160000 <0.000084>
+22:56:05.128234 mmap2(NULL, 60, PROT_READ, MAP_PRIVATE, 40, 0x85000) = 0xd85e7000 <0.000082>
+22:56:05.128421 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd85e6000 <0.000082>
+22:56:05.128597 madvise(0xd85e6000, 4096, MADV_MERGEABLE) = 0 <0.000079>
+22:56:05.128770 prctl(0x53564d41 /* PR_??? */, 0, 0xd85e6000, 4096, "linker_alloc_small_objects") = 0 <0.000080>
+22:56:05.128958 mmap2(NULL, 569344, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xd8376000 <0.000090>
+22:56:05.129144 madvise(0xd8376000, 569344, MADV_MERGEABLE) = 0 <0.000080>
+22:56:05.129318 mmap2(0xd8376000, 274432, PROT_READ, MAP_PRIVATE|MAP_FIXED, 40, 0) = 0xd8376000 <0.000084>
+22:56:05.129497 mmap2(0xd83b9000, 268994, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 40, 0x43000) = 0xd83b9000 <0.000083>
+22:56:05.129671 mmap2(0xd83fb000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xd83fb000 <0.000165>
+22:56:05.129941 madvise(0xd83fb000, 16384, MADV_MERGEABLE) = 0 <0.000090>
+22:56:05.130130 prctl(0x53564d41 /* PR_??? */, 0, 0xd83fb000, 16384, ".bss") = 0 <0.000086>
+22:56:05.130320 mmap2(0xd83ff000, 192, PROT_READ, MAP_PRIVATE|MAP_FIXED, 40, 0x85000) = 0xd83ff000 <0.000088>
+22:56:05.130509 mmap2(0xd8400000, 56, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 40, 0x86000) = 0xd8400000 <0.000094>
+22:56:05.130725 munmap(0xd85e6000, 4096) = 0 <0.000090>
+22:56:05.130920 close(40)               = 0 <0.000084>
+22:56:05.131119 munmap(0xd85e7000, 60)  = 0 <0.000089>
+22:56:05.131307 munmap(0xe4160000, 56)  = 0 <0.000089>
+22:56:05.131494 munmap(0xe4194000, 488) = 0 <0.000098>
+22:56:05.131691 munmap(0xe4300000, 328) = 0 <0.000088>
+22:56:05.131883 munmap(0xea89b000, 4096) = 0 <0.000089>
+22:56:05.132080 mprotect(0xe82df000, 4096, PROT_READ) = 0 <0.000087>
+22:56:05.132265 mprotect(0xf57ae000, 4096, PROT_READ) = 0 <0.000086>
+22:56:05.132450 mprotect(0xf5a18000, 4096, PROT_READ) = 0 <0.000090>
+22:56:05.132640 mprotect(0xf5a19000, 4096, PROT_READ) = 0 <0.000088>
+22:56:05.132826 mprotect(0xf5a83000, 4096, PROT_READ) = 0 <0.000086>
+22:56:05.133038 mprotect(0xf55cb000, 4096, PROT_READ) = 0 <0.000089>
+22:56:05.133226 mprotect(0xf5618000, 4096, PROT_READ) = 0 <0.000088>
+22:56:05.133413 mprotect(0xf5673000, 4096, PROT_READ) = 0 <0.000086>
+22:56:05.133612 mprotect(0xf56c5000, 4096, PROT_READ) = 0 <0.000135>
+22:56:05.133856 mprotect(0xf5750000, 4096, PROT_READ) = 0 <0.000087>
+22:56:05.134055 mprotect(0xf5796000, 4096, PROT_READ) = 0 <0.000090>
+22:56:05.134245 mprotect(0xf58a7000, 4096, PROT_READ) = 0 <0.000087>
+22:56:05.134445 mprotect(0xf58f1000, 4096, PROT_READ) = 0 <0.000100>
+22:56:05.134648 mprotect(0xf5a10000, 4096, PROT_READ) = 0 <0.000088>
+22:56:05.134837 mprotect(0xf5a58000, 4096, PROT_READ) = 0 <0.000086>
+22:56:05.135023 mprotect(0xf5b16000, 4096, PROT_READ) = 0 <0.000088>
+22:56:05.135210 mprotect(0xe82ab000, 4096, PROT_READ) = 0 <0.000087>
+22:56:05.135395 mprotect(0xf5a12000, 4096, PROT_READ) = 0 <0.000086>
+22:56:05.135626 mprotect(0xf13b0000, 4096, PROT_READ) = 0 <0.000083>
+22:56:05.135818 mprotect(0xf55d8000, 4096, PROT_READ) = 0 <0.000086>
+22:56:05.136002 mprotect(0xf5619000, 4096, PROT_READ) = 0 <0.000095>
+22:56:05.136196 mprotect(0xf567a000, 4096, PROT_READ) = 0 <0.000086>
+22:56:05.136380 mprotect(0xf5694000, 4096, PROT_READ) = 0 <0.000086>
+22:56:05.136565 mprotect(0xf56eb000, 4096, PROT_READ) = 0 <0.000087>
+22:56:05.136762 mprotect(0xf5b18000, 4096, PROT_READ) = 0 <0.000086>
+22:56:05.136947 mprotect(0xf5b19000, 4096, PROT_READ) = 0 <0.000086>
+22:56:05.137106 mprotect(0xf0242000, 4096, PROT_READ) = 0 <0.000086>
+22:56:05.137328 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000088>
+22:56:05.137531 fstatat64(AT_FDCWD, "/data/user", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000062>
+22:56:05.137762 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000095>
+22:56:05.137976 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000092>
+22:56:05.138181 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000086>
+22:56:05.138381 fstatat64(AT_FDCWD, "/data/data", {st_mode=0, st_size=87, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000086>
+22:56:05.138591 fstatat64(AT_FDCWD, "/data/data/com.g365.locf", {st_mode=0, st_size=8, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000089>
+22:56:05.138796 fstatat64(AT_FDCWD, "/data/data/com.g365.locf/app_zxlk", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000086>
+22:56:05.138996 fstatat64(AT_FDCWD, "/data/data/com.g365.locf/app_zxlk/bvfg.zip", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000096>
+22:56:05.139217 fstatat64(AT_FDCWD, "/data", {st_mode=015, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000087>
+22:56:05.139418 fstatat64(AT_FDCWD, "/data/user", {st_mode=015, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000087>
+22:56:05.139618 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=015, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000087>
+22:56:05.139813 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000087>
+22:56:05.140011 fstatat64(AT_FDCWD, "/data", {st_mode=015, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000097>
+22:56:05.140221 fstatat64(AT_FDCWD, "/data/data", {st_mode=015, st_size=87, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000087>
+22:56:05.140421 fstatat64(AT_FDCWD, "/data/data/com.g365.locf", {st_mode=015, st_size=8, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000087>
+22:56:05.140634 fstatat64(AT_FDCWD, "/data/data/com.g365.locf/app_zxlk", {st_mode=015, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000091>
+22:56:05.140839 fstatat64(AT_FDCWD, "/data/data/com.g365.locf/app_zxlk/bvfg.zip", {st_mode=015, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000087>
+22:56:05.141088 openat(AT_FDCWD, "/data/user/0/com.g365.locf/app_zxlk/bvfg.art", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000098>
+22:56:05.141302 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/app_zxlk/bvfg.art", 0xff81b990, 0) = -1 ENOENT (No such file or directory) <0.000087>
+22:56:05.141508 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/app_zxlk/bvfg.dex.flock", 0) = 0 <0.000105>
+22:56:05.141810 flock(39, LOCK_UN)      = 0 <0.000090>
+22:56:05.142002 fdatasync(39)           = 0 <0.000261>
+22:56:05.142368 close(39)               = 0 <0.000102>
+22:56:05.142637 fstatat64(AT_FDCWD, "/system/lib", {st_mode=0172064, st_size=6, ...}, 0) = 0 <0.000089>
+22:56:05.142856 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=0172064, st_size=3, ...}, 0) = 0 <0.000091>
+22:56:05.143092 fstatat64(AT_FDCWD, "", 0xff81be88, 0) = -1 ENOENT (No such file or directory) <0.000086>
+22:56:05.143293 fstatat64(AT_FDCWD, "", 0xff81be88, 0) = -1 ENOENT (No such file or directory) <0.000086>
+22:56:05.143519 writev(3, [{"\0\302[E\5\330ZO\3\215\10", 11}, {"\5", 1}, {"System\0", 7}, {"ClassLoader referenced unknown p"..., 38}], 4) = 57 <0.000076>
+22:56:05.143656 fstatat64(AT_FDCWD, "/system/lib", {st_mode=0165264, st_size=6, ...}, 0) = 0 <0.000022>
+22:56:05.143729 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=0165264, st_size=3, ...}, 0) = 0 <0.000022>
+22:56:05.144406 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs", F_OK) = 0 <0.000101>
+22:56:05.144664 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 39 <0.000095>
+22:56:05.144864 fstat64(39, {st_mode=01, st_size=1, ...}) = 0 <0.000085>
+22:56:05.145059 ioctl(39, ASHMEM_SET_NAME, 0xff81c2f0) = 0 <0.000086>
+22:56:05.145246 ioctl(39, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000085>
+22:56:05.145433 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 39, 0) = 0xd85e6000 <0.000180>
+22:56:05.145784 close(39)               = 0 <0.000087>
+22:56:05.145979 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd8271000 <0.000088>
+22:56:05.146169 madvise(0xd8271000, 1069056, MADV_MERGEABLE) = 0 <0.000085>
+22:56:05.146353 mprotect(0xd8271000, 4096, PROT_NONE) = 0 <0.000086>
+22:56:05.146538 prctl(0x53564d41 /* PR_??? */, 0, 0xd8271000, 4096, "thread stack guard page") = 0 <0.000092>
+22:56:05.146744 clone(child_stack=0xd8375910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd8375928, tls={entry_number:12, base_addr:0xd8375970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81c640, child_tidptr=0xd8375928) = 23543 <0.000119>
+22:56:05.146980 futex(0xd8375960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000102>
+22:56:05.147208 sched_yield()           = 0 <0.000104>
+22:56:05.147443 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", F_OK) = -1 ENOENT (No such file or directory) <0.000090>
+22:56:05.147661 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 39 <0.000106>
+22:56:05.147872 fstat64(39, {st_mode=0171710, st_size=1, ...}) = 0 <0.000084>
+22:56:05.148075 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 40 <0.000090>
+22:56:05.148268 fstat64(40, {st_mode=S_IFCHR, st_rdev=makedev(33, 182), ...}) = 0 <0.000084>
+22:56:05.148462 ioctl(40, ASHMEM_SET_NAME, 0xff81c320) = 0 <0.000085>
+22:56:05.148658 ioctl(40, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000084>
+22:56:05.148843 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 40, 0) = 0xd85e3000 <0.000090>
+22:56:05.149044 close(40)               = 0 <0.000092>
+22:56:05.149359 write(39, "<?xml version='1.0' encoding='ut"..., 121) = 121 <0.000100>
+22:56:05.149575 fsync(39)               = 0 <0.001386>
+22:56:05.151093 getsockopt(39, SOL_SOCKET, SO_ERROR, 0xff81c734, 0xff81c730) = -1 ENOTSOCK (Socket operation on non-socket) <0.000086>
+22:56:05.151290 close(39)               = 0 <0.000087>
+22:56:05.151487 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", 0660) = 0 <0.000096>
+22:56:05.151718 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000087>
+22:56:05.151939 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml.bak", 0xff81c6e8, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000097>
+22:56:05.152190 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", F_OK) = 0 <0.000089>
+22:56:05.152394 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000098>
+22:56:05.152609 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml.bak") = 0 <0.000101>
+22:56:05.152830 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 39 <0.000102>
+22:56:05.153045 fstat64(39, {st_mode=0171710, st_size=1, ...}) = 0 <0.000084>
+22:56:05.153247 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 40 <0.000090>
+22:56:05.153439 fstat64(40, {st_mode=S_IFCHR|S_ISGID|S_ISVTX|0640, st_rdev=makedev(33, 182), ...}) = 0 <0.000093>
+22:56:05.153639 ioctl(40, ASHMEM_SET_NAME, 0xff81c320) = 0 <0.000129>
+22:56:05.153870 ioctl(40, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000085>
+22:56:05.154060 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 40, 0) = 0xd85de000 <0.000091>
+22:56:05.154262 close(40)               = 0 <0.000087>
+22:56:05.154501 write(39, "<?xml version='1.0' encoding='ut"..., 172) = 172 <0.000098>
+22:56:05.154708 fsync(39)               = 0 <0.001366>
+22:56:05.156198 getsockopt(39, SOL_SOCKET, SO_ERROR, 0xff81c734, 0xff81c730) = -1 ENOTSOCK (Socket operation on non-socket) <0.000097>
+22:56:05.156401 close(39)               = 0 <0.000088>
+22:56:05.156637 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", 0660) = 0 <0.000097>
+22:56:05.156849 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000088>
+22:56:05.157069 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000089>
+22:56:05.157266 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml.bak", 0) = 0 <0.000115>
+22:56:05.157532 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", F_OK) = 0 <0.000086>
+22:56:05.157799 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000089>
+22:56:05.158005 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml.bak") = 0 <0.000109>
+22:56:05.158237 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 39 <0.000101>
+22:56:05.158442 fstat64(39, {st_mode=0171710, st_size=1, ...}) = 0 <0.000087>
+22:56:05.158646 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 40 <0.000090>
+22:56:05.158838 fstat64(40, {st_mode=S_IFCHR|S_ISGID|S_ISVTX|0640, st_rdev=makedev(33, 182), ...}) = 0 <0.000085>
+22:56:05.159035 ioctl(40, ASHMEM_SET_NAME, 0xff81c320) = 0 <0.000085>
+22:56:05.159228 ioctl(40, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000082>
+22:56:05.159408 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 40, 0) = 0xd85d9000 <0.000088>
+22:56:05.159614 close(40)               = 0 <0.000084>
+22:56:05.159847 write(39, "<?xml version='1.0' encoding='ut"..., 223) = 223 <0.000096>
+22:56:05.160068 fsync(39)               = 0 <0.001276>
+22:56:05.161456 getsockopt(39, SOL_SOCKET, SO_ERROR, 0xff81c734, 0xff81c730) = -1 ENOTSOCK (Socket operation on non-socket) <0.000112>
+22:56:05.161671 close(39)               = 0 <0.000148>
+22:56:05.161940 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", 0660) = 0 <0.000099>
+22:56:05.162156 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000088>
+22:56:05.162370 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000088>
+22:56:05.162578 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml.bak", 0) = 0 <0.000112>
+22:56:05.163115 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf", F_OK) = 0 <0.000090>
+22:56:05.163326 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/app_psimg", F_OK) = 0 <0.000089>
+22:56:05.163533 openat(AT_FDCWD, "/data/user/0/com.g365.locf/app_psimg", O_RDONLY|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 39 <0.000091>
+22:56:05.163733 getdents64(39, /* 26 entries */, 4140) = 936 <0.000090>
+22:56:05.163959 getdents64(39, /* 0 entries */, 4140) = 0 <0.000096>
+22:56:05.164157 close(39)               = 0 <0.000086>
+22:56:05.164381 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/app_psimg", F_OK) = 0 <0.000092>
+22:56:05.165080 ioctl(8, BINDER_WRITE_READ, 0xff81c678) = 0 <0.000571>
+22:56:05.165846 ioctl(8, BINDER_WRITE_READ, 0xff81c678) = 0 <0.000124>
+22:56:05.166146 ioctl(8, BINDER_WRITE_READ, 0xff81c678) = 0 <0.000105>
+22:56:05.166387 ioctl(8, BINDER_WRITE_READ, 0xff81c678) = 0 <0.000092>
+22:56:05.166645 ioctl(8, BINDER_WRITE_READ, 0xff81c618) = 0 <0.000134>
+22:56:05.166882 ioctl(8, BINDER_WRITE_READ, 0xff81c618) = 0 <0.000086>
+22:56:05.167099 ioctl(8, BINDER_WRITE_READ, 0xff81c618) = 0 <0.000101>
+22:56:05.167301 ioctl(8, BINDER_WRITE_READ, 0xff81c618) = 0 <0.000086>
+22:56:05.167694 ioctl(8, BINDER_WRITE_READ, 0xff81c628) = 0 <0.000179>
+22:56:05.167977 ioctl(8, BINDER_WRITE_READ, 0xff81c628) = 0 <0.000087>
+22:56:05.168212 ioctl(8, BINDER_WRITE_READ, 0xff81c5d8) = 0 <0.001690>
+22:56:05.170041 ioctl(8, BINDER_WRITE_READ, 0xff81c5d8) = 0 <0.000073>
+22:56:05.170334 ioctl(8, BINDER_WRITE_READ, 0xff81c608) = 0 <0.000515>
+22:56:05.170888 ioctl(8, BINDER_WRITE_READ, 0xff81c608) = 0 <0.000020>
+22:56:05.171043 ioctl(8, BINDER_WRITE_READ, 0xff81c598) = 0 <0.000069>
+22:56:05.171149 ioctl(8, BINDER_WRITE_READ, 0xff81c598) = 0 <0.000082>
+22:56:05.171346 ioctl(8, BINDER_WRITE_READ, 0xff81c5c8) = 0 <0.000203>
+22:56:05.171659 ioctl(8, BINDER_WRITE_READ, 0xff81c598) = 0 <0.000104>
+22:56:05.171874 ioctl(8, BINDER_WRITE_READ, 0xff81c5c8) = 0 <0.000124>
+22:56:05.172092 ioctl(8, BINDER_WRITE_READ, 0xff81c5c8) = 0 <0.000078>
+22:56:05.173258 ioctl(8, BINDER_WRITE_READ, 0xff81c568) = 0 <0.000049>
+22:56:05.173363 ioctl(8, BINDER_WRITE_READ, 0xff81c5b8) = 0 <0.000098>
+22:56:05.173507 ioctl(8, BINDER_WRITE_READ, 0xff81c5c8) = 0 <0.000039>
+22:56:05.173856 ioctl(8, BINDER_WRITE_READ, 0xff81c5f8) = 0 <0.000112>
+22:56:05.174295 ioctl(8, BINDER_WRITE_READ, 0xff81c5f8) = 0 <0.000094>
+22:56:05.174544 ioctl(8, BINDER_WRITE_READ, 0xff81c5c8) = 0 <0.000157>
+22:56:05.174854 ioctl(8, BINDER_WRITE_READ, 0xff81c5c8) = 0 <0.000407>
+22:56:05.175589 ioctl(8, BINDER_WRITE_READ, 0xff81c5f8) = 0 <0.000203>
+22:56:05.176009 ioctl(8, BINDER_WRITE_READ, 0xff81c5f8) = 0 <0.000115>
+22:56:05.176259 ioctl(8, BINDER_WRITE_READ, 0xff81c618) = 0 <0.000103>
+22:56:05.176488 ioctl(8, BINDER_WRITE_READ, 0xff81c618) = 0 <0.000095>
+22:56:05.176701 ioctl(8, BINDER_WRITE_READ, 0xff81c5b8) = 0 <0.000112>
+22:56:05.176949 ioctl(8, BINDER_WRITE_READ, 0xff81c5b8) = 0 <0.000094>
+22:56:05.177191 ioctl(8, BINDER_WRITE_READ, 0xff81c608) = 0 <0.000137>
+22:56:05.177475 ioctl(8, BINDER_WRITE_READ, 0xff81c608) = 0 <0.000877>
+22:56:05.178720 ioctl(8, BINDER_WRITE_READ, 0xff81c508) = 0 <0.000529>
+22:56:05.179364 ioctl(8, BINDER_WRITE_READ, 0xff81c508) = 0 <0.000113>
+22:56:05.179625 ioctl(8, BINDER_WRITE_READ, 0xff81c558) = 0 <0.000108>
+22:56:05.179862 ioctl(8, BINDER_WRITE_READ, 0xff81c558) = 0 <0.000101>
+22:56:05.180133 writev(3, [{"\1\302[E\5\330Z`h\273\n", 11}, {"\3", 1}, {"TelephonyManager\0", 17}, {"getCellLocation returning null b"..., 61}], 4) = 90 <0.000128>
+22:56:05.180464 ioctl(8, BINDER_WRITE_READ, 0xff81c618) = 0 <0.000121>
+22:56:05.180673 ioctl(8, BINDER_WRITE_READ, 0xff81c618) = 0 <0.000111>
+22:56:05.181019 ioctl(8, BINDER_WRITE_READ, 0xff81c638) = 0 <0.000140>
+22:56:05.181397 ioctl(8, BINDER_WRITE_READ, 0xff81c638) = 0 <0.000182>
+22:56:05.181842 ioctl(8, BINDER_WRITE_READ, 0xff81c608) = 0 <0.000139>
+22:56:05.182127 ioctl(8, BINDER_WRITE_READ, 0xff81c608) = 0 <0.000291>
+22:56:05.182606 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", F_OK) = 0 <0.000095>
+22:56:05.182820 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000087>
+22:56:05.183052 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml.bak") = 0 <0.000116>
+22:56:05.183310 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 39 <0.000120>
+22:56:05.183570 fstat64(39, {st_mode=0171710, st_size=1, ...}) = 0 <0.000103>
+22:56:05.183815 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 40 <0.000113>
+22:56:05.184048 fstat64(40, {st_mode=S_IFDIR|S_ISVTX|0532, st_size=1, ...}) = 0 <0.000102>
+22:56:05.184283 ioctl(40, ASHMEM_SET_NAME, 0xff81c200) = 0 <0.000104>
+22:56:05.184506 ioctl(40, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000102>
+22:56:05.184730 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 40, 0) = 0xd85d4000 <0.000116>
+22:56:05.184961 close(40)               = 0 <0.000085>
+22:56:05.185232 write(39, "<?xml version='1.0' encoding='ut"..., 285) = 285 <0.000102>
+22:56:05.185444 fsync(39)               = 0 <0.001261>
+22:56:05.186820 getsockopt(39, SOL_SOCKET, SO_ERROR, 0xff81c614, 0xff81c610) = -1 ENOTSOCK (Socket operation on non-socket) <0.000083>
+22:56:05.187019 close(39)               = 0 <0.000084>
+22:56:05.187211 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", 0660) = 0 <0.000097>
+22:56:05.187429 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000086>
+22:56:05.187637 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000086>
+22:56:05.187827 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/p_mnbv.xml.bak", 0) = 0 <0.000118>
+22:56:05.188281 writev(3, [{"\0\302[E\5\330Z\263+8\v", 11}, {"\4", 1}, {"log\0", 4}, {" getLocation\0", 13}], 4) = 29 <0.000091>
+22:56:05.188757 ioctl(8, BINDER_WRITE_READ, 0xff81c688) = 0 <0.000143>
+22:56:05.190439 ioctl(8, BINDER_WRITE_READ, 0xff81c688) = 0 <0.000237>
+22:56:05.190854 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs", F_OK) = 0 <0.000150>
+22:56:05.191183 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 39 <0.000140>
+22:56:05.191453 fstat64(39, {st_mode=S_IFSOCK|S_ISVTX|0560, st_size=1, ...}) = 0 <0.000117>
+22:56:05.191787 ioctl(39, ASHMEM_SET_NAME, 0xff81c310) = 0 <0.000123>
+22:56:05.192036 ioctl(39, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000093>
+22:56:05.192247 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 39, 0) = 0xd85d2000 <0.000319>
+22:56:05.192837 close(39)               = 0 <0.000107>
+22:56:05.193074 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd8271000 <0.000089>
+22:56:05.193310 madvise(0xd8271000, 1069056, MADV_MERGEABLE) = 0 <0.000098>
+22:56:05.193517 mprotect(0xd8271000, 4096, PROT_NONE) = 0 <0.000093>
+22:56:05.193819 prctl(0x53564d41 /* PR_??? */, 0, 0xd8271000, 4096, "thread stack guard page") = 0 <0.000123>
+22:56:05.194164 clone(child_stack=0xd8375910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd8375928, tls={entry_number:12, base_addr:0xd8375970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81c660, child_tidptr=0xd8375928) = 23544 <0.000172>
+22:56:05.194514 futex(0xd8375960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000145>
+22:56:05.194837 futex(0xf12c0180, FUTEX_WAKE, 1) = 0 <0.000118>
+22:56:05.195075 futex(0xf12b0138, FUTEX_WAIT, 966, NULL) = -1 EAGAIN (Try again) <0.000306>
+22:56:05.195583 ioctl(8, BINDER_WRITE_READ, 0xff81c678) = 0 <0.000111>
+22:56:05.195906 ioctl(8, BINDER_WRITE_READ, 0xff81c678) = 0 <0.000083>
+22:56:05.196189 ioctl(8, BINDER_WRITE_READ, 0xff81c6c8) = 0 <0.000191>
+22:56:05.196534 ioctl(8, BINDER_WRITE_READ, 0xff81c6c8) = 0 <0.000513>
+22:56:05.197202 ioctl(8, BINDER_WRITE_READ, 0xff81c658) = 0 <0.000144>
+22:56:05.197484 ioctl(8, BINDER_WRITE_READ, 0xff81c658) = 0 <0.000122>
+22:56:05.197784 ioctl(8, BINDER_WRITE_READ, 0xff81c688) = 0 <0.000143>
+22:56:05.198087 ioctl(8, BINDER_WRITE_READ, 0xff81c688) = 0 <0.000105>
+22:56:05.198348 ioctl(8, BINDER_WRITE_READ, 0xff81c648) = 0 <0.000138>
+22:56:05.198633 ioctl(8, BINDER_WRITE_READ, 0xff81c648) = 0 <0.000115>
+22:56:05.198925 ioctl(8, BINDER_WRITE_READ, 0xff81c698) = 0 <0.000151>
+22:56:05.199208 ioctl(8, BINDER_WRITE_READ, 0xff81c698) = 0 <0.000445>
+22:56:05.199780 ioctl(8, BINDER_WRITE_READ, 0xff81c658) = 0 <0.000120>
+22:56:05.200029 ioctl(8, BINDER_WRITE_READ, 0xff81c658) = 0 <0.000107>
+22:56:05.200283 ioctl(8, BINDER_WRITE_READ, 0xff81c688) = 0 <0.000114>
+22:56:05.200521 ioctl(8, BINDER_WRITE_READ, 0xff81c688) = 0 <0.000104>
+22:56:05.200763 ioctl(8, BINDER_WRITE_READ, 0xff81c648) = 0 <0.000123>
+22:56:05.201007 ioctl(8, BINDER_WRITE_READ, 0xff81c648) = 0 <0.000104>
+22:56:05.201249 ioctl(8, BINDER_WRITE_READ, 0xff81c678) = 0 <0.000111>
+22:56:05.201462 ioctl(8, BINDER_WRITE_READ, 0xff81c678) = 0 <0.000079>
+22:56:05.201815 ioctl(8, BINDER_WRITE_READ, 0xff81c668) = 0 <0.000090>
+22:56:05.202008 ioctl(8, BINDER_WRITE_READ, 0xff81c668) = 0 <0.000080>
+22:56:05.202203 ioctl(8, BINDER_WRITE_READ, 0xff81c698) = 0 <0.000096>
+22:56:05.202396 ioctl(8, BINDER_WRITE_READ, 0xff81c698) = 0 <0.000080>
+22:56:05.202587 ioctl(8, BINDER_WRITE_READ, 0xff81c668) = 0 <0.000091>
+22:56:05.202774 ioctl(8, BINDER_WRITE_READ, 0xff81c668) = 0 <0.000080>
+22:56:05.202967 ioctl(8, BINDER_WRITE_READ, 0xff81c698) = 0 <0.000096>
+22:56:05.203164 ioctl(8, BINDER_WRITE_READ, 0xff81c698) = 0 <0.000080>
+22:56:05.203452 ioctl(8, BINDER_WRITE_READ, 0xff81c658) = 0 <0.000097>
+22:56:05.203646 ioctl(8, BINDER_WRITE_READ, 0xff81c658) = 0 <0.000080>
+22:56:05.204208 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydCfgPref.xml", F_OK) = -1 ENOENT (No such file or directory) <0.000090>
+22:56:05.204431 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydCfgPref.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 39 <0.000113>
+22:56:05.204644 fstat64(39, {st_mode=0171710, st_size=1, ...}) = 0 <0.000079>
+22:56:05.204837 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 40 <0.000090>
+22:56:05.205025 fstat64(40, {st_mode=0107, st_size=1, ...}) = 0 <0.000086>
+22:56:05.205235 ioctl(40, ASHMEM_SET_NAME, 0xff81cae0) = 0 <0.000080>
+22:56:05.205496 ioctl(40, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000317>
+22:56:05.205928 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 40, 0) = 0xd8599000 <0.000115>
+22:56:05.206182 close(40)               = 0 <0.000166>
+22:56:05.206648 write(39, "<?xml version='1.0' encoding='ut"..., 261) = 261 <0.000194>
+22:56:05.206968 fsync(39)               = 0 <0.001131>
+22:56:05.208220 getsockopt(39, SOL_SOCKET, SO_ERROR, 0xff81cef4, 0xff81cef0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000088>
+22:56:05.208421 close(39)               = 0 <0.000088>
+22:56:05.208633 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydCfgPref.xml", 0660) = 0 <0.000101>
+22:56:05.208852 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydCfgPref.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000090>
+22:56:05.209077 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydCfgPref.xml.bak", 0xff81cea8, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000090>
+22:56:05.209289 getuid32()              = 10283 <0.000085>
+22:56:05.209519 ioctl(8, BINDER_WRITE_READ, 0xff81ce38) = 0 <0.000121>
+22:56:05.209817 ioctl(8, BINDER_WRITE_READ, 0xff81ce38) = 0 <0.000101>
+22:56:05.210209 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs", F_OK) = 0 <0.000085>
+22:56:05.210426 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 39 <0.000084>
+22:56:05.210606 fstat64(39, {st_mode=0164164, st_size=1, ...}) = 0 <0.000077>
+22:56:05.210784 ioctl(39, ASHMEM_SET_NAME, 0xff81caf0) = 0 <0.000077>
+22:56:05.210951 ioctl(39, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000076>
+22:56:05.211128 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 39, 0) = 0xd85d2000 <0.000085>
+22:56:05.211320 close(39)               = 0 <0.000078>
+22:56:05.211496 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd8271000 <0.000095>
+22:56:05.211685 madvise(0xd8271000, 1069056, MADV_MERGEABLE) = 0 <0.000136>
+22:56:05.211919 mprotect(0xd8271000, 4096, PROT_NONE) = 0 <0.000086>
+22:56:05.212102 prctl(0x53564d41 /* PR_??? */, 0, 0xd8271000, 4096, "thread stack guard page") = 0 <0.000083>
+22:56:05.212297 clone(child_stack=0xd8375910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd8375928, tls={entry_number:12, base_addr:0xd8375970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81ce40, child_tidptr=0xd8375928) = 23545 <0.000110>
+22:56:05.212517 futex(0xd8375960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000096>
+22:56:05.212733 sched_yield()           = 0 <0.000089>
+22:56:05.212939 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml", F_OK) = -1 ENOENT (No such file or directory) <0.000082>
+22:56:05.213133 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 39 <0.000099>
+22:56:05.213327 fstat64(39, {st_mode=0171710, st_size=1, ...}) = 0 <0.000076>
+22:56:05.213509 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 40 <0.000083>
+22:56:05.213685 fstat64(40, {st_mode=S_IFCHR, st_rdev=makedev(33, 182), ...}) = 0 <0.000147>
+22:56:05.213949 ioctl(40, ASHMEM_SET_NAME, 0xff81cb20) = 0 <0.000097>
+22:56:05.214173 ioctl(40, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000126>
+22:56:05.214416 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 40, 0) = 0xd8594000 <0.000097>
+22:56:05.214643 close(40)               = 0 <0.000090>
+22:56:05.214866 mprotect(0x74309000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000094>
+22:56:05.215161 write(39, "<?xml version='1.0' encoding='ut"..., 122) = 122 <0.000104>
+22:56:05.215377 fsync(39)               = 0 <0.001107>
+22:56:05.216627 getsockopt(39, SOL_SOCKET, SO_ERROR, 0xff81cf34, 0xff81cf30) = -1 ENOTSOCK (Socket operation on non-socket) <0.000126>
+22:56:05.216893 close(39)               = 0 <0.000090>
+22:56:05.217105 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml", 0660) = 0 <0.000123>
+22:56:05.217392 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000087>
+22:56:05.217635 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml.bak", 0xff81cee8, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000126>
+22:56:05.217934 ioctl(8, BINDER_WRITE_READ, 0xff81c3e8) = 0 <0.000119>
+22:56:05.218192 ioctl(8, BINDER_WRITE_READ, 0xff81c3e8) = 0 <0.000212>
+22:56:05.218565 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml", F_OK) = 0 <0.000090>
+22:56:05.218772 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000088>
+22:56:05.218976 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml.bak") = 0 <0.000111>
+22:56:05.219209 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 39 <0.000104>
+22:56:05.219418 fstat64(39, {st_mode=0171710, st_size=1, ...}) = 0 <0.000083>
+22:56:05.219624 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 40 <0.000090>
+22:56:05.219819 fstat64(40, {st_mode=S_IFSOCK|S_ISUID|S_ISGID|04, st_size=1, ...}) = 0 <0.000086>
+22:56:05.220016 ioctl(40, ASHMEM_SET_NAME, 0xff81cae0) = 0 <0.000088>
+22:56:05.220205 ioctl(40, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000085>
+22:56:05.220392 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 40, 0) = 0xd858f000 <0.000093>
+22:56:05.220606 close(40)               = 0 <0.000086>
+22:56:05.220861 write(39, "<?xml version='1.0' encoding='ut"..., 217) = 217 <0.000100>
+22:56:05.221070 fsync(39)               = 0 <0.001188>
+22:56:05.222397 getsockopt(39, SOL_SOCKET, SO_ERROR, 0xff81cef4, 0xff81cef0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000120>
+22:56:05.222663 close(39)               = 0 <0.000128>
+22:56:05.222911 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml", 0660) = 0 <0.000100>
+22:56:05.223156 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000192>
+22:56:05.224378 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000208>
+22:56:05.224762 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/dydTimePref.xml.bak", 0) = 0 <0.000146>
+22:56:05.226042 ioctl(8, BINDER_WRITE_READ, 0xff81cd78) = 0 <0.000369>
+22:56:05.226592 ioctl(8, BINDER_WRITE_READ, 0xff81cd78) = 0 <0.000142>
+22:56:05.226957 ioctl(8, BINDER_WRITE_READ, 0xff81cda8) = 0 <0.000154>
+22:56:05.227253 ioctl(8, BINDER_WRITE_READ, 0xff81cda8) = 0 <0.000124>
+22:56:05.227546 ioctl(8, BINDER_WRITE_READ, 0xff81cda8) = 0 <0.000278>
+22:56:05.227947 ioctl(8, BINDER_WRITE_READ, 0xff81cda8) = 0 <0.000137>
+22:56:05.228268 getuid32()              = 10283 <0.000111>
+22:56:05.228521 ioctl(8, BINDER_WRITE_READ, 0xff81cd68) = 0 <0.000113>
+22:56:05.228748 ioctl(8, BINDER_WRITE_READ, 0xff81cd68) = 0 <0.000097>
+22:56:05.228960 ioctl(8, BINDER_WRITE_READ, 0xff81cd98) = 0 <0.000128>
+22:56:05.229180 ioctl(8, BINDER_WRITE_READ, 0xff81cd98) = 0 <0.000076>
+22:56:05.229362 ioctl(8, BINDER_WRITE_READ, 0xff81cd98) = 0 <0.000181>
+22:56:05.229681 ioctl(8, BINDER_WRITE_READ, 0xff81cd98) = 0 <0.000392>
+22:56:05.230433 fstatat64(AT_FDCWD, "/storage", {st_mode=0, st_size=4, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000083>
+22:56:05.230629 fstatat64(AT_FDCWD, "/storage/emulated", {st_mode=0, st_size=4, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000169>
+22:56:05.230899 fstatat64(AT_FDCWD, "/storage/emulated/0", {st_mode=0, st_size=85, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000177>
+22:56:05.231232 ioctl(8, BINDER_WRITE_READ, 0xff81cd78) = 0 <0.000091>
+22:56:05.231418 ioctl(8, BINDER_WRITE_READ, 0xff81cd78) = 0 <0.000080>
+22:56:05.231611 ioctl(8, BINDER_WRITE_READ, 0xff81cda8) = 0 <0.000120>
+22:56:05.231827 ioctl(8, BINDER_WRITE_READ, 0xff81cda8) = 0 <0.000078>
+22:56:05.232013 ioctl(8, BINDER_WRITE_READ, 0xff81cda8) = 0 <0.000180>
+22:56:05.232314 ioctl(8, BINDER_WRITE_READ, 0xff81cda8) = 0 <0.000105>
+22:56:05.232560 faccessat(AT_FDCWD, "/storage/emulated/0/ddad/log", F_OK) = -1 ENOENT (No such file or directory) <0.000453>
+22:56:05.233165 faccessat(AT_FDCWD, "/storage/emulated/0/ddad/log", F_OK) = -1 ENOENT (No such file or directory) <0.000227>
+22:56:05.233542 mkdirat(AT_FDCWD, "/storage/emulated/0/ddad/log", 0777) = 0 <0.000791>
+22:56:05.234743 faccessat(AT_FDCWD, "/storage/emulated/0/ddad/log/com.g365.locf.txt", F_OK) = -1 ENOENT (No such file or directory) <0.000348>
+22:56:05.235272 openat(AT_FDCWD, "/storage/emulated/0/ddad/log/com.g365.locf.txt", O_WRONLY|O_CREAT|O_APPEND|O_LARGEFILE, 0666) = 37 <0.000540>
+22:56:05.235936 fstat64(37, {st_mode=0171710, st_size=1, ...}) = 0 <0.000076>
+22:56:05.236189 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 40 <0.000108>
+22:56:05.236417 fstat64(40, {st_mode=S_IFIFO|S_ISVTX|0100, st_size=1, ...}) = 0 <0.000098>
+22:56:05.236643 ioctl(40, ASHMEM_SET_NAME, 0xff81cbc0) = 0 <0.000099>
+22:56:05.236857 ioctl(40, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000098>
+22:56:05.237074 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 40, 0) = 0xd858a000 <0.000106>
+22:56:05.237308 close(40)               = 0 <0.000102>
+22:56:05.237554 write(37, "send()  flag = true alarmtime = "..., 94) = 94 <0.000408>
+22:56:05.238124 getsockopt(37, SOL_SOCKET, SO_ERROR, 0xff81cf34, 0xff81cf30) = -1 ENOTSOCK (Socket operation on non-socket) <0.000101>
+22:56:05.238350 close(37)               = 0 <0.000188>
+22:56:05.238867 ioctl(8, BINDER_WRITE_READ, 0xff81deb8) = 0 <0.000430>
+22:56:05.239427 ioctl(8, BINDER_WRITE_READ, 0xff81deb8) = 0 <0.001474>
+22:56:05.241062 ioctl(8, BINDER_WRITE_READ, 0xff81dfd8) = 0 <0.000113>
+22:56:05.241304 ioctl(8, BINDER_WRITE_READ, 0xff81dfd8) = 0 <0.000110>
+22:56:05.241592 ioctl(8, BINDER_WRITE_READ, 0xff81e548) = 0 <0.000116>
+22:56:05.241850 ioctl(8, BINDER_WRITE_READ, 0xff81e548) = 0 <0.000082>
+22:56:05.242174 ioctl(8, BINDER_WRITE_READ, 0xff81dfc8) = 0 <0.000135>
+22:56:05.242408 ioctl(8, BINDER_WRITE_READ, 0xff81dfc8) = 0 <0.000079>
+22:56:05.242651 ioctl(8, BINDER_WRITE_READ, 0xff81e058) = 0 <0.000097>
+22:56:05.242843 ioctl(8, BINDER_WRITE_READ, 0xff81e058) = 0 <0.000082>
+22:56:05.243152 ioctl(8, BINDER_WRITE_READ, 0xff81e108) = 0 <0.000097>
+22:56:05.243360 ioctl(8, BINDER_WRITE_READ, 0xff81e108) = 0 <0.000079>
+22:56:05.243562 ioctl(8, BINDER_WRITE_READ, 0xff81e108) = 0 <0.000096>
+22:56:05.243751 ioctl(8, BINDER_WRITE_READ, 0xff81e108) = 0 <0.000083>
+22:56:05.243938 getuid32()              = 10283 <0.000077>
+22:56:05.244129 ioctl(8, BINDER_WRITE_READ, 0xff81e118) = 0 <0.000098>
+22:56:05.244321 ioctl(8, BINDER_WRITE_READ, 0xff81e118) = 0 <0.000077>
+22:56:05.244524 ioctl(8, BINDER_WRITE_READ, 0xff81e148) = 0 <0.000135>
+22:56:05.244754 ioctl(8, BINDER_WRITE_READ, 0xff81e148) = 0 <0.000078>
+22:56:05.245010 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27975372) = 30 <0.000102>
+22:56:05.245235 pread64(23, "res/interpolator/linear_out_slow"..., 39, 27975402) = 39 <0.000100>
+22:56:05.245468 mmap2(NULL, 4069, PROT_READ, MAP_SHARED, 23, 0x1aad000) = 0xea89b000 <0.000192>
+22:56:05.246040 munmap(0xea89b000, 4069) = 0 <0.000129>
+22:56:05.246386 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27970871) = 30 <0.000114>
+22:56:05.246635 pread64(23, "res/interpolator/fast_out_linear"..., 39, 27970901) = 39 <0.000109>
+22:56:05.246873 mmap2(NULL, 3665, PROT_READ, MAP_SHARED, 23, 0x1aac000) = 0xea89b000 <0.000126>
+22:56:05.247151 munmap(0xea89b000, 3665) = 0 <0.000095>
+22:56:05.247475 ioctl(8, BINDER_WRITE_READ, 0xff81e378) = 0 <0.000109>
+22:56:05.247691 ioctl(8, BINDER_WRITE_READ, 0xff81e378) = 0 <0.000088>
+22:56:05.247912 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\33\0\0\0", 30, 28112807) = 30 <0.000089>
+22:56:05.248115 pread64(23, "res/layout/screen_title.xml", 27, 28112837) = 27 <0.000086>
+22:56:05.248308 mmap2(NULL, 2643, PROT_READ, MAP_SHARED, 23, 0x1acf000) = 0xea89b000 <0.000090>
+22:56:05.248531 munmap(0xea89b000, 2643) = 0 <0.000102>
+22:56:05.249531 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\32\0\0\0", 30, 27962525) = 30 <0.000112>
+22:56:05.250066 pread64(23, "res/drawable/title_bar.xml", 26, 27962555) = 26 <0.000102>
+22:56:05.250291 mmap2(NULL, 3481, PROT_READ, MAP_SHARED, 23, 0x1aaa000) = 0xea89b000 <0.000097>
+22:56:05.250551 munmap(0xea89b000, 3481) = 0 <0.000109>
+22:56:05.250844 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\260\351\346\213q\n\0\0q\n\0\0.\0\2\0", 30, 5098806) = 30 <0.000103>
+22:56:05.251062 pread64(23, "res/drawable-xhdpi-v4/activity_t"..., 46, 5098836) = 46 <0.000099>
+22:56:05.251280 mmap2(NULL, 6133, PROT_READ, MAP_SHARED, 23, 0x4dc000) = 0xd85d2000 <0.000100>
+22:56:05.251542 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000110>
+22:56:05.251783 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000091>
+22:56:05.252076 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000092>
+22:56:05.252308 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000104>
+22:56:05.252660 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 37 <0.000110>
+22:56:05.252898 fstat64(37, {st_mode=041, st_size=1, ...}) = 0 <0.000102>
+22:56:05.253140 ioctl(37, ASHMEM_SET_NAME, 0xff81b710) = 0 <0.000100>
+22:56:05.253356 ioctl(37, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xa000) = 0 <0.000098>
+22:56:05.253588 mmap2(NULL, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE, 37, 0) = 0xd8580000 <0.000216>
+22:56:05.253908 close(37)               = 0 <0.000090>
+22:56:05.254276 munmap(0xd85d2000, 6133) = 0 <0.000091>
+22:56:05.254896 ioctl(8, BINDER_WRITE_READ, 0xff81e6a8) = 0 <0.000122>
+22:56:05.255130 ioctl(8, BINDER_WRITE_READ, 0xff81e6a8) = 0 <0.000084>
+22:56:05.255344 getuid32()              = 10283 <0.000087>
+22:56:05.255604 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000136>
+22:56:05.255971 getuid32()              = 10283 <0.000312>
+22:56:05.256455 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000112>
+22:56:05.256812 ioctl(8, BINDER_WRITE_READ, 0xff81e728) = 0 <0.000166>
+22:56:05.257160 ioctl(8, BINDER_WRITE_READ, 0xff81e728) = 0 <0.001630>
+22:56:05.259033 getuid32()              = 10283 <0.000093>
+22:56:05.259256 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000109>
+22:56:05.259505 getuid32()              = 10283 <0.000108>
+22:56:05.259735 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFIFO|0743, st_size=1, ...}, 0) = 0 <0.000131>
+22:56:05.260021 fstatat64(AT_FDCWD, "/data/app/com.g365.locf-1/base.apk", {st_mode=S_IFIFO|0743, st_size=1, ...}, 0) = 0 <0.000113>
+22:56:05.260371 ioctl(8, BINDER_WRITE_READ, 0xff81e598) = 0 <0.000137>
+22:56:05.260635 ioctl(8, BINDER_WRITE_READ, 0xff81e598) = 0 <0.000104>
+22:56:05.260879 getuid32()              = 10283 <0.000084>
+22:56:05.261124 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0132000, st_size=1, ...}, 0) = 0 <0.000129>
+22:56:05.261404 fstatat64(AT_FDCWD, "/data/app/com.g365.locf-1/base.apk", {st_mode=0132000, st_size=1, ...}, 0) = 0 <0.000112>
+22:56:05.261813 getuid32()              = 10283 <0.000068>
+22:56:05.262004 getuid32()              = 10283 <0.000094>
+22:56:05.262203 fstat64(31, {st_mode=021, st_size=1, ...}) = 0 <0.000093>
+22:56:05.262405 ioctl(31, ASHMEM_GET_SIZE, 0) = 84 <0.000090>
+22:56:05.262606 fstat64(31, {st_mode=0, st_size=1, ...}) = 0 <0.000080>
+22:56:05.262785 ioctl(31, ASHMEM_PIN, 0xff81e570) = 0 <0.000081>
+22:56:05.263013 ioctl(8, BINDER_WRITE_READ, 0xff81e4f8) = 0 <0.000125>
+22:56:05.263290 ioctl(8, BINDER_WRITE_READ, 0xff81e4f8) = 0 <0.000111>
+22:56:05.263624 ioctl(8, BINDER_WRITE_READ, 0xff81e4f8) = 0 <0.000155>
+22:56:05.263928 ioctl(8, BINDER_WRITE_READ, 0xff81e4f8) = 0 <0.000119>
+22:56:05.264232 ioctl(8, BINDER_WRITE_READ, 0xff81e548) = 0 <0.000139>
+22:56:05.264482 ioctl(8, BINDER_WRITE_READ, 0xff81e548) = 0 <0.000092>
+22:56:05.264739 mprotect(0x12e17000, 2097152, PROT_READ|PROT_WRITE) = 0 <0.000099>
+22:56:05.265172 ioctl(8, BINDER_WRITE_READ, 0xff81e378) = 0 <0.000105>
+22:56:05.265388 ioctl(8, BINDER_WRITE_READ, 0xff81e378) = 0 <0.000200>
+22:56:05.266091 ioctl(8, BINDER_WRITE_READ, 0xff81e588) = 0 <0.000113>
+22:56:05.266298 ioctl(8, BINDER_WRITE_READ, 0xff81e588) = 0 <0.000120>
+22:56:05.266565 ioctl(8, BINDER_WRITE_READ, 0xff81dfa8) = 0 <0.000097>
+22:56:05.266758 ioctl(8, BINDER_WRITE_READ, 0xff81dfa8) = 0 <0.000088>
+22:56:05.267176 ioctl(8, BINDER_WRITE_READ, 0xff81dec8) = 0 <0.000107>
+22:56:05.267397 ioctl(8, BINDER_WRITE_READ, 0xff81dec8) = 0 <0.002226>
+22:56:05.269820 ioctl(8, BINDER_WRITE_READ, 0xff81e6a8) = 0 <0.000127>
+22:56:05.270049 ioctl(8, BINDER_WRITE_READ, 0xff81e6a8) = 0 <0.000088>
+22:56:05.270312 ioctl(8, BINDER_WRITE_READ, 0xff81dfe8) = 0 <0.000177>
+22:56:05.270603 ioctl(8, BINDER_WRITE_READ, 0xff81dfe8) = 0 <0.000092>
+22:56:05.270962 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 37 <0.000134>
+22:56:05.271223 fstat64(37, {st_mode=S_IFSOCK|S_ISUID|0770, st_size=1, ...}) = 0 <0.000141>
+22:56:05.271487 ioctl(37, ASHMEM_SET_NAME, 0xff81c960) = 0 <0.000133>
+22:56:05.271736 ioctl(37, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x20000) = 0 <0.000086>
+22:56:05.271952 mmap2(NULL, 131072, PROT_READ|PROT_WRITE, MAP_PRIVATE, 37, 0) = 0xd8356000 <0.000115>
+22:56:05.272199 close(37)               = 0 <0.000109>
+22:56:05.272684 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 37 <0.000121>
+22:56:05.272971 fstat64(37, {st_mode=070644, st_size=1, ...}) = 0 <0.000163>
+22:56:05.273250 ioctl(37, ASHMEM_SET_NAME, 0xff81cf00) = 0 <0.000058>
+22:56:05.273422 ioctl(37, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000125>
+22:56:05.273669 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 37, 0) = 0xd85d2000 <0.000355>
+22:56:05.274187 close(37)               = 0 <0.000094>
+22:56:05.274493 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd8251000 <0.000081>
+22:56:05.274668 madvise(0xd8251000, 1069056, MADV_MERGEABLE) = 0 <0.000117>
+22:56:05.275009 mprotect(0xd8251000, 4096, PROT_NONE) = 0 <0.000124>
+22:56:05.275355 prctl(0x53564d41 /* PR_??? */, 0, 0xd8251000, 4096, "thread stack guard page") = 0 <0.000086>
+22:56:05.275586 clone(child_stack=0xd8355910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd8355928, tls={entry_number:12, base_addr:0xd8355970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81d250, child_tidptr=0xd8355928) = 23552 <0.000118>
+22:56:05.275824 futex(0xd8355960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000090>
+22:56:05.276069 futex(0xf12c0180, FUTEX_WAKE, 1) = 0 <0.000086>
+22:56:05.276251 futex(0xf12b0138, FUTEX_WAIT, 967, NULL) = -1 EAGAIN (Try again) <0.000104>
+22:56:05.276729 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 41 <0.000091>
+22:56:05.276921 fstat64(41, {st_mode=0131000, st_size=1, ...}) = 0 <0.000077>
+22:56:05.277096 ioctl(41, ASHMEM_SET_NAME, 0xff81d420) = 0 <0.000074>
+22:56:05.277266 ioctl(41, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000078>
+22:56:05.277449 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 41, 0) = 0xd85d0000 <0.000093>
+22:56:05.277648 close(41)               = 0 <0.000128>
+22:56:05.277882 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd8149000 <0.000085>
+22:56:05.278098 madvise(0xd8149000, 1069056, MADV_MERGEABLE) = 0 <0.000085>
+22:56:05.278294 mprotect(0xd8149000, 4096, PROT_NONE) = 0 <0.000088>
+22:56:05.278526 prctl(0x53564d41 /* PR_??? */, 0, 0xd8149000, 4096, "thread stack guard page") = 0 <0.000086>
+22:56:05.278724 clone(child_stack=0xd824d910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd824d928, tls={entry_number:12, base_addr:0xd824d970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81d770, child_tidptr=0xd824d928) = 23553 <0.000125>
+22:56:05.278999 futex(0xd824d960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000108>
+22:56:05.279251 writev(3, [{"\0\302[E\5\330Zb\3\244\20", 11}, {"\5", 1}, {"Activity\0", 9}, {"An activity without a UI must ca"..., 72}], 4) = 93 <0.000116>
+22:56:05.279552 getuid32()              = 10283 <0.000164>
+22:56:05.279905 writev(3, [{"\2\302[E\5\330Z<.\256\20", 11}, {"Fu\0\0", 4}, {"\3\3\0\0\0\0\0\2\27\0\0\0com.conans.forces.Um"..., 56}], 3) = 71 <0.000114>
+22:56:05.280191 ioctl(8, BINDER_WRITE_READ, 0xff81e6a8) = 0 <0.000129>
+22:56:05.281367 ioctl(8, BINDER_WRITE_READ, 0xff81e6a8) = 0 <0.000171>
+22:56:05.281762 getuid32()              = 10283 <0.000128>
+22:56:05.282021 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000087>
+22:56:05.282270 getuid32()              = 10283 <0.000125>
+22:56:05.282606 writev(3, [{"\2\302[E\5\330Z\250-\327\20", 11}, {"Eu\0\0", 4}, {"\3\3\0\0\0\0\0\2\27\0\0\0com.conans.forces.Um"..., 60}], 3) = 75 <0.000149>
+22:56:05.282923 ioctl(8, BINDER_WRITE_READ, 0xff81e728) = 0 <0.000118>
+22:56:05.283214 ioctl(8, BINDER_WRITE_READ, 0xff81e728) = 0 <0.001850>
+22:56:05.285185 getuid32()              = 10283 <0.000183>
+22:56:05.285495 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000099>
+22:56:05.285875 getuid32()              = 10283 <0.000107>
+22:56:05.286124 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFIFO|0743, st_size=1, ...}, 0) = 0 <0.000107>
+22:56:05.286402 fstatat64(AT_FDCWD, "/data/app/com.g365.locf-1/base.apk", {st_mode=S_IFIFO|0743, st_size=1, ...}, 0) = 0 <0.000147>
+22:56:05.287153 ioctl(8, BINDER_WRITE_READ, 0xff81e598) = 0 <0.000140>
+22:56:05.287459 ioctl(8, BINDER_WRITE_READ, 0xff81e598) = 0 <0.000130>
+22:56:05.287733 getuid32()              = 10283 <0.000113>
+22:56:05.288017 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0132000, st_size=1, ...}, 0) = 0 <0.000088>
+22:56:05.288255 fstatat64(AT_FDCWD, "/data/app/com.g365.locf-1/base.apk", {st_mode=0132000, st_size=1, ...}, 0) = 0 <0.000142>
+22:56:05.288638 getuid32()              = 10283 <0.000248>
+22:56:05.289020 getuid32()              = 10283 <0.000129>
+22:56:05.289307 fstat64(31, {st_mode=021, st_size=1, ...}) = 0 <0.000215>
+22:56:05.290008 ioctl(31, ASHMEM_GET_SIZE, 0) = 84 <0.000774>
+22:56:05.290977 fstat64(31, {st_mode=0, st_size=1, ...}) = 0 <0.000118>
+22:56:05.291245 ioctl(31, ASHMEM_PIN, 0xff81e570) = 0 <0.000103>
+22:56:05.291536 ioctl(8, BINDER_WRITE_READ, 0xff81e4f8) = 0 <0.000158>
+22:56:05.291935 ioctl(8, BINDER_WRITE_READ, 0xff81e4f8) = 0 <0.000133>
+22:56:05.292477 ioctl(8, BINDER_WRITE_READ, 0xff81e4f8) = 0 <0.000149>
+22:56:05.292840 ioctl(8, BINDER_WRITE_READ, 0xff81e4f8) = 0 <0.000143>
+22:56:05.293247 futex(0xe46af010, FUTEX_WAIT, 1, NULL) = -1 EAGAIN (Try again) <0.000758>
+22:56:05.294316 ioctl(8, BINDER_WRITE_READ, 0xff81de38) = 0 <0.000145>
+22:56:05.294616 ioctl(8, BINDER_WRITE_READ, 0xff81de38) = 0 <0.000149>
+22:56:05.295037 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf", F_OK) = 0 <0.000109>
+22:56:05.295399 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs", F_OK) = 0 <0.000112>
+22:56:05.295681 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000158>
+22:56:05.296110 fstat64(42, {st_mode=01, st_size=1, ...}) = 0 <0.000096>
+22:56:05.296305 ioctl(42, ASHMEM_SET_NAME, 0xff81d6a0) = 0 <0.000081>
+22:56:05.297146 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000110>
+22:56:05.297384 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd8135000 <0.000103>
+22:56:05.298418 close(42)               = 0 <0.000075>
+22:56:05.298620 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd7f7b000 <0.000116>
+22:56:05.298850 madvise(0xd7f7b000, 1069056, MADV_MERGEABLE) = 0 <0.000102>
+22:56:05.299075 mprotect(0xd7f7b000, 4096, PROT_NONE) = 0 <0.000183>
+22:56:05.299393 prctl(0x53564d41 /* PR_??? */, 0, 0xd7f7b000, 4096, "thread stack guard page") = 0 <0.000134>
+22:56:05.299683 clone(child_stack=0xd807f910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd807f928, tls={entry_number:12, base_addr:0xd807f970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81d9f0, child_tidptr=0xd807f928) = 23560 <0.000166>
+22:56:05.299981 futex(0xd807f960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000110>
+22:56:05.300230 sched_yield()           = 0 <0.000136>
+22:56:05.300538 ioctl(8, BINDER_WRITE_READ, 0xff81dc28) = 0 <0.000112>
+22:56:05.300790 ioctl(8, BINDER_WRITE_READ, 0xff81dc28) = 0 <0.000093>
+22:56:05.301021 ioctl(8, BINDER_WRITE_READ, 0xff81dc28) = 0 <0.000212>
+22:56:05.301558 getuid32()              = 10283 <0.000087>
+22:56:05.301894 ioctl(8, BINDER_WRITE_READ, 0xff81dc68) = 0 <0.000393>
+22:56:05.302440 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/shortcut.xml", F_OK) = -1 ENOENT (No such file or directory) <0.000319>
+22:56:05.302904 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/shortcut.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000135>
+22:56:05.303162 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000114>
+22:56:05.303459 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 44 <0.000148>
+22:56:05.303782 fstat64(44, {st_mode=0132000, st_size=1, ...}) = 0 <0.000132>
+22:56:05.304440 ioctl(44, ASHMEM_SET_NAME, 0xff81d920) = 0 <0.000363>
+22:56:05.304971 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000151>
+22:56:05.305386 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 44, 0) = 0xd8132000 <0.000114>
+22:56:05.305879 close(44)               = 0 <0.000267>
+22:56:05.306387 write(42, "<?xml version='1.0' encoding='ut"..., 114) = 114 <0.000099>
+22:56:05.306689 fsync(42)               = 0 <0.001902>
+22:56:05.308706 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81dd34, 0xff81dd30) = -1 ENOTSOCK (Socket operation on non-socket) <0.000091>
+22:56:05.308935 close(42)               = 0 <0.000112>
+22:56:05.309166 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/shortcut.xml", 0660) = 0 <0.000117>
+22:56:05.309423 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/shortcut.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000098>
+22:56:05.309836 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/shortcut.xml.bak", 0xff81dce8, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000134>
+22:56:05.310201 ioctl(8, BINDER_WRITE_READ, 0xff81de78) = 0 <0.000081>
+22:56:05.310380 ioctl(8, BINDER_WRITE_READ, 0xff81de78) = 0 <0.000091>
+22:56:05.310613 mprotect(0x7430a000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000088>
+22:56:05.310931 getuid32()              = 10283 <0.000230>
+22:56:05.311317 ioctl(8, BINDER_WRITE_READ, 0xff81df78) = 0 <0.000499>
+22:56:05.311987 ioctl(8, BINDER_WRITE_READ, 0xff81df78) = 0 <0.000434>
+22:56:05.313192 ioctl(8, BINDER_WRITE_READ, 0xff81def8) = 0 <0.000221>
+22:56:05.313533 ioctl(8, BINDER_WRITE_READ, 0xff81def8) = 0 <0.001052>
+22:56:05.314706 getuid32()              = 10283 <0.000076>
+22:56:05.314893 ioctl(8, BINDER_WRITE_READ, 0xff81dfc8) = 0 <0.000109>
+22:56:05.315100 ioctl(8, BINDER_WRITE_READ, 0xff81dfc8) = 0 <0.000088>
+22:56:05.315461 pipe2([42, 44], 0)      = 0 <0.000139>
+22:56:05.315702 pipe2([45, 46], 0)      = 0 <0.000081>
+22:56:05.315878 pipe2([47, 48], 0)      = 0 <0.000078>
+22:56:05.316059 pipe2([49, 50], 0)      = 0 <0.000082>
+22:56:05.316236 vfork()                 = 23561 <0.000281>
+22:56:05.316621 close(50)               = 0 <0.000099>
+22:56:05.316829 read(49, "", 4)         = 0 <0.000086>
+22:56:05.317035 close(42)               = 0 <0.000093>
+22:56:05.317231 close(46)               = 0 <0.000084>
+22:56:05.317420 close(48)               = 0 <0.000097>
+22:56:05.317620 close(49)               = 0 <0.000252>
+22:56:05.318169 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000092>
+22:56:05.318372 fstat64(42, {st_mode=0132000, st_size=1, ...}) = 0 <0.000087>
+22:56:05.318582 ioctl(42, ASHMEM_SET_NAME, 0xff81d320) = 0 <0.000088>
+22:56:05.318773 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000092>
+22:56:05.318969 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd8130000 <0.000106>
+22:56:05.319189 close(42)               = 0 <0.000090>
+22:56:05.319391 mmap2(NULL, 1101824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd7f73000 <0.000128>
+22:56:05.319620 madvise(0xd7f73000, 1101824, MADV_MERGEABLE) = 0 <0.000081>
+22:56:05.319806 mprotect(0xd7f73000, 4096, PROT_NONE) = 0 <0.000095>
+22:56:05.320003 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=23561, si_uid=10283, si_status=0, si_utime=0, si_stime=0} ---
+22:56:05.320097 prctl(0x53564d41 /* PR_??? */, 0, 0xd7f73000, 4096, "thread stack guard page") = 0 <0.000080>
+22:56:05.320379 getpid()                = 23490 <0.000126>
+22:56:05.320598 clone(child_stack=0xd807f910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd807f928, tls={entry_number:12, base_addr:0xd807f970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81d670, child_tidptr=0xd807f928) = 23562 <0.000109>
+22:56:05.320817 futex(0xd807f960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000097>
+22:56:05.321100 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000089>
+22:56:05.321295 fstat64(42, {st_mode=01, st_size=1, ...}) = 0 <0.000080>
+22:56:05.321498 ioctl(42, ASHMEM_SET_NAME, 0xff81d720) = 0 <0.000085>
+22:56:05.321675 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000121>
+22:56:05.321897 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd8128000 <0.000087>
+22:56:05.322098 close(42)               = 0 <0.000082>
+22:56:05.322493 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000107>
+22:56:05.322720 fstat64(42, {st_mode=070644, st_size=1, ...}) = 0 <0.000091>
+22:56:05.323054 ioctl(42, ASHMEM_SET_NAME, 0xff81dd60) = 0 <0.000115>
+22:56:05.323278 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000115>
+22:56:05.323571 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd8126000 <0.000098>
+22:56:05.323814 close(42)               = 0 <0.000097>
+22:56:05.324015 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd7e6e000 <0.000186>
+22:56:05.324317 madvise(0xd7e6e000, 1069056, MADV_MERGEABLE) = 0 <0.000083>
+22:56:05.324497 mprotect(0xd7e6e000, 4096, PROT_NONE) = 0 <0.000080>
+22:56:05.324675 prctl(0x53564d41 /* PR_??? */, 0, 0xd7e6e000, 4096, "thread stack guard page") = 0 <0.000103>
+22:56:05.324916 getpid()                = 23490 <0.000078>
+22:56:05.325150 clone(child_stack=0xd7f72910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd7f72928, tls={entry_number:12, base_addr:0xd7f72970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81e0b0, child_tidptr=0xd7f72928) = 23563 <0.000150>
+22:56:05.325601 futex(0xd7f72960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000350>
+22:56:05.326654 mprotect(0x7430b000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000369>
+22:56:05.329381 writev(3, [{"\0\302[E\5\330Z\332\211\240\23", 11}, {"\4", 1}, {"art\0", 4}, {"Rejecting re-init on previously-"..., 202}], 4) = 218 <0.000147>
+22:56:05.329757 writev(3, [{"\0\302[E\5\330Z@\320\245\23", 11}, {"\4", 1}, {"art\0", 4}, {"  at void com.lllfy.newad.core.a"..., 126}], 4) = 142 <0.000256>
+22:56:05.330237 writev(3, [{"\0\302[E\5\330Z\30\t\256\23", 11}, {"\4", 1}, {"art\0", 4}, {"  at void com.g365.locf.MainActi"..., 77}], 4) = 93 <0.000234>
+22:56:05.330697 writev(3, [{"\0\302[E\5\330Z\325a\264\23", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.app.Activity.p"..., 85}], 4) = 101 <0.000195>
+22:56:05.332367 writev(3, [{"\0\302[E\5\330Z\247\r\317\23", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.app.Instrument"..., 128}], 4) = 144 <0.000288>
+22:56:05.333090 writev(3, [{"\0\302[E\5\330ZEJ\326\23", 11}, {"\4", 1}, {"art\0", 4}, {"  at android.app.Activity androi"..., 175}], 4) = 191 <0.001107>
+22:56:05.335608 writev(3, [{"\0\302[E\5\330Z\312h\376\23", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.app.ActivityTh"..., 176}], 4) = 192 <0.000448>
+22:56:05.336301 writev(3, [{"\0\302[E\5\330Ztz\n\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.app.ActivityTh"..., 189}], 4) = 205 <0.000288>
+22:56:05.336808 writev(3, [{"\0\302[E\5\330Z\23#\22\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.app.ActivityTh"..., 100}], 4) = 116 <0.000221>
+22:56:05.337243 writev(3, [{"\0\302[E\5\330Z\235\352\30\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.os.Handler.dis"..., 84}], 4) = 100 <0.000182>
+22:56:05.338072 writev(3, [{"\0\302[E\5\330Z(t%\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.os.Looper.loop"..., 53}], 4) = 69 <0.000210>
+22:56:05.338645 writev(3, [{"\0\302[E\5\330Z|K.\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.app.ActivityTh"..., 89}], 4) = 105 <0.000090>
+22:56:05.338920 writev(3, [{"\0\302[E\5\330Z\363V2\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at java.lang.Object java.lang."..., 110}], 4) = 126 <0.000138>
+22:56:05.339461 writev(3, [{"\0\302[E\5\330Z\207\3709\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void com.android.internal.o"..., 93}], 4) = 109 <0.000368>
+22:56:05.340001 writev(3, [{"\0\302[E\5\330Z=\271B\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void com.android.internal.o"..., 92}], 4) = 108 <0.000223>
+22:56:05.340549 writev(3, [{"\0\302[E\5\330Z\36\36K\24", 11}, {"\4", 1}, {"art\0", 4}, {"Caused by: java.lang.ClassNotFou"..., 277}], 4) = 293 <0.001031>
+22:56:05.342652 writev(3, [{"\0\302[E\5\330Z\232\205`\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at java.lang.Class dalvik.syst"..., 111}], 4) = 127 <0.000142>
+22:56:05.342996 writev(3, [{"\0\302[E\5\330Z6\311p\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at java.lang.Class java.lang.C"..., 103}], 4) = 119 <0.000306>
+22:56:05.343446 writev(3, [{"\0\302[E\5\330Z_\246w\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at java.lang.Class java.lang.C"..., 94}], 4) = 110 <0.000114>
+22:56:05.343722 writev(3, [{"\0\302[E\5\330Z\215\270{\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void com.lllfy.newad.core.a"..., 126}], 4) = 142 <0.000108>
+22:56:05.343992 writev(3, [{"\0\302[E\5\330Z\372\262\177\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void com.g365.locf.MainActi"..., 77}], 4) = 93 <0.000106>
+22:56:05.344256 writev(3, [{"\0\302[E\5\330Z\n\246\203\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.app.Activity.p"..., 85}], 4) = 101 <0.000117>
+22:56:05.344510 writev(3, [{"\0\302[E\5\330Z\264\6\210\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.app.Instrument"..., 128}], 4) = 144 <0.000117>
+22:56:05.344778 writev(3, [{"\0\302[E\5\330Z#\321\213\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at android.app.Activity androi"..., 175}], 4) = 191 <0.000111>
+22:56:05.345033 writev(3, [{"\0\302[E\5\330Z\336\v\220\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.app.ActivityTh"..., 176}], 4) = 192 <0.000103>
+22:56:05.345276 writev(3, [{"\0\302[E\5\330Z\307\263\223\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.app.ActivityTh"..., 189}], 4) = 205 <0.000114>
+22:56:05.345530 writev(3, [{"\0\302[E\5\330Z\315\236\227\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.app.ActivityTh"..., 100}], 4) = 116 <0.000213>
+22:56:05.346000 writev(3, [{"\0\302[E\5\330Z \250\236\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.os.Handler.dis"..., 84}], 4) = 100 <0.000103>
+22:56:05.346225 writev(3, [{"\0\302[E\5\330Z\344?\242\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.os.Looper.loop"..., 53}], 4) = 69 <0.000102>
+22:56:05.346473 writev(3, [{"\0\302[E\5\330Z\257\300\245\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void android.app.ActivityTh"..., 89}], 4) = 105 <0.000110>
+22:56:05.346739 writev(3, [{"\0\302[E\5\330Z\367\326\251\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at java.lang.Object java.lang."..., 110}], 4) = 126 <0.000107>
+22:56:05.346996 writev(3, [{"\0\302[E\5\330Z-\324\255\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void com.android.internal.o"..., 93}], 4) = 109 <0.000099>
+22:56:05.347240 writev(3, [{"\0\302[E\5\330Zk\246\261\24", 11}, {"\4", 1}, {"art\0", 4}, {"  at void com.android.internal.o"..., 92}], 4) = 108 <0.000116>
+22:56:05.347484 writev(3, [{"\0\302[E\5\330Z\206[\265\24", 11}, {"\4", 1}, {"art\0", 4}, {"\0", 1}], 4) = 17 <0.000101>
+22:56:05.348627 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs", F_OK) = 0 <0.000088>
+22:56:05.348853 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000086>
+22:56:05.349036 fstat64(42, {st_mode=076544, st_size=1, ...}) = 0 <0.000106>
+22:56:05.349252 ioctl(42, ASHMEM_SET_NAME, 0xff81ca60) = 0 <0.000095>
+22:56:05.349497 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000140>
+22:56:05.349846 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd8123000 <0.000130>
+22:56:05.350130 close(42)               = 0 <0.000219>
+22:56:05.350475 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd7e6e000 <0.000091>
+22:56:05.350665 madvise(0xd7e6e000, 1069056, MADV_MERGEABLE) = 0 <0.000087>
+22:56:05.350858 mprotect(0xd7e6e000, 4096, PROT_NONE) = 0 <0.000083>
+22:56:05.351034 prctl(0x53564d41 /* PR_??? */, 0, 0xd7e6e000, 4096, "thread stack guard page") = 0 <0.000077>
+22:56:05.351228 getpid()                = 23490 <0.000076>
+22:56:05.351393 clone(child_stack=0xd7f72910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd7f72928, tls={entry_number:12, base_addr:0xd7f72970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81cdb0, child_tidptr=0xd7f72928) = 23571 <0.000118>
+22:56:05.351634 futex(0xd7f72960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000106>
+22:56:05.351874 sched_yield()           = 0 <0.000100>
+22:56:05.352130 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = -1 ENOENT (No such file or directory) <0.000088>
+22:56:05.352337 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000113>
+22:56:05.352559 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000085>
+22:56:05.352761 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000088>
+22:56:05.352949 fstat64(46, {st_mode=0177777, st_size=1, ...}) = 0 <0.000089>
+22:56:05.353148 ioctl(46, ASHMEM_SET_NAME, 0xff81cd90) = 0 <0.000085>
+22:56:05.353333 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000084>
+22:56:05.353517 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd8117000 <0.000094>
+22:56:05.353763 close(46)               = 0 <0.000095>
+22:56:05.354082 write(42, "<?xml version='1.0' encoding='ut"..., 154) = 154 <0.000106>
+22:56:05.354299 fsync(42)               = 0 <0.015002>
+22:56:05.369550 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81d1a4, 0xff81d1a0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000130>
+22:56:05.370101 close(42)               = 0 <0.000098>
+22:56:05.370414 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000096>
+22:56:05.370657 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000086>
+22:56:05.370874 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0xff81d158, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000145>
+22:56:05.371206 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000087>
+22:56:05.371468 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000261>
+22:56:05.371953 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000213>
+22:56:05.372419 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000333>
+22:56:05.372896 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000094>
+22:56:05.373144 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000123>
+22:56:05.373375 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000109>
+22:56:05.373622 ioctl(46, ASHMEM_SET_NAME, 0xff81cd90) = 0 <0.000105>
+22:56:05.373986 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000078>
+22:56:05.374603 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd8112000 <0.000124>
+22:56:05.374890 close(46)               = 0 <0.000194>
+22:56:05.375302 write(42, "<?xml version='1.0' encoding='ut"..., 239) = 239 <0.000096>
+22:56:05.375782 fsync(42)               = 0 <0.002109>
+22:56:05.378088 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81d1a4, 0xff81d1a0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000418>
+22:56:05.378745 close(42)               = 0 <0.000336>
+22:56:05.379223 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000094>
+22:56:05.379443 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000088>
+22:56:05.379686 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000089>
+22:56:05.379910 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000121>
+22:56:05.380252 pread64(30, "PK\3\4\24\0\10\10\10\0\234|\7E\0\0\0\0\0\0\0\0\0\0\0\0\25\0\0\0", 30, 2465) = 30 <0.000108>
+22:56:05.380492 pread64(30, "assets/1/settings.xml", 21, 2495) = 21 <0.000104>
+22:56:05.380705 mmap2(NULL, 2710, PROT_READ, MAP_SHARED, 30, 0) = 0xe4300000 <0.000333>
+22:56:05.381456 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000115>
+22:56:05.381845 fstat64(42, {st_mode=052000, st_size=1, ...}) = 0 <0.000147>
+22:56:05.382111 ioctl(42, ASHMEM_SET_NAME, 0xff81c810) = 0 <0.000082>
+22:56:05.382307 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000094>
+22:56:05.382514 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd810d000 <0.000089>
+22:56:05.382722 close(42)               = 0 <0.000104>
+22:56:05.384004 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000134>
+22:56:05.384339 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000116>
+22:56:05.384580 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000109>
+22:56:05.384840 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000148>
+22:56:05.385125 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000128>
+22:56:05.385388 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000104>
+22:56:05.385617 fstat64(46, {st_mode=030000, st_size=1, ...}) = 0 <0.000313>
+22:56:05.386036 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000146>
+22:56:05.386286 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000084>
+22:56:05.386493 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd8108000 <0.000119>
+22:56:05.386760 close(46)               = 0 <0.000330>
+22:56:05.387276 write(42, "<?xml version='1.0' encoding='ut"..., 291) = 291 <0.000101>
+22:56:05.387484 fsync(42)               = 0 <0.007761>
+22:56:05.395392 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000091>
+22:56:05.395603 close(42)               = 0 <0.000096>
+22:56:05.395960 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000195>
+22:56:05.396299 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000140>
+22:56:05.396612 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000096>
+22:56:05.396817 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000124>
+22:56:05.397114 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000089>
+22:56:05.397316 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000085>
+22:56:05.397515 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000219>
+22:56:05.397846 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000103>
+22:56:05.398054 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000087>
+22:56:05.398269 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000091>
+22:56:05.398460 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000082>
+22:56:05.398647 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000083>
+22:56:05.398837 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000082>
+22:56:05.399018 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd8103000 <0.000091>
+22:56:05.399230 close(46)               = 0 <0.000100>
+22:56:05.399546 write(42, "<?xml version='1.0' encoding='ut"..., 342) = 342 <0.000119>
+22:56:05.399784 fsync(42)               = 0 <0.001193>
+22:56:05.401105 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000099>
+22:56:05.401331 close(42)               = 0 <0.000091>
+22:56:05.401544 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000208>
+22:56:05.401898 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000093>
+22:56:05.402116 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000089>
+22:56:05.402332 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000132>
+22:56:05.402621 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000090>
+22:56:05.402825 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000106>
+22:56:05.403047 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000100>
+22:56:05.403267 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000109>
+22:56:05.403501 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000106>
+22:56:05.403762 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000097>
+22:56:05.403984 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000102>
+22:56:05.404195 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000092>
+22:56:05.404393 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000101>
+22:56:05.404601 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f6e000 <0.000099>
+22:56:05.404813 close(46)               = 0 <0.000108>
+22:56:05.405087 write(42, "<?xml version='1.0' encoding='ut"..., 392) = 392 <0.000199>
+22:56:05.405417 fsync(42)               = 0 <0.001343>
+22:56:05.406919 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000159>
+22:56:05.407221 close(42)               = 0 <0.000100>
+22:56:05.407567 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000072>
+22:56:05.407783 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000086>
+22:56:05.408022 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000102>
+22:56:05.408245 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000143>
+22:56:05.408546 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000097>
+22:56:05.408767 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000103>
+22:56:05.409002 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000113>
+22:56:05.409252 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000138>
+22:56:05.409486 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000074>
+22:56:05.409899 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000102>
+22:56:05.410132 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000082>
+22:56:05.410343 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000091>
+22:56:05.410556 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000103>
+22:56:05.410777 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f69000 <0.000118>
+22:56:05.411037 close(46)               = 0 <0.000107>
+22:56:05.411306 write(42, "<?xml version='1.0' encoding='ut"..., 445) = 445 <0.000104>
+22:56:05.411536 fsync(42)               = 0 <0.001179>
+22:56:05.412833 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000089>
+22:56:05.413050 close(42)               = 0 <0.000102>
+22:56:05.413284 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000111>
+22:56:05.413520 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000343>
+22:56:05.414019 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000097>
+22:56:05.414255 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000122>
+22:56:05.414540 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000106>
+22:56:05.414770 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000108>
+22:56:05.415041 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000111>
+22:56:05.415282 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000109>
+22:56:05.415610 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000093>
+22:56:05.415830 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000102>
+22:56:05.416060 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000102>
+22:56:05.416280 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000115>
+22:56:05.416517 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000094>
+22:56:05.416722 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f64000 <0.000122>
+22:56:05.416965 close(46)               = 0 <0.000096>
+22:56:05.417226 write(42, "<?xml version='1.0' encoding='ut"..., 503) = 503 <0.000101>
+22:56:05.417437 fsync(42)               = 0 <0.001367>
+22:56:05.418929 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000097>
+22:56:05.419150 close(42)               = 0 <0.000096>
+22:56:05.419370 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000116>
+22:56:05.419631 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000101>
+22:56:05.419872 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000101>
+22:56:05.420127 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000140>
+22:56:05.420443 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000097>
+22:56:05.420666 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000172>
+22:56:05.421079 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000178>
+22:56:05.421493 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000134>
+22:56:05.421858 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000077>
+22:56:05.422060 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000104>
+22:56:05.422288 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000087>
+22:56:05.422538 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000098>
+22:56:05.422745 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000086>
+22:56:05.422935 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f5f000 <0.000091>
+22:56:05.423137 close(46)               = 0 <0.000083>
+22:56:05.423401 write(42, "<?xml version='1.0' encoding='ut"..., 559) = 559 <0.000096>
+22:56:05.423612 fsync(42)               = 0 <0.001214>
+22:56:05.424934 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000078>
+22:56:05.425117 close(42)               = 0 <0.000099>
+22:56:05.425331 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000092>
+22:56:05.425538 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000137>
+22:56:05.425895 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000108>
+22:56:05.426110 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000128>
+22:56:05.426393 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000097>
+22:56:05.426608 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000096>
+22:56:05.426840 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000102>
+22:56:05.427060 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000121>
+22:56:05.427295 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000084>
+22:56:05.427501 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000105>
+22:56:05.427715 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000099>
+22:56:05.427931 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000087>
+22:56:05.428129 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000097>
+22:56:05.428338 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f5a000 <0.000101>
+22:56:05.428554 close(46)               = 0 <0.000091>
+22:56:05.428817 write(42, "<?xml version='1.0' encoding='ut"..., 613) = 613 <0.000102>
+22:56:05.429042 fsync(42)               = 0 <0.001177>
+22:56:05.430344 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000088>
+22:56:05.430559 close(42)               = 0 <0.000095>
+22:56:05.430776 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000106>
+22:56:05.431013 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000096>
+22:56:05.431236 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000084>
+22:56:05.431437 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000135>
+22:56:05.431728 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000098>
+22:56:05.431945 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000087>
+22:56:05.432157 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000099>
+22:56:05.432373 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000095>
+22:56:05.432579 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000092>
+22:56:05.432788 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000090>
+22:56:05.432987 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000108>
+22:56:05.433208 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000111>
+22:56:05.433415 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000094>
+22:56:05.433620 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f55000 <0.000143>
+22:56:05.433914 close(46)               = 0 <0.000141>
+22:56:05.434235 write(42, "<?xml version='1.0' encoding='ut"..., 669) = 669 <0.000130>
+22:56:05.434493 fsync(42)               = 0 <0.001575>
+22:56:05.436195 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000090>
+22:56:05.436420 close(42)               = 0 <0.000088>
+22:56:05.436630 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000104>
+22:56:05.436852 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000089>
+22:56:05.437098 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000114>
+22:56:05.437384 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000213>
+22:56:05.437841 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000123>
+22:56:05.438088 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000096>
+22:56:05.438318 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000108>
+22:56:05.438552 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000132>
+22:56:05.438815 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000091>
+22:56:05.439020 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000111>
+22:56:05.439255 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000125>
+22:56:05.439537 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000112>
+22:56:05.439762 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000092>
+22:56:05.439978 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f50000 <0.000125>
+22:56:05.440267 close(46)               = 0 <0.000111>
+22:56:05.440601 write(42, "<?xml version='1.0' encoding='ut"..., 717) = 717 <0.000109>
+22:56:05.440822 fsync(42)               = 0 <0.001147>
+22:56:05.442097 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000082>
+22:56:05.442284 close(42)               = 0 <0.000079>
+22:56:05.442467 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000100>
+22:56:05.442679 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000081>
+22:56:05.442880 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000081>
+22:56:05.443068 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000111>
+22:56:05.443325 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000080>
+22:56:05.443508 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000078>
+22:56:05.443691 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000088>
+22:56:05.443887 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000091>
+22:56:05.444072 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000074>
+22:56:05.444251 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000081>
+22:56:05.444424 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000074>
+22:56:05.444649 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000104>
+22:56:05.444855 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000094>
+22:56:05.445074 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f4b000 <0.000124>
+22:56:05.445363 close(46)               = 0 <0.000467>
+22:56:05.451938 write(42, "<?xml version='1.0' encoding='ut"..., 768) = 768 <0.000152>
+22:56:05.452209 fsync(42)               = 0 <0.001913>
+22:56:05.454286 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000028>
+22:56:05.454427 close(42)               = 0 <0.000130>
+22:56:05.454813 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000130>
+22:56:05.455218 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000665>
+22:56:05.456121 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000125>
+22:56:05.456389 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000142>
+22:56:05.456743 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000157>
+22:56:05.457027 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000112>
+22:56:05.457252 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000195>
+22:56:05.457617 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000336>
+22:56:05.458069 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000089>
+22:56:05.458287 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000082>
+22:56:05.458462 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000074>
+22:56:05.458635 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000074>
+22:56:05.458798 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000073>
+22:56:05.458963 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f46000 <0.000084>
+22:56:05.459150 close(46)               = 0 <0.000076>
+22:56:05.459400 write(42, "<?xml version='1.0' encoding='ut"..., 813) = 813 <0.000095>
+22:56:05.459593 fsync(42)               = 0 <0.001078>
+22:56:05.460773 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000074>
+22:56:05.460945 close(42)               = 0 <0.000075>
+22:56:05.461126 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000086>
+22:56:05.461315 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000077>
+22:56:05.461504 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000082>
+22:56:05.461682 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000297>
+22:56:05.462131 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000082>
+22:56:05.462319 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000080>
+22:56:05.462505 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000100>
+22:56:05.462715 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000092>
+22:56:05.462901 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000075>
+22:56:05.463095 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000082>
+22:56:05.463270 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000076>
+22:56:05.463445 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000076>
+22:56:05.463625 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000081>
+22:56:05.463803 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f41000 <0.000083>
+22:56:05.463988 close(46)               = 0 <0.000086>
+22:56:05.464224 write(42, "<?xml version='1.0' encoding='ut"..., 864) = 864 <0.000090>
+22:56:05.464415 fsync(42)               = 0 <0.000973>
+22:56:05.465502 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000161>
+22:56:05.465918 close(42)               = 0 <0.000101>
+22:56:05.466135 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000091>
+22:56:05.466343 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000117>
+22:56:05.466623 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000109>
+22:56:05.466845 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000110>
+22:56:05.467105 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000092>
+22:56:05.467313 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000082>
+22:56:05.467530 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000108>
+22:56:05.467753 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000095>
+22:56:05.467946 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000078>
+22:56:05.468152 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000085>
+22:56:05.468343 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000104>
+22:56:05.468588 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000098>
+22:56:05.468799 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000092>
+22:56:05.469007 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f3c000 <0.000098>
+22:56:05.469227 close(46)               = 0 <0.000097>
+22:56:05.469507 write(42, "<?xml version='1.0' encoding='ut"..., 916) = 916 <0.000112>
+22:56:05.469724 fsync(42)               = 0 <0.001286>
+22:56:05.471264 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000090>
+22:56:05.471468 close(42)               = 0 <0.000099>
+22:56:05.471685 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000110>
+22:56:05.471918 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000094>
+22:56:05.472154 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000094>
+22:56:05.472408 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000130>
+22:56:05.472730 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000092>
+22:56:05.472963 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000082>
+22:56:05.473179 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000119>
+22:56:05.473429 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000105>
+22:56:05.473640 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000140>
+22:56:05.473923 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000099>
+22:56:05.474137 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000104>
+22:56:05.474364 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000087>
+22:56:05.474583 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000087>
+22:56:05.474792 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f37000 <0.000121>
+22:56:05.475039 close(46)               = 0 <0.000103>
+22:56:05.475358 write(42, "<?xml version='1.0' encoding='ut"..., 967) = 967 <0.000117>
+22:56:05.475663 fsync(42)               = 0 <0.001047>
+22:56:05.476848 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000100>
+22:56:05.477059 close(42)               = 0 <0.000090>
+22:56:05.477295 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000117>
+22:56:05.477545 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000100>
+22:56:05.477872 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000087>
+22:56:05.478066 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000107>
+22:56:05.478306 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000082>
+22:56:05.478494 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000081>
+22:56:05.478705 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000093>
+22:56:05.478931 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000099>
+22:56:05.479140 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000078>
+22:56:05.479334 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000104>
+22:56:05.479559 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000094>
+22:56:05.479779 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000085>
+22:56:05.479964 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000077>
+22:56:05.480138 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f32000 <0.000084>
+22:56:05.480337 close(46)               = 0 <0.000086>
+22:56:05.480630 write(42, "<?xml version='1.0' encoding='ut"..., 1017) = 1017 <0.000097>
+22:56:05.480831 fsync(42)               = 0 <0.001072>
+22:56:05.482012 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000091>
+22:56:05.482226 close(42)               = 0 <0.000086>
+22:56:05.482424 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000104>
+22:56:05.482651 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000084>
+22:56:05.482863 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000090>
+22:56:05.483062 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000164>
+22:56:05.483390 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000081>
+22:56:05.483594 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000097>
+22:56:05.483809 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000093>
+22:56:05.484033 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000112>
+22:56:05.484250 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000092>
+22:56:05.484460 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000114>
+22:56:05.484710 fstat64(46, {st_mode=0250, st_size=1, ...}) = 0 <0.000098>
+22:56:05.484943 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000210>
+22:56:05.485265 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000102>
+22:56:05.485469 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f2d000 <0.000179>
+22:56:05.485829 close(46)               = 0 <0.000080>
+22:56:05.486093 write(42, "<?xml version='1.0' encoding='ut"..., 1074) = 1074 <0.000115>
+22:56:05.486344 fsync(42)               = 0 <0.001056>
+22:56:05.487510 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000084>
+22:56:05.487693 close(42)               = 0 <0.000076>
+22:56:05.487869 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000088>
+22:56:05.488063 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000079>
+22:56:05.488255 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000079>
+22:56:05.488431 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000103>
+22:56:05.488670 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000079>
+22:56:05.488851 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000078>
+22:56:05.489032 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000088>
+22:56:05.489292 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000148>
+22:56:05.489565 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000098>
+22:56:05.489869 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000141>
+22:56:05.490172 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000115>
+22:56:05.490413 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000091>
+22:56:05.490622 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000089>
+22:56:05.490819 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f28000 <0.000097>
+22:56:05.491051 close(46)               = 0 <0.000098>
+22:56:05.491345 write(42, "<?xml version='1.0' encoding='ut"..., 1132) = 1132 <0.000103>
+22:56:05.491572 fsync(42)               = 0 <0.001079>
+22:56:05.492773 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000096>
+22:56:05.493009 close(42)               = 0 <0.000092>
+22:56:05.493214 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000101>
+22:56:05.493433 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000091>
+22:56:05.493651 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000188>
+22:56:05.493986 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000156>
+22:56:05.494304 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000096>
+22:56:05.494528 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000097>
+22:56:05.494746 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000102>
+22:56:05.494972 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000110>
+22:56:05.495190 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000087>
+22:56:05.495396 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000093>
+22:56:05.495684 fstat64(46, {st_mode=032460, st_size=1, ...}) = 0 <0.000087>
+22:56:05.495882 ioctl(46, ASHMEM_SET_NAME, 0xff81c630) = 0 <0.000087>
+22:56:05.496071 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000087>
+22:56:05.496274 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f23000 <0.000093>
+22:56:05.496480 close(46)               = 0 <0.000100>
+22:56:05.496750 write(42, "<?xml version='1.0' encoding='ut"..., 1191) = 1191 <0.000100>
+22:56:05.496961 fsync(42)               = 0 <0.001166>
+22:56:05.498263 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81ca44, 0xff81ca40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000090>
+22:56:05.498465 close(42)               = 0 <0.000089>
+22:56:05.498669 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000099>
+22:56:05.498886 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000091>
+22:56:05.499110 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000090>
+22:56:05.499311 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000112>
+22:56:05.499566 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", F_OK) = 0 <0.000150>
+22:56:05.499861 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000115>
+22:56:05.500139 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak") = 0 <0.000105>
+22:56:05.500369 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000106>
+22:56:05.500594 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000090>
+22:56:05.500809 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000096>
+22:56:05.501017 fstat64(46, {st_mode=066, st_size=1, ...}) = 0 <0.000090>
+22:56:05.501221 ioctl(46, ASHMEM_SET_NAME, 0xff81c920) = 0 <0.000089>
+22:56:05.501415 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000088>
+22:56:05.501617 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f1e000 <0.000113>
+22:56:05.501850 close(46)               = 0 <0.000091>
+22:56:05.502183 write(42, "<?xml version='1.0' encoding='ut"..., 1241) = 1241 <0.000114>
+22:56:05.502441 fsync(42)               = 0 <0.001136>
+22:56:05.503695 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xff81cd34, 0xff81cd30) = -1 ENOTSOCK (Socket operation on non-socket) <0.000088>
+22:56:05.503895 close(42)               = 0 <0.000089>
+22:56:05.504098 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", 0660) = 0 <0.000100>
+22:56:05.504316 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000091>
+22:56:05.504535 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000091>
+22:56:05.504736 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/jobernowl.xml.bak", 0) = 0 <0.000115>
+22:56:05.505027 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000094>
+22:56:05.505226 fstat64(42, {st_mode=0132000, st_size=1, ...}) = 0 <0.000087>
+22:56:05.505424 ioctl(42, ASHMEM_SET_NAME, 0xff81d1b0) = 0 <0.000178>
+22:56:05.505737 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000062>
+22:56:05.505877 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd8123000 <0.000120>
+22:56:05.506140 close(42)               = 0 <0.000107>
+22:56:05.506362 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd7b76000 <0.000091>
+22:56:05.506568 madvise(0xd7b76000, 1069056, MADV_MERGEABLE) = 0 <0.000090>
+22:56:05.506760 mprotect(0xd7b76000, 4096, PROT_NONE) = 0 <0.000090>
+22:56:05.506951 prctl(0x53564d41 /* PR_??? */, 0, 0xd7b76000, 4096, "thread stack guard page") = 0 <0.000094>
+22:56:05.507168 getpid()                = 23490 <0.000099>
+22:56:05.507390 clone(child_stack=0xd7c7a910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd7c7a928, tls={entry_number:12, base_addr:0xd7c7a970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81d500, child_tidptr=0xd7c7a928) = 23575 <0.000126>
+22:56:05.507702 futex(0xd7c7a960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000122>
+22:56:05.507987 madvise(0xe469c000, 20480, MADV_DONTNEED) = 0 <0.000183>
+22:56:05.508482 ioctl(8, BINDER_WRITE_READ, 0xff81e548) = 0 <0.000191>
+22:56:05.508834 ioctl(8, BINDER_WRITE_READ, 0xff81e548) = 0 <0.000113>
+22:56:05.509304 ioctl(8, BINDER_WRITE_READ, 0xff81e378) = 0 <0.000147>
+22:56:05.509587 ioctl(8, BINDER_WRITE_READ, 0xff81e378) = 0 <0.000401>
+22:56:05.510210 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\34\0\0\0", 30, 28111428) = 30 <0.000134>
+22:56:05.510483 pread64(23, "res/layout/screen_simple.xml", 28, 28111458) = 28 <0.000146>
+22:56:05.510782 mmap2(NULL, 1094, PROT_READ, MAP_SHARED, 23, 0x1acf000) = 0xe4194000 <0.000115>
+22:56:05.511104 munmap(0xe4194000, 1094) = 0 <0.000153>
+22:56:05.511714 ioctl(8, BINDER_WRITE_READ, 0xff81e588) = 0 <0.000406>
+22:56:05.512296 ioctl(8, BINDER_WRITE_READ, 0xff81e588) = 0 <0.000188>
+22:56:05.512720 ioctl(8, BINDER_WRITE_READ, 0xff81e6a8) = 0 <0.000144>
+22:56:05.513069 ioctl(8, BINDER_WRITE_READ, 0xff81e6a8) = 0 <0.000122>
+22:56:05.513366 ioctl(8, BINDER_WRITE_READ, 0xff81e558) = 0 <0.000160>
+22:56:05.513783 ioctl(8, BINDER_WRITE_READ, 0xff81e558) = 0 <0.000121>
+22:56:05.514068 writev(3, [{"\0\302[E\5\330Z\367\374\242\36", 11}, {"\5", 1}, {"Activity\0", 9}, {"An activity without a UI must ca"..., 72}], 4) = 93 <0.000146>
+22:56:05.514403 getuid32()              = 10283 <0.000115>
+22:56:05.514673 writev(3, [{"\2\302[E\5\330ZiS\254\36", 11}, {"Fu\0\0", 4}, {"\3\3\0\0\0\0\0\2\32\0\0\0com.g365.locf.MainAc"..., 59}], 3) = 74 <0.000199>
+22:56:05.515041 ioctl(8, BINDER_WRITE_READ, 0xff81e6a8) = 0 <0.000186>
+22:56:05.515384 ioctl(8, BINDER_WRITE_READ, 0xff81e6a8) = 0 <0.000320>
+22:56:05.515898 getpid()                = 23490 <0.000138>
+22:56:05.516147 getuid32()              = 10283 <0.000090>
+22:56:05.516344 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000089>
+22:56:05.516660 getuid32()              = 10283 <0.000111>
+22:56:05.516893 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0113266, st_size=1, ...}, 0) = 0 <0.000117>
+22:56:05.517139 fstatat64(AT_FDCWD, "/data/app/com.g365.locf-1/base.apk", {st_mode=0113266, st_size=1, ...}, 0) = 0 <0.000100>
+22:56:05.517513 getuid32()              = 10283 <0.000119>
+22:56:05.517977 ioctl(8, BINDER_WRITE_READ, 0xff81e058) = 0 <0.000161>
+22:56:05.518277 ioctl(8, BINDER_WRITE_READ, 0xff81e058) = 0 <0.000082>
+22:56:05.518515 ioctl(8, BINDER_WRITE_READ, 0xff81e6f8) = 0 <0.000126>
+22:56:05.518775 getpid()                = 23490 <0.000108>
+22:56:05.518970 getuid32()              = 10283 <0.000069>
+22:56:05.519171 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000097>
+22:56:05.519459 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf", F_OK) = 0 <0.000094>
+22:56:05.519683 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs", F_OK) = 0 <0.000095>
+22:56:05.519938 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000104>
+22:56:05.520154 fstat64(46, {st_mode=0170500, st_size=1, ...}) = 0 <0.000099>
+22:56:05.520363 ioctl(46, ASHMEM_SET_NAME, 0xff81d740) = 0 <0.000088>
+22:56:05.520560 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000106>
+22:56:05.520774 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f17000 <0.000089>
+22:56:05.520981 close(46)               = 0 <0.000103>
+22:56:05.521191 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd7a71000 <0.000097>
+22:56:05.521390 madvise(0xd7a71000, 1069056, MADV_MERGEABLE) = 0 <0.000083>
+22:56:05.521577 mprotect(0xd7a71000, 4096, PROT_NONE) = 0 <0.000086>
+22:56:05.521838 prctl(0x53564d41 /* PR_??? */, 0, 0xd7a71000, 4096, "thread stack guard page") = 0 <0.000090>
+22:56:05.522046 getpid()                = 23490 <0.000099>
+22:56:05.522244 clone(child_stack=0xd7b75910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd7b75928, tls={entry_number:12, base_addr:0xd7b75970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81da90, child_tidptr=0xd7b75928) = 23577 <0.000110>
+22:56:05.522475 futex(0xd7b75960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000108>
+22:56:05.522722 sched_yield()           = 0 <0.000123>
+22:56:05.522982 ioctl(8, BINDER_WRITE_READ, 0xff81d818) = 0 <0.000103>
+22:56:05.523191 ioctl(8, BINDER_WRITE_READ, 0xff81d818) = 0 <0.000287>
+22:56:05.523841 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 46 <0.000108>
+22:56:05.524076 fstat64(46, {st_mode=S_ISUID|S_ISVTX|0214, st_size=1, ...}) = 0 <0.000091>
+22:56:05.524291 ioctl(46, ASHMEM_SET_NAME, 0xff81d460) = 0 <0.000110>
+22:56:05.524511 ioctl(46, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000090>
+22:56:05.524720 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 46, 0) = 0xd7f17000 <0.000118>
+22:56:05.524973 close(46)               = 0 <0.000098>
+22:56:05.525181 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd7a71000 <0.000121>
+22:56:05.525409 madvise(0xd7a71000, 1069056, MADV_MERGEABLE) = 0 <0.000207>
+22:56:05.525859 mprotect(0xd7a71000, 4096, PROT_NONE) = 0 <0.000079>
+22:56:05.526029 prctl(0x53564d41 /* PR_??? */, 0, 0xd7a71000, 4096, "thread stack guard page") = 0 <0.000083>
+22:56:05.526223 getpid()                = 23490 <0.000081>
+22:56:05.526403 clone(child_stack=0xd7b75910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd7b75928, tls={entry_number:12, base_addr:0xd7b75970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81d7b0, child_tidptr=0xd7b75928) = 23578 <0.000154>
+22:56:05.526690 futex(0xd7b75960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000103>
+22:56:05.526968 ioctl(8, BINDER_WRITE_READ, 0xff81e718) = 0 <0.000454>
+22:56:05.527564 getpid()                = 23490 <0.000143>
+22:56:05.527829 getuid32()              = 10283 <0.000097>
+22:56:05.528160 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000158>
+22:56:05.528476 getuid32()              = 10283 <0.000087>
+22:56:05.528709 writev(3, [{"\2\302[E\5\330Z\210\302\202\37", 11}, {"Eu\0\0", 4}, {"\3\3\0\0\0\0\0\2\32\0\0\0com.g365.locf.MainAc"..., 63}], 3) = 78 <0.000096>
+22:56:05.528933 getpid()                = 23490 <0.000078>
+22:56:05.529112 getuid32()              = 10283 <0.000080>
+22:56:05.529295 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000077>
+22:56:05.529512 getuid32()              = 10283 <0.000084>
+22:56:05.529739 writev(3, [{"\2\302[E\5\330Z\206\357\221\37", 11}, {"au\0\0", 4}, {"\3\3\0\0\0\0\0\2\32\0\0\0com.g365.locf.MainAc"..., 62}], 3) = 77 <0.000118>
+22:56:05.530076 getpid()                = 23490 <0.000094>
+22:56:05.530282 getuid32()              = 10283 <0.000095>
+22:56:05.530506 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000097>
+22:56:05.530735 getuid32()              = 10283 <0.000091>
+22:56:05.530944 writev(3, [{"\2\302[E\5\330Z\20\324\244\37", 11}, {"au\0\0", 4}, {"\3\3\0\0\0\0\0\2\27\0\0\0com.conans.forces.Um"..., 48}], 3) = 63 <0.000109>
+22:56:05.531205 ioctl(8, BINDER_WRITE_READ, 0xff81e708) = 0 <0.000105>
+22:56:05.531426 getpid()                = 23490 <0.000098>
+22:56:05.531646 getuid32()              = 10283 <0.000091>
+22:56:05.531856 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000100>
+22:56:05.532120 ioctl(8, BINDER_WRITE_READ, 0xff81e708) = 0 <0.000120>
+22:56:05.532390 getpid()                = 23490 <0.000093>
+22:56:05.532595 getuid32()              = 10283 <0.000097>
+22:56:05.532802 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000092>
+22:56:05.533029 getpid()                = 23490 <0.000101>
+22:56:05.533268 getuid32()              = 10283 <0.000104>
+22:56:05.533478 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000092>
+22:56:05.533737 ioctl(8, BINDER_WRITE_READ, 0xff81e5d8) = 0 <0.000104>
+22:56:05.533944 ioctl(8, BINDER_WRITE_READ, 0xff81e5d8) = 0 <0.000086>
+22:56:05.534162 ioctl(8, BINDER_WRITE_READ, 0xff81e5f8) = 0 <0.000099>
+22:56:05.534360 ioctl(8, BINDER_WRITE_READ, 0xff81e5f8) = 0 <0.000089>
+22:56:05.534577 writev(3, [{"\0\302[E\5\330Z\26O\334\37", 11}, {"\5", 1}, {"Activity\0", 9}, {"An activity without a UI must ca"..., 72}], 4) = 93 <0.000101>
+22:56:05.534843 getuid32()              = 10283 <0.000082>
+22:56:05.535035 writev(3, [{"\2\302[E\5\330Z\262P\343\37", 11}, {"Fu\0\0", 4}, {"\3\3\0\0\0\0\0\2\32\0\0\0com.g365.locf.MainAc"..., 59}], 3) = 74 <0.000096>
+22:56:05.535250 ioctl(8, BINDER_WRITE_READ, 0xff81e748) = 0 <0.000093>
+22:56:05.535432 ioctl(8, BINDER_WRITE_READ, 0xff81e748) = 0 <0.000160>
+22:56:05.535693 getpid()                = 23490 <0.000075>
+22:56:05.535853 getuid32()              = 10283 <0.000073>
+22:56:05.536015 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000081>
+22:56:05.536213 ioctl(8, BINDER_WRITE_READ, 0xff81e7b8) = 0 <0.000089>
+22:56:05.536397 getpid()                = 23490 <0.000107>
+22:56:05.536613 getuid32()              = 10283 <0.000101>
+22:56:05.536842 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000107>
+22:56:05.537090 getpid()                = 23490 <0.000102>
+22:56:05.537315 getuid32()              = 10283 <0.000119>
+22:56:05.537542 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000081>
+22:56:05.537816 getpid()                = 23490 <0.000086>
+22:56:05.538001 getuid32()              = 10283 <0.000097>
+22:56:05.538210 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000083>
+22:56:05.538432 ioctl(8, BINDER_WRITE_READ, 0xff81e768) = 0 <0.000107>
+22:56:05.538672 ioctl(8, BINDER_WRITE_READ, 0xff81e768) = 0 <0.000087>
+22:56:05.538872 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000084>
+22:56:05.539078 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1 <1.896830>
+22:56:07.436195 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000231>
+22:56:07.436761 ioctl(8, BINDER_WRITE_READ, 0xff81e178) = 0 <0.000267>
+22:56:07.437299 ioctl(8, BINDER_WRITE_READ, 0xff81e178) = 0 <0.000237>
+22:56:07.438025 getuid32()              = 10283 <0.000227>
+22:56:07.438548 ioctl(8, BINDER_WRITE_READ, 0xff81e0c8) = 0 <0.000263>
+22:56:07.439072 ioctl(8, BINDER_WRITE_READ, 0xff81e0c8) = 0 <0.000237>
+22:56:07.439633 ioctl(8, BINDER_WRITE_READ, 0xff81e118) = 0 <0.000270>
+22:56:07.440187 ioctl(8, BINDER_WRITE_READ, 0xff81e118) = 0 <0.000232>
+22:56:07.440755 ioctl(8, BINDER_WRITE_READ, 0xff81e728) = 0 <0.000278>
+22:56:07.441344 getpid()                = 23490 <0.000230>
+22:56:07.441952 getuid32()              = 10283 <0.000223>
+22:56:07.442463 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000230>
+22:56:07.442975 getpid()                = 23490 <0.000227>
+22:56:07.443476 getuid32()              = 10283 <0.000227>
+22:56:07.443965 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000224>
+22:56:07.444487 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1 <0.246663>
+22:56:07.691544 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000255>
+22:56:07.692204 writev(3, [{"\0\302[G\5\330Z\273\315?)", 11}, {"\4", 1}, {"log\0", 4}, {"load local pp error...\0", 23}], 4) = 39 <0.000495>
+22:56:07.693316 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/pp_share.xml", F_OK) = 0 <0.000330>
+22:56:07.694319 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/pp_share.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000249>
+22:56:07.694878 renameat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/pp_share.xml", AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/pp_share.xml.bak") = 0 <0.000376>
+22:56:07.695714 openat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/pp_share.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 35 <0.000266>
+22:56:07.696252 fstat64(35, {st_mode=0171710, st_size=1, ...}) = 0 <0.000227>
+22:56:07.696793 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 36 <0.000239>
+22:56:07.697322 fstat64(36, {st_mode=0107, st_size=1, ...}) = 0 <0.000227>
+22:56:07.698011 ioctl(36, ASHMEM_SET_NAME, 0xff81db20) = 0 <0.000216>
+22:56:07.698491 ioctl(36, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000228>
+22:56:07.698984 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 36, 0) = 0xf015b000 <0.000236>
+22:56:07.699527 close(36)               = 0 <0.000250>
+22:56:07.700209 write(35, "<?xml version='1.0' encoding='ut"..., 912) = 912 <0.000263>
+22:56:07.700772 fsync(35)               = 0 <0.002478>
+22:56:07.703560 getsockopt(35, SOL_SOCKET, SO_ERROR, 0xff81df34, 0xff81df30) = -1 ENOTSOCK (Socket operation on non-socket) <0.000259>
+22:56:07.704141 close(35)               = 0 <0.000253>
+22:56:07.704680 fchmodat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/pp_share.xml", 0660) = 0 <0.000250>
+22:56:07.705226 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/pp_share.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000236>
+22:56:07.705938 fstatat64(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/pp_share.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000239>
+22:56:07.706463 unlinkat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs/pp_share.xml.bak", 0) = 0 <0.000292>
+22:56:07.707062 getpid()                = 23490 <0.000229>
+22:56:07.707548 getuid32()              = 10283 <0.000243>
+22:56:07.708053 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000229>
+22:56:07.708554 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1 <1.398159>
+22:56:09.107092 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000269>
+22:56:09.107809 ioctl(8, BINDER_WRITE_READ, 0xff81dec8) = 0 <0.000340>
+22:56:09.108481 ioctl(8, BINDER_WRITE_READ, 0xff81dec8) = 0 <0.000302>
+22:56:09.109216 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/files", F_OK) = 0 <0.000297>
+22:56:09.110072 ioctl(8, BINDER_WRITE_READ, 0xff81dd98) = 0 <0.000308>
+22:56:09.110702 ioctl(8, BINDER_WRITE_READ, 0xff81dd98) = 0 <0.000243>
+22:56:09.111289 ioctl(8, BINDER_WRITE_READ, 0xff81ddc8) = 0 <0.000272>
+22:56:09.111827 ioctl(8, BINDER_WRITE_READ, 0xff81ddc8) = 0 <0.000246>
+22:56:09.112376 ioctl(8, BINDER_WRITE_READ, 0xff81ddc8) = 0 <0.000287>
+22:56:09.112933 ioctl(8, BINDER_WRITE_READ, 0xff81ddc8) = 0 <0.000244>
+22:56:09.113515 getuid32()              = 10283 <0.000255>
+22:56:09.114065 ioctl(8, BINDER_WRITE_READ, 0xff81dd88) = 0 <0.000267>
+22:56:09.114621 ioctl(8, BINDER_WRITE_READ, 0xff81dd88) = 0 <0.000237>
+22:56:09.115185 ioctl(8, BINDER_WRITE_READ, 0xff81ddb8) = 0 <0.000356>
+22:56:09.115818 ioctl(8, BINDER_WRITE_READ, 0xff81ddb8) = 0 <0.000255>
+22:56:09.116373 ioctl(8, BINDER_WRITE_READ, 0xff81ddb8) = 0 <0.000283>
+22:56:09.116962 ioctl(8, BINDER_WRITE_READ, 0xff81ddb8) = 0 <0.000410>
+22:56:09.117698 fstatat64(AT_FDCWD, "/storage", {st_mode=0, st_size=4, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000218>
+22:56:09.118298 fstatat64(AT_FDCWD, "/storage/emulated", {st_mode=0, st_size=4, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000245>
+22:56:09.118818 fstatat64(AT_FDCWD, "/storage/emulated/0", {st_mode=0, st_size=85, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000231>
+22:56:09.119389 ioctl(8, BINDER_WRITE_READ, 0xff81dd98) = 0 <0.000277>
+22:56:09.119943 ioctl(8, BINDER_WRITE_READ, 0xff81dd98) = 0 <0.000252>
+22:56:09.120518 ioctl(8, BINDER_WRITE_READ, 0xff81ddc8) = 0 <0.000273>
+22:56:09.121067 ioctl(8, BINDER_WRITE_READ, 0xff81ddc8) = 0 <0.000242>
+22:56:09.121642 ioctl(8, BINDER_WRITE_READ, 0xff81ddc8) = 0 <0.000270>
+22:56:09.122250 ioctl(8, BINDER_WRITE_READ, 0xff81ddc8) = 0 <0.000439>
+22:56:09.123033 faccessat(AT_FDCWD, "/storage/emulated/0/ddad", F_OK) = 0 <0.000260>
+22:56:09.123634 faccessat(AT_FDCWD, "/storage/emulated/0/ddad/runing.properties", F_OK) = -1 ENOENT (No such file or directory) <0.000571>
+22:56:09.124529 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/files", F_OK) = 0 <0.000249>
+22:56:09.125117 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/files/runing.properties", F_OK) = -1 ENOENT (No such file or directory) <0.000258>
+22:56:09.125957 getpid()                = 23490 <0.000347>
+22:56:09.126612 getuid32()              = 10283 <0.000238>
+22:56:09.127132 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000239>
+22:56:09.127693 getpid()                = 23490 <0.000237>
+22:56:09.128215 getuid32()              = 10283 <0.000251>
+22:56:09.128740 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000253>
+22:56:09.129274 ioctl(8, BINDER_WRITE_READ, 0xff81e988) = 0 <0.000253>
+22:56:09.129982 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1 <1.331541>
+22:56:10.461665 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000054>
+22:56:10.461941 getpid()                = 23490 <0.000040>
+22:56:10.462046 getuid32()              = 10283 <0.000041>
+22:56:10.462303 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000045>
+22:56:10.462859 epoll_pwait(29, 0xff81e8a8, 16, -1, NULL, 8) = -1 EINTR (Interrupted system call) <0.030368>
+22:56:10.493297 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=23490, si_uid=10283} ---
+22:56:10.493345 getpid()                = 23490 <0.000023>
+22:56:10.493480 futex(0xe42f4154, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000114>
+22:56:10.493654 futex(0xe42f4154, FUTEX_WAIT_BITSET_PRIVATE, 6, {13374, 719945514}, ffffffff) = 0 <0.000506>
+22:56:10.494283 futex(0xe42f4154, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000092>
+22:56:10.494428 rt_sigreturn()          = -1 EINTR (Interrupted system call) <0.000027>
+22:56:10.494634 futex(0xf1320a10, FUTEX_WAKE, 1) = 0 <0.000028>
+22:56:10.494720 futex(0xf12b0128, FUTEX_WAIT, 11, NULL) = 0 <0.010267>
+22:56:10.505197 futex(0xf1320a10, FUTEX_WAKE, 1) = 0 <0.000154>
+22:56:10.505806 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1 <1.929698>
+22:56:12.435828 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000045>
+22:56:12.436034 getuid32()              = 10283 <0.000040>
+22:56:12.436155 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0113266, st_size=1, ...}, 0) = 0 <0.000050>
+22:56:12.436291 fstatat64(AT_FDCWD, "/data/app/com.g365.locf-1/base.apk", {st_mode=0113266, st_size=1, ...}, 0) = 0 <0.000046>
+22:56:12.436555 getuid32()              = 10283 <0.000039>
+22:56:12.436858 ioctl(8, BINDER_WRITE_READ, 0xff81e058) = 0 <0.000171>
+22:56:12.437108 ioctl(8, BINDER_WRITE_READ, 0xff81e058) = 0 <0.000332>
+22:56:12.437608 ioctl(8, BINDER_WRITE_READ, 0xff81e6f8) = 0 <0.000688>
+22:56:12.438400 getpid()                = 23490 <0.000071>
+22:56:12.438542 getuid32()              = 10283 <0.000038>
+22:56:12.438647 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000040>
+22:56:12.438870 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf", F_OK) = 0 <0.000090>
+22:56:12.439064 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs", F_OK) = 0 <0.000048>
+22:56:12.439267 ioctl(8, BINDER_WRITE_READ, 0xff81d818) = 0 <0.000755>
+22:56:12.440144 ioctl(8, BINDER_WRITE_READ, 0xff81d818) = 0 <0.000043>
+22:56:12.440404 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 36 <0.000061>
+22:56:12.440580 fstat64(36, {st_mode=S_ISUID|S_ISVTX|0214, st_size=1, ...}) = 0 <0.000040>
+22:56:12.440696 ioctl(36, ASHMEM_SET_NAME, 0xff81d460) = 0 <0.000040>
+22:56:12.440800 ioctl(36, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000039>
+22:56:12.440906 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 36, 0) = 0xe4169000 <0.000061>
+22:56:12.441075 close(36)               = 0 <0.000043>
+22:56:12.441187 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd796c000 <0.000044>
+22:56:12.441298 madvise(0xd796c000, 1069056, MADV_MERGEABLE) = 0 <0.000041>
+22:56:12.441400 mprotect(0xd796c000, 4096, PROT_NONE) = 0 <0.000048>
+22:56:12.441538 prctl(0x53564d41 /* PR_??? */, 0, 0xd796c000, 4096, "thread stack guard page") = 0 <0.000041>
+22:56:12.441659 getpid()                = 23490 <0.000151>
+22:56:12.441988 clone(child_stack=0xd7a70910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd7a70928, tls={entry_number:12, base_addr:0xd7a70970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81d7b0, child_tidptr=0xd7a70928) = 23595 <0.000108>
+22:56:12.442203 futex(0xd7a70960, FUTEX_WAKE_PRIVATE, 1) = 0 <0.000045>
+22:56:12.442359 ioctl(8, BINDER_WRITE_READ, 0xff81e718) = 0 <0.000474>
+22:56:12.442925 getpid()                = 23490 <0.000041>
+22:56:12.443029 getuid32()              = 10283 <0.000039>
+22:56:12.443134 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000040>
+22:56:12.443256 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1 <0.516491>
+22:56:12.959853 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000044>
+22:56:12.960067 ioctl(8, BINDER_WRITE_READ, 0xff81e178) = 0 <0.000229>
+22:56:12.960380 ioctl(8, BINDER_WRITE_READ, 0xff81e178) = 0 <0.000044>
+22:56:12.960556 getuid32()              = 10283 <0.000040>
+22:56:12.960688 ioctl(8, BINDER_WRITE_READ, 0xff81e118) = 0 <0.000172>
+22:56:12.960933 ioctl(8, BINDER_WRITE_READ, 0xff81e118) = 0 <0.000044>
+22:56:12.961129 ioctl(8, BINDER_WRITE_READ, 0xff81e728) = 0 <0.000227>
+22:56:12.961447 getpid()                = 23490 <0.000068>
+22:56:12.961588 getuid32()              = 10283 <0.000041>
+22:56:12.962239 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000051>
+22:56:12.962390 getpid()                = 23490 <0.000071>
+22:56:12.962591 getuid32()              = 10283 <0.000040>
+22:56:12.962741 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000042>
+22:56:12.962864 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1 <4.997021>
+22:56:17.959990 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000043>
+22:56:17.960189 getuid32()              = 10283 <0.000048>
+22:56:17.960359 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFDIR|S_ISGID|0340, st_size=1, ...}, 0) = 0 <0.000188>
+22:56:17.960914 fstatat64(AT_FDCWD, "/data/app/com.g365.locf-1/base.apk", {st_mode=S_IFDIR|S_ISGID|0340, st_size=1, ...}, 0) = 0 <0.000047>
+22:56:17.962249 futex(0xe46a2418, FUTEX_WAKE, 1) = 1 <0.000172>
+22:56:17.962650 futex(0xe46b13b0, FUTEX_WAKE, 1) = 1 <0.000179>
+22:56:17.962996 futex(0xe468b970, FUTEX_WAKE, 1) = 1 <0.000480>
+22:56:17.963672 futex(0xe468b990, FUTEX_WAKE, 1) = 1 <0.000472>
+22:56:17.964484 futex(0xe468b970, FUTEX_WAKE, 1) = 1 <0.000513>
+22:56:17.965926 ioctl(8, BINDER_WRITE_READ, 0xff81e658) = 0 <0.001380>
+22:56:17.968401 getpid()                = 23490 <0.000335>
+22:56:17.969087 getuid32()              = 10283 <0.000250>
+22:56:17.969603 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000558>
+22:56:17.970549 getuid32()              = 10283 <0.000213>
+22:56:17.971035 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0113266, st_size=1, ...}, 0) = 0 <0.000330>
+22:56:17.971842 fstatat64(AT_FDCWD, "/data/app/com.g365.locf-1/base.apk", {st_mode=0113266, st_size=1, ...}, 0) = 0 <0.000264>
+22:56:17.972494 getuid32()              = 10283 <0.000225>
+22:56:17.973172 ioctl(8, BINDER_WRITE_READ, 0xff81e058) = 0 <0.000305>
+22:56:17.974224 ioctl(8, BINDER_WRITE_READ, 0xff81e058) = 0 <0.000224>
+22:56:17.974757 ioctl(8, BINDER_WRITE_READ, 0xff81e6f8) = 0 <0.000352>
+22:56:17.975402 getpid()                = 23490 <0.000211>
+22:56:17.975880 getuid32()              = 10283 <0.000235>
+22:56:17.976386 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000221>
+22:56:17.976981 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf", F_OK) = 0 <0.000231>
+22:56:17.977548 faccessat(AT_FDCWD, "/data/user/0/com.g365.locf/shared_prefs", F_OK) = 0 <0.001090>
+22:56:17.978984 futex(0xe468bab0, FUTEX_WAKE, 1) = 1 <0.000254>
+22:56:17.979488 futex(0xe468ba90, FUTEX_WAKE, 1) = 1 <0.000248>
+22:56:17.980003 futex(0xe468ba90, FUTEX_WAKE, 1) = 0 <0.000223>
+22:56:17.980485 futex(0xe468bab0, FUTEX_WAIT, 1, NULL) = -1 EAGAIN (Try again) <0.000226>
+22:56:17.981114 ioctl(8, BINDER_WRITE_READ, 0xff81d818) = 0 <0.000286>
+22:56:17.981837 ioctl(8, BINDER_WRITE_READ, 0xff81d818) = 0 <0.001407>
+22:56:17.983703 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 38 <0.000258>
+22:56:17.984242 fstat64(38, {st_mode=01, st_size=1, ...}) = 0 <0.000225>
+22:56:17.984745 ioctl(38, ASHMEM_SET_NAME, 0xff81d460) = 0 <0.000220>
+22:56:17.985226 ioctl(38, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000226>
+22:56:17.986074 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 38, 0) = 0xd8e4b000 <0.000409>
+22:56:17.986805 close(38)               = 0 <0.000237>
+22:56:17.987314 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd7867000 <0.000250>
+22:56:17.987831 madvise(0xd7867000, 1069056, MADV_MERGEABLE) = 0 <0.000226>
+22:56:17.988311 mprotect(0xd7867000, 4096, PROT_NONE) = 0 <0.000229>
+22:56:17.988789 prctl(0x53564d41 /* PR_??? */, 0, 0xd7867000, 4096, "thread stack guard page") = 0 <0.000220>
+22:56:17.989298 getpid()                = 23490 <0.000230>
+22:56:17.989976 clone(child_stack=0xd796b910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd796b928, tls={entry_number:12, base_addr:0xd796b970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff81d7b0, child_tidptr=0xd796b928) = 23601 <0.000329>
+22:56:17.990620 futex(0xd796b960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000278>
+22:56:17.991097 ioctl(8, BINDER_WRITE_READ, 0xff81e718) = 0 <0.000592>
+22:56:17.991890 getpid()                = 23490 <0.000113>
+22:56:17.992148 getuid32()              = 10283 <0.000164>
+22:56:17.992450 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000190>
+22:56:17.992852 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1 <0.006225>
+22:56:17.999227 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000106>
+22:56:17.999478 getpid()                = 23490 <0.000111>
+22:56:17.999707 getuid32()              = 10283 <0.000102>
+22:56:17.999930 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000103>
+22:56:18.000157 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1 <0.778911>
+22:56:18.779356 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000229>
+22:56:18.779960 ioctl(8, BINDER_WRITE_READ, 0xff81e178) = 0 <0.000178>
+22:56:18.780222 ioctl(8, BINDER_WRITE_READ, 0xff81e178) = 0 <0.000260>
+22:56:18.780623 getuid32()              = 10283 <0.000036>
+22:56:18.780776 ioctl(8, BINDER_WRITE_READ, 0xff81e118) = 0 <0.000079>
+22:56:18.780925 ioctl(8, BINDER_WRITE_READ, 0xff81e118) = 0 <0.000397>
+22:56:18.781653 ioctl(8, BINDER_WRITE_READ, 0xff81e728) = 0 <0.000853>
+22:56:18.782836 getpid()                = 23490 <0.000224>
+22:56:18.783329 getuid32()              = 10283 <0.000228>
+22:56:18.783848 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000229>
+22:56:18.784356 getpid()                = 23490 <0.000225>
+22:56:18.784843 getuid32()              = 10283 <0.000225>
+22:56:18.785331 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000226>
+22:56:18.786003 epoll_pwait(29,  <unfinished ...>
+22:56:21.840287 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 66.03    0.052000       52000         1           wait4
+ 25.40    0.020000         455        44         1 epoll_pwait
+  4.52    0.003557         119        30           fsync
+  2.38    0.001872           5       349           ioctl
+  0.52    0.000409           5        84           mmap2
+  0.48    0.000376          15        25           renameat
+  0.23    0.000183           2        85           fstat64
+  0.20    0.000154           5        34         4 futex
+  0.14    0.000112           7        15           pread64
+  0.12    0.000092           1        78        35 faccessat
+  0.00    0.000000           0        37           getpid
+  0.00    0.000000           0        14           munmap
+  0.00    0.000000           0        14           clone
+  0.00    0.000000           0        72           mprotect
+  0.00    0.000000           0         1           flock
+  0.00    0.000000           0        48           writev
+  0.00    0.000000           0         2           fdatasync
+  0.00    0.000000           0         5           sched_yield
+  0.00    0.000000           0        19           prctl
+  0.00    0.000000           0         1         1 rt_sigreturn
+  0.00    0.000000           0         4           rt_sigprocmask
+  0.00    0.000000           0         1           vfork
+  0.00    0.000000           0        65           getuid32
+  0.00    0.000000           0        21           madvise
+  0.00    0.000000           0         2           getdents64
+  0.00    0.000000           0        83         1 openat
+  0.00    0.000000           0         1           mkdirat
+  0.00    0.000000           0       114         8 fstatat64
+  0.00    0.000000           0        26           unlinkat
+  0.00    0.000000           0         4           readlinkat
+  0.00    0.000000           0        30           fchmodat
+  0.00    0.000000           0         4           pipe2
+  0.00    0.000000           0        31        31 getsockopt
+  0.00    0.000000           0        10           read
+  0.00    0.000000           0        31           write
+  0.00    0.000000           0        89           close
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.078755                  1474        81 total

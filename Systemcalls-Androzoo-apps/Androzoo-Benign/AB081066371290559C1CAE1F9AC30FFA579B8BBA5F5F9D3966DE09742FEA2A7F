@@ -1,0 +1,18 @@
+17:31:50.636285 futex(0xdf0296d8, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.298934>
+17:31:50.936204 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000252>
+17:31:50.936904 futex(0xe84322a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000475>
+17:31:50.937893 futex(0xdf029660, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = ? ERESTARTSYS (To be restarted if SA_RESTART is set) <6.284540>
+17:31:57.222563 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=5508, si_uid=10885} ---
+17:31:57.222604 futex(0xdb8b8a94, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000022>
+17:31:57.222658 futex(0xdb8b8a94, FUTEX_WAIT_BITSET_PRIVATE, 6, {6770, 222648383}, ffffffff) = 0 <0.000378>
+17:31:57.223174 futex(0xdb8b8a94, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000125>
+17:31:57.223434 rt_sigreturn()          = 240 <0.000112>
+17:31:57.223676 futex(0xdf029660, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff <unfinished ...>
+17:32:08.868242 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.060000       10000         6         1 futex
+  0.00    0.000000           0         1           write
+  0.00    0.000000           0         1           rt_sigreturn
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.060000                     8         1 total

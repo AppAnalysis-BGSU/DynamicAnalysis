@@ -1,0 +1,144 @@
+15:32:37.637580 writev(3, [{"\0\303k\325\356\330Z\322u\370%", 11}, {"\5", 1}, {"benudigital.vectronfree.Vectron\0", 32}, {"SIS is null\0", 12}], 4) = 56 <0.000214>
+15:32:37.638579 ioctl(8, BINDER_WRITE_READ, 0xffeb7738) = 0 <0.000694>
+15:32:37.639775 ioctl(8, BINDER_WRITE_READ, 0xffeb7738) = 0 <0.003255>
+15:32:37.643539 ioctl(8, BINDER_WRITE_READ, 0xffeb7778) = 0 <0.000260>
+15:32:37.644124 ioctl(8, BINDER_WRITE_READ, 0xffeb7778) = 0 <0.000143>
+15:32:37.645164 ioctl(8, BINDER_WRITE_READ, 0xffeb7898) = 0 <0.000330>
+15:32:37.645801 ioctl(8, BINDER_WRITE_READ, 0xffeb7898) = 0 <0.000115>
+15:32:37.646101 ioctl(8, BINDER_WRITE_READ, 0xffeb7748) = 0 <0.000144>
+15:32:37.646408 ioctl(8, BINDER_WRITE_READ, 0xffeb7748) = 0 <0.000138>
+15:32:37.646723 getuid32()              = 10815 <0.000124>
+15:32:37.647110 writev(3, [{"\2\303k\325\356\330Zc\7\221&", 11}, {"Fu\0\0", 4}, {"\3\3\0\0\0\0\0\2\37\0\0\0benudigital.vectronf"..., 64}], 3) = 79 <0.000146>
+15:32:37.647546 ioctl(8, BINDER_WRITE_READ, 0xffeb76a8) = 0 <0.000163>
+15:32:37.647894 ioctl(8, BINDER_WRITE_READ, 0xffeb76a8) = 0 <0.000135>
+15:32:37.648199 ioctl(8, BINDER_WRITE_READ, 0xffeb7718) = 0 <0.000192>
+15:32:37.648538 ioctl(8, BINDER_WRITE_READ, 0xffeb7718) = 0 <0.000104>
+15:32:37.648992 ioctl(8, BINDER_WRITE_READ, 0xffeb7328) = 0 <0.000142>
+15:32:37.649333 ioctl(8, BINDER_WRITE_READ, 0xffeb7328) = 0 <0.000131>
+15:32:37.649611 ioctl(8, BINDER_WRITE_READ, 0xffeb7558) = 0 <0.000099>
+15:32:37.649839 ioctl(8, BINDER_WRITE_READ, 0xffeb7498) = 0 <0.000125>
+15:32:37.650087 ioctl(8, BINDER_WRITE_READ, 0xffeb7498) = 0 <0.000094>
+15:32:37.650302 ioctl(8, BINDER_WRITE_READ, 0xffeb74a8) = 0 <0.000125>
+15:32:37.650545 ioctl(8, BINDER_WRITE_READ, 0xffeb74a8) = 0 <0.000093>
+15:32:37.650756 dup(47)                 = 48 <0.000289>
+15:32:37.651169 close(47)               = 0 <0.000093>
+15:32:37.651388 ioctl(8, BINDER_WRITE_READ, 0xffeb74c8) = 0 <0.000143>
+15:32:37.651644 ioctl(8, BINDER_WRITE_READ, 0xffeb74c8) = 0 <0.000096>
+15:32:37.651857 ioctl(8, BINDER_WRITE_READ, 0xffeb74d8) = 0 <0.000122>
+15:32:37.652088 ioctl(8, BINDER_WRITE_READ, 0xffeb74d8) = 0 <0.000096>
+15:32:37.652297 dup(47)                 = 49 <0.000105>
+15:32:37.652526 close(47)               = 0 <0.000100>
+15:32:37.652740 epoll_ctl(29, EPOLL_CTL_ADD, 48, {EPOLLIN, {u32=48, u64=48}}) = 0 <0.000110>
+15:32:37.652988 ioctl(8, BINDER_WRITE_READ, 0xffeb75c8) = 0 <0.000134>
+15:32:37.653246 ioctl(8, BINDER_WRITE_READ, 0xffeb75c8) = 0 <0.000107>
+15:32:37.653530 ioctl(8, BINDER_WRITE_READ, 0xffeb7678) = 0 <0.000169>
+15:32:37.653839 ioctl(8, BINDER_WRITE_READ, 0xffeb7678) = 0 <0.000119>
+15:32:37.654363 recvfrom(48, 0xffeb6d78, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000138>
+15:32:37.657568 ioctl(8, BINDER_WRITE_READ, 0xffeb7488) = 0 <0.006299>
+15:32:37.665719 ioctl(8, BINDER_WRITE_READ, 0xffeb76f8) = 0 <0.000202>
+15:32:37.666090 ioctl(8, BINDER_WRITE_READ, 0xffeb76f8) = 0 <0.001008>
+15:32:37.667249 dup(47)                 = 50 <0.000398>
+15:32:37.667771 fcntl64(50, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.000106>
+15:32:37.668000 close(47)               = 0 <0.000093>
+15:32:37.668259 epoll_ctl(29, EPOLL_CTL_ADD, 50, {EPOLLIN, {u32=50, u64=50}}) = 0 <0.000105>
+15:32:37.668563 ioctl(8, BINDER_WRITE_READ, 0xffeb7898) = 0 <0.000218>
+15:32:37.668905 ioctl(8, BINDER_WRITE_READ, 0xffeb7898) = 0 <0.000093>
+15:32:37.669146 getuid32()              = 10815 <0.000121>
+15:32:37.669500 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000118>
+15:32:37.669774 ioctl(8, BINDER_WRITE_READ, 0xffeb78a8) = 0 <0.000189>
+15:32:37.670215 ioctl(8, BINDER_WRITE_READ, 0xffeb78a8) = 0 <0.000134>
+15:32:37.670535 getuid32()              = 10815 <0.000130>
+15:32:37.670821 getuid32()              = 10815 <0.000343>
+15:32:37.671410 fstat64(32, {st_mode=S_IFIFO|S_ISVTX|0100, st_size=1, ...}) = 0 <0.000250>
+15:32:37.671867 ioctl(32, ASHMEM_GET_SIZE, 0) = 84 <0.002918>
+15:32:37.675154 fstat64(32, {st_mode=0, st_size=1, ...}) = 0 <0.000290>
+15:32:37.675749 ioctl(32, ASHMEM_PIN, 0xffeb7750) = 0 <0.000134>
+15:32:37.676062 getuid32()              = 10815 <0.000100>
+15:32:37.676426 getuid32()              = 10815 <0.000230>
+15:32:37.676990 fstat64(32, {st_mode=S_IFIFO|S_ISVTX|0100, st_size=1, ...}) = 0 <0.000345>
+15:32:37.677491 ioctl(32, ASHMEM_GET_SIZE, 0) = 84 <0.000261>
+15:32:37.677863 fstat64(32, {st_mode=0, st_size=1, ...}) = 0 <0.000192>
+15:32:37.678217 ioctl(32, ASHMEM_PIN, 0xffeb7750) = 0 <0.000158>
+15:32:37.678630 getuid32()              = 10815 <0.000168>
+15:32:37.679314 epoll_pwait(29, [{EPOLLIN, {u32=48, u64=48}}], 16, 0, NULL, 8) = 1 <0.000246>
+15:32:37.679808 recvfrom(48, "nysv\0\0\0\0\247\252y\321\324\3\0\0\346\325\1\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000215>
+15:32:37.680235 recvfrom(48, 0xffeb7058, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000154>
+15:32:37.680751 getuid32()              = 10815 <0.000134>
+15:32:37.681139 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000250>
+15:32:37.681596 getuid32()              = 10815 <0.000160>
+15:32:37.681929 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000123>
+15:32:37.682259 recvfrom(50, 0xe72f5a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000130>
+15:32:37.682568 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000142>
+15:32:37.684592 recvfrom(48, 0xffeb6a58, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.001514>
+15:32:37.686651 ioctl(8, BINDER_WRITE_READ, 0xffeb7168) = 0 <0.000323>
+15:32:37.688264 ioctl(8, BINDER_WRITE_READ, 0xffeb7618) = 0 <0.000611>
+15:32:37.689192 ioctl(8, BINDER_WRITE_READ, 0xffeb7618) = 0 <0.025430>
+15:32:37.717150 ioctl(8, BINDER_WRITE_READ, 0xffeb76c8) = 0 <0.000719>
+15:32:37.718454 ioctl(8, BINDER_WRITE_READ, 0xffeb76c8) = 0 <0.001270>
+15:32:37.721248 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.000479>
+15:32:37.722402 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.000707>
+15:32:37.724142 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.000189>
+15:32:37.724631 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.039768>
+15:32:37.764820 futex(0xe0883128, FUTEX_WAKE, 1) = 1 <0.000173>
+15:32:37.765422 futex(0xe08891c0, FUTEX_WAKE, 1) = 1 <0.000499>
+15:32:37.766141 futex(0xe0885070, FUTEX_WAKE, 1) = 1 <0.000053>
+15:32:37.766255 futex(0xe0885070, FUTEX_WAIT, 1, NULL) = -1 EAGAIN (Try again) <0.000028>
+15:32:37.766329 futex(0xe0885090, FUTEX_WAKE, 1) = 1 <0.000061>
+15:32:37.766434 futex(0xe0885070, FUTEX_WAKE, 1) = 0 <0.000027>
+15:32:37.766630 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 52 <0.000033>
+15:32:37.766721 fstat64(52, {st_mode=0157106, st_size=1, ...}) = 0 <0.000024>
+15:32:37.766791 ioctl(52, ASHMEM_SET_NAME, 0xffeb6cd0) = 0 <0.000025>
+15:32:37.769930 ioctl(52, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000091>
+15:32:37.782012 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 52, 0) = 0xce27a000 <0.000191>
+15:32:37.782307 close(52)               = 0 <0.000034>
+15:32:37.782394 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xce175000 <0.000030>
+15:32:37.782516 madvise(0xce175000, 1069056, MADV_MERGEABLE) = 0 <0.000533>
+15:32:37.783150 mprotect(0xce175000, 4096, PROT_NONE) = 0 <0.000033>
+15:32:37.783257 prctl(0x53564d41 /* PR_??? */, 0, 0xce175000, 4096, "thread stack guard page") = 0 <0.000035>
+15:32:37.783413 clone(child_stack=0xce279910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xce279928, tls={entry_number:12, base_addr:0xce279970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xffeb7020, child_tidptr=0xce279928) = 27621 <0.000081>
+15:32:37.783603 futex(0xce279960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000048>
+15:32:37.783941 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 52 <0.000053>
+15:32:37.784104 fstat64(52, {st_mode=020, st_size=1, ...}) = 0 <0.000041>
+15:32:37.784264 ioctl(52, ASHMEM_SET_NAME, 0xffeb62c0) = 0 <0.000027>
+15:32:37.784341 ioctl(52, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xa1000) = 0 <0.000285>
+15:32:37.784826 mmap2(NULL, 659456, PROT_READ|PROT_WRITE, MAP_PRIVATE, 52, 0) = 0xce0d1000 <0.002025>
+15:32:37.787219 close(52)               = 0 <0.000139>
+15:32:37.822855 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.000389>
+15:32:37.823342 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.000199>
+15:32:37.823825 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.000192>
+15:32:37.827230 ioctl(8, BINDER_WRITE_READ, 0xffeb74f8) = 0 <0.000153>
+15:32:37.827654 getuid32()              = 10815 <0.000221>
+15:32:37.828046 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=48, u64=48}}], 16, 0, NULL, 8) = 2 <0.000122>
+15:32:37.828345 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000106>
+15:32:37.828700 recvfrom(48, "nysv\0\0\0\0\232\25x\322\324\3\0\0\347\325\1\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000238>
+15:32:37.829067 recvfrom(48, 0xffeb7058, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000108>
+15:32:37.829439 recvfrom(50, 0xe72f5a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000108>
+15:32:37.829691 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000099>
+15:32:37.829973 ioctl(8, BINDER_WRITE_READ, 0xffeb7618) = 0 <0.000119>
+15:32:37.830205 ioctl(8, BINDER_WRITE_READ, 0xffeb7618) = 0 <0.002750>
+15:32:37.833209 futex(0xe7240180, FUTEX_WAKE, 1) = 0 <0.000129>
+15:32:37.833481 futex(0xe7230138, FUTEX_WAIT, 1709, NULL <unfinished ...>
+15:32:54.503497 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 91.03    0.021166         371        57           ioctl
+  8.71    0.002025         675         3           mmap2
+  0.26    0.000061           8         8         1 futex
+  0.00    0.000000           0         1           read
+  0.00    0.000000           0         2           write
+  0.00    0.000000           0         5           close
+  0.00    0.000000           0         3           dup
+  0.00    0.000000           0         1           clone
+  0.00    0.000000           0         1           mprotect
+  0.00    0.000000           0         2           writev
+  0.00    0.000000           0         1           prctl
+  0.00    0.000000           0         6           fstat64
+  0.00    0.000000           0        10           getuid32
+  0.00    0.000000           0         1           madvise
+  0.00    0.000000           0         1           fcntl64
+  0.00    0.000000           0         2           epoll_ctl
+  0.00    0.000000           0         2           openat
+  0.00    0.000000           0         5           epoll_pwait
+  0.00    0.000000           0         8         6 recvfrom
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.023252                   119         7 total

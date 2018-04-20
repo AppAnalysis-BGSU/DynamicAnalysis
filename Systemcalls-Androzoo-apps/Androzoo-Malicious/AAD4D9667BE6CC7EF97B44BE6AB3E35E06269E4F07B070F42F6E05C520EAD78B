@@ -1,0 +1,476 @@
+21:19:41.952774 futex(0xe7fa9958, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.090017>
+21:19:42.044578 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000038>
+21:19:42.044691 futex(0xe7fa98e0, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = 0 <0.039655>
+21:19:42.085142 futex(0xe7fa9958, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff) = 0 <0.553193>
+21:19:42.638691 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000082>
+21:19:42.638884 futex(0xf1332428, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000025>
+21:19:42.638949 futex(0xe7fa9958, FUTEX_WAIT_BITSET_PRIVATE, 28, NULL, ffffffff) = 0 <0.000029>
+21:19:42.639043 futex(0xe7fa9954, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000020>
+21:19:42.639098 futex(0xe7fa9954, FUTEX_WAKE_PRIVATE, 1) = 0 <0.000018>
+21:19:42.639277 ioctl(8, BINDER_WRITE_READ, 0xff81e478) = 0 <0.000072>
+21:19:42.639385 ioctl(8, BINDER_WRITE_READ, 0xff81e478) = 0 <0.032294>
+21:19:42.672078 getuid32()              = 10196 <0.000058>
+21:19:42.672287 epoll_pwait(29, [{EPOLLIN, {u32=36, u64=36}}, {EPOLLIN, {u32=42, u64=42}}], 16, 0, NULL, 8) = 2 <0.000024>
+21:19:42.672435 recvfrom(36, "nysv\0\0\0\0\241z\255!\345\6\0\0 ~\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000162>
+21:19:42.672645 recvfrom(36, 0xff81de68, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000095>
+21:19:42.672871 recvfrom(42, "\2\0\0\0t\273'\361\0\236\1\0@\205>\204\300\306y@\345\6\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000051>
+21:19:42.673138 ioctl(8, BINDER_WRITE_READ, 0xff81dee8) = 0 <0.000087>
+21:19:42.673262 ioctl(8, BINDER_WRITE_READ, 0xff81dee8) = 0 <0.016925>
+21:19:42.690285 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000039>
+21:19:42.690461 futex(0xf1332428, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000024>
+21:19:42.690867 sendto(42, "\3\0\0\0\304\220;r\0\236\1\0\1\353\310\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000043>
+21:19:42.690956 recvfrom(42, "\2\0\0\0t\273'\361\2\236\1\0@\205>\204\0\t\211@\345\6\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000021>
+21:19:42.691283 sendto(42, "\3\0\0\0\1\0\0\0\2\236\1\0\1\353\310\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000039>
+21:19:42.691500 recvfrom(42, "\2\0\0\0t\273'\361\4\236\1\0@\205>\204\200\237!A\345\6\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000119>
+21:19:42.691667 recvfrom(42, "\2\0\0\0t\273'\361\6\236\1\0@\205>\204\300\3410A\345\6\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000128>
+21:19:42.691918 recvfrom(42, "\2\0\0\0t\273'\361\10\236\1\0@\205>\204\0$@A\345\6\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000216>
+21:19:42.692326 recvfrom(42, "\2\0\0\0t\273'\361\n\236\1\0@\205>\204\0$@A\345\6\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000121>
+21:19:42.692606 recvfrom(42, "\2\0\0\0t\273'\361\f\236\1\0@\205>\204@fOA\345\6\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000099>
+21:19:42.692836 recvfrom(42, "\2\0\0\0t\273'\361\16\236\1\0@\205>\204@fOA\345\6\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000093>
+21:19:42.693112 recvfrom(42, "\2\0\0\0t\273'\361\20\236\1\0@\205>\204@fOA\345\6\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000105>
+21:19:42.693305 recvfrom(42, "\2\0\0\0t\273'\361\22\236\1\0@\205>\204\200\250^A\345\6\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000022>
+21:19:42.693369 recvfrom(42, "\2\0\0\0t\273'\361\24\236\1\0@\205>\204\200\250^A\345\6\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000019>
+21:19:42.693427 recvfrom(42, "\2\0\0\0t\273'\361\26\236\1\0@\205>\204\200\250^A\345\6\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000019>
+21:19:42.693569 recvfrom(42, "\2\0\0\0t\273'\361\30\236\1\0@\205>\204\300\352mA\345\6\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000020>
+21:19:42.693689 writev(3, [{"\3\177\16\256\356\327Z\250\242X)", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Dropping event due to no window "..., 295}], 4) = 338 <0.000056>
+21:19:42.693869 ioctl(8, BINDER_WRITE_READ, 0xff81da58) = 0 <0.000028>
+21:19:42.693935 ioctl(8, BINDER_WRITE_READ, 0xff81da58) = 0 <0.012724>
+21:19:42.706777 sendto(42, "\3\0\0\0t\273'\361\4\236\1\0\0002\313\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000116>
+21:19:42.706939 sendto(42, "\3\0\0\0t\273'\361\6\236\1\0\0002\313\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000065>
+21:19:42.707040 sendto(42, "\3\0\0\0t\273'\361\10\236\1\0\0002\313\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000065>
+21:19:42.707141 sendto(42, "\3\0\0\0t\273'\361\n\236\1\0\0002\313\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000025>
+21:19:42.707207 sendto(42, "\3\0\0\0t\273'\361\f\236\1\0\0002\313\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000108>
+21:19:42.707381 sendto(42, "\3\0\0\0t\273'\361\16\236\1\0\0002\313\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000137>
+21:19:42.707555 sendto(42, "\3\0\0\0t\273'\361\20\236\1\0\0002\313\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000070>
+21:19:42.707668 sendto(42, "\3\0\0\0t\273'\361\22\236\1\0\0002\313\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000100>
+21:19:42.707825 sendto(42, "\3\0\0\0t\273'\361\24\236\1\0\0002\313\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000062>
+21:19:42.707930 sendto(42, "\3\0\0\0t\273'\361\26\236\1\0\0002\313\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000060>
+21:19:42.708132 writev(3, [{"\3\177\16\256\356\327Z\245&4*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Dropping event due to no window "..., 300}], 4) = 343 <0.000118>
+21:19:42.708306 sendto(42, "\3\0\0\0t\273'\361\30\236\1\0\0002\313\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000061>
+21:19:42.708518 recvfrom(42, "\2\0\0\0t\273'\361\32\236\1\0@\205>\204\300\352mA\345\6\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000022>
+21:19:42.708728 writev(3, [{"\3\177\16\256\356\327Z\212`<*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 304}], 4) = 347 <0.000073>
+21:19:42.708978 writev(3, [{"\3\177\16\256\356\327Z{\221@*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 304}], 4) = 347 <0.000118>
+21:19:42.709470 writev(3, [{"\3\177\16\256\356\327Z\22\205H*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 304}], 4) = 347 <0.000249>
+21:19:42.710424 writev(3, [{"\3\177\16\256\356\327Z\331\303S*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 304}], 4) = 347 <0.000346>
+21:19:42.710933 writev(3, [{"\3\177\16\256\356\327Z\332\266^*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 304}], 4) = 347 <0.000163>
+21:19:42.711293 writev(3, [{"\3\177\16\256\356\327Z$Hd*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 304}], 4) = 347 <0.000132>
+21:19:42.711665 writev(3, [{"\3\177\16\256\356\327Z\f\341i*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 304}], 4) = 347 <0.000121>
+21:19:42.711982 sendto(42, "\3\0\0\0\272\217;r\32\236\1\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000158>
+21:19:42.712431 recvfrom(42, "\1\0\0\0\345\6\0\0\34\236\1\0\0\0\0\0\200\303\25B\345\6\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000319>
+21:19:42.713007 writev(3, [{"\3\177\16\256\356\327Z\271x}*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Dropping event due to no window "..., 211}], 4) = 254 <0.000179>
+21:19:42.713333 sendto(42, "\3\0\0\0t\273'\361\34\236\1\0\0002\313\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000119>
+21:19:42.713898 recvfrom(42, "\1\0\0\0\345\6\0\0\36\236\1\0\0\0\0\0\300\342\307N\345\6\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000110>
+21:19:42.714218 writev(3, [{"\3\177\16\256\356\327Z\325|\220*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 212}], 4) = 255 <0.000207>
+21:19:42.714576 writev(3, [{"\3\177\16\256\356\327Zi\271\226*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 212}], 4) = 255 <0.000105>
+21:19:42.714872 writev(3, [{"\3\177\16\256\356\327Z\356\367\232*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 212}], 4) = 255 <0.000107>
+21:19:42.715134 writev(3, [{"\3\177\16\256\356\327Z\274.\237*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 212}], 4) = 255 <0.000156>
+21:19:42.715500 writev(3, [{"\3\177\16\256\356\327Z!\331\244*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 212}], 4) = 255 <0.000135>
+21:19:42.715795 writev(3, [{"\3\177\16\256\356\327Z\300?\251*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 212}], 4) = 255 <0.000130>
+21:19:42.716121 writev(3, [{"\3\177\16\256\356\327Z\217/\256*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 212}], 4) = 255 <0.000141>
+21:19:42.716434 writev(3, [{"\3\177\16\256\356\327Z\6\17\263*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 212}], 4) = 255 <0.000127>
+21:19:42.716745 writev(3, [{"\3\177\16\256\356\327Z\354\267\267*", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 212}], 4) = 255 <0.000137>
+21:19:42.717014 sendto(42, "\3\0\0\0\0\2640\361\36\236\1\0\0\215\367\360", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000126>
+21:19:42.717290 recvfrom(42, 0xf1378c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000065>
+21:19:42.717497 getuid32()              = 10196 <0.000117>
+21:19:42.717768 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000039>
+21:19:42.717996 getuid32()              = 10196 <0.000116>
+21:19:42.718221 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000103>
+21:19:42.718484 writev(3, [{"\0\177\16\256\356\327Z\357k\322*", 11}, {"\4", 1}, {"Choreographer\0", 14}, {"Skipped 45 frames!  The applicat"..., 83}], 4) = 109 <0.000126>
+21:19:42.718747 recvfrom(42, 0xf1378c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000119>
+21:19:42.719054 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000137>
+21:19:42.719353 futex(0xf1332428, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000137>
+21:19:42.719634 futex(0xe7fa9954, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000140>
+21:19:42.719917 futex(0xe7fa9958, FUTEX_WAIT_BITSET_PRIVATE, 32, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000105>
+21:19:42.720522 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000106>
+21:19:42.720729 futex(0xf1332428, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000122>
+21:19:42.720977 futex(0xe7fa98dc, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000113>
+21:19:42.721205 futex(0xe7fa98e0, FUTEX_WAIT_BITSET_PRIVATE, 4, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000107>
+21:19:42.721428 futex(0xe7fa9958, FUTEX_WAIT_BITSET_PRIVATE, 36, NULL, ffffffff) = 0 <0.034130>
+21:19:42.755838 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000131>
+21:19:42.756106 futex(0xf1332428, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000229>
+21:19:42.756426 futex(0xe7fa9954, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000171>
+21:19:42.756776 futex(0xe7fa9958, FUTEX_WAIT_BITSET_PRIVATE, 40, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000068>
+21:19:42.756984 ioctl(8, BINDER_WRITE_READ, 0xff81e478) = 0 <0.000234>
+21:19:42.757451 ioctl(8, BINDER_WRITE_READ, 0xff81e478) = 0 <0.022704>
+21:19:42.780288 getuid32()              = 10196 <0.000058>
+21:19:42.780392 epoll_pwait(29, [{EPOLLIN, {u32=42, u64=42}}], 16, 0, NULL, 8) = 1 <0.000108>
+21:19:42.780554 recvfrom(42, "\1\0\0\0\345\6\0\0 \236\1\0\0\0\0\0\200\273oO\345\6\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000022>
+21:19:42.780770 writev(3, [{"\3\177\16\256\356\327Z\310\16\211.", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Dropping event due to no window "..., 216}], 4) = 259 <0.000039>
+21:19:42.780867 sendto(42, "\3\0\0\0\260\7N\364 \236\1\0\0\320-\365", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000124>
+21:19:42.781040 recvfrom(42, "\1\0\0\0\345\6\0\0\"\236\1\0\0\0\0\0\200\273oO\345\6\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000036>
+21:19:42.781136 writev(3, [{"\3\177\16\256\356\327Z\273\372\216.", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 217}], 4) = 260 <0.000025>
+21:19:42.781227 writev(3, [{"\3\177\16\256\356\327Z\255b\220.", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 217}], 4) = 260 <0.000024>
+21:19:42.781559 writev(3, [{"\3\177\16\256\356\327Z\324c\225.", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 217}], 4) = 260 <0.000041>
+21:19:42.781940 writev(3, [{"\3\177\16\256\356\327Z$s\232.", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 217}], 4) = 260 <0.000222>
+21:19:42.782351 writev(3, [{"\3\177\16\256\356\327Z\266\205\240.", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 217}], 4) = 260 <0.000108>
+21:19:42.782647 writev(3, [{"\3\177\16\256\356\327Z\273H\245.", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 217}], 4) = 260 <0.000149>
+21:19:42.783023 writev(3, [{"\3\177\16\256\356\327Z}\306\252.", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 217}], 4) = 260 <0.000209>
+21:19:42.783392 writev(3, [{"\3\177\16\256\356\327Z\"\246\260.", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 217}], 4) = 260 <0.000093>
+21:19:42.783554 writev(3, [{"\3\177\16\256\356\327Zp\342\263.", 11}, {"\5", 1}, {"ViewRootImpl[CategoryActivity]\0", 31}, {"Cancelling event due to no windo"..., 217}], 4) = 260 <0.000040>
+21:19:42.783655 sendto(42, "\3\0\0\0\260\7N\364\"\236\1\0\0<I\364", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000189>
+21:19:42.783999 recvfrom(42, 0xf1378c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000080>
+21:19:42.784263 recvfrom(36, 0xff81d8a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000111>
+21:19:42.784418 ioctl(8, BINDER_WRITE_READ, 0xff81dfb8) = 0 <0.000112>
+21:19:42.784632 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000165>
+21:19:42.784970 futex(0xf1332428, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000157>
+21:19:42.785411 ioctl(8, BINDER_WRITE_READ, 0xff81e658) = 0 <0.000201>
+21:19:42.785824 ioctl(8, BINDER_WRITE_READ, 0xff81e658) = 0 <0.004645>
+21:19:42.790671 getuid32()              = 10196 <0.000201>
+21:19:42.791070 epoll_pwait(29, [{EPOLLIN, {u32=36, u64=36}}], 16, 0, NULL, 8) = 1 <0.000164>
+21:19:42.791459 recvfrom(36, "nysv\0\0\0\0\330\326[S\345\6\0\0>~\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000163>
+21:19:42.791805 recvfrom(36, 0xff81de68, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000120>
+21:19:42.792173 getuid32()              = 10196 <0.000161>
+21:19:42.792476 getuid32()              = 10196 <0.000113>
+21:19:42.792841 ioctl(8, BINDER_WRITE_READ, 0xff81e4d8) = 0 <0.000239>
+21:19:42.793195 ioctl(8, BINDER_WRITE_READ, 0xff81e4d8) = 0 <0.000140>
+21:19:42.793594 fstat64(43, {st_mode=0762, st_size=1, ...}) = 0 <0.000141>
+21:19:42.794029 fstat64(43, {st_mode=0170220, st_size=1, ...}) = 0 <0.000168>
+21:19:42.794287 ioctl(43, ASHMEM_GET_SIZE, 0) = 84 <0.000019>
+21:19:42.794341 dup(43)                 = 45 <0.000018>
+21:19:42.794395 close(43)               = 0 <0.000018>
+21:19:42.794486 dup(45)                 = 43 <0.000019>
+21:19:42.794598 fstat64(43, {st_mode=050, st_size=1, ...}) = 0 <0.000082>
+21:19:42.794725 ioctl(43, ASHMEM_GET_SIZE, 0) = 84 <0.000177>
+21:19:42.795280 mmap2(NULL, 84, PROT_READ, MAP_SHARED, 43, 0) = 0xf0150000 <0.000206>
+21:19:42.795712 fstat64(45, {st_mode=013, st_size=1, ...}) = 0 <0.000111>
+21:19:42.795953 fstat64(45, {st_mode=0170220, st_size=1, ...}) = 0 <0.000109>
+21:19:42.796192 ioctl(45, ASHMEM_GET_SIZE, 0) = 84 <0.000021>
+21:19:42.796249 close(45)               = 0 <0.000018>
+21:19:42.796353 ioctl(8, BINDER_WRITE_READ, 0xff81e5f8) = 0 <0.000181>
+21:19:42.796645 ioctl(8, BINDER_WRITE_READ, 0xff81e5f8) = 0 <0.000021>
+21:19:42.796809 ioctl(8, BINDER_WRITE_READ, 0xff81e658) = 0 <0.000200>
+21:19:42.797331 ioctl(8, BINDER_WRITE_READ, 0xff81e008) = 0 <0.000048>
+21:19:42.797415 ioctl(8, BINDER_WRITE_READ, 0xff81e008) = 0 <0.012190>
+21:19:42.809844 getuid32()              = 10196 <0.000029>
+21:19:42.809916 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000024>
+21:19:42.809981 getuid32()              = 10196 <0.000018>
+21:19:42.810031 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000018>
+21:19:42.810105 recvfrom(42, 0xf1378c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000088>
+21:19:42.810405 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000092>
+21:19:42.810785 mmap2(NULL, 524288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xd8000000 <0.000114>
+21:19:42.811092 madvise(0xd8000000, 524288, MADV_MERGEABLE) = 0 <0.000083>
+21:19:42.811342 prctl(0x53564d41 /* PR_??? */, 0, 0xd8000000, 524288, "libc_malloc") = 0 <0.000133>
+21:19:42.811748 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000192>
+21:19:42.812098 futex(0xf1332428, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000096>
+21:19:42.812367 futex(0xe7fa98e0, FUTEX_WAIT_BITSET_PRIVATE, 8, NULL, ffffffff) = 0 <0.000659>
+21:19:42.813283 getuid32()              = 10196 <0.001880>
+21:19:42.815418 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1 <0.000119>
+21:19:42.815838 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000151>
+21:19:42.816124 getuid32()              = 10196 <0.000129>
+21:19:42.816422 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000120>
+21:19:42.816661 getuid32()              = 10196 <0.000079>
+21:19:42.816884 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000106>
+21:19:42.817147 getuid32()              = 10196 <0.000108>
+21:19:42.817373 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000115>
+21:19:42.817694 getuid32()              = 10196 <0.000145>
+21:19:42.818085 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000123>
+21:19:42.818370 getuid32()              = 10196 <0.000162>
+21:19:42.818687 writev(3, [{"\2\177\16\256\356\327Z\250\37\3130", 11}, {"Eu\0\0", 4}, {"\3\3\0\0\0\0\0\2&\0\0\0com.ndtanxb.rssreade"..., 75}], 3) = 90 <0.000103>
+21:19:42.818860 ioctl(8, BINDER_WRITE_READ, 0xff81e728) = 0 <0.000186>
+21:19:42.819202 ioctl(8, BINDER_WRITE_READ, 0xff81e728) = 0 <0.005915>
+21:19:42.825270 getuid32()              = 10196 <0.000091>
+21:19:42.825468 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000096>
+21:19:42.825864 recvfrom(36, 0xff81d8a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000089>
+21:19:42.826069 ioctl(8, BINDER_WRITE_READ, 0xff81dfb8) = 0 <0.000119>
+21:19:42.826303 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000094>
+21:19:42.826580 getuid32()              = 10196 <0.000067>
+21:19:42.826749 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000086>
+21:19:42.826947 getuid32()              = 10196 <0.000084>
+21:19:42.827137 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0, st_size=1, ...}, 0) = 0 <0.000095>
+21:19:42.827351 fstatat64(AT_FDCWD, "/data/app/com.ndtanxb.rssreader-1/base.apk", {st_mode=0, st_size=1, ...}, 0) = 0 <0.000090>
+21:19:42.827666 ioctl(8, BINDER_WRITE_READ, 0xff81e598) = 0 <0.000118>
+21:19:42.827902 ioctl(8, BINDER_WRITE_READ, 0xff81e598) = 0 <0.000089>
+21:19:42.828132 getuid32()              = 10196 <0.000088>
+21:19:42.828342 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0132000, st_size=1, ...}, 0) = 0 <0.000088>
+21:19:42.828538 fstatat64(AT_FDCWD, "/data/app/com.ndtanxb.rssreader-1/base.apk", {st_mode=0132000, st_size=1, ...}, 0) = 0 <0.000091>
+21:19:42.828776 getuid32()              = 10196 <0.000085>
+21:19:42.828973 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0162610, st_size=1, ...}, 0) = 0 <0.000088>
+21:19:42.829182 fstatat64(AT_FDCWD, "/data/app/com.ndtanxb.rssreader-1/base.apk", {st_mode=0162610, st_size=1, ...}, 0) = 0 <0.000087>
+21:19:42.829419 getuid32()              = 10196 <0.000091>
+21:19:42.829744 getuid32()              = 10196 <0.000098>
+21:19:42.829948 fstat64(31, {st_mode=021, st_size=1, ...}) = 0 <0.000085>
+21:19:42.830137 ioctl(31, ASHMEM_GET_SIZE, 0) = 84 <0.000069>
+21:19:42.830315 fstat64(31, {st_mode=0, st_size=1, ...}) = 0 <0.000085>
+21:19:42.830502 ioctl(31, ASHMEM_PIN, 0xff81e570) = 0 <0.000085>
+21:19:42.830719 ioctl(8, BINDER_WRITE_READ, 0xff81e4f8) = 0 <0.000146>
+21:19:42.831067 ioctl(8, BINDER_WRITE_READ, 0xff81e4f8) = 0 <0.000168>
+21:19:42.831354 ioctl(8, BINDER_WRITE_READ, 0xff81e4f8) = 0 <0.000093>
+21:19:42.831674 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27975372) = 30 <0.000096>
+21:19:42.831879 pread64(23, "res/interpolator/linear_out_slow"..., 39, 27975402) = 39 <0.000090>
+21:19:42.832080 mmap2(NULL, 4069, PROT_READ, MAP_SHARED, 23, 0x1aad000) = 0xe4300000 <0.000097>
+21:19:42.832312 munmap(0xe4300000, 4069) = 0 <0.000090>
+21:19:42.832572 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27970871) = 30 <0.000089>
+21:19:42.832768 pread64(23, "res/interpolator/fast_out_linear"..., 39, 27970901) = 39 <0.000085>
+21:19:42.832955 mmap2(NULL, 3665, PROT_READ, MAP_SHARED, 23, 0x1aac000) = 0xe4300000 <0.000083>
+21:19:42.833164 munmap(0xe4300000, 3665) = 0 <0.000092>
+21:19:42.833465 ioctl(8, BINDER_WRITE_READ, 0xff81de38) = 0 <0.000115>
+21:19:42.833687 ioctl(8, BINDER_WRITE_READ, 0xff81de38) = 0 <0.000079>
+21:19:42.833934 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0 \0\0\0", 30, 28109062) = 30 <0.000077>
+21:19:42.834165 pread64(23, "res/layout/screen_action_bar.xml", 32, 28109092) = 32 <0.000092>
+21:19:42.834364 mmap2(NULL, 3039, PROT_READ, MAP_SHARED, 23, 0x1ace000) = 0xe4300000 <0.000088>
+21:19:42.834588 munmap(0xe4300000, 3039) = 0 <0.000112>
+21:19:42.835037 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0&\0\0\0", 30, 27991833) = 30 <0.000087>
+21:19:42.835234 pread64(23, "res/layout/action_bar_up_contain"..., 38, 27991863) = 38 <0.000085>
+21:19:42.835421 mmap2(NULL, 4190, PROT_READ, MAP_SHARED, 23, 0x1ab1000) = 0xd8bed000 <0.000088>
+21:19:42.835637 munmap(0xd8bed000, 4190) = 0 <0.000089>
+21:19:42.835935 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\36\0\0\0", 30, 27990176) = 30 <0.000087>
+21:19:42.836123 pread64(23, "res/layout/action_bar_home.xml", 30, 27990206) = 30 <0.000084>
+21:19:42.836310 mmap2(NULL, 2769, PROT_READ, MAP_SHARED, 23, 0x1ab1000) = 0xe4300000 <0.000087>
+21:19:42.836536 munmap(0xe4300000, 2769) = 0 <0.000106>
+21:19:42.837024 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0$\0\0\0", 30, 27991340) = 30 <0.000087>
+21:19:42.837251 pread64(23, "res/layout/action_bar_title_item"..., 36, 27991370) = 36 <0.000115>
+21:19:42.837485 mmap2(NULL, 3849, PROT_READ, MAP_SHARED, 23, 0x1ab1000) = 0xe4300000 <0.000091>
+21:19:42.839137 munmap(0xe4300000, 3849) = 0 <0.002637>
+21:19:42.854401 pread64(30, "PK\3\4\24\0\10\10\10\0<[)CX\201\3516;\2\0\0\30\5\0\0\36\0\0\0", 30, 1973) = 30 <0.000552>
+21:19:42.855937 pread64(30, "res/layout/activity_splash.xml", 30, 2003) = 30 <0.000116>
+21:19:42.856259 mmap2(NULL, 2604, PROT_READ, MAP_SHARED, 30, 0) = 0xe4300000 <0.000154>
+21:19:42.856620 munmap(0xe4300000, 2604) = 0 <0.000136>
+21:19:42.857222 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0 \0\0\0", 30, 27691393) = 30 <0.000142>
+21:19:42.857511 pread64(23, "res/anim/linear_interpolator.xml", 32, 27691423) = 32 <0.000095>
+21:19:42.857829 mmap2(NULL, 2564, PROT_READ, MAP_SHARED, 23, 0x1a68000) = 0xe4300000 <0.000158>
+21:19:42.858263 munmap(0xe4300000, 2564) = 0 <0.000199>
+21:19:42.858734 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0$\0\0\0", 30, 27913006) = 30 <0.000185>
+21:19:42.859041 pread64(23, "res/drawable/progress_large_holo"..., 36, 27913036) = 36 <0.000097>
+21:19:42.859252 mmap2(NULL, 3268, PROT_READ, MAP_SHARED, 23, 0x1a9e000) = 0xe4300000 <0.000127>
+21:19:42.859615 munmap(0xe4300000, 3268) = 0 <0.000099>
+21:19:42.860034 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\324\237\325\337\214\23\0\0\214\23\0\0000\0\1\0", 30, 9111133) = 30 <0.000111>
+21:19:42.860292 pread64(23, "res/drawable-xxhdpi-v4/spinner_7"..., 48, 9111163) = 48 <0.000108>
+21:19:42.860547 mmap2(NULL, 6712, PROT_READ, MAP_SHARED, 23, 0x8b0000) = 0xd8bed000 <0.000356>
+21:19:42.861233 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000101>
+21:19:42.861521 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000208>
+21:19:42.861932 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000133>
+21:19:42.862202 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000105>
+21:19:42.862771 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 45 <0.000120>
+21:19:42.863012 fstat64(45, {st_mode=0131470, st_size=1, ...}) = 0 <0.000099>
+21:19:42.863254 ioctl(45, ASHMEM_SET_NAME, 0xff81b1c0) = 0 <0.000100>
+21:19:42.863474 ioctl(45, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x46000) = 0 <0.000105>
+21:19:42.863693 mmap2(NULL, 286720, PROT_READ|PROT_WRITE, MAP_PRIVATE, 45, 0) = 0xd7fba000 <0.000112>
+21:19:42.863937 close(45)               = 0 <0.000094>
+21:19:42.864637 madvise(0xd8024000, 233472, MADV_DONTNEED) = 0 <0.000153>
+21:19:42.864917 munmap(0xd8bed000, 6712) = 0 <0.000086>
+21:19:42.865157 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\37M\341\243y\23\0\0y\23\0\0000\0\2\0", 30, 9106068) = 30 <0.000084>
+21:19:42.865343 pread64(23, "res/drawable-xxhdpi-v4/spinner_7"..., 48, 9106098) = 48 <0.000083>
+21:19:42.865529 mmap2(NULL, 5725, PROT_READ, MAP_SHARED, 23, 0x8af000) = 0xd8bed000 <0.000086>
+21:19:42.865763 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000086>
+21:19:42.865969 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000081>
+21:19:42.866166 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000095>
+21:19:42.866395 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000082>
+21:19:42.867120 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 45 <0.000089>
+21:19:42.867329 fstat64(45, {st_mode=0230, st_size=1, ...}) = 0 <0.000077>
+21:19:42.867508 ioctl(45, ASHMEM_SET_NAME, 0xff81b1c0) = 0 <0.000078>
+21:19:42.867677 ioctl(45, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x46000) = 0 <0.000101>
+21:19:42.867872 mmap2(NULL, 286720, PROT_READ|PROT_WRITE, MAP_PRIVATE, 45, 0) = 0xd7f74000 <0.000084>
+21:19:42.868057 close(45)               = 0 <0.000078>
+21:19:42.868694 madvise(0xd8024000, 233472, MADV_DONTNEED) = 0 <0.000113>
+21:19:42.868925 munmap(0xd8bed000, 5725) = 0 <0.000091>
+21:19:42.869236 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0/\0\0\0", 30, 27910476) = 30 <0.000106>
+21:19:42.869456 pread64(23, "res/drawable/progress_horizontal"..., 47, 27910506) = 47 <0.000078>
+21:19:42.869629 mmap2(NULL, 738, PROT_READ, MAP_SHARED, 23, 0x1a9e000) = 0xe4300000 <0.000096>
+21:19:42.869858 munmap(0xe4300000, 738) = 0 <0.000081>
+21:19:42.870078 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:0\221\"\254\340\0\0\0\340\0\0\0003\0\3\0", 30, 9033304) = 30 <0.000080>
+21:19:42.870269 pread64(23, "res/drawable-xxhdpi-v4/progress_"..., 51, 9033334) = 51 <0.000078>
+21:19:42.870443 mmap2(NULL, 1932, PROT_READ, MAP_SHARED, 23, 0x89d000) = 0xe4300000 <0.000080>
+21:19:42.870688 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000063>
+21:19:42.870886 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000138>
+21:19:42.871227 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000080>
+21:19:42.871414 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000080>
+21:19:42.871626 mprotect(0x74316000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000088>
+21:19:42.871866 munmap(0xe4300000, 1932) = 0 <0.000086>
+21:19:42.872084 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\20'Q~\340\0\0\0\340\0\0\0:\0\0\0", 30, 9038152) = 30 <0.000082>
+21:19:42.872290 pread64(23, "res/drawable-xxhdpi-v4/progress_"..., 58, 9038182) = 58 <0.000085>
+21:19:42.872481 mmap2(NULL, 2688, PROT_READ, MAP_SHARED, 23, 0x89e000) = 0xe4300000 <0.000084>
+21:19:42.872686 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000092>
+21:19:42.872888 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000096>
+21:19:42.873096 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000086>
+21:19:42.873302 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000081>
+21:19:42.873514 mprotect(0x74317000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000084>
+21:19:42.873833 madvise(0xf134b000, 4096, MADV_DONTNEED) = 0 <0.000084>
+21:19:42.874018 munmap(0xe4300000, 2688) = 0 <0.000084>
+21:19:42.874252 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\267\310\235\31\361\7\0\0\361\7\0\0008\0\1\0", 30, 9035721) = 30 <0.000082>
+21:19:42.874475 pread64(23, "res/drawable-xxhdpi-v4/progress_"..., 56, 9035751) = 56 <0.000092>
+21:19:42.874672 mmap2(NULL, 2065, PROT_READ, MAP_SHARED, 23, 0x89e000) = 0xe4300000 <0.000087>
+21:19:42.874972 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000082>
+21:19:42.875164 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000082>
+21:19:42.875366 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000081>
+21:19:42.875558 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000081>
+21:19:42.875872 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 45 <0.000089>
+21:19:42.876062 fstat64(45, {st_mode=0230, st_size=1, ...}) = 0 <0.000081>
+21:19:42.876250 ioctl(45, ASHMEM_SET_NAME, 0xff81b1c0) = 0 <0.000082>
+21:19:42.876429 ioctl(45, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000082>
+21:19:42.876608 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 45, 0) = 0xd8be7000 <0.000088>
+21:19:42.876812 close(45)               = 0 <0.000085>
+21:19:42.877065 munmap(0xe4300000, 2065) = 0 <0.000085>
+21:19:42.877318 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0007\0\0\0", 30, 27911843) = 30 <0.000082>
+21:19:42.877498 pread64(23, "res/drawable/progress_indetermin"..., 55, 27911873) = 55 <0.000080>
+21:19:42.877678 mmap2(NULL, 2100, PROT_READ, MAP_SHARED, 23, 0x1a9e000) = 0xe4300000 <0.000127>
+21:19:42.877935 munmap(0xe4300000, 2100) = 0 <0.000086>
+21:19:42.878163 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:D@p\244\f\4\0\0\f\4\0\0:\0\0\0", 30, 9038464) = 30 <0.000083>
+21:19:42.878346 pread64(23, "res/drawable-xxhdpi-v4/progressb"..., 58, 9038494) = 58 <0.000082>
+21:19:42.878529 mmap2(NULL, 3812, PROT_READ, MAP_SHARED, 23, 0x89e000) = 0xe4300000 <0.000084>
+21:19:42.878734 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000095>
+21:19:42.878959 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000088>
+21:19:42.879178 mmap2(NULL, 524288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xd7ef4000 <0.000088>
+21:19:42.879364 madvise(0xd7ef4000, 524288, MADV_MERGEABLE) = 0 <0.000087>
+21:19:42.879552 prctl(0x53564d41 /* PR_??? */, 0, 0xd7ef4000, 524288, "libc_malloc") = 0 <0.000083>
+21:19:42.879738 munmap(0xd7ef4000, 524288) = 0 <0.000087>
+21:19:42.879921 mmap2(NULL, 1044480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xd7e75000 <0.000084>
+21:19:42.880102 madvise(0xd7e75000, 1044480, MADV_MERGEABLE) = 0 <0.000081>
+21:19:42.880294 prctl(0x53564d41 /* PR_??? */, 0, 0xd7e75000, 1044480, "libc_malloc") = 0 <0.000082>
+21:19:42.880476 munmap(0xd7e75000, 45056) = 0 <0.000084>
+21:19:42.880655 munmap(0xd7f00000, 475136) = 0 <0.000083>
+21:19:42.880850 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000084>
+21:19:42.881048 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000081>
+21:19:42.881562 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 45 <0.000088>
+21:19:42.881783 fstat64(45, {st_mode=0115, st_size=1, ...}) = 0 <0.000084>
+21:19:42.881974 ioctl(45, ASHMEM_SET_NAME, 0xff81b330) = 0 <0.000082>
+21:19:42.882151 ioctl(45, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x74000) = 0 <0.000061>
+21:19:42.882314 mmap2(NULL, 475136, PROT_READ|PROT_WRITE, MAP_PRIVATE, 45, 0) = 0xd7f00000 <0.000088>
+21:19:42.882510 close(45)               = 0 <0.000083>
+21:19:42.883403 madvise(0xd7e83000, 397312, MADV_DONTNEED) = 0 <0.000098>
+21:19:42.883625 munmap(0xe4300000, 3812) = 0 <0.000095>
+21:19:42.883852 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\336u\335\325\33\5\0\0\33\5\0\0:\0\0\0", 30, 9039588) = 30 <0.000084>
+21:19:42.884037 pread64(23, "res/drawable-xxhdpi-v4/progressb"..., 58, 9039618) = 58 <0.000082>
+21:19:42.884229 mmap2(NULL, 5207, PROT_READ, MAP_SHARED, 23, 0x89e000) = 0xd8bed000 <0.000085>
+21:19:42.884438 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000082>
+21:19:42.884630 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000169>
+21:19:42.884921 mmap2(NULL, 524288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xd7e00000 <0.000085>
+21:19:42.885103 madvise(0xd7e00000, 524288, MADV_MERGEABLE) = 0 <0.000081>
+21:19:42.885287 prctl(0x53564d41 /* PR_??? */, 0, 0xd7e00000, 524288, "libc_malloc") = 0 <0.000083>
+21:19:42.885478 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000081>
+21:19:42.885672 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000086>
+21:19:42.886187 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 45 <0.000088>
+21:19:42.886375 fstat64(45, {st_mode=0115, st_size=1, ...}) = 0 <0.000082>
+21:19:42.886563 ioctl(45, ASHMEM_SET_NAME, 0xff81b330) = 0 <0.000082>
+21:19:42.886741 ioctl(45, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x74000) = 0 <0.000085>
+21:19:42.886925 mmap2(NULL, 475136, PROT_READ|PROT_WRITE, MAP_PRIVATE, 45, 0) = 0xd7d8c000 <0.000087>
+21:19:42.887119 close(45)               = 0 <0.000096>
+21:19:42.887892 madvise(0xd7e03000, 397312, MADV_DONTNEED) = 0 <0.000107>
+21:19:42.888151 munmap(0xd8bed000, 5207) = 0 <0.000091>
+21:19:42.888389 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\370<A\366\f\6\0\0\f\6\0\0:\0\1\0", 30, 9040983) = 30 <0.000083>
+21:19:42.888575 pread64(23, "res/drawable-xxhdpi-v4/progressb"..., 58, 9041013) = 58 <0.000081>
+21:19:42.888766 mmap2(NULL, 2748, PROT_READ, MAP_SHARED, 23, 0x89f000) = 0xe4300000 <0.000105>
+21:19:42.889000 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000102>
+21:19:42.889212 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000076>
+21:19:42.889424 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000121>
+21:19:42.889814 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000155>
+21:19:42.890448 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 45 <0.000103>
+21:19:42.890663 fstat64(45, {st_mode=0115, st_size=1, ...}) = 0 <0.000099>
+21:19:42.890892 ioctl(45, ASHMEM_SET_NAME, 0xff81b330) = 0 <0.000086>
+21:19:42.891083 ioctl(45, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x74000) = 0 <0.000095>
+21:19:42.891281 mmap2(NULL, 475136, PROT_READ|PROT_WRITE, MAP_PRIVATE, 45, 0) = 0xd7d18000 <0.000105>
+21:19:42.891498 close(45)               = 0 <0.000089>
+21:19:42.892446 madvise(0xd7e03000, 397312, MADV_DONTNEED) = 0 <0.000107>
+21:19:42.892833 munmap(0xe4300000, 2748) = 0 <0.000094>
+21:19:42.893083 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\252Po;\24\6\0\0\24\6\0\0:\0\0\0", 30, 9042620) = 30 <0.000089>
+21:19:42.893291 pread64(23, "res/drawable-xxhdpi-v4/progressb"..., 58, 9042650) = 58 <0.000087>
+21:19:42.893482 mmap2(NULL, 4392, PROT_READ, MAP_SHARED, 23, 0x89f000) = 0xd8bed000 <0.000086>
+21:19:42.893835 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000089>
+21:19:42.894046 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000096>
+21:19:42.894281 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000097>
+21:19:42.894523 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000101>
+21:19:42.895147 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 45 <0.000105>
+21:19:42.895365 fstat64(45, {st_mode=0115, st_size=1, ...}) = 0 <0.000092>
+21:19:42.895572 ioctl(45, ASHMEM_SET_NAME, 0xff81b330) = 0 <0.000091>
+21:19:42.895782 ioctl(45, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x74000) = 0 <0.000096>
+21:19:42.895986 mmap2(NULL, 475136, PROT_READ|PROT_WRITE, MAP_PRIVATE, 45, 0) = 0xd7ca4000 <0.000097>
+21:19:42.896199 close(45)               = 0 <0.000111>
+21:19:42.896433 futex(0xf12b00f8, FUTEX_WAKE, 1) = 1 <0.000104>
+21:19:42.896642 futex(0xf12bfeb0, FUTEX_WAKE, 1) = 1 <0.000128>
+21:19:42.897898 madvise(0xd7e03000, 397312, MADV_DONTNEED) = 0 <0.000163>
+21:19:42.898235 munmap(0xd8bed000, 4392) = 0 <0.000169>
+21:19:42.898597 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:-\252\277)\277\5\0\0\277\5\0\0:\0\0\0", 30, 9044264) = 30 <0.000095>
+21:19:42.898843 pread64(23, "res/drawable-xxhdpi-v4/progressb"..., 58, 9044294) = 58 <0.000094>
+21:19:42.899048 mmap2(NULL, 1855, PROT_READ, MAP_SHARED, 23, 0x8a0000) = 0xe4300000 <0.000090>
+21:19:42.899274 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000123>
+21:19:42.899526 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000148>
+21:19:42.899877 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000118>
+21:19:42.900167 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000101>
+21:19:42.900733 futex(0xf1320a10, FUTEX_WAKE, 1) = 0 <0.000109>
+21:19:42.900966 futex(0xf12b0128, FUTEX_WAIT, 8, NULL) = -1 EAGAIN (Try again) <0.000160>
+21:19:42.901283 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 45 <0.000171>
+21:19:42.901561 fstat64(45, {st_mode=0115, st_size=1, ...}) = 0 <0.000210>
+21:19:42.901918 ioctl(45, ASHMEM_SET_NAME, 0xff81b330) = 0 <0.000070>
+21:19:42.902086 ioctl(45, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x74000) = 0 <0.000147>
+21:19:42.902350 mmap2(NULL, 475136, PROT_READ|PROT_WRITE, MAP_PRIVATE, 45, 0) = 0xd7c30000 <0.000067>
+21:19:42.902521 close(45)               = 0 <0.000088>
+21:19:42.903547 madvise(0xd7e03000, 397312, MADV_DONTNEED) = 0 <0.000134>
+21:19:42.903834 munmap(0xe4300000, 1855) = 0 <0.000062>
+21:19:42.904180 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:gy\377\373b\6\0\0b\6\0\0:\0\1\0", 30, 9045823) = 30 <0.000094>
+21:19:42.904428 pread64(23, "res/drawable-xxhdpi-v4/progressb"..., 58, 9045853) = 58 <0.000083>
+21:19:42.904591 mmap2(NULL, 3578, PROT_READ, MAP_SHARED, 23, 0x8a0000) = 0xe4300000 <0.000186>
+21:19:42.904915 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000083>
+21:19:42.905112 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000082>
+21:19:42.905334 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000082>
+21:19:42.905560 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000080>
+21:19:42.906179 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 45 <0.000175>
+21:19:42.906480 fstat64(45, {st_mode=0115, st_size=1, ...}) = 0 <0.000079>
+21:19:42.906664 ioctl(45, ASHMEM_SET_NAME, 0xff81b330) = 0 <0.000144>
+21:19:42.906964 ioctl(45, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x74000) = 0 <0.000134>
+21:19:42.907623 mmap2(NULL, 475136, PROT_READ|PROT_WRITE, MAP_PRIVATE, 45, 0) = 0xd7bbc000 <0.000151>
+21:19:42.908009 close(45)               = 0 <0.000229>
+21:19:42.909154 madvise(0xd7e03000, 397312, MADV_DONTNEED) = 0 <0.000186>
+21:19:42.909509 munmap(0xe4300000, 3578) = 0 <0.000106>
+21:19:42.909851 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\t^\311\237\233\5\0\0\233\5\0\0:\0\2\0", 30, 9047546) = 30 <0.000112>
+21:19:42.910087 pread64(23, "res/drawable-xxhdpi-v4/progressb"..., 58, 9047576) = 58 <0.000093>
+21:19:42.910354 mmap2(NULL, 5103, PROT_READ, MAP_SHARED, 23, 0x8a0000) = 0xe401d000 <0.000102>
+21:19:42.910601 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000097>
+21:19:42.910829 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000100>
+21:19:42.911108 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000136>
+21:19:42.911389 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000099>
+21:19:42.911955 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 45 <0.000104>
+21:19:42.912174 fstat64(45, {st_mode=0115, st_size=1, ...}) = 0 <0.000098>
+21:19:42.912388 ioctl(45, ASHMEM_SET_NAME, 0xff81b330) = 0 <0.000091>
+21:19:42.912585 ioctl(45, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x74000) = 0 <0.000091>
+21:19:42.912784 mmap2(NULL, 475136, PROT_READ|PROT_WRITE, MAP_PRIVATE, 45, 0) = 0xd7b48000 <0.000098>
+21:19:42.913000 close(45)               = 0 <0.000092>
+21:19:42.914159 madvise(0xd7e03000, 397312, MADV_DONTNEED) = 0 <0.000118>
+21:19:42.914393 munmap(0xe401d000, 5103) = 0 <0.000079>
+21:19:42.914598 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\0\245o\210\233\5\0\0\233\5\0\0:\0\1\0", 30, 9049071) = 30 <0.000076>
+21:19:42.914944 pread64(23, "res/drawable-xxhdpi-v4/progressb"..., 58, 9049101) = 58 <0.000119>
+21:19:42.915199 mmap2(NULL, 2531, PROT_READ, MAP_SHARED, 23, 0x8a1000) = 0xe4300000 <0.000118>
+21:19:42.915464 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000084>
+21:19:42.915658 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000083>
+21:19:42.915867 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000083>
+21:19:42.916061 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000079>
+21:19:42.916581 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 45 <0.000089>
+21:19:42.916771 fstat64(45, {st_mode=0115, st_size=1, ...}) = 0 <0.000091>
+21:19:42.916967 ioctl(45, ASHMEM_SET_NAME, 0xff81b330) = 0 <0.000083>
+21:19:42.917146 ioctl(45, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x74000) = 0 <0.000082>
+21:19:42.917335 mmap2(NULL, 475136, PROT_READ|PROT_WRITE, MAP_PRIVATE, 45, 0) = 0xd7ad4000 <0.000089>
+21:19:42.917531 close(45)               = 0 <0.000085>
+21:19:42.918473 madvise(0xd7e03000, 397312, MADV_DONTNEED) = 0 <0.000098>
+21:19:42.918692 munmap(0xe4300000, 2531) = 0 <0.000094>
+21:19:42.919124 ioctl(8, BINDER_WRITE_READ, 0xff81e018) = 0 <0.000195>
+21:19:42.919422 ioctl(8, BINDER_WRITE_READ, 0xff81e018) = 0 <0.000084>
+21:19:42.919620 ioctl(8, BINDER_WRITE_READ, 0xff81e018) = 0 <0.000126>
+21:19:42.919839 ioctl(8, BINDER_WRITE_READ, 0xff81e018) = 0 <0.000083>
+21:19:42.920423 writev(3, [{"\0\177\16\256\356\327Z[\277\3336", 11}, {"\3", 1}, {"AndroidRuntime\0", 15}, {"Shutting down VM\n\0", 18}], 4) = 45 <0.000134>
+21:19:42.920876 writev(3, [{"\4\177\16\256\356\327ZZ\203\3426", 11}, {"\6", 1}, {"AndroidRuntime\0", 15}, {"FATAL EXCEPTION: main\nProcess: c"..., 1441}], 4) = 1468 <0.000122>
+21:19:42.921291 ioctl(8, BINDER_WRITE_READ, 0xff81e9a8) = 0 <0.000119>
+21:19:42.921535 ioctl(8, BINDER_WRITE_READ <unfinished ...>
+21:19:43.362335 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 98.30    0.032229        1289        25         5 futex
+  0.49    0.000162           6        28         8 recvfrom
+  0.38    0.000126           4        33           writev
+  0.32    0.000105           2        52           rt_sigprocmask
+  0.27    0.000087           2        48           pread64
+  0.24    0.000079           4        22           getuid32
+  0.00    0.000000           0        13           close
+  0.00    0.000000           0         2           dup
+  0.00    0.000000           0        60           ioctl
+  0.00    0.000000           0        27           munmap
+  0.00    0.000000           0         2           mprotect
+  0.00    0.000000           0         4           prctl
+  0.00    0.000000           0        40           mmap2
+  0.00    0.000000           0        18           fstat64
+  0.00    0.000000           0        15           madvise
+  0.00    0.000000           0        11           openat
+  0.00    0.000000           0         6           fstatat64
+  0.00    0.000000           0        14           epoll_pwait
+  0.00    0.000000           0        18           sendto
+  0.00    0.000000           0         1           read
+  0.00    0.000000           0        10           write
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.032788                   449        13 total

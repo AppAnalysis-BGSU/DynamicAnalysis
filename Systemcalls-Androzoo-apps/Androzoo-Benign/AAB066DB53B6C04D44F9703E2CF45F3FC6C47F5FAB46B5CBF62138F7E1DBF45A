@@ -1,0 +1,15 @@
+09:41:47.948116 connect(35, {sa_family=AF_INET6, sin6_port=htons(80), inet_pton(AF_INET6, "::ffff:199.59.242.150", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = ? ERESTARTSYS (To be restarted if SA_RESTART is set) <5.390752>
+09:41:53.339233 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=21793, si_uid=10538} ---
+09:41:53.339280 futex(0xd8135354, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000022>
+09:41:53.339337 futex(0xd8135354, FUTEX_WAIT_BITSET_PRIVATE, 6, {52117, 242723458}, ffffffff) = 0 <0.000218>
+09:41:53.339591 futex(0xd8135354, FUTEX_WAKE_PRIVATE, 1) = 0 <0.000018>
+09:41:53.339639 rt_sigreturn()          = 102 <0.000020>
+09:41:53.339688 connect(35, {sa_family=AF_INET6, sin6_port=htons(80), inet_pton(AF_INET6, "::ffff:199.59.242.150", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28 <unfinished ...>
+09:42:04.673239 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+  0.00    0.000000           0         1           rt_sigreturn
+  0.00    0.000000           0         3           futex
+  0.00    0.000000           0         1         1 connect
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000000                     5         1 total

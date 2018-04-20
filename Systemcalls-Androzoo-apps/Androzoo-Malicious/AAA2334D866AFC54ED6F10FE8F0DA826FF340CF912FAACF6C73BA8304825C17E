@@ -1,0 +1,704 @@
+13:53:05.722646 wait4(19201, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 19201 <0.081329>
+13:53:05.804126 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=19201, si_uid=10334, si_status=0, si_utime=26, si_stime=18} ---
+13:53:05.804174 fdatasync(34)           = 0 <0.000249>
+13:53:05.804525 close(34)               = 0 <0.000088>
+13:53:05.804725 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zinsert.dex", {st_mode=0165030, st_size=1, ...}, 0) = 0 <0.000085>
+13:53:05.804947 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000081>
+13:53:05.805131 fstatat64(AT_FDCWD, "/data/user", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000080>
+13:53:05.805312 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000083>
+13:53:05.805494 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000081>
+13:53:05.805680 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000079>
+13:53:05.805941 fstatat64(AT_FDCWD, "/data/data", {st_mode=0, st_size=87, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000082>
+13:53:05.806301 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs", {st_mode=0, st_size=4, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000081>
+13:53:05.806483 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000081>
+13:53:05.806665 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files/zinsert.dex", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000081>
+13:53:05.806849 mprotect(0xdafbb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000080>
+13:53:05.807023 mprotect(0xe848a000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000081>
+13:53:05.807194 mprotect(0xe86f4000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+13:53:05.807369 mprotect(0xe86f5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000081>
+13:53:05.807549 mprotect(0xe875f000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000080>
+13:53:05.807720 mprotect(0xe82a7000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000080>
+13:53:05.807902 mprotect(0xe82f4000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000118>
+13:53:05.808139 mprotect(0xe834f000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000100>
+13:53:05.808351 mprotect(0xe83a1000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000099>
+13:53:05.808631 mprotect(0xe842c000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000106>
+13:53:05.808840 mprotect(0xe8472000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000081>
+13:53:05.809014 mprotect(0xe8583000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000080>
+13:53:05.809185 mprotect(0xe85cd000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000080>
+13:53:05.809356 mprotect(0xe86ec000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000080>
+13:53:05.809539 mprotect(0xe8734000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000081>
+13:53:05.809711 mprotect(0xe87f2000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000081>
+13:53:05.809881 mprotect(0xdaf72000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+13:53:05.810196 mprotect(0xe86ee000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000155>
+13:53:05.810396 mprotect(0xe408c000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000025>
+13:53:05.810462 mprotect(0xe82b4000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000023>
+13:53:05.810523 mprotect(0xe82f5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000041>
+13:53:05.810602 mprotect(0xe8356000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000025>
+13:53:05.810664 mprotect(0xe8370000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000024>
+13:53:05.810725 mprotect(0xe83c7000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000025>
+13:53:05.810786 mprotect(0xe87f4000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000024>
+13:53:05.810848 mprotect(0xe87f5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000024>
+13:53:05.810909 mprotect(0xdd8ae000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000024>
+13:53:05.810986 openat(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files/zinsert.dex", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 34 <0.000033>
+13:53:05.811083 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdd87d000 <0.000028>
+13:53:05.811151 madvise(0xdd87d000, 8192, MADV_MERGEABLE) = 0 <0.000023>
+13:53:05.811214 prctl(0x53564d41 /* PR_??? */, 0, 0xdd87d000, 8192, "linker_alloc_lob") = 0 <0.000023>
+13:53:05.811288 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdd87b000 <0.000024>
+13:53:05.811352 madvise(0xdd87b000, 8192, MADV_MERGEABLE) = 0 <0.000022>
+13:53:05.811411 prctl(0x53564d41 /* PR_??? */, 0, 0xdd87b000, 8192, "linker_alloc_lob") = 0 <0.000023>
+13:53:05.811484 readlinkat(AT_FDCWD, "/proc/self/fd/34", "/data/data/com.gamesstar.pianopd"..., 4096) = 59 <0.000057>
+13:53:05.811592 munmap(0xdd87b000, 8192) = 0 <0.000029>
+13:53:05.811658 munmap(0xdd87d000, 8192) = 0 <0.000026>
+13:53:05.811721 fstat64(34, {st_mode=0165220, st_size=1, ...}) = 0 <0.000023>
+13:53:05.811794 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdd8af000 <0.000025>
+13:53:05.811858 madvise(0xdd8af000, 4096, MADV_MERGEABLE) = 0 <0.000023>
+13:53:05.811916 prctl(0x53564d41 /* PR_??? */, 0, 0xdd8af000, 4096, "linker_alloc_small_objects") = 0 <0.000022>
+13:53:05.811987 pread64(34, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\0\0\0004\0\0\0"..., 52, 0) = 52 <0.000025>
+13:53:05.812067 mmap2(NULL, 328, PROT_READ, MAP_PRIVATE, 34, 0) = 0xdd87e000 <0.000025>
+13:53:05.812132 mmap2(NULL, 488, PROT_READ, MAP_PRIVATE, 34, 0x51000) = 0xdd87d000 <0.000025>
+13:53:05.812198 mmap2(NULL, 56, PROT_READ, MAP_PRIVATE, 34, 0x50000) = 0xdd87c000 <0.000024>
+13:53:05.812260 mmap2(NULL, 63, PROT_READ, MAP_PRIVATE, 34, 0x4f000) = 0xdd87b000 <0.000023>
+13:53:05.812328 mmap2(NULL, 344064, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xdd7dd000 <0.000024>
+13:53:05.812390 madvise(0xdd7dd000, 344064, MADV_MERGEABLE) = 0 <0.000022>
+13:53:05.812449 mmap2(0xdd7dd000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED, 34, 0) = 0xdd7dd000 <0.000027>
+13:53:05.812516 mmap2(0xdd805000, 157630, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 34, 0x28000) = 0xdd805000 <0.000040>
+13:53:05.812596 mmap2(0xdd82c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xdd82c000 <0.000025>
+13:53:05.812660 madvise(0xdd82c000, 12288, MADV_MERGEABLE) = 0 <0.000023>
+13:53:05.812720 prctl(0x53564d41 /* PR_??? */, 0, 0xdd82c000, 12288, ".bss") = 0 <0.000023>
+13:53:05.812784 mmap2(0xdd82f000, 196, PROT_READ, MAP_PRIVATE|MAP_FIXED, 34, 0x4f000) = 0xdd82f000 <0.000026>
+13:53:05.812848 mmap2(0xdd830000, 56, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 34, 0x50000) = 0xdd830000 <0.000025>
+13:53:05.812926 close(34)               = 0 <0.000022>
+13:53:05.812986 munmap(0xdd87b000, 63)  = 0 <0.000027>
+13:53:05.813066 munmap(0xdd87c000, 56)  = 0 <0.000028>
+13:53:05.813131 munmap(0xdd87d000, 488) = 0 <0.000025>
+13:53:05.813192 munmap(0xdd87e000, 328) = 0 <0.000025>
+13:53:05.813254 munmap(0xdd8af000, 4096) = 0 <0.000025>
+13:53:05.813317 mprotect(0xdafbb000, 4096, PROT_READ) = 0 <0.000023>
+13:53:05.813378 mprotect(0xe848a000, 4096, PROT_READ) = 0 <0.000024>
+13:53:05.813438 mprotect(0xe86f4000, 4096, PROT_READ) = 0 <0.000026>
+13:53:05.813502 mprotect(0xe86f5000, 4096, PROT_READ) = 0 <0.000038>
+13:53:05.813577 mprotect(0xe875f000, 4096, PROT_READ) = 0 <0.000024>
+13:53:05.813638 mprotect(0xe82a7000, 4096, PROT_READ) = 0 <0.000023>
+13:53:05.813698 mprotect(0xe82f4000, 4096, PROT_READ) = 0 <0.000025>
+13:53:05.813759 mprotect(0xe834f000, 4096, PROT_READ) = 0 <0.000023>
+13:53:05.813819 mprotect(0xe83a1000, 4096, PROT_READ) = 0 <0.000024>
+13:53:05.813878 mprotect(0xe842c000, 4096, PROT_READ) = 0 <0.000024>
+13:53:05.813933 mprotect(0xe8472000, 4096, PROT_READ) = 0 <0.000018>
+13:53:05.813981 mprotect(0xe8583000, 4096, PROT_READ) = 0 <0.000018>
+13:53:05.814031 mprotect(0xe85cd000, 4096, PROT_READ) = 0 <0.000018>
+13:53:05.814079 mprotect(0xe86ec000, 4096, PROT_READ) = 0 <0.000018>
+13:53:05.814127 mprotect(0xe8734000, 4096, PROT_READ) = 0 <0.000020>
+13:53:05.814244 mprotect(0xe87f2000, 4096, PROT_READ) = 0 <0.000018>
+13:53:05.814294 mprotect(0xdaf72000, 4096, PROT_READ) = 0 <0.000017>
+13:53:05.814342 mprotect(0xe86ee000, 4096, PROT_READ) = 0 <0.000018>
+13:53:05.814390 mprotect(0xe408c000, 4096, PROT_READ) = 0 <0.000018>
+13:53:05.814439 mprotect(0xe82b4000, 4096, PROT_READ) = 0 <0.000019>
+13:53:05.814490 mprotect(0xe82f5000, 4096, PROT_READ) = 0 <0.000034>
+13:53:05.814555 mprotect(0xe8356000, 4096, PROT_READ) = 0 <0.000018>
+13:53:05.814604 mprotect(0xe8370000, 4096, PROT_READ) = 0 <0.000018>
+13:53:05.814652 mprotect(0xe83c7000, 4096, PROT_READ) = 0 <0.000018>
+13:53:05.814701 mprotect(0xe87f4000, 4096, PROT_READ) = 0 <0.000018>
+13:53:05.814749 mprotect(0xe87f5000, 4096, PROT_READ) = 0 <0.000018>
+13:53:05.814798 mprotect(0xdd8ae000, 4096, PROT_READ) = 0 <0.000018>
+13:53:05.814878 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000020>
+13:53:05.814941 fstatat64(AT_FDCWD, "/data/user", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000018>
+13:53:05.815029 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000019>
+13:53:05.815089 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000019>
+13:53:05.815147 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000018>
+13:53:05.815205 fstatat64(AT_FDCWD, "/data/data", {st_mode=0, st_size=87, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000018>
+13:53:05.815264 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs", {st_mode=0, st_size=4, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000019>
+13:53:05.815323 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000018>
+13:53:05.815382 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files/zinsert.jar", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000019>
+13:53:05.815452 fstatat64(AT_FDCWD, "/data", {st_mode=020, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000018>
+13:53:05.815526 fstatat64(AT_FDCWD, "/data/user", {st_mode=020, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000018>
+13:53:05.815587 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=020, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000019>
+13:53:05.815644 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000018>
+13:53:05.815701 fstatat64(AT_FDCWD, "/data", {st_mode=020, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000018>
+13:53:05.815759 fstatat64(AT_FDCWD, "/data/data", {st_mode=020, st_size=87, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000018>
+13:53:05.815818 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs", {st_mode=020, st_size=4, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000018>
+13:53:05.815876 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files", {st_mode=020, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000018>
+13:53:05.815935 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files/zinsert.jar", {st_mode=020, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000019>
+13:53:05.816121 openat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zinsert.art", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000031>
+13:53:05.816199 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zinsert.art", 0xff89a670, 0) = -1 ENOENT (No such file or directory) <0.000019>
+13:53:05.816265 unlinkat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zinsert.dex.flock", 0) = 0 <0.000042>
+13:53:05.816344 flock(33, LOCK_UN)      = 0 <0.000019>
+13:53:05.816394 fdatasync(33)           = 0 <0.000252>
+13:53:05.816720 close(33)               = 0 <0.000032>
+13:53:05.816825 fstatat64(AT_FDCWD, "/system/lib", {st_mode=S_ISGID|064, st_size=6, ...}, 0) = 0 <0.000018>
+13:53:05.816898 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=S_ISGID|064, st_size=3, ...}, 0) = 0 <0.000020>
+13:53:05.816970 fstatat64(AT_FDCWD, "/system/lib", {st_mode=0175264, st_size=6, ...}, 0) = 0 <0.000016>
+13:53:05.817027 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=0175264, st_size=3, ...}, 0) = 0 <0.000015>
+13:53:05.818052 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs", F_OK) = 0 <0.000025>
+13:53:05.818198 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs", F_OK) = -1 ENOENT (No such file or directory) <0.000027>
+13:53:05.818274 mkdirat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs", 0771) = 0 <0.000054>
+13:53:05.818371 fchmodat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs", 0771) = 0 <0.000024>
+13:53:05.818472 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 33 <0.000026>
+13:53:05.818532 fstat64(33, {st_mode=031300, st_size=1, ...}) = 0 <0.000036>
+13:53:05.818605 ioctl(33, ASHMEM_SET_NAME, 0xff89a430) = 0 <0.000019>
+13:53:05.818654 ioctl(33, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000018>
+13:53:05.818704 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 33, 0) = 0xdd87d000 <0.000024>
+13:53:05.818766 close(33)               = 0 <0.000020>
+13:53:05.818818 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcb7c2000 <0.000020>
+13:53:05.818869 madvise(0xcb7c2000, 1069056, MADV_MERGEABLE) = 0 <0.000018>
+13:53:05.818916 mprotect(0xcb7c2000, 4096, PROT_NONE) = 0 <0.000015>
+13:53:05.818955 prctl(0x53564d41 /* PR_??? */, 0, 0xcb7c2000, 4096, "thread stack guard page") = 0 <0.000014>
+13:53:05.819002 clone(child_stack=0xcb8c6910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb8c6928, tls={entry_number:12, base_addr:0xcb8c6970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff89a780, child_tidptr=0xcb8c6928) = 19211 <0.000031>
+13:53:05.820447 ioctl(8, BINDER_WRITE_READ, 0xff89aa48) = 0 <0.000045>
+13:53:05.820545 ioctl(8, BINDER_WRITE_READ, 0xff89aa48) = 0 <0.000076>
+13:53:05.820720 futex(0xe3fc0180, FUTEX_WAKE, 1) = 0 <0.000021>
+13:53:05.820776 futex(0xe3fb0138, FUTEX_WAIT, 645, NULL) = -1 EAGAIN (Try again) <0.000059>
+13:53:05.821011 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml", F_OK) = -1 ENOENT (No such file or directory) <0.000089>
+13:53:05.821229 openat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 33 <0.000098>
+13:53:05.821422 fstat64(33, {st_mode=S_ISVTX|0710, st_size=1, ...}) = 0 <0.000087>
+13:53:05.821642 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 34 <0.000086>
+13:53:05.821822 fstat64(34, {st_mode=0107, st_size=1, ...}) = 0 <0.000076>
+13:53:05.821998 ioctl(34, ASHMEM_SET_NAME, 0xff89a730) = 0 <0.000205>
+13:53:05.822296 ioctl(34, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000078>
+13:53:05.822467 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 34, 0) = 0xdd87a000 <0.000082>
+13:53:05.822652 close(34)               = 0 <0.000077>
+13:53:05.822903 write(33, "<?xml version='1.0' encoding='ut"..., 124) = 124 <0.000094>
+13:53:05.823096 fsync(33)               = 0 <0.001124>
+13:53:05.824339 getsockopt(33, SOL_SOCKET, SO_ERROR, 0xff89ab44, 0xff89ab40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000077>
+13:53:05.824526 close(33)               = 0 <0.000125>
+13:53:05.824810 fchmodat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml", 0660) = 0 <0.000125>
+13:53:05.825075 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml", {st_mode=S_ISGID|064, st_size=1, ...}, 0) = 0 <0.000153>
+13:53:05.825479 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml.bak", 0xff89aaf8, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000125>
+13:53:05.832488 ioctl(8, BINDER_WRITE_READ, 0xff89a928) = 0 <0.003887>
+13:53:05.844248 ioctl(8, BINDER_WRITE_READ, 0xff89a928) = 0 <0.000267>
+13:53:05.847015 ioctl(8, BINDER_WRITE_READ, 0xff89aa88) = 0 <0.000320>
+13:53:05.847482 ioctl(8, BINDER_WRITE_READ, 0xff89aa88) = 0 <0.000105>
+13:53:05.847821 ioctl(8, BINDER_WRITE_READ, 0xff89aa88) = 0 <0.000254>
+13:53:05.848194 ioctl(8, BINDER_WRITE_READ, 0xff89aa88) = 0 <0.000093>
+13:53:05.849099 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 33 <0.000123>
+13:53:05.849362 fstat64(33, {st_mode=0132000, st_size=1, ...}) = 0 <0.000102>
+13:53:05.849602 ioctl(33, ASHMEM_SET_NAME, 0xff89a820) = 0 <0.000103>
+13:53:05.849823 ioctl(33, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000104>
+13:53:05.850061 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 33, 0) = 0xdd878000 <0.000187>
+13:53:05.850394 close(33)               = 0 <0.000120>
+13:53:05.850636 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcb7c2000 <0.000100>
+13:53:05.850851 madvise(0xcb7c2000, 1069056, MADV_MERGEABLE) = 0 <0.000095>
+13:53:05.851068 mprotect(0xcb7c2000, 4096, PROT_NONE) = 0 <0.000095>
+13:53:05.851274 prctl(0x53564d41 /* PR_??? */, 0, 0xcb7c2000, 4096, "thread stack guard page") = 0 <0.000095>
+13:53:05.851524 clone(child_stack=0xcb8c6910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb8c6928, tls={entry_number:12, base_addr:0xcb8c6970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff89ab70, child_tidptr=0xcb8c6928) = 19212 <0.000103>
+13:53:05.851768 futex(0xcb8c6960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000078>
+13:53:05.851966 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml", F_OK) = 0 <0.000060>
+13:53:05.852082 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000030>
+13:53:05.852168 renameat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml", AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml.bak") = 0 <0.000052>
+13:53:05.852425 openat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 33 <0.000051>
+13:53:05.852638 fstat64(33, {st_mode=S_ISVTX|0710, st_size=1, ...}) = 0 <0.000022>
+13:53:05.852714 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 34 <0.000028>
+13:53:05.852784 fstat64(34, {st_mode=0107, st_size=1, ...}) = 0 <0.000096>
+13:53:05.853100 ioctl(34, ASHMEM_SET_NAME, 0xff89a6e0) = 0 <0.000094>
+13:53:05.853242 ioctl(34, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000025>
+13:53:05.853310 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 34, 0) = 0xdd870000 <0.000032>
+13:53:05.853451 close(34)               = 0 <0.000772>
+13:53:05.854471 write(33, "<?xml version='1.0' encoding='ut"..., 175) = 175 <0.000051>
+13:53:05.854593 fsync(33)               = 0 <0.005462>
+13:53:05.863686 getsockopt(33, SOL_SOCKET, SO_ERROR, 0xff89aaf4, 0xff89aaf0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000030>
+13:53:05.866997 close(33)               = 0 <0.000032>
+13:53:05.867098 fchmodat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml", 0660) = 0 <0.003283>
+13:53:05.870520 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml", {st_mode=S_ISGID|064, st_size=1, ...}, 0) = 0 <0.000134>
+13:53:05.870902 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000034>
+13:53:05.871397 unlinkat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_insert.xml.bak", 0) = 0 <0.000071>
+13:53:05.871961 getuid32()              = 10334 <0.000091>
+13:53:05.872209 ioctl(8, BINDER_WRITE_READ, 0xff89a9f8) = 0 <0.000273>
+13:53:05.872593 ioctl(8, BINDER_WRITE_READ, 0xff89a9f8) = 0 <0.000089>
+13:53:05.873084 ioctl(8, BINDER_WRITE_READ, 0xff899fa8) = 0 <0.000251>
+13:53:05.873442 ioctl(8, BINDER_WRITE_READ, 0xff899fa8) = 0 <0.000088>
+13:53:05.873868 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 34 <0.000100>
+13:53:05.874208 fstat64(34, {st_mode=0132000, st_size=1, ...}) = 0 <0.000089>
+13:53:05.874436 ioctl(34, ASHMEM_SET_NAME, 0xff89a820) = 0 <0.000121>
+13:53:05.874745 ioctl(34, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.004677>
+13:53:05.883983 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 34, 0) = 0xdd86e000 <0.003907>
+13:53:05.888616 close(34)               = 0 <0.000050>
+13:53:05.888766 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcb5fb000 <0.000028>
+13:53:05.888849 madvise(0xcb5fb000, 1069056, MADV_MERGEABLE) = 0 <0.000043>
+13:53:05.888930 mprotect(0xcb5fb000, 4096, PROT_NONE) = 0 <0.000021>
+13:53:05.888982 prctl(0x53564d41 /* PR_??? */, 0, 0xcb5fb000, 4096, "thread stack guard page") = 0 <0.000020>
+13:53:05.889059 clone(child_stack=0xcb6ff910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb6ff928, tls={entry_number:12, base_addr:0xcb6ff970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff89ab70, child_tidptr=0xcb6ff928) = 19214 <0.000038>
+13:53:05.889189 getuid32()              = 10334 <0.000018>
+13:53:05.889271 ioctl(8, BINDER_WRITE_READ, 0xff89aa28) = 0 <0.000184>
+13:53:05.889584 ioctl(8, BINDER_WRITE_READ, 0xff899fd8) = 0 <0.000212>
+13:53:05.890068 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files", F_OK) = 0 <0.000028>
+13:53:05.892709 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.jar", F_OK) = -1 ENOENT (No such file or directory) <0.000050>
+13:53:05.895720 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files", F_OK) = 0 <0.000121>
+13:53:05.896583 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.jar_tmp", F_OK) = -1 ENOENT (No such file or directory) <0.000495>
+13:53:05.898969 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.jar", F_OK) = -1 ENOENT (No such file or directory) <0.000853>
+13:53:05.902820 openat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.jar_tmp", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 35 <0.001736>
+13:53:05.907279 close(35)               = 0 <0.000804>
+13:53:05.910769 openat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.jar_tmp", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 35 <0.001767>
+13:53:05.914687 fstat64(35, {st_mode=S_ISVTX|0710, st_size=1, ...}) = 0 <0.000429>
+13:53:05.917758 _llseek(32, 475934, [475934], SEEK_SET) = 0 <0.000740>
+13:53:05.919302 read(32, "PK\3\4\n\0\0\10\0\0009\263tC\203\217\354&\36\246\1\0\36\246\1\0\21\0\3\0", 30) = 30 <0.000109>
+13:53:05.919580 _llseek(32, 475984, [475984], SEEK_SET) = 0 <0.000231>
+13:53:05.920903 read(32, "PK\3\4\24\0\10\10\10\0zR_C\0\0\0\0\0\0\0\0\0\0\0\0\24\0\4\0ME"..., 8192) = 8192 <0.000139>
+13:53:05.924307 write(35, "PK\3\4\24\0\10\10\10\0zR_C\0\0\0\0\0\0\0\0\0\0\0\0\24\0\4\0ME"..., 8192) = 8192 <0.000084>
+13:53:05.924447 _llseek(32, 484176, [484176], SEEK_SET) = 0 <0.000019>
+13:53:05.924516 read(32, "\22\276\367\374qtq\225N\341y~x\364\2579\334}\215\312H\16\317uIL\210\221\347.\214\327"..., 8192) = 8192 <0.000020>
+13:53:05.924600 write(35, "\22\276\367\374qtq\225N\341y~x\364\2579\334}\215\312H\16\317uIL\210\221\347.\214\327"..., 8192) = 8192 <0.000029>
+13:53:05.924669 _llseek(32, 492368, [492368], SEEK_SET) = 0 <0.000017>
+13:53:05.924720 read(32, "l\16x\177\255\3\257`\242i\360Em7]\312\246K\f\312\237\366W\16!\330\362o\177ssV"..., 8192) = 8192 <0.000020>
+13:53:05.924800 write(35, "l\16x\177\255\3\257`\242i\360Em7]\312\246K\f\312\237\366W\16!\330\362o\177ssV"..., 8192) = 8192 <0.000028>
+13:53:05.924867 _llseek(32, 500560, [500560], SEEK_SET) = 0 <0.000018>
+13:53:05.924918 read(32, "\357\237\302\317\234\306\335\262\3007\36\35\3565n2\30\24F\26#x\363Ki[\333{\32\367\270\347"..., 8192) = 8192 <0.000020>
+13:53:05.925014 write(35, "\357\237\302\317\234\306\335\262\3007\36\35\3565n2\30\24F\26#x\363Ki[\333{\32\367\270\347"..., 8192) = 8192 <0.000028>
+13:53:05.925083 _llseek(32, 508752, [508752], SEEK_SET) = 0 <0.000030>
+13:53:05.925232 read(32, "\255\312\374\203\266*\347O\332\207`\377E\3738\354\\\332g`\377M;\27\366\365@\2318i\257\321"..., 8192) = 8192 <0.000025>
+13:53:05.925342 write(35, "\255\312\374\203\266*\347O\332\207`\377E\3738\354\\\332g`\377M;\27\366\365@\2318i\257\321"..., 8192) = 8192 <0.000028>
+13:53:05.925412 _llseek(32, 516944, [516944], SEEK_SET) = 0 <0.000018>
+13:53:05.925596 read(32, "R,\307+\357\323\371\274\314W\232\365\225\226\37\361\273\325#Z\303\230\277LPM\271e\3447Z\357"..., 8192) = 8192 <0.000020>
+13:53:05.925680 write(35, "R,\307+\357\323\371\274\314W\232\365\225\226\37\361\273\325#Z\303\230\277LPM\271e\3447Z\357"..., 8192) = 8192 <0.000028>
+13:53:05.925750 _llseek(32, 525136, [525136], SEEK_SET) = 0 <0.000018>
+13:53:05.925926 read(32, "m\274\2566B&=YDk\310\6\r9\371\236\263!\2122\320\337PJ%\374~\227\241_\230\307"..., 8192) = 8192 <0.000020>
+13:53:05.926014 write(35, "m\274\2566B&=YDk\310\6\r9\371\236\263!\2122\320\337PJ%\374~\227\241_\230\307"..., 8192) = 8192 <0.000323>
+13:53:05.926670 _llseek(32, 533328, [533328], SEEK_SET) = 0 <0.000028>
+13:53:05.926836 read(32, "\261-,\260mH\371\20n\255\207\331\210]t\237xg\364d\350\24\247@\247r*{nk\331-"..., 8192) = 8192 <0.000184>
+13:53:05.927181 write(35, "\261-,\260mH\371\20n\255\207\331\210]t\237xg\364d\350\24\247@\247r*{nk\331-"..., 8192) = 8192 <0.000037>
+13:53:05.927285 _llseek(32, 541520, [541520], SEEK_SET) = 0 <0.000054>
+13:53:05.927561 read(32, "\262\352H?f_\204}:\254\371\232\257\5}\332\315\272\255\305\244K\22U%\330\247\253\217\6O\327"..., 8192) = 8192 <0.000355>
+13:53:05.930683 write(35, "\262\352H?f_\204}:\254\371\232\257\5}\332\315\272\255\305\244K\22U%\330\247\253\217\6O\327"..., 8192) = 8192 <0.000161>
+13:53:05.931021 _llseek(32, 549712, [549712], SEEK_SET) = 0 <0.000116>
+13:53:05.931344 read(32, "!&\355\335]\245\7i6\311\23\233j\337\211\r\236ZD\200\302\320\251M\337\27y\341iM\25\346"..., 8192) = 8192 <0.000069>
+13:53:05.931580 write(35, "!&\355\335]\245\7i6\311\23\233j\337\211\r\236ZD\200\302\320\251M\337\27y\341iM\25\346"..., 8192) = 8192 <0.000526>
+13:53:05.932266 _llseek(32, 557904, [557904], SEEK_SET) = 0 <0.000080>
+13:53:05.932650 read(32, "\216=\251g\264\210.cQ\377\367\2\rc\364`\230\235\26\220\267L\32\334\333\0165t\226\243)}"..., 8192) = 8192 <0.000128>
+13:53:05.933109 write(35, "\216=\251g\264\210.cQ\377\367\2\rc\364`\230\235\26\220\267L\32\334\333\0165t\226\243)}"..., 8192) = 8192 <0.000105>
+13:53:05.933507 _llseek(32, 566096, [566096], SEEK_SET) = 0 <0.000105>
+13:53:05.933744 read(32, "\262\314:.\224;\231KW\256q\350:}zW\341V\203\317\217u\257Pe\254Us\274K\321\275"..., 8192) = 8192 <0.000108>
+13:53:05.934209 write(35, "\262\314:.\224;\231KW\256q\350:}zW\341V\203\317\217u\257Pe\254Us\274K\321\275"..., 8192) = 8192 <0.000100>
+13:53:05.934446 _llseek(32, 574288, [574288], SEEK_SET) = 0 <0.000116>
+13:53:05.934703 read(32, "\263\266wX\231\351K\224\255\301D\316\3\20\314\354b\254v.\t%8\6\277\307CM\271\310q/"..., 8192) = 8192 <0.000110>
+13:53:05.935002 write(35, "\263\266wX\231\351K\224\255\301D\316\3\20\314\354b\254v.\t%8\6\277\307CM\271\310q/"..., 8192) = 8192 <0.000112>
+13:53:05.935273 _llseek(32, 582480, [582480], SEEK_SET) = 0 <0.000099>
+13:53:05.935495 read(32, "`\2\240\361\36\2M\367zQ\355/\31\5w#\301\221{\275\367\24\312\352\26bV\367\274l\244\25"..., 1566) = 1566 <0.000117>
+13:53:05.935819 write(35, "`\2\240\361\36\2M\367zQ\355/\31\5w#\301\221{\275\367\24\312\352\26bV\367\274l\244\25"..., 1566) = 1566 <0.000114>
+13:53:05.936079 getsockopt(35, SOL_SOCKET, SO_ERROR, 0xff89adc4, 0xff89adc0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000105>
+13:53:05.936312 close(35)               = 0 <0.000190>
+13:53:05.939187 renameat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.jar_tmp", AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.jar") = 0 <0.002379>
+13:53:05.942246 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files", F_OK) = 0 <0.001415>
+13:53:05.943903 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files", F_OK) = 0 <0.000045>
+13:53:05.944154 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files", F_OK) = 0 <0.000106>
+13:53:05.944389 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files", R_OK) = 0 <0.000094>
+13:53:05.944676 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files", W_OK) = 0 <0.000069>
+13:53:05.944961 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.jar", {st_mode=0175264, st_size=1, ...}, 0) = 0 <0.000116>
+13:53:05.945636 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.jar", {st_mode=0175264, st_size=1, ...}, 0) = 0 <0.000136>
+13:53:05.945938 getuid32()              = 10334 <0.000104>
+13:53:05.946277 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files", {st_mode=S_ISGID|064, st_size=2, ...}, 0) = 0 <0.000832>
+13:53:05.947359 openat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.dex.flock", O_RDWR|O_CREAT|O_LARGEFILE, 0666) = 35 <0.000063>
+13:53:05.950708 flock(35, LOCK_EX)      = 0 <0.000353>
+13:53:05.951302 fstat64(35, {st_mode=0, st_size=1, ...}) = 0 <0.000466>
+13:53:05.952463 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.dex.flock", {st_mode=0170673, st_size=1, ...}, 0) = 0 <0.000109>
+13:53:05.952775 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.dex", 0xff89a5d0, 0) = -1 ENOENT (No such file or directory) <0.000133>
+13:53:05.953237 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/oat/x86/zfloat.odex", 0xff89a5d0, 0) = -1 ENOENT (No such file or directory) <0.001124>
+13:53:05.954674 openat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.jar", O_RDONLY|O_LARGEFILE) = 36 <0.000165>
+13:53:05.955208 read(36, "PK\3\4", 4)   = 4 <0.000955>
+13:53:05.956933 lseek(36, 0, SEEK_SET)  = 0 <0.000125>
+13:53:05.957213 _llseek(36, 0, [108062], SEEK_END) = 0 <0.000187>
+13:53:05.957567 _llseek(36, 42505, [42505], SEEK_SET) = 0 <0.000111>
+13:53:05.957782 read(36, "^ZKk] \217\352qZ(\177\325\357s\26b\234\36v\251\337*5\376\305\362=\31\343Q\177"..., 65557) = 65557 <0.000194>
+13:53:05.958337 mmap2(NULL, 1544, PROT_READ, MAP_SHARED, 36, 0x1a000) = 0xdd8af000 <0.000135>
+13:53:05.958645 madvise(0xd6f9d000, 86016, MADV_DONTNEED) = 0 <0.000095>
+13:53:05.958905 fcntl64(36, F_GETFD)    = 0 <0.000111>
+13:53:05.959131 fcntl64(36, F_SETFD, FD_CLOEXEC) = 0 <0.000095>
+13:53:05.959363 pread64(36, "PK\3\4\24\0\10\10\10\0zR_C\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0", 30, 28533) = 30 <0.000127>
+13:53:05.959685 pread64(36, "classes.dex", 11, 28563) = 11 <0.000088>
+13:53:05.959941 close(36)               = 0 <0.000137>
+13:53:05.960199 munmap(0xdd8af000, 1544) = 0 <0.000094>
+13:53:05.960397 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.jar", {st_mode=S_IFDIR|S_ISUID|0700, st_size=1, ...}, 0) = 0 <0.000107>
+13:53:05.960619 unlinkat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.dex", 0) = -1 ENOENT (No such file or directory) <0.000090>
+13:53:05.960824 openat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.dex", O_RDWR|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 36 <0.000146>
+13:53:05.961087 fchmod(36, 0644)        = 0 <0.000091>
+13:53:05.961296 fstatat64(AT_FDCWD, "/system", {st_mode=S_IFDIR|S_ISUID|S_ISGID|S_ISVTX|0500, st_size=17, ...}, 0) = 0 <0.000088>
+13:53:05.961537 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xe88d353c) = 19215 <0.001529>
+13:53:05.963151 wait4(19215, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 19215 <0.156312>
+13:53:06.119518 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=19215, si_uid=10334, si_status=0, si_utime=34, si_stime=2} ---
+13:53:06.119576 fdatasync(36)           = 0 <0.000203>
+13:53:06.119817 close(36)               = 0 <0.000027>
+13:53:06.119899 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.dex", {st_mode=0165030, st_size=1, ...}, 0) = 0 <0.000041>
+13:53:06.120002 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000021>
+13:53:06.120061 fstatat64(AT_FDCWD, "/data/user", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000020>
+13:53:06.120121 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000019>
+13:53:06.120176 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000020>
+13:53:06.120232 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000019>
+13:53:06.120287 fstatat64(AT_FDCWD, "/data/data", {st_mode=0, st_size=87, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000020>
+13:53:06.120343 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs", {st_mode=0, st_size=5, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000019>
+13:53:06.120398 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000021>
+13:53:06.120457 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files/zfloat.dex", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000020>
+13:53:06.120517 mprotect(0xdafbb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000021>
+13:53:06.120568 mprotect(0xe848a000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000021>
+13:53:06.120618 mprotect(0xe86f4000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000023>
+13:53:06.120669 mprotect(0xe86f5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000021>
+13:53:06.120719 mprotect(0xe875f000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.120768 mprotect(0xe82a7000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.120817 mprotect(0xe82f4000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000022>
+13:53:06.120868 mprotect(0xe834f000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.120917 mprotect(0xe83a1000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000022>
+13:53:06.120968 mprotect(0xe842c000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000021>
+13:53:06.121018 mprotect(0xe8472000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000021>
+13:53:06.121067 mprotect(0xe8583000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.121115 mprotect(0xe85cd000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.121164 mprotect(0xe86ec000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.121212 mprotect(0xe8734000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000019>
+13:53:06.121260 mprotect(0xe87f2000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.121309 mprotect(0xdaf72000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.121357 mprotect(0xe86ee000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.121406 mprotect(0xe408c000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000035>
+13:53:06.121470 mprotect(0xe82b4000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.121519 mprotect(0xe82f5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000021>
+13:53:06.121569 mprotect(0xe8356000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.121618 mprotect(0xe8370000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000021>
+13:53:06.121667 mprotect(0xe83c7000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.121716 mprotect(0xe87f4000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.121765 mprotect(0xe87f5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000020>
+13:53:06.121814 mprotect(0xdd8ae000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000021>
+13:53:06.121879 openat(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files/zfloat.dex", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 36 <0.000023>
+13:53:06.121950 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdd869000 <0.000021>
+13:53:06.122003 madvise(0xdd869000, 8192, MADV_MERGEABLE) = 0 <0.000018>
+13:53:06.122050 prctl(0x53564d41 /* PR_??? */, 0, 0xdd869000, 8192, "linker_alloc_lob") = 0 <0.000018>
+13:53:06.122107 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdd867000 <0.000083>
+13:53:06.122228 madvise(0xdd867000, 8192, MADV_MERGEABLE) = 0 <0.000019>
+13:53:06.122276 prctl(0x53564d41 /* PR_??? */, 0, 0xdd867000, 8192, "linker_alloc_lob") = 0 <0.000019>
+13:53:06.122336 readlinkat(AT_FDCWD, "/proc/self/fd/36", "/data/data/com.gamesstar.pianopd"..., 4096) = 58 <0.000033>
+13:53:06.122408 munmap(0xdd867000, 8192) = 0 <0.000030>
+13:53:06.122467 munmap(0xdd869000, 8192) = 0 <0.000021>
+13:53:06.122518 fstat64(36, {st_mode=0165320, st_size=1, ...}) = 0 <0.000018>
+13:53:06.122579 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdd8af000 <0.000020>
+13:53:06.122630 madvise(0xdd8af000, 4096, MADV_MERGEABLE) = 0 <0.000018>
+13:53:06.122676 prctl(0x53564d41 /* PR_??? */, 0, 0xdd8af000, 4096, "linker_alloc_small_objects") = 0 <0.000018>
+13:53:06.122733 pread64(36, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\0\0\0004\0\0\0"..., 52, 0) = 52 <0.000019>
+13:53:06.122785 mmap2(NULL, 328, PROT_READ, MAP_PRIVATE, 36, 0) = 0xdd86a000 <0.000020>
+13:53:06.122835 mmap2(NULL, 488, PROT_READ, MAP_PRIVATE, 36, 0xa7000) = 0xdd869000 <0.000020>
+13:53:06.122887 mmap2(NULL, 56, PROT_READ, MAP_PRIVATE, 36, 0xa6000) = 0xdd868000 <0.000020>
+13:53:06.122939 mmap2(NULL, 62, PROT_READ, MAP_PRIVATE, 36, 0xa5000) = 0xdd867000 <0.000019>
+13:53:06.122993 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdd866000 <0.000019>
+13:53:06.123042 madvise(0xdd866000, 4096, MADV_MERGEABLE) = 0 <0.000018>
+13:53:06.123089 prctl(0x53564d41 /* PR_??? */, 0, 0xdd866000, 4096, "linker_alloc_small_objects") = 0 <0.000017>
+13:53:06.123144 mmap2(NULL, 704512, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xcb54f000 <0.000021>
+13:53:06.123194 madvise(0xcb54f000, 704512, MADV_MERGEABLE) = 0 <0.000017>
+13:53:06.123241 mmap2(0xcb54f000, 335872, PROT_READ, MAP_PRIVATE|MAP_FIXED, 36, 0) = 0xcb54f000 <0.000023>
+13:53:06.123294 mmap2(0xcb5a1000, 338094, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 36, 0x52000) = 0xcb5a1000 <0.000020>
+13:53:06.123345 mmap2(0xcb5f4000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xcb5f4000 <0.000020>
+13:53:06.123396 madvise(0xcb5f4000, 20480, MADV_MERGEABLE) = 0 <0.000035>
+13:53:06.123459 prctl(0x53564d41 /* PR_??? */, 0, 0xcb5f4000, 20480, ".bss") = 0 <0.000018>
+13:53:06.123510 mmap2(0xcb5f9000, 196, PROT_READ, MAP_PRIVATE|MAP_FIXED, 36, 0xa5000) = 0xcb5f9000 <0.000021>
+13:53:06.123561 mmap2(0xcb5fa000, 56, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 36, 0xa6000) = 0xcb5fa000 <0.000020>
+13:53:06.123627 munmap(0xdd866000, 4096) = 0 <0.000023>
+13:53:06.123680 close(36)               = 0 <0.000018>
+13:53:06.123727 munmap(0xdd867000, 62)  = 0 <0.000022>
+13:53:06.123777 munmap(0xdd868000, 56)  = 0 <0.000021>
+13:53:06.123828 munmap(0xdd869000, 488) = 0 <0.000021>
+13:53:06.123877 munmap(0xdd86a000, 328) = 0 <0.000021>
+13:53:06.123944 munmap(0xdd8af000, 4096) = 0 <0.000025>
+13:53:06.124000 mprotect(0xdafbb000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.124048 mprotect(0xe848a000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.124097 mprotect(0xe86f4000, 4096, PROT_READ) = 0 <0.000021>
+13:53:06.124147 mprotect(0xe86f5000, 4096, PROT_READ) = 0 <0.000021>
+13:53:06.124196 mprotect(0xe875f000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.124244 mprotect(0xe82a7000, 4096, PROT_READ) = 0 <0.000019>
+13:53:06.124292 mprotect(0xe82f4000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.124341 mprotect(0xe834f000, 4096, PROT_READ) = 0 <0.000019>
+13:53:06.124389 mprotect(0xe83a1000, 4096, PROT_READ) = 0 <0.000032>
+13:53:06.124451 mprotect(0xe842c000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.124500 mprotect(0xe8472000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.124548 mprotect(0xe8583000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.124596 mprotect(0xe85cd000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.124644 mprotect(0xe86ec000, 4096, PROT_READ) = 0 <0.000019>
+13:53:06.124692 mprotect(0xe8734000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.124740 mprotect(0xe87f2000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.124788 mprotect(0xdaf72000, 4096, PROT_READ) = 0 <0.000019>
+13:53:06.124836 mprotect(0xe86ee000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.124884 mprotect(0xe408c000, 4096, PROT_READ) = 0 <0.000034>
+13:53:06.124948 mprotect(0xe82b4000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.124997 mprotect(0xe82f5000, 4096, PROT_READ) = 0 <0.000021>
+13:53:06.125056 mprotect(0xe8356000, 4096, PROT_READ) = 0 <0.000030>
+13:53:06.125133 mprotect(0xe8370000, 4096, PROT_READ) = 0 <0.000021>
+13:53:06.125183 mprotect(0xe83c7000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.125234 mprotect(0xe87f4000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.125283 mprotect(0xe87f5000, 4096, PROT_READ) = 0 <0.000020>
+13:53:06.125331 mprotect(0xdd8ae000, 4096, PROT_READ) = 0 <0.000019>
+13:53:06.125428 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000027>
+13:53:06.125513 fstatat64(AT_FDCWD, "/data/user", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000030>
+13:53:06.125603 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000033>
+13:53:06.125696 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000115>
+13:53:06.126028 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000031>
+13:53:06.126098 fstatat64(AT_FDCWD, "/data/data", {st_mode=0, st_size=87, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000018>
+13:53:06.126206 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs", {st_mode=0, st_size=5, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000036>
+13:53:06.126280 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000017>
+13:53:06.126331 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files/zfloat.jar", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000017>
+13:53:06.126487 fstatat64(AT_FDCWD, "/data", {st_mode=017, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000110>
+13:53:06.126635 fstatat64(AT_FDCWD, "/data/user", {st_mode=017, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000018>
+13:53:06.126695 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=017, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000035>
+13:53:06.126765 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000017>
+13:53:06.126814 fstatat64(AT_FDCWD, "/data", {st_mode=017, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000016>
+13:53:06.126862 fstatat64(AT_FDCWD, "/data/data", {st_mode=017, st_size=87, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000016>
+13:53:06.126911 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs", {st_mode=017, st_size=5, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000015>
+13:53:06.127088 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files", {st_mode=017, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000016>
+13:53:06.127140 fstatat64(AT_FDCWD, "/data/data/com.gamesstar.pianopderfectcbs/files/zfloat.jar", {st_mode=017, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000016>
+13:53:06.127225 openat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.art", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000026>
+13:53:06.127290 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.art", 0xff89a670, 0) = -1 ENOENT (No such file or directory) <0.000016>
+13:53:06.127345 unlinkat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/files/zfloat.dex.flock", 0) = 0 <0.000036>
+13:53:06.127411 flock(35, LOCK_UN)      = 0 <0.000015>
+13:53:06.127476 fdatasync(35)           = 0 <0.000411>
+13:53:06.128012 close(35)               = 0 <0.000156>
+13:53:06.128466 fstatat64(AT_FDCWD, "/system/lib", {st_mode=S_ISGID|064, st_size=6, ...}, 0) = 0 <0.000026>
+13:53:06.128555 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=S_ISGID|064, st_size=3, ...}, 0) = 0 <0.000066>
+13:53:06.128764 fstatat64(AT_FDCWD, "/system/lib", {st_mode=0175264, st_size=6, ...}, 0) = 0 <0.000081>
+13:53:06.128967 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=0175264, st_size=3, ...}, 0) = 0 <0.000117>
+13:53:06.130589 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs", F_OK) = 0 <0.000169>
+13:53:06.130862 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 35 <0.000031>
+13:53:06.130931 fstat64(35, {st_mode=031300, st_size=1, ...}) = 0 <0.000018>
+13:53:06.130986 ioctl(35, ASHMEM_SET_NAME, 0xff89a430) = 0 <0.000019>
+13:53:06.131036 ioctl(35, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000041>
+13:53:06.131219 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 35, 0) = 0xdd869000 <0.000167>
+13:53:06.131539 close(35)               = 0 <0.000104>
+13:53:06.131791 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcb44a000 <0.000024>
+13:53:06.131852 madvise(0xcb44a000, 1069056, MADV_MERGEABLE) = 0 <0.000022>
+13:53:06.131992 mprotect(0xcb44a000, 4096, PROT_NONE) = 0 <0.000085>
+13:53:06.132111 prctl(0x53564d41 /* PR_??? */, 0, 0xcb44a000, 4096, "thread stack guard page") = 0 <0.000019>
+13:53:06.132171 clone(child_stack=0xcb54e910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb54e928, tls={entry_number:12, base_addr:0xcb54e970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff89a780, child_tidptr=0xcb54e928) = 19228 <0.000036>
+13:53:06.133661 ioctl(8, BINDER_WRITE_READ, 0xff89aa48) = 0 <0.000043>
+13:53:06.133743 ioctl(8, BINDER_WRITE_READ, 0xff89aa48) = 0 <0.000098>
+13:53:06.133929 futex(0xe3fc0180, FUTEX_WAKE, 1) = 0 <0.000019>
+13:53:06.133980 futex(0xe3fb0138, FUTEX_WAIT, 646, NULL) = 0 <0.000118>
+13:53:06.134130 futex(0xe3fc0180, FUTEX_WAIT, 1, NULL) = 0 <0.000032>
+13:53:06.134265 futex(0xdbf50bf0, FUTEX_WAIT, 1, NULL) = 0 <0.000025>
+13:53:06.134323 futex(0xdbf50bf0, FUTEX_WAKE, 1) = 0 <0.000033>
+13:53:06.134387 futex(0xdbf50c10, FUTEX_WAIT, 0, NULL) = 0 <0.000026>
+13:53:06.134442 futex(0xdbf50bf0, FUTEX_WAIT, 1, NULL) = 0 <0.000024>
+13:53:06.134546 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", F_OK) = -1 ENOENT (No such file or directory) <0.000022>
+13:53:06.134616 openat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 35 <0.000045>
+13:53:06.134696 fstat64(35, {st_mode=S_ISVTX|0710, st_size=1, ...}) = 0 <0.000018>
+13:53:06.134756 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 36 <0.000024>
+13:53:06.134813 fstat64(36, {st_mode=0107, st_size=1, ...}) = 0 <0.000018>
+13:53:06.134882 ioctl(36, ASHMEM_SET_NAME, 0xff89a730) = 0 <0.000018>
+13:53:06.134930 ioctl(36, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000017>
+13:53:06.134979 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 36, 0) = 0xdd7d8000 <0.000024>
+13:53:06.135039 close(36)               = 0 <0.000019>
+13:53:06.135151 write(35, "<?xml version='1.0' encoding='ut"..., 124) = 124 <0.000036>
+13:53:06.135226 fsync(35)               = 0 <0.001090>
+13:53:06.136494 getsockopt(35, SOL_SOCKET, SO_ERROR, 0xff89ab44, 0xff89ab40) = -1 ENOTSOCK (Socket operation on non-socket) <0.000135>
+13:53:06.136755 close(35)               = 0 <0.000117>
+13:53:06.136981 fchmodat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", 0660) = 0 <0.000110>
+13:53:06.137218 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", {st_mode=S_ISGID|064, st_size=1, ...}, 0) = 0 <0.000090>
+13:53:06.137463 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml.bak", 0xff89aaf8, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000092>
+13:53:06.138034 ioctl(8, BINDER_WRITE_READ, 0xff89aa98) = 0 <0.000893>
+13:53:06.139222 ioctl(8, BINDER_WRITE_READ, 0xff89aa98) = 0 <0.000102>
+13:53:06.139452 ioctl(8, BINDER_WRITE_READ, 0xff89aa98) = 0 <0.000096>
+13:53:06.139668 ioctl(8, BINDER_WRITE_READ, 0xff89aa98) = 0 <0.000234>
+13:53:06.140445 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 35 <0.000033>
+13:53:06.140636 fstat64(35, {st_mode=0132000, st_size=1, ...}) = 0 <0.000079>
+13:53:06.140757 ioctl(35, ASHMEM_SET_NAME, 0xff89a830) = 0 <0.000018>
+13:53:06.140807 ioctl(35, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000017>
+13:53:06.140856 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 35, 0) = 0xdd869000 <0.000027>
+13:53:06.141007 close(35)               = 0 <0.000129>
+13:53:06.141277 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcb44a000 <0.000107>
+13:53:06.141526 madvise(0xcb44a000, 1069056, MADV_MERGEABLE) = 0 <0.000096>
+13:53:06.141759 mprotect(0xcb44a000, 4096, PROT_NONE) = 0 <0.000094>
+13:53:06.141973 prctl(0x53564d41 /* PR_??? */, 0, 0xcb44a000, 4096, "thread stack guard page") = 0 <0.000413>
+13:53:06.142460 clone(child_stack=0xcb54e910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb54e928, tls={entry_number:12, base_addr:0xcb54e970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff89ab80, child_tidptr=0xcb54e928) = 19229 <0.000104>
+13:53:06.143347 futex(0xcb54e960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.001752>
+13:53:06.145557 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", F_OK) = 0 <0.000026>
+13:53:06.145630 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000020>
+13:53:06.145691 renameat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml.bak") = 0 <0.000046>
+13:53:06.145783 openat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 35 <0.000044>
+13:53:06.145861 fstat64(35, {st_mode=S_ISVTX|0710, st_size=1, ...}) = 0 <0.000016>
+13:53:06.145920 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 36 <0.000023>
+13:53:06.145975 fstat64(36, {st_mode=0107, st_size=1, ...}) = 0 <0.000027>
+13:53:06.146040 ioctl(36, ASHMEM_SET_NAME, 0xff89a6d0) = 0 <0.000016>
+13:53:06.146086 ioctl(36, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000020>
+13:53:06.146136 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 36, 0) = 0xdd7d3000 <0.000027>
+13:53:06.146247 close(36)               = 0 <0.000018>
+13:53:06.146351 write(35, "<?xml version='1.0' encoding='ut"..., 175) = 175 <0.000032>
+13:53:06.146420 fsync(35)               = 0 <0.001215>
+13:53:06.147746 getsockopt(35, SOL_SOCKET, SO_ERROR, 0xff89aae4, 0xff89aae0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000077>
+13:53:06.147926 close(35)               = 0 <0.000079>
+13:53:06.148118 fchmodat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", 0660) = 0 <0.000093>
+13:53:06.148319 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", {st_mode=S_ISGID|064, st_size=1, ...}, 0) = 0 <0.000079>
+13:53:06.148520 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000090>
+13:53:06.148709 unlinkat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml.bak", 0) = 0 <0.000112>
+13:53:06.149166 getuid32()              = 10334 <0.000078>
+13:53:06.149371 ioctl(8, BINDER_WRITE_READ, 0xff89a9e8) = 0 <0.000098>
+13:53:06.149566 ioctl(8, BINDER_WRITE_READ, 0xff89a9e8) = 0 <0.000078>
+13:53:06.149840 ioctl(8, BINDER_WRITE_READ, 0xff899f98) = 0 <0.000095>
+13:53:06.150027 ioctl(8, BINDER_WRITE_READ, 0xff899f98) = 0 <0.000081>
+13:53:06.150271 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", F_OK) = 0 <0.000086>
+13:53:06.150468 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000094>
+13:53:06.150668 renameat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml.bak") = 0 <0.000091>
+13:53:06.150869 openat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 35 <0.000093>
+13:53:06.151072 fstat64(35, {st_mode=S_ISVTX|0710, st_size=1, ...}) = 0 <0.000076>
+13:53:06.151256 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 36 <0.000083>
+13:53:06.151431 fstat64(36, {st_mode=0107, st_size=1, ...}) = 0 <0.000076>
+13:53:06.151619 ioctl(36, ASHMEM_SET_NAME, 0xff89a720) = 0 <0.000076>
+13:53:06.151785 ioctl(36, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000076>
+13:53:06.151952 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 36, 0) = 0xdd7ce000 <0.000093>
+13:53:06.152156 close(36)               = 0 <0.000079>
+13:53:06.152379 write(35, "<?xml version='1.0' encoding='ut"..., 227) = 227 <0.000090>
+13:53:06.152575 fsync(35)               = 0 <0.001052>
+13:53:06.153737 getsockopt(35, SOL_SOCKET, SO_ERROR, 0xff89ab34, 0xff89ab30) = -1 ENOTSOCK (Socket operation on non-socket) <0.000081>
+13:53:06.153918 close(35)               = 0 <0.000080>
+13:53:06.154099 fchmodat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", 0660) = 0 <0.000104>
+13:53:06.154311 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml", {st_mode=S_ISGID|064, st_size=1, ...}, 0) = 0 <0.000080>
+13:53:06.154509 fstatat64(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000081>
+13:53:06.154688 unlinkat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs/zan_dev_appconfig_float.xml.bak", 0) = 0 <0.000102>
+13:53:06.155062 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 35 <0.000084>
+13:53:06.155240 fstat64(35, {st_mode=0132000, st_size=1, ...}) = 0 <0.000076>
+13:53:06.155415 ioctl(35, ASHMEM_SET_NAME, 0xff89a810) = 0 <0.000078>
+13:53:06.155573 ioctl(35, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000078>
+13:53:06.155754 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 35, 0) = 0xdd864000 <0.000087>
+13:53:06.155944 close(35)               = 0 <0.000087>
+13:53:06.156128 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcb345000 <0.000079>
+13:53:06.156299 madvise(0xcb345000, 1069056, MADV_MERGEABLE) = 0 <0.000077>
+13:53:06.156554 mprotect(0xcb345000, 4096, PROT_NONE) = 0 <0.000079>
+13:53:06.156723 prctl(0x53564d41 /* PR_??? */, 0, 0xcb345000, 4096, "thread stack guard page") = 0 <0.000077>
+13:53:06.156903 clone(child_stack=0xcb449910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb449928, tls={entry_number:12, base_addr:0xcb449970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff89ab60, child_tidptr=0xcb449928) = 19230 <0.000110>
+13:53:06.157132 futex(0xcb449960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000090>
+13:53:06.157354 getuid32()              = 10334 <0.000079>
+13:53:06.157555 ioctl(8, BINDER_WRITE_READ, 0xff89aa48) = 0 <0.000214>
+13:53:06.157870 ioctl(8, BINDER_WRITE_READ, 0xff89aa48) = 0 <0.000078>
+13:53:06.158213 ioctl(8, BINDER_WRITE_READ, 0xff899ff8) = 0 <0.000110>
+13:53:06.158459 ioctl(8, BINDER_WRITE_READ, 0xff899ff8) = 0 <0.000172>
+13:53:06.158830 ioctl(8, BINDER_WRITE_READ, 0xff89bab8) = 0 <0.000099>
+13:53:06.159049 ioctl(8, BINDER_WRITE_READ, 0xff89bab8) = 0 <0.000285>
+13:53:06.159633 ioctl(8, BINDER_WRITE_READ, 0xff89b588) = 0 <0.000261>
+13:53:06.160111 ioctl(8, BINDER_WRITE_READ, 0xff89b588) = 0 <0.000096>
+13:53:06.160430 ioctl(8, BINDER_WRITE_READ, 0xff89b618) = 0 <0.000162>
+13:53:06.160836 ioctl(8, BINDER_WRITE_READ, 0xff89b618) = 0 <0.000227>
+13:53:06.161457 ioctl(8, BINDER_WRITE_READ, 0xff89b6c8) = 0 <0.000108>
+13:53:06.161845 ioctl(8, BINDER_WRITE_READ, 0xff89b6c8) = 0 <0.000105>
+13:53:06.162135 ioctl(8, BINDER_WRITE_READ, 0xff89b6c8) = 0 <0.000184>
+13:53:06.162499 ioctl(8, BINDER_WRITE_READ, 0xff89b6c8) = 0 <0.000116>
+13:53:06.162913 getuid32()              = 10334 <0.000138>
+13:53:06.163374 ioctl(8, BINDER_WRITE_READ, 0xff89b6d8) = 0 <0.000137>
+13:53:06.163922 ioctl(8, BINDER_WRITE_READ, 0xff89b6d8) = 0 <0.000125>
+13:53:06.164232 ioctl(8, BINDER_WRITE_READ, 0xff89b708) = 0 <0.000164>
+13:53:06.164520 ioctl(8, BINDER_WRITE_READ, 0xff89b708) = 0 <0.000109>
+13:53:06.164881 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27975372) = 30 <0.000107>
+13:53:06.165130 pread64(23, "res/interpolator/linear_out_slow"..., 39, 27975402) = 39 <0.000103>
+13:53:06.165367 mmap2(NULL, 4069, PROT_READ, MAP_SHARED, 23, 0x1aad000) = 0xdd8af000 <0.000110>
+13:53:06.165648 munmap(0xdd8af000, 4069) = 0 <0.000099>
+13:53:06.165962 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27970871) = 30 <0.000079>
+13:53:06.166230 pread64(23, "res/interpolator/fast_out_linear"..., 39, 27970901) = 39 <0.000078>
+13:53:06.166415 mmap2(NULL, 3665, PROT_READ, MAP_SHARED, 23, 0x1aac000) = 0xdd8af000 <0.000082>
+13:53:06.166694 munmap(0xdd8af000, 3665) = 0 <0.000082>
+13:53:06.167061 ioctl(8, BINDER_WRITE_READ, 0xff89b938) = 0 <0.000113>
+13:53:06.167293 ioctl(8, BINDER_WRITE_READ, 0xff89b938) = 0 <0.000080>
+13:53:06.167498 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\34\0\0\0", 30, 28111428) = 30 <0.000080>
+13:53:06.167673 pread64(23, "res/layout/screen_simple.xml", 28, 28111458) = 28 <0.000077>
+13:53:06.167846 mmap2(NULL, 1094, PROT_READ, MAP_SHARED, 23, 0x1acf000) = 0xdd8af000 <0.000077>
+13:53:06.168067 munmap(0xdd8af000, 1094) = 0 <0.000084>
+13:53:06.169314 pread64(30, "PK\3\4\n\0\0\10\0\0M\263tC\364\273\37\244P\214\0\0P\214\0\0\34\0\0\0", 30, 3139558) = 30 <0.000090>
+13:53:06.169517 pread64(30, "res/drawable-hdpi/splash.png", 28, 3139588) = 28 <0.000079>
+13:53:06.169693 mmap2(NULL, 38000, PROT_READ, MAP_SHARED, 30, 0x2fe000) = 0xd6e79000 <0.000081>
+13:53:06.170002 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000079>
+13:53:06.170246 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000097>
+13:53:06.170490 mmap2(NULL, 524288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xcb2c5000 <0.000109>
+13:53:06.170709 madvise(0xcb2c5000, 524288, MADV_MERGEABLE) = 0 <0.000095>
+13:53:06.170911 prctl(0x53564d41 /* PR_??? */, 0, 0xcb2c5000, 524288, "libc_malloc") = 0 <0.000094>
+13:53:06.171127 munmap(0xcb2c5000, 524288) = 0 <0.000096>
+13:53:06.171331 mmap2(NULL, 1044480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xcb246000 <0.000096>
+13:53:06.171536 madvise(0xcb246000, 1044480, MADV_MERGEABLE) = 0 <0.000095>
+13:53:06.171748 prctl(0x53564d41 /* PR_??? */, 0, 0xcb246000, 1044480, "libc_malloc") = 0 <0.000094>
+13:53:06.171952 munmap(0xcb246000, 237568) = 0 <0.000098>
+13:53:06.172157 munmap(0xcb300000, 282624) = 0 <0.000096>
+13:53:06.172383 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000094>
+13:53:06.172615 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000094>
+13:53:06.174436 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 36 <0.000112>
+13:53:06.174708 fstat64(36, {st_mode=0, st_size=1, ...}) = 0 <0.000135>
+13:53:06.175012 ioctl(36, ASHMEM_SET_NAME, 0xff899a20) = 0 <0.000150>
+13:53:06.175311 ioctl(36, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x22c000) = 0 <0.000120>
+13:53:06.175579 mmap2(NULL, 2277376, PROT_READ|PROT_WRITE, MAP_PRIVATE, 36, 0) = 0xcb054000 <0.000277>
+13:53:06.176002 close(36)               = 0 <0.000391>
+13:53:06.181191 madvise(0xcb283000, 462848, MADV_DONTNEED) = 0 <0.000147>
+13:53:06.181707 munmap(0xd6e79000, 38000) = 0 <0.000135>
+13:53:06.182474 ioctl(8, BINDER_WRITE_READ, 0xff89a938) = 0 <0.000134>
+13:53:06.182732 ioctl(8, BINDER_WRITE_READ, 0xff89a938) = 0 <0.000083>
+13:53:06.182953 ioctl(8, BINDER_WRITE_READ, 0xff89a988) = 0 <0.000094>
+13:53:06.183147 ioctl(8, BINDER_WRITE_READ, 0xff89a988) = 0 <0.000205>
+13:53:06.183534 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs", F_OK) = 0 <0.000088>
+13:53:06.183740 faccessat(AT_FDCWD, "/data/user/0/com.gamesstar.pianopderfectcbs/shared_prefs", F_OK) = 0 <0.000081>
+13:53:06.183967 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 36 <0.000088>
+13:53:06.184154 fstat64(36, {st_mode=0, st_size=1, ...}) = 0 <0.000079>
+13:53:06.184335 ioctl(36, ASHMEM_SET_NAME, 0xff899cc0) = 0 <0.000076>
+13:53:06.184501 ioctl(36, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000075>
+13:53:06.184668 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 36, 0) = 0xdd7c9000 <0.000090>
+13:53:06.184862 close(36)               = 0 <0.000079>
+13:53:06.185038 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcaf4f000 <0.000079>
+13:53:06.185215 madvise(0xcaf4f000, 1069056, MADV_MERGEABLE) = 0 <0.000079>
+13:53:06.185383 mprotect(0xcaf4f000, 4096, PROT_NONE) = 0 <0.000080>
+13:53:06.185554 prctl(0x53564d41 /* PR_??? */, 0, 0xcaf4f000, 4096, "thread stack guard page") = 0 <0.000078>
+13:53:06.185751 clone(child_stack=0xcb053910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb053928, tls={entry_number:12, base_addr:0xcb053970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff89a010, child_tidptr=0xcb053928) = 19231 <0.000114>
+13:53:06.185974 futex(0xcb053960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000092>
+13:53:06.186442 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 36 <0.000084>
+13:53:06.186621 fstat64(36, {st_mode=0116430, st_size=1, ...}) = 0 <0.000094>
+13:53:06.186834 ioctl(36, ASHMEM_SET_NAME, 0xff899da0) = 0 <0.000099>
+13:53:06.187048 ioctl(36, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000087>
+13:53:06.187251 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 36, 0) = 0xdd7c9000 <0.000147>
+13:53:06.187505 close(36)               = 0 <0.000078>
+13:53:06.187680 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcaf4f000 <0.000091>
+13:53:06.187863 madvise(0xcaf4f000, 1069056, MADV_MERGEABLE) = 0 <0.000076>
+13:53:06.188029 mprotect(0xcaf4f000, 4096, PROT_NONE) = 0 <0.000077>
+13:53:06.188195 prctl(0x53564d41 /* PR_??? */, 0, 0xcaf4f000, 4096, "thread stack guard page") = 0 <0.000085>
+13:53:06.188386 clone(child_stack=0xcb053910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb053928, tls={entry_number:12, base_addr:0xcb053970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff89a0f0, child_tidptr=0xcb053928) = 19232 <0.000106>
+13:53:06.188594 futex(0xcb053960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000090>
+13:53:06.188799 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 36 <0.000094>
+13:53:06.189001 fstat64(36, {st_mode=0116430, st_size=1, ...}) = 0 <0.000076>
+13:53:06.189181 ioctl(36, ASHMEM_SET_NAME, 0xff899da0) = 0 <0.000078>
+13:53:06.189349 ioctl(36, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000075>
+13:53:06.189515 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 36, 0) = 0xdd7c9000 <0.000082>
+13:53:06.189696 close(36)               = 0 <0.000086>
+13:53:06.189879 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcaf4f000 <0.000078>
+13:53:06.190048 madvise(0xcaf4f000, 1069056, MADV_MERGEABLE) = 0 <0.000076>
+13:53:06.190221 mprotect(0xcaf4f000, 4096, PROT_NONE) = 0 <0.000085>
+13:53:06.190401 prctl(0x53564d41 /* PR_??? */, 0, 0xcaf4f000, 4096, "thread stack guard page") = 0 <0.000082>
+13:53:06.190591 clone(child_stack=0xcb053910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb053928, tls={entry_number:12, base_addr:0xcb053970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff89a0f0, child_tidptr=0xcb053928) = 19233 <0.000117>
+13:53:06.190817 futex(0xcb053960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000096>
+13:53:06.191063 futex(0xe3fc0180, FUTEX_WAKE, 1) = 0 <0.000082>
+13:53:06.191225 futex(0xe3fb0138, FUTEX_WAIT, 647, NULL) = -1 EAGAIN (Try again) <0.000094>
+13:53:06.191467 futex(0xdbf7b638, FUTEX_WAKE, 1) = 1 <0.000112>
+13:53:06.191699 futex(0xd73afa90, FUTEX_WAKE, 1) = 1 <0.000113>
+13:53:06.191926 futex(0xdd705010, FUTEX_WAKE, 1) = 1 <0.000112>
+13:53:06.192152 futex(0xdd705030, FUTEX_WAKE, 1) = 1 <0.000113>
+13:53:06.192376 futex(0xdd705010, FUTEX_WAKE, 1) = 1 <0.000113>
+13:53:06.192628 futex(0xe3fc0180, FUTEX_WAKE, 1) = 0 <0.000121>
+13:53:06.192861 futex(0xe3fb0138, FUTEX_WAIT, 648, NULL) = -1 EAGAIN (Try again) <0.000097>
+13:53:06.193107 writev(3, [{"\0\357J\2\206\327ZY\255\201\v", 11}, {"\4", 1}, {"art\0", 4}, {"System.exit called, status: 0\0", 30}], 4) = 46 <0.000136>
+13:53:06.193424 writev(3, [{"\0\357J\2\206\327Z\340I\206\v", 11}, {"\4", 1}, {"AndroidRuntime\0", 15}, {"VM exiting with result code 0, c"..., 48}], 4) = 75 <0.000135>
+13:53:06.193723 exit_group(0)           = ?
+13:53:06.214619 +++ exited with 0 +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 93.18    0.105329       52665         2           wait4
+  3.54    0.004000         800         5           fsync
+  2.90    0.003283         547         6           fchmodat
+  0.22    0.000252          63         4           fdatasync
+  0.08    0.000096           4        23           munmap
+  0.07    0.000076           1        78           ioctl
+  0.00    0.000000           0        29           close
+  0.00    0.000000           0         1           lseek
+  0.00    0.000000           0         1           fchmod
+  0.00    0.000000           0        10           clone
+  0.00    0.000000           0       117           mprotect
+  0.00    0.000000           0        17           _llseek
+  0.00    0.000000           0         3           flock
+  0.00    0.000000           0         2           writev
+  0.00    0.000000           0        20           prctl
+  0.00    0.000000           0         4           rt_sigprocmask
+  0.00    0.000000           0        12           pread64
+  0.00    0.000000           0        58           mmap2
+  0.00    0.000000           0        24           fstat64
+  0.00    0.000000           0         6           getuid32
+  0.00    0.000000           0        24           madvise
+  0.00    0.000000           0         2           fcntl64
+  0.00    0.000000           0        24         3 futex
+  0.00    0.000000           0        29         2 openat
+  0.00    0.000000           0         1           mkdirat
+  0.00    0.000000           0        78         6 fstatat64
+  0.00    0.000000           0         6         1 unlinkat
+  0.00    0.000000           0         4           renameat
+  0.00    0.000000           0         8           readlinkat
+  0.00    0.000000           0        23         9 faccessat
+  0.00    0.000000           0         6         6 getsockopt
+  0.00    0.000000           0        17           read
+  0.00    0.000000           0        19           write
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.113036                   663        27 total

@@ -1,0 +1,58 @@
+02:32:14.397183 futex(0xda329a98, FUTEX_WAIT_BITSET_PRIVATE, 12, NULL, ffffffff) = 0 <0.183806>
+02:32:14.581407 ioctl(8, BINDER_WRITE_READ, 0xffb4b328) = 0 <0.000116>
+02:32:14.581638 ioctl(8, BINDER_WRITE_READ, 0xffb4b328) = 0 <0.002009>
+02:32:14.583768 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000047>
+02:32:14.583871 ioctl(8, BINDER_WRITE_READ, 0xffb4b358) = 0 <0.000057>
+02:32:14.584136 ioctl(8, BINDER_WRITE_READ, 0xffb4b358) = 0 <0.043327>
+02:32:14.627554 ioctl(8, BINDER_WRITE_READ, 0xffb4b298) = 0 <0.000026>
+02:32:14.627615 ioctl(8, BINDER_WRITE_READ, 0xffb4b298) = 0 <0.000346>
+02:32:14.628255 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000025>
+02:32:14.628626 getuid32()              = 10525 <0.000236>
+02:32:14.629007 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}, {EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 2 <0.000030>
+02:32:14.629210 read(25, "\2\0\0\0\0\0\0\0", 8) = 8 <0.000023>
+02:32:14.629304 recvfrom(33, "nysv\0\0\0\0\6\205\322?\363\27\0\0\3028\4\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000067>
+02:32:14.629423 recvfrom(33, 0xffb4ad68, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000022>
+02:32:14.629540 futex(0xda329a98, FUTEX_WAIT_BITSET_PRIVATE, 16, NULL, ffffffff) = 0 <0.004080>
+02:32:14.633694 getuid32()              = 10525 <0.000102>
+02:32:14.633839 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000020>
+02:32:14.634357 getuid32()              = 10525 <0.000013>
+02:32:14.634400 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000013>
+02:32:14.634467 recvfrom(39, 0xe3778c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000019>
+02:32:14.634534 recvfrom(40, 0xd6503010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000014>
+02:32:14.634907 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000061>
+02:32:14.635032 futex(0xe37322a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000044>
+02:32:14.635123 futex(0xda3298b8, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000022>
+02:32:14.636079 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000032>
+02:32:14.636154 futex(0xda329840, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = 0 <0.021981>
+02:32:14.658196 futex(0xda3298b8, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff) = 0 <0.417071>
+02:32:15.075584 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000085>
+02:32:15.075792 futex(0xe37322a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000159>
+02:32:15.076063 futex(0xda3298b4, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000101>
+02:32:15.076271 futex(0xda3298b8, FUTEX_WAIT_BITSET_PRIVATE, 28, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000102>
+02:32:15.076509 ioctl(8, BINDER_WRITE_READ, 0xffb4b378) = 0 <0.000155>
+02:32:15.076919 ioctl(8, BINDER_WRITE_READ, 0xffb4b378) = 0 <0.017721>
+02:32:15.094742 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000024>
+02:32:15.094808 futex(0xda329a98, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.000046>
+02:32:15.095160 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000114>
+02:32:15.095374 futex(0xe37322a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000104>
+02:32:15.095517 futex(0xda329a20, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = 0 <0.002357>
+02:32:15.097920 futex(0xda329a98, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff) = ? ERESTARTSYS (To be restarted if SA_RESTART is set) <4.778708>
+02:32:19.876706 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=5819, si_uid=10525} ---
+02:32:19.876784 futex(0xd6b39214, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000279>
+02:32:19.877324 futex(0xd6b39214, FUTEX_WAIT_BITSET_PRIVATE, 6, {26344, 40406075}, ffffffff) = -1 EAGAIN (Try again) <0.000227>
+02:32:19.877809 futex(0xd6b39214, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000255>
+02:32:19.878310 rt_sigreturn()          = 240 <0.000216>
+02:32:19.878767 futex(0xda329a98, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff <unfinished ...>
+02:32:31.321023 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.024000        1500        16         4 futex
+  0.00    0.000000           0         1           read
+  0.00    0.000000           0         7           write
+  0.00    0.000000           0         8           ioctl
+  0.00    0.000000           0         1           rt_sigreturn
+  0.00    0.000000           0         3           getuid32
+  0.00    0.000000           0         3           epoll_pwait
+  0.00    0.000000           0         4         3 recvfrom
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.024000                    43         7 total

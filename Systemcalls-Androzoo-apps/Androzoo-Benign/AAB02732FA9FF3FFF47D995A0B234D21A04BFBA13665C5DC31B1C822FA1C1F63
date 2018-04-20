@@ -1,0 +1,167 @@
+09:37:29.721573 pread64(30, "PK\3\4\n\0\0\0\0\0D\261\237?p#Se!9\0\0!9\0\0\33\0\3\0", 30, 637512) = 30 <0.000204>
+09:37:29.722495 pread64(30, "res/drawable/p44151804h.png", 27, 637542) = 27 <0.000171>
+09:37:29.722976 mmap2(NULL, 17317, PROT_READ, MAP_SHARED, 30, 0x9b000) = 0xcb5e9000 <0.000126>
+09:37:29.723341 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000114>
+09:37:29.723622 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000106>
+09:37:29.724013 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 33 <0.000321>
+09:37:29.728553 fstat64(33, {st_mode=S_IFLNK|0644, st_size=1, ...}) = 0 <0.000248>
+09:37:29.728971 ioctl(33, ASHMEM_SET_NAME, 0xfffbb080) = 0 <0.000146>
+09:37:29.729247 ioctl(33, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x10000) = 0 <0.000108>
+09:37:29.729475 mmap2(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE, 33, 0) = 0xcb5d9000 <0.000112>
+09:37:29.729751 close(33)               = 0 <0.000100>
+09:37:29.730249 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000225>
+09:37:29.730767 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000126>
+09:37:29.732331 pread64(30, "PK\3\4\n\0\0\0\0\0D\261\237?\232~\316Pj)\0\0j)\0\0\34\0\2\0", 30, 879048) = 30 <0.003447>
+09:37:29.736013 pread64(30, "res/drawable/p943269657h.png", 28, 879078) = 28 <0.000138>
+09:37:29.736321 mmap2(NULL, 13166, PROT_READ, MAP_SHARED, 30, 0xd6000) = 0xcc231000 <0.000123>
+09:37:29.736700 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000134>
+09:37:29.737084 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000119>
+09:37:29.737414 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 33 <0.000178>
+09:37:29.737973 fstat64(33, {st_mode=04, st_size=1, ...}) = 0 <0.000402>
+09:37:29.739748 ioctl(33, ASHMEM_SET_NAME, 0xfffbb090) = 0 <0.000401>
+09:37:29.743392 ioctl(33, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x10000) = 0 <0.000135>
+09:37:29.743716 mmap2(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE, 33, 0) = 0xcb5c9000 <0.005130>
+09:37:29.749137 close(33)               = 0 <0.000660>
+09:37:29.750062 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000150>
+09:37:29.754904 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000158>
+09:37:29.756373 pread64(30, "PK\3\4\n\0\0\0\0\0D\261\237?\244\372\22F\2318\0\0\2318\0\0\34\0\0\0", 30, 703822) = 30 <0.001822>
+09:37:29.758380 pread64(30, "res/drawable/p648903488h.png", 28, 703852) = 28 <0.000126>
+09:37:29.758679 mmap2(NULL, 17953, PROT_READ, MAP_SHARED, 30, 0xab000) = 0xcb5c4000 <0.000134>
+09:37:29.759122 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000232>
+09:37:29.759617 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000224>
+09:37:29.760083 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 33 <0.000279>
+09:37:29.762782 fstat64(33, {st_mode=04, st_size=1, ...}) = 0 <0.000122>
+09:37:29.763880 ioctl(33, ASHMEM_SET_NAME, 0xfffbb090) = 0 <0.000118>
+09:37:29.764177 ioctl(33, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x10000) = 0 <0.000124>
+09:37:29.764457 mmap2(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE, 33, 0) = 0xcb5b4000 <0.004076>
+09:37:29.768843 close(33)               = 0 <0.001211>
+09:37:29.770443 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000183>
+09:37:29.772350 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000125>
+09:37:29.773665 pread64(30, "PK\3\4\n\0\0\0\0\0D\261\237?9\314\377\224\253E\0\0\253E\0\0\35\0\2\0", 30, 352811) = 30 <0.000098>
+09:37:29.774004 pread64(30, "res/drawable/p1681778562h.png", 29, 352841) = 29 <0.000161>
+09:37:29.774294 mmap2(NULL, 18451, PROT_READ, MAP_SHARED, 30, 0x56000) = 0xcb5af000 <0.000169>
+09:37:29.774668 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000131>
+09:37:29.774934 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000356>
+09:37:29.775798 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 33 <0.000177>
+09:37:29.776133 fstat64(33, {st_mode=0230, st_size=1, ...}) = 0 <0.000162>
+09:37:29.776459 ioctl(33, ASHMEM_SET_NAME, 0xfffbb080) = 0 <0.001720>
+09:37:29.778847 ioctl(33, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x19000) = 0 <0.000129>
+09:37:29.779196 mmap2(NULL, 102400, PROT_READ|PROT_WRITE, MAP_PRIVATE, 33, 0) = 0xcb596000 <0.000263>
+09:37:29.779613 close(33)               = 0 <0.000164>
+09:37:29.780073 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000264>
+09:37:29.782302 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000134>
+09:37:29.784148 pread64(30, "PK\3\4\n\0\0\0\0\0D\261\237?\256sD\24\343\37\0\0\343\37\0\0\34\0\0\0", 30, 831146) = 30 <0.000231>
+09:37:29.784573 pread64(30, "res/drawable/p763159411h.png", 28, 831176) = 28 <0.003559>
+09:37:29.788366 mmap2(NULL, 11975, PROT_READ, MAP_SHARED, 30, 0xca000) = 0xd7c0b000 <0.000358>
+09:37:29.788917 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000128>
+09:37:29.789205 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000111>
+09:37:29.789484 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 33 <0.000159>
+09:37:29.789882 fstat64(33, {st_mode=0, st_size=1, ...}) = 0 <0.000172>
+09:37:29.790272 ioctl(33, ASHMEM_SET_NAME, 0xfffbb090) = 0 <0.000181>
+09:37:29.790887 ioctl(33, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x10000) = 0 <0.000034>
+09:37:29.791150 mmap2(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE, 33, 0) = 0xcb586000 <0.000134>
+09:37:29.791459 close(33)               = 0 <0.000173>
+09:37:29.791808 futex(0xe4d300f8, FUTEX_WAKE, 1) = 1 <0.000321>
+09:37:29.792271 futex(0xe4d3feb0, FUTEX_WAKE, 1) = 1 <0.000253>
+09:37:29.796778 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000139>
+09:37:29.797140 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000186>
+09:37:29.798385 futex(0xe4da0a10, FUTEX_WAKE, 1) = 0 <0.000116>
+09:37:29.798670 futex(0xe4d30128, FUTEX_WAIT, 6, NULL) = -1 EAGAIN (Try again) <0.000130>
+09:37:29.799191 futex(0xe4da0860, FUTEX_WAIT, 1, NULL) = -1 EAGAIN (Try again) <0.000124>
+09:37:29.799558 pread64(30, "PK\3\4\n\0\0\0\0\0D\261\237?\265Xh\372\3753\0\0\3753\0\0\34\0\1\0", 30, 652197) = 30 <0.000116>
+09:37:29.799819 pread64(30, "res/drawable/p470721789h.png", 28, 652227) = 28 <0.000124>
+09:37:29.800097 mmap2(NULL, 14301, PROT_READ, MAP_SHARED, 30, 0x9f000) = 0xcc1ee000 <0.000132>
+09:37:29.800457 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000116>
+09:37:29.800935 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000830>
+09:37:29.802053 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 33 <0.002703>
+09:37:29.805025 fstat64(33, {st_mode=0230, st_size=1, ...}) = 0 <0.000142>
+09:37:29.805363 ioctl(33, ASHMEM_SET_NAME, 0xfffbb080) = 0 <0.000360>
+09:37:29.805867 ioctl(33, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x14000) = 0 <0.000150>
+09:37:29.806573 mmap2(NULL, 81920, PROT_READ|PROT_WRITE, MAP_PRIVATE, 33, 0) = 0xca76c000 <0.000259>
+09:37:29.807012 close(33)               = 0 <0.000274>
+09:37:29.807615 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000173>
+09:37:29.807947 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000108>
+09:37:29.813224 pread64(30, "PK\3\4\n\0\0\0\0\0D\261\237?\nG\34Yv+\0\0v+\0\0\34\0\3\0", 30, 811839) = 30 <0.000245>
+09:37:29.813755 pread64(30, "res/drawable/p707992751h.png", 28, 811869) = 28 <0.000160>
+09:37:29.814223 mmap2(NULL, 12018, PROT_READ, MAP_SHARED, 30, 0xc6000) = 0xcc202000 <0.000214>
+09:37:29.814686 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000203>
+09:37:29.815128 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000114>
+09:37:29.815522 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 33 <0.000238>
+09:37:29.815906 fstat64(33, {st_mode=0, st_size=1, ...}) = 0 <0.000131>
+09:37:29.816333 ioctl(33, ASHMEM_SET_NAME, 0xfffbb090) = 0 <0.000129>
+09:37:29.816619 ioctl(33, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x10000) = 0 <0.003477>
+09:37:29.820266 mmap2(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE, 33, 0) = 0xca75c000 <0.000135>
+09:37:29.820563 close(33)               = 0 <0.000436>
+09:37:29.821314 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000128>
+09:37:29.821619 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000110>
+09:37:29.825586 pread64(30, "PK\3\4\n\0\0\0\0\0D\261\237?\207\226\355\316\201\26\0\0\201\26\0\0\34\0\0\0", 30, 590570) = 30 <0.000199>
+09:37:29.826079 pread64(30, "res/drawable/p364599908h.png", 28, 590600) = 28 <0.000247>
+09:37:29.827301 mmap2(NULL, 6565, PROT_READ, MAP_SHARED, 30, 0x90000) = 0xd7a8e000 <0.000078>
+09:37:29.827530 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000089>
+09:37:29.827737 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000084>
+09:37:29.827961 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 33 <0.000097>
+09:37:29.828164 fstat64(33, {st_mode=0230, st_size=1, ...}) = 0 <0.000083>
+09:37:29.828355 ioctl(33, ASHMEM_SET_NAME, 0xfffbb080) = 0 <0.000082>
+09:37:29.828543 ioctl(33, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x14000) = 0 <0.000156>
+09:37:29.828848 mmap2(NULL, 81920, PROT_READ|PROT_WRITE, MAP_PRIVATE, 33, 0) = 0xca748000 <0.000240>
+09:37:29.829259 close(33)               = 0 <0.000091>
+09:37:29.829459 futex(0xde47f0d0, FUTEX_WAKE, 4294967295) = 1 <0.000111>
+09:37:29.829694 futex(0xe4da0a10, FUTEX_WAKE, 1) = 0 <0.000103>
+09:37:29.829905 futex(0xe4d30128, FUTEX_WAIT, 7, NULL) = -1 EAGAIN (Try again) <0.000074>
+09:37:29.830135 futex(0xe4db0138, FUTEX_WAKE, 1) = 0 <0.000108>
+09:37:29.830367 futex(0xe4db0170, FUTEX_WAIT, 0, NULL) = -1 EAGAIN (Try again) <0.000117>
+09:37:29.830629 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000102>
+09:37:29.830877 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000113>
+09:37:29.831761 fstatat64(AT_FDCWD, "/data/user/0/com.skyd.bestpuzzle.n3121/shared_prefs/com.skyd.bestpuzzle.n3121.xml", 0xfffbd338, 0) = -1 ENOENT (No such file or directory) <0.000107>
+09:37:29.832142 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 33 <0.000104>
+09:37:29.832411 fstat64(33, {st_mode=012, st_size=1, ...}) = 0 <0.000105>
+09:37:29.832772 ioctl(33, ASHMEM_SET_NAME, 0xfffbcef0) = 0 <0.000112>
+09:37:29.833010 ioctl(33, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000084>
+09:37:29.833197 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 33, 0) = 0xde5ce000 <0.000091>
+09:37:29.833398 close(33)               = 0 <0.000087>
+09:37:29.833587 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xca643000 <0.000081>
+09:37:29.833761 madvise(0xca643000, 1069056, MADV_MERGEABLE) = 0 <0.000078>
+09:37:29.833931 mprotect(0xca643000, 4096, PROT_NONE) = 0 <0.000090>
+09:37:29.834113 prctl(0x53564d41 /* PR_??? */, 0, 0xca643000, 4096, "thread stack guard page") = 0 <0.000079>
+09:37:29.834298 clone(child_stack=0xca747910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xca747928, tls={entry_number:12, base_addr:0xca747970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xfffbd240, child_tidptr=0xca747928) = 20449 <0.000118>
+09:37:29.834553 futex(0xca747960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000103>
+09:37:29.834803 futex(0xd8124b70, FUTEX_WAKE, 1) = 0 <0.000085>
+09:37:29.834995 futex(0xd8124b90, FUTEX_WAIT, 0, NULL) = -1 EAGAIN (Try again) <0.000081>
+09:37:29.835708 ioctl(8, BINDER_WRITE_READ, 0xfffbe6d8) = 0 <0.000132>
+09:37:29.837096 ioctl(8, BINDER_WRITE_READ, 0xfffbe6d8) = 0 <0.000543>
+09:37:29.838958 ioctl(8, BINDER_WRITE_READ, 0xfffbe6d8) = 0 <0.000972>
+09:37:29.841573 ioctl(8, BINDER_WRITE_READ, 0xfffbe6d8) = 0 <0.000869>
+09:37:29.843955 getuid32()              = 10531 <0.000818>
+09:37:29.846048 epoll_pwait(29, [{EPOLLIN, {u32=34, u64=34}}, {EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 2 <0.000823>
+09:37:29.847904 read(25, "\2\0\0\0\0\0\0\0", 8) = 8 <0.000520>
+09:37:29.850101 recvfrom(34, "nysv\0\0\0\0\272'V\337'/\0\0R\34\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000692>
+09:37:29.851956 recvfrom(34, 0xfffbe238, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000813>
+09:37:29.853751 recvfrom(37, 0xe4df5a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000099>
+09:37:29.854080 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000245>
+09:37:29.855894 ioctl(8, BINDER_WRITE_READ, 0xfffbe7f8) = 0 <0.001913>
+09:37:29.857967 ioctl(8, BINDER_WRITE_READ, 0xfffbe7f8) = 0 <0.002462>
+09:37:29.861721 futex(0xe4d40180, FUTEX_WAKE, 1) = 0 <0.000209>
+09:37:29.864540 futex(0xe4d30138, FUTEX_WAIT, 219, NULL <unfinished ...>
+09:37:47.745385 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 71.54    0.003878         162        24           ioctl
+ 15.18    0.000823         823         1           epoll_pwait
+  4.56    0.000247          15        16           pread64
+  2.43    0.000132           7        18           mmap2
+  2.36    0.000128           4        32           rt_sigprocmask
+  1.99    0.000108           8        14         5 futex
+  1.94    0.000105          12         9           fstat64
+  0.00    0.000000           0         1           clone
+  0.00    0.000000           0         1           mprotect
+  0.00    0.000000           0         1           prctl
+  0.00    0.000000           0         1           getuid32
+  0.00    0.000000           0         1           madvise
+  0.00    0.000000           0         9           openat
+  0.00    0.000000           0         1         1 fstatat64
+  0.00    0.000000           0         3         2 recvfrom
+  0.00    0.000000           0         1           read
+  0.00    0.000000           0         1           write
+  0.00    0.000000           0         9           close
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.005421                   143         8 total

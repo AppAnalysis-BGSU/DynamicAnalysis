@@ -1,0 +1,56 @@
+00:40:24.780227 ppoll([{fd=33, events=POLLOUT}], 1, {9, 919868461}, NULL, 0) = ? ERESTARTNOHAND (To be restarted if no handler) <6.597134>
+00:40:31.377688 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=30953, si_uid=10393} ---
+00:40:31.377810 futex(0xd6b39714, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000173>
+00:40:31.378251 futex(0xd6b39714, FUTEX_WAIT_BITSET_PRIVATE, 6, {19635, 541333188}, ffffffff) = -1 EAGAIN (Try again) <0.000138>
+00:40:31.378484 futex(0xd6b39714, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000163>
+00:40:31.378945 rt_sigreturn()          = -1 EINTR (Interrupted system call) <0.000256>
+00:40:31.379659 ppoll([{fd=33, events=POLLOUT}], 1, {10, 0}, NULL, 0) = 0 (Timeout) <10.010408>
+00:40:41.390615 fcntl64(33, F_GETFL)    = 0x802 (flags O_RDWR|O_NONBLOCK) <0.000196>
+00:40:41.390953 fcntl64(33, F_SETFL, O_RDWR) = 0 <0.000043>
+00:40:41.391077 shutdown(33, SHUT_RDWR) = 0 <0.000047>
+00:40:41.391278 close(33)               = 0 <0.000058>
+00:40:41.391991 writev(3, [{"\0\351x\311\35\330ZT\311\\\27", 11}, {"\3", 1}, {"HttpConnector\0", 14}, {"getCurrentUsedAPNType\0", 22}], 4) = 48 <0.000058>
+00:40:41.392303 ioctl(8, BINDER_WRITE_READ, 0xffb49538) = 0 <0.000092>
+00:40:41.392471 ioctl(8, BINDER_WRITE_READ, 0xffb49538) = 0 <0.000605>
+00:40:41.393497 writev(3, [{"\0\351x\311\35\330Z-\332q\27", 11}, {"\3", 1}, {"HttpConnector\0", 14}, {"netType:1 netSubType:0\0", 23}], 4) = 49 <0.000281>
+00:40:41.394203 writev(3, [{"\0\351x\311\35\330Z\305\31}\27", 11}, {"\3", 1}, {"HttpConnector\0", 14}, {"TYPE_WIFI\0", 10}], 4) = 36 <0.000340>
+00:40:41.395271 socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 33 <0.000264>
+00:40:41.395829 setsockopt(33, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0 <0.000238>
+00:40:41.396373 connect(33, {sa_family=AF_LOCAL, sun_path="/dev/socket/dnsproxyd"}, 110) = 0 <0.000322>
+00:40:41.396934 fcntl64(33, F_GETFL)    = 0x2 (flags O_RDWR) <0.000228>
+00:40:41.397442 fstat64(33, {st_mode=0177250, st_size=1, ...}) = 0 <0.000229>
+00:40:41.397966 write(33, "getaddrinfo g.tom.com ^ 1024 0 1"..., 37) = 37 <0.000260>
+00:40:41.398516 read(33, "222\0\0\0\0\1\0\0\4\0\0\0\0\2\0\0\0\1\0\0\0\6\0\0\0\20\2\0\0\0"..., 4096) = 52 <0.000586>
+00:40:41.399537 close(33)               = 0 <0.000312>
+00:40:41.400213 socket(PF_INET6, SOCK_STREAM, IPPROTO_IP) = 33 <0.000236>
+00:40:41.400744 setsockopt(33, SOL_IPV6, IPV6_V6ONLY, [0], 4) = 0 <0.000282>
+00:40:41.401343 fcntl64(33, F_GETFL)    = 0x2 (flags O_RDWR) <0.000220>
+00:40:41.401820 fcntl64(33, F_SETFL, O_RDWR|O_NONBLOCK) = 0 <0.000219>
+00:40:41.402314 socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 34 <0.000228>
+00:40:41.402823 connect(34, {sa_family=AF_LOCAL, sun_path="/dev/socket/fwmarkd"}, 110) = 0 <0.000286>
+00:40:41.403404 sendmsg(34, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\0\0\0\0\0\0\0\0\0\0", 12}], msg_controllen=16, [{cmsg_len=16, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, [33]}], msg_flags=0}, 0) = 12 <0.000271>
+00:40:41.403980 recvfrom(34, "\0\0\0\0", 4, 0, NULL, NULL) = 4 <0.000241>
+00:40:41.404470 close(34)               = 0 <0.000218>
+00:40:41.405024 connect(33, {sa_family=AF_INET6, sin6_port=htons(80), inet_pton(AF_INET6, "::ffff:202.108.29.155", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = -1 EINPROGRESS (Operation now in progress) <0.000293>
+00:40:41.405581 ppoll([{fd=33, events=POLLOUT}], 1, {10, 0}, NULL, 0 <unfinished ...>
+00:40:42.781762 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.016000        8000         2         1 ppoll
+  0.00    0.000000           0         1           read
+  0.00    0.000000           0         1           write
+  0.00    0.000000           0         3           close
+  0.00    0.000000           0         2           ioctl
+  0.00    0.000000           0         3           writev
+  0.00    0.000000           0         1         1 rt_sigreturn
+  0.00    0.000000           0         1           fstat64
+  0.00    0.000000           0         5           fcntl64
+  0.00    0.000000           0         3         1 futex
+  0.00    0.000000           0         3           socket
+  0.00    0.000000           0         3         1 connect
+  0.00    0.000000           0         1           recvfrom
+  0.00    0.000000           0         1           shutdown
+  0.00    0.000000           0         2           setsockopt
+  0.00    0.000000           0         1           sendmsg
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.016000                    33         4 total

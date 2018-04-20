@@ -1,0 +1,694 @@
+23:30:05.971612 futex(0xe36ad978, FUTEX_CMP_REQUEUE, 0, 2147483647, 0xe36ad958, 1) = 1 <0.001196>
+23:30:05.973673 futex(0xe36ad958, FUTEX_WAKE, 1) = 1 <0.000791>
+23:30:05.975641 futex(0xdcdff0d0, FUTEX_WAKE, 4294967295) = 1 <0.000567>
+23:30:05.977426 statfs64("/storage/emulated/0", 84, {f_type=0x65735546, f_bsize=4096, f_blocks=3265613, f_bfree=3175250, f_bavail=3171154, f_files=838832, f_ffree=836115, f_fsid={0, 0}, f_namelen=255, f_frsize=4096, f_flags=1070}) = 0 <0.001388>
+23:30:05.981257 futex(0xe56e8254, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000123>
+23:30:05.981920 ioctl(8, BINDER_WRITE_READ, 0xffb4a258) = 0 <0.000691>
+23:30:05.982756 ioctl(8, BINDER_WRITE_READ, 0xffb4a258) = 0 <0.000135>
+23:30:05.983067 ioctl(8, BINDER_WRITE_READ, 0xffb4a288) = 0 <0.000127>
+23:30:05.983325 ioctl(8, BINDER_WRITE_READ, 0xffb4a288) = 0 <0.000130>
+23:30:05.983606 ioctl(8, BINDER_WRITE_READ, 0xffb4a288) = 0 <0.000129>
+23:30:05.983884 ioctl(8, BINDER_WRITE_READ, 0xffb4a288) = 0 <0.000284>
+23:30:05.985306 getuid32()              = 10318 <0.000342>
+23:30:05.985953 ioctl(8, BINDER_WRITE_READ, 0xffb4a248) = 0 <0.000307>
+23:30:05.986435 ioctl(8, BINDER_WRITE_READ, 0xffb4a248) = 0 <0.000112>
+23:30:05.986834 ioctl(8, BINDER_WRITE_READ, 0xffb4a278) = 0 <0.002854>
+23:30:05.990013 ioctl(8, BINDER_WRITE_READ, 0xffb4a278) = 0 <0.000372>
+23:30:05.991262 ioctl(8, BINDER_WRITE_READ, 0xffb4a278) = 0 <0.001001>
+23:30:05.993158 ioctl(8, BINDER_WRITE_READ, 0xffb4a278) = 0 <0.001180>
+23:30:05.995687 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000045>
+23:30:05.995782 fstat64(42, {st_mode=0130644, st_size=1, ...}) = 0 <0.000019>
+23:30:05.995839 ioctl(42, ASHMEM_SET_NAME, 0xffb4a650) = 0 <0.000019>
+23:30:05.995889 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000018>
+23:30:05.995944 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd682c000 <0.000047>
+23:30:05.996033 close(42)               = 0 <0.000022>
+23:30:05.998044 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcacfb000 <0.000034>
+23:30:05.998185 madvise(0xcacfb000, 1069056, MADV_MERGEABLE) = 0 <0.000020>
+23:30:05.998237 mprotect(0xcacfb000, 4096, PROT_NONE) = 0 <0.000147>
+23:30:05.998431 prctl(0x53564d41 /* PR_??? */, 0, 0xcacfb000, 4096, "thread stack guard page") = 0 <0.000030>
+23:30:05.998586 clone(child_stack=0xcadff910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcadff928, tls={entry_number:12, base_addr:0xcadff970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xffb4a9a0, child_tidptr=0xcadff928) = 12815 <0.000181>
+23:30:06.000640 ioctl(8, BINDER_WRITE_READ, 0xffb4aaf8) = 0 <0.000120>
+23:30:06.000827 ioctl(8, BINDER_WRITE_READ, 0xffb4aaf8) = 0 <0.001883>
+23:30:06.004385 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa", F_OK) = 0 <0.000671>
+23:30:06.005125 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases", F_OK) = -1 ENOENT (No such file or directory) <0.000035>
+23:30:06.005212 mkdirat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases", 0771) = 0 <0.000072>
+23:30:06.005380 fchmodat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases", 0771) = 0 <0.000032>
+23:30:06.007361 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", 0xffb49fe0, 0) = -1 ENOENT (No such file or directory) <0.000714>
+23:30:06.014011 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 42 <0.000393>
+23:30:06.014682 fstat64(42, {st_mode=0, st_size=1, ...}) = 0 <0.001048>
+23:30:06.017016 fstat64(42, {st_mode=0, st_size=1, ...}) = 0 <0.000304>
+23:30:06.017393 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=052000, st_size=1, ...}, 0) = 0 <0.000212>
+23:30:06.017835 pread64(42, "", 100, 0) = 0 <0.001228>
+23:30:06.019303 mmap2(NULL, 524288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xcac1d000 <0.000298>
+23:30:06.021102 madvise(0xcac1d000, 524288, MADV_MERGEABLE) = 0 <0.000530>
+23:30:06.022068 prctl(0x53564d41 /* PR_??? */, 0, 0xcac1d000, 524288, "libc_malloc") = 0 <0.000621>
+23:30:06.025535 munmap(0xcac1d000, 524288) = 0 <0.001560>
+23:30:06.027385 mmap2(NULL, 1044480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xcab9e000 <0.001203>
+23:30:06.028704 madvise(0xcab9e000, 1044480, MADV_MERGEABLE) = 0 <0.000027>
+23:30:06.028792 prctl(0x53564d41 /* PR_??? */, 0, 0xcab9e000, 1044480, "libc_malloc") = 0 <0.000244>
+23:30:06.029942 munmap(0xcab9e000, 401408) = 0 <0.000322>
+23:30:06.031354 munmap(0xcac80000, 118784) = 0 <0.001811>
+23:30:06.036644 futex(0xe611e150, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000609>
+23:30:06.038136 futex(0xe611e150, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000819>
+23:30:06.040271 futex(0xe611e2a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000095>
+23:30:06.041271 futex(0xe611e2a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000119>
+23:30:06.042356 statfs64("/data", 84, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=3265613, f_bfree=3175249, f_bavail=3171153, f_files=838832, f_ffree=836113, f_fsid={-927308987, 1938132309}, f_namelen=255, f_frsize=4096, f_flags=1062}) = 0 <0.000148>
+23:30:06.043176 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000133>
+23:30:06.043845 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000169>
+23:30:06.044185 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000125>
+23:30:06.044453 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", F_OK) = -1 ENOENT (No such file or directory) <0.000568>
+23:30:06.045304 fstat64(42, {st_mode=0115410, st_size=1, ...}) = 0 <0.000182>
+23:30:06.045682 unlinkat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-wal", 0) = -1 ENOENT (No such file or directory) <0.000249>
+23:30:06.046225 fstat64(42, {st_mode=0177634, st_size=1, ...}) = 0 <0.000280>
+23:30:06.050848 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000172>
+23:30:06.051710 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000090>
+23:30:06.051911 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000237>
+23:30:06.052397 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000227>
+23:30:06.052784 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", F_OK) = -1 ENOENT (No such file or directory) <0.000251>
+23:30:06.053358 fstat64(42, {st_mode=0115410, st_size=1, ...}) = 0 <0.000107>
+23:30:06.053618 fstat64(42, {st_mode=0115410, st_size=1, ...}) = 0 <0.000354>
+23:30:06.054231 unlinkat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-wal", 0) = -1 ENOENT (No such file or directory) <0.000260>
+23:30:06.054726 fstat64(42, {st_mode=0177634, st_size=1, ...}) = 0 <0.000129>
+23:30:06.054994 fcntl64(42, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0 <0.000086>
+23:30:06.055194 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=0, st_size=1, ...}, 0) = 0 <0.000247>
+23:30:06.056109 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 44 <0.000193>
+23:30:06.056469 fstat64(44, {st_mode=0, st_size=1, ...}) = 0 <0.000110>
+23:30:06.057059 geteuid32()             = 10318 <0.000273>
+23:30:06.057481 fstat64(44, {st_mode=0114330, st_size=1, ...}) = 0 <0.000133>
+23:30:06.057871 openat(AT_FDCWD, "/dev/urandom", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 45 <0.000954>
+23:30:06.059014 read(45, "l>w\327J\301p\16 \213I\3078\323x@\352FN\0\10k\21\305o\33\373\204\25\334ba"..., 256) = 256 <0.000411>
+23:30:06.059930 close(45)               = 0 <0.000276>
+23:30:06.060391 pwrite64(44, "\0\0\0\0\0\0\0\0\0\0\0\0\217|%=\0\0\0\0\0\0\2\0\0\0\20\0\0\0\0\0"..., 512, 0) = 512 <0.000486>
+23:30:06.061812 fcntl64(42, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000207>
+23:30:06.062672 fcntl64(42, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000158>
+23:30:06.063358 pread64(44, "", 8, 512) = 0 <0.000294>
+23:30:06.064141 fdatasync(44)           = 0 <0.007043>
+23:30:06.072152 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 46 <0.000128>
+23:30:06.072650 fdatasync(46)           = 0 <0.000476>
+23:30:06.073406 close(46)               = 0 <0.000264>
+23:30:06.073999 pwrite64(44, "\331\325\5\371 \241c\327\0\0\0\0", 12, 0) = 12 <0.000207>
+23:30:06.074392 fdatasync(44)           = 0 <0.000878>
+23:30:06.075529 pwrite64(42, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\1\0\0\0\3"..., 4096, 0) = 4096 <0.000274>
+23:30:06.076094 pwrite64(42, "\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 4096) = 4096 <0.000195>
+23:30:06.076651 pwrite64(42, "\r\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 8192) = 4096 <0.001416>
+23:30:06.078375 fdatasync(42)           = 0 <0.003052>
+23:30:06.081653 pwrite64(44, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 28, 0) = 28 <0.000322>
+23:30:06.082208 fdatasync(44)           = 0 <0.001502>
+23:30:06.084650 fstat64(44, {st_mode=052, st_size=1, ...}) = 0 <0.000209>
+23:30:06.085366 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000259>
+23:30:06.085754 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0 <0.000115>
+23:30:06.086068 close(44)               = 0 <0.000173>
+23:30:06.086410 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000197>
+23:30:06.087135 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000124>
+23:30:06.087429 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000112>
+23:30:06.087684 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000111>
+23:30:06.087953 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", F_OK) = 0 <0.000137>
+23:30:06.088216 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", {st_mode=0115410, st_size=1, ...}, 0) = 0 <0.000095>
+23:30:06.088441 fcntl64(42, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000181>
+23:30:06.088736 fstat64(42, {st_mode=0, st_size=1, ...}) = 0 <0.000127>
+23:30:06.088998 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=S_IFIFO|S_ISGID|0104, st_size=1, ...}, 0) = 0 <0.000106>
+23:30:06.089220 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 44 <0.000098>
+23:30:06.089433 fstat64(44, {st_mode=0177777, st_size=1, ...}) = 0 <0.000087>
+23:30:06.089635 geteuid32()             = 10318 <0.000087>
+23:30:06.089840 fstat64(44, {st_mode=0114310, st_size=1, ...}) = 0 <0.000089>
+23:30:06.090035 pread64(44, "\0", 1, 0) = 1 <0.000098>
+23:30:06.090241 close(44)               = 0 <0.000089>
+23:30:06.090429 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000086>
+23:30:06.090640 pread64(42, "\0\0\0\1\0\0\0\3\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.000090>
+23:30:06.090835 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000093>
+23:30:06.091034 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.000095>
+23:30:06.091241 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000089>
+23:30:06.091501 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000123>
+23:30:06.091879 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000143>
+23:30:06.092175 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000176>
+23:30:06.092672 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.001400>
+23:30:06.094350 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", F_OK) = 0 <0.000375>
+23:30:06.094996 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", {st_mode=0115410, st_size=1, ...}, 0) = 0 <0.000091>
+23:30:06.095249 fcntl64(42, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000102>
+23:30:06.095492 fstat64(42, {st_mode=0, st_size=1, ...}) = 0 <0.000116>
+23:30:06.095763 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=S_IFCHR|S_ISUID|0116, st_rdev=makedev(129, 128), ...}, 0) = 0 <0.000117>
+23:30:06.096098 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 44 <0.000316>
+23:30:06.096762 fstat64(44, {st_mode=S_IFCHR|S_ISUID|0116, st_rdev=makedev(129, 128), ...}) = 0 <0.001821>
+23:30:06.098756 geteuid32()             = 10318 <0.000133>
+23:30:06.099113 fstat64(44, {st_mode=0114330, st_size=1, ...}) = 0 <0.000227>
+23:30:06.099516 pread64(44, "\0", 1, 0) = 1 <0.000106>
+23:30:06.099807 close(44)               = 0 <0.000124>
+23:30:06.100051 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000090>
+23:30:06.100277 pread64(42, "\0\0\0\1\0\0\0\3\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.000091>
+23:30:06.100476 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000106>
+23:30:06.100712 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.003299>
+23:30:06.104174 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000168>
+23:30:06.104470 fcntl64(42, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0 <0.000097>
+23:30:06.104916 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=S_IFBLK|S_ISUID|S_ISGID|S_ISVTX, st_rdev=makedev(129, 128), ...}, 0) = 0 <0.000109>
+23:30:06.105281 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=030, st_size=1, ...}, 0) = 0 <0.000262>
+23:30:06.105680 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 44 <0.000111>
+23:30:06.106189 fstat64(44, {st_mode=010, st_size=1, ...}) = 0 <0.000668>
+23:30:06.107349 geteuid32()             = 10318 <0.000691>
+23:30:06.108560 fstat64(44, {st_mode=0114370, st_size=1, ...}) = 0 <0.001205>
+23:30:06.109898 pwrite64(44, "\0\0\0\0\0\0\0\0\0\0\0\0\314\335\0218\0\0\0\3\0\0\2\0\0\0\20\0\0\0\0\0"..., 512, 0) = 512 <0.000344>
+23:30:06.110367 pwrite64(44, "\0\0\0\3", 4, 512) = 4 <0.000165>
+23:30:06.110709 pwrite64(44, "\r\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 516) = 4096 <0.000255>
+23:30:06.111141 pwrite64(44, "\314\335\0218", 4, 4612) = 4 <0.000123>
+23:30:06.113210 fcntl64(42, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000343>
+23:30:06.113819 fcntl64(42, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000176>
+23:30:06.114445 pwrite64(44, "\0\0\0\1", 4, 4616) = 4 <0.000245>
+23:30:06.115251 pwrite64(44, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\1\0\0\0\3"..., 4096, 4620) = 4096 <0.000375>
+23:30:06.116098 pwrite64(44, "\314\335\0218", 4, 8716) = 4 <0.000119>
+23:30:06.116349 pread64(44, "", 8, 9216) = 0 <0.000094>
+23:30:06.116568 fdatasync(44)           = 0 <0.010977>
+23:30:06.127695 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 46 <0.000197>
+23:30:06.128047 fdatasync(46)           = 0 <0.000152>
+23:30:06.128372 close(46)               = 0 <0.000187>
+23:30:06.128742 pwrite64(44, "\331\325\5\371 \241c\327\0\0\0\2", 12, 0) = 12 <0.000235>
+23:30:06.129100 fdatasync(44)           = 0 <0.001416>
+23:30:06.130774 pwrite64(42, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\2\0\0\0\3"..., 4096, 0) = 4096 <0.000225>
+23:30:06.131138 pwrite64(42, "\r\0\0\0\1\17\367\0\17\367\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 8192) = 4096 <0.000150>
+23:30:06.131725 fdatasync(42)           = 0 <0.002771>
+23:30:06.134872 pwrite64(44, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 28, 0) = 28 <0.000252>
+23:30:06.135370 fdatasync(44)           = 0 <0.000950>
+23:30:06.136529 fstat64(44, {st_mode=052, st_size=1, ...}) = 0 <0.000401>
+23:30:06.137065 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000103>
+23:30:06.137281 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0 <0.000129>
+23:30:06.137670 close(44)               = 0 <0.000280>
+23:30:06.138225 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000217>
+23:30:06.138750 fchmodat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", 0660) = 0 <0.000345>
+23:30:06.139953 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000129>
+23:30:06.140219 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000142>
+23:30:06.140570 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000107>
+23:30:06.141679 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", F_OK) = 0 <0.000118>
+23:30:06.141945 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", {st_mode=0115410, st_size=1, ...}, 0) = 0 <0.000147>
+23:30:06.142316 fcntl64(42, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000132>
+23:30:06.142633 fstat64(42, {st_mode=0, st_size=1, ...}) = 0 <0.000277>
+23:30:06.143124 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=010, st_size=1, ...}, 0) = 0 <0.000137>
+23:30:06.143501 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 44 <0.000219>
+23:30:06.143925 fstat64(44, {st_mode=S_ISUID|S_ISGID|S_ISVTX|0620, st_size=1, ...}) = 0 <0.000151>
+23:30:06.144229 geteuid32()             = 10318 <0.000230>
+23:30:06.144679 fstat64(44, {st_mode=0115230, st_size=1, ...}) = 0 <0.000182>
+23:30:06.145001 pread64(44, "\0", 1, 0) = 1 <0.000156>
+23:30:06.145431 close(44)               = 0 <0.000262>
+23:30:06.145820 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000146>
+23:30:06.146125 pread64(42, "\0\0\0\2\0\0\0\3\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.000165>
+23:30:06.146453 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000186>
+23:30:06.146826 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.000257>
+23:30:06.147203 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000108>
+23:30:06.147532 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000197>
+23:30:06.147990 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000221>
+23:30:06.148415 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000183>
+23:30:06.148783 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000082>
+23:30:06.149087 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", F_OK) = 0 <0.000180>
+23:30:06.149475 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", {st_mode=0115410, st_size=1, ...}, 0) = 0 <0.000128>
+23:30:06.149842 fcntl64(42, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000113>
+23:30:06.150167 fstat64(42, {st_mode=0, st_size=1, ...}) = 0 <0.000136>
+23:30:06.150440 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=010, st_size=1, ...}, 0) = 0 <0.000134>
+23:30:06.150769 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 44 <0.000151>
+23:30:06.151180 fstat64(44, {st_mode=0115167, st_size=1, ...}) = 0 <0.000131>
+23:30:06.151467 geteuid32()             = 10318 <0.000144>
+23:30:06.151739 fstat64(44, {st_mode=0115270, st_size=1, ...}) = 0 <0.000122>
+23:30:06.152085 pread64(44, "\0", 1, 0) = 1 <0.000169>
+23:30:06.152368 close(44)               = 0 <0.000175>
+23:30:06.152689 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000185>
+23:30:06.153046 pread64(42, "\0\0\0\2\0\0\0\3\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.000167>
+23:30:06.153426 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000117>
+23:30:06.153711 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.000141>
+23:30:06.154056 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000235>
+23:30:06.154567 fcntl64(42, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0 <0.000253>
+23:30:06.155063 fcntl64(42, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000225>
+23:30:06.155715 fcntl64(42, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000159>
+23:30:06.156402 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=S_IFBLK|S_ISUID|S_ISGID|S_ISVTX, st_rdev=makedev(129, 176), ...}, 0) = 0 <0.000225>
+23:30:06.158031 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=033660, st_size=1, ...}, 0) = 0 <0.000124>
+23:30:06.160998 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0660) = 44 <0.000132>
+23:30:06.161599 fstat64(44, {st_mode=071412, st_size=1, ...}) = 0 <0.000290>
+23:30:06.162085 geteuid32()             = 10318 <0.000382>
+23:30:06.162791 fstat64(44, {st_mode=0112410, st_size=1, ...}) = 0 <0.000302>
+23:30:06.163330 pwrite64(44, "\0\0\0\0\0\0\0\0\0\0\0\0X\316\23\341\0\0\0\3\0\0\2\0\0\0\20\0\0\0\0\0"..., 512, 0) = 512 <0.000156>
+23:30:06.163756 pwrite64(44, "\0\0\0\1", 4, 512) = 4 <0.000204>
+23:30:06.164126 pwrite64(44, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\2\0\0\0\3"..., 4096, 516) = 4096 <0.000226>
+23:30:06.164517 pwrite64(44, "X\316\23\341", 4, 4612) = 4 <0.000145>
+23:30:06.165876 pwrite64(44, "\0\0\0\2", 4, 4616) = 4 <0.000138>
+23:30:06.166315 pwrite64(44, "\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 4620) = 4096 <0.000096>
+23:30:06.166520 pwrite64(44, "X\316\23\341", 4, 8716) = 4 <0.000120>
+23:30:06.167047 pread64(44, "", 8, 9216) = 0 <0.000085>
+23:30:06.167260 fdatasync(44)           = 0 <0.000826>
+23:30:06.168232 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 46 <0.000161>
+23:30:06.168500 fdatasync(46)           = 0 <0.002451>
+23:30:06.171852 close(46)               = 0 <0.001460>
+23:30:06.173492 pwrite64(44, "\331\325\5\371 \241c\327\0\0\0\2", 12, 0) = 12 <0.000263>
+23:30:06.175737 fdatasync(44)           = 0 <0.005765>
+23:30:06.181800 pwrite64(42, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\3\0\0\0\4"..., 4096, 0) = 4096 <0.001013>
+23:30:06.183256 pwrite64(42, "\1\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 4096) = 4096 <0.000313>
+23:30:06.184095 pwrite64(42, "\r\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 12288) = 4096 <0.000345>
+23:30:06.184626 fdatasync(42)           = 0 <0.007425>
+23:30:06.192211 pwrite64(44, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 28, 0) = 28 <0.001683>
+23:30:06.194063 fdatasync(44)           = 0 <0.000984>
+23:30:06.195276 fstat64(44, {st_mode=052, st_size=1, ...}) = 0 <0.000196>
+23:30:06.195668 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000109>
+23:30:06.195927 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0 <0.000110>
+23:30:06.196312 close(44)               = 0 <0.000200>
+23:30:06.197836 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000094>
+23:30:06.200441 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 44 <0.000026>
+23:30:06.200511 fstat64(44, {st_mode=S_IFSOCK|S_ISUID|S_ISVTX|074, st_size=1, ...}) = 0 <0.000017>
+23:30:06.200563 ioctl(44, ASHMEM_SET_NAME, 0xffb4a4f0) = 0 <0.000017>
+23:30:06.200610 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x200000) = 0 <0.000016>
+23:30:06.200656 fstat64(44, {st_mode=0, st_size=1, ...}) = 0 <0.000016>
+23:30:06.200724 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x05, 0x04), 0x3) = 0 <0.001297>
+23:30:06.202170 mmap2(NULL, 2097152, PROT_READ|PROT_WRITE, MAP_SHARED, 44, 0) = 0xca000000 <0.000095>
+23:30:06.202688 fstat64(44, {st_mode=0, st_size=1, ...}) = 0 <0.000621>
+23:30:06.203478 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x05, 0x04), 0x1) = 0 <0.002307>
+23:30:06.206074 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000213>
+23:30:06.206439 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000107>
+23:30:06.206685 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000344>
+23:30:06.207356 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", F_OK) = 0 <0.000139>
+23:30:06.207654 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", {st_mode=0115410, st_size=1, ...}, 0) = 0 <0.000178>
+23:30:06.208077 fcntl64(42, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000194>
+23:30:06.208535 fstat64(42, {st_mode=0, st_size=1, ...}) = 0 <0.000174>
+23:30:06.208932 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=S_IFLNK|S_ISGID|S_ISVTX|0660, st_size=1, ...}, 0) = 0 <0.001439>
+23:30:06.210499 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 46 <0.000638>
+23:30:06.211261 fstat64(46, {st_mode=03, st_size=1, ...}) = 0 <0.001746>
+23:30:06.213146 geteuid32()             = 10318 <0.001917>
+23:30:06.215258 fstat64(46, {st_mode=0114710, st_size=1, ...}) = 0 <0.000144>
+23:30:06.215562 pread64(46, "\0", 1, 0) = 1 <0.000159>
+23:30:06.216007 close(46)               = 0 <0.000087>
+23:30:06.216245 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000111>
+23:30:06.216621 pread64(42, "\0\0\0\3\0\0\0\4\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.000080>
+23:30:06.217973 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000084>
+23:30:06.219577 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.002179>
+23:30:06.221950 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.002966>
+23:30:06.225062 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000119>
+23:30:06.230383 munmap(0xca000000, 2097152) = 0 <0.000245>
+23:30:06.230832 close(44)               = 0 <0.000371>
+23:30:06.231456 writev(3, [{"\0\3611>\r\330Z\356\317\312\r", 11}, {"\4", 1}, {"System.out\0", 11}, {"load data:0\0", 12}], 4) = 35 <0.001591>
+23:30:06.233264 writev(3, [{"\0\3611>\r\330Z\324;\346\r", 11}, {"\4", 1}, {"System.out\0", 11}, {"test:sort\0", 10}], 4) = 33 <0.000208>
+23:30:06.233761 writev(3, [{"\0\3611>\r\330Z\267\224\355\r", 11}, {"\4", 1}, {"System.out\0", 11}, {"test:load\0", 10}], 4) = 33 <0.000182>
+23:30:06.234332 ioctl(8, BINDER_WRITE_READ, 0xffb4b448) = 0 <0.000292>
+23:30:06.234848 ioctl(8, BINDER_WRITE_READ, 0xffb4b448) = 0 <0.000030>
+23:30:06.234942 ioctl(8, BINDER_WRITE_READ, 0xffb4b488) = 0 <0.000039>
+23:30:06.235014 ioctl(8, BINDER_WRITE_READ, 0xffb4b488) = 0 <0.000262>
+23:30:06.235670 ioctl(8, BINDER_WRITE_READ, 0xffb4b5a8) = 0 <0.000434>
+23:30:06.236318 ioctl(8, BINDER_WRITE_READ, 0xffb4b5a8) = 0 <0.001211>
+23:30:06.240879 ioctl(8, BINDER_WRITE_READ, 0xffb4b458) = 0 <0.000113>
+23:30:06.245762 ioctl(8, BINDER_WRITE_READ, 0xffb4b458) = 0 <0.000109>
+23:30:06.248880 getuid32()              = 10318 <0.000136>
+23:30:06.250587 writev(3, [{"\2\3611>\r\330Z\254\265\356\16", 11}, {"Fu\0\0", 4}, {"\3\3\0\0\0\0\0\2'\0\0\0com.baoruan.wallpape"..., 72}], 3) = 87 <0.000161>
+23:30:06.251172 ioctl(8, BINDER_WRITE_READ, 0xffb4b388) = 0 <0.000178>
+23:30:06.251493 ioctl(8, BINDER_WRITE_READ, 0xffb4b388) = 0 <0.000117>
+23:30:06.251862 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000150>
+23:30:06.252178 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000154>
+23:30:06.252475 futex(0xda329814, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000163>
+23:30:06.252967 futex(0xda329818, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000092>
+23:30:06.253209 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000145>
+23:30:06.253504 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000135>
+23:30:06.253806 futex(0xda329814, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000153>
+23:30:06.254087 futex(0xda329818, FUTEX_WAIT_BITSET_PRIVATE, 4, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000123>
+23:30:06.254373 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000140>
+23:30:06.254681 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000142>
+23:30:06.254952 futex(0xda329814, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000137>
+23:30:06.255208 futex(0xda329818, FUTEX_WAIT_BITSET_PRIVATE, 8, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000113>
+23:30:06.255506 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000172>
+23:30:06.255849 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000151>
+23:30:06.256199 ioctl(8, BINDER_WRITE_READ, 0xffb4b408) = 0 <0.000192>
+23:30:06.256518 ioctl(8, BINDER_WRITE_READ, 0xffb4b408) = 0 <0.000471>
+23:30:06.257147 dup(44)                 = 46 <0.000120>
+23:30:06.257396 fcntl64(46, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.000123>
+23:30:06.257682 close(44)               = 0 <0.000133>
+23:30:06.257996 epoll_ctl(29, EPOLL_CTL_ADD, 46, {EPOLLIN, {u32=46, u64=46}}) = 0 <0.000144>
+23:30:06.258343 ioctl(8, BINDER_WRITE_READ, 0xffb4b5a8) = 0 <0.000138>
+23:30:06.258630 ioctl(8, BINDER_WRITE_READ, 0xffb4b5a8) = 0 <0.000229>
+23:30:06.259033 getuid32()              = 10318 <0.000136>
+23:30:06.259319 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 0, NULL, 8) = 1 <0.000132>
+23:30:06.259621 recvfrom(33, "nysv\0\0\0\0N\205s\307\2\16\0\0O\2\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000121>
+23:30:06.259916 recvfrom(33, 0xffb4ad68, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000144>
+23:30:06.260267 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000165>
+23:30:06.260582 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000320>
+23:30:06.261061 futex(0xda329a94, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000215>
+23:30:06.261434 futex(0xda329a98, FUTEX_WAIT_BITSET_PRIVATE, 12, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000136>
+23:30:06.261742 getuid32()              = 10318 <0.000118>
+23:30:06.262011 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000143>
+23:30:06.262341 recvfrom(39, 0xe3778c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000137>
+23:30:06.262644 recvfrom(46, 0xd6516010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000133>
+23:30:06.262984 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000139>
+23:30:06.263360 recvfrom(33, 0xffb4a6c8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000138>
+23:30:06.263652 ioctl(8, BINDER_WRITE_READ, 0xffb4add8) = 0 <0.000212>
+23:30:06.279669 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.001057>
+23:30:06.282166 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000180>
+23:30:06.283104 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000151>
+23:30:06.283459 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000133>
+23:30:06.284106 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000125>
+23:30:06.286366 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000391>
+23:30:06.286902 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000140>
+23:30:06.287250 futex(0xda329a94, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000140>
+23:30:06.287563 futex(0xda329a98, FUTEX_WAIT_BITSET_PRIVATE, 16, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000100>
+23:30:06.287932 ioctl(8, BINDER_WRITE_READ, 0xffb4b328) = 0 <0.000296>
+23:30:06.288464 ioctl(8, BINDER_WRITE_READ, 0xffb4b328) = 0 <0.098151>
+23:30:06.386901 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000032>
+23:30:06.387077 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000038>
+23:30:06.387262 ioctl(8, BINDER_WRITE_READ, 0xffb4b358) = 0 <0.000040>
+23:30:06.387343 ioctl(8, BINDER_WRITE_READ, 0xffb4b358) = 0 <0.022689>
+23:30:06.410129 ioctl(8, BINDER_WRITE_READ, 0xffb4b298) = 0 <0.000209>
+23:30:06.410380 ioctl(8, BINDER_WRITE_READ, 0xffb4b298) = 0 <0.000365>
+23:30:06.411131 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000380>
+23:30:06.412415 madvise(0xd6b62000, 24576, MADV_DONTNEED) = 0 <0.001455>
+23:30:06.414498 writev(3, [{"\0\3611>\r\330Z\27\346\263\30", 11}, {"\4", 1}, {"System.out\0", 11}, {"moving to screen 0\0", 19}], 4) = 42 <0.000215>
+23:30:06.414918 writev(3, [{"\0\3611>\r\330Z\374\271\272\30", 11}, {"\4", 1}, {"System.out\0", 11}, {"moving to screen 0\0", 19}], 4) = 42 <0.000023>
+23:30:06.415021 futex(0xda329818, FUTEX_WAIT_BITSET_PRIVATE, 12, NULL, ffffffff) = 0 <0.149296>
+23:30:06.564512 ioctl(8, BINDER_WRITE_READ, 0xffb4b328) = 0 <0.000251>
+23:30:06.564860 ioctl(8, BINDER_WRITE_READ, 0xffb4b328) = 0 <0.155481>
+23:30:06.720640 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000472>
+23:30:06.721276 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000254>
+23:30:06.721813 ioctl(8, BINDER_WRITE_READ, 0xffb4b358) = 0 <0.000086>
+23:30:06.722039 ioctl(8, BINDER_WRITE_READ, 0xffb4b358) = 0 <0.052424>
+23:30:06.774633 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000101>
+23:30:06.774792 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000036>
+23:30:06.774885 ioctl(8, BINDER_WRITE_READ, 0xffb4b298) = 0 <0.000046>
+23:30:06.775082 ioctl(8, BINDER_WRITE_READ, 0xffb4b298) = 0 <0.000281>
+23:30:06.775436 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000034>
+23:30:06.775688 writev(3, [{"\0\3611>\r\330Z=\204:.", 11}, {"\4", 1}, {"System.out\0", 11}, {"moving to screen 0\0", 19}], 4) = 42 <0.000030>
+23:30:06.775896 writev(3, [{"\0\3611>\r\330Z\341\376>.", 11}, {"\4", 1}, {"System.out\0", 11}, {"moving to screen 0\0", 19}], 4) = 42 <0.000025>
+23:30:06.776162 writev(3, [{"\0\3611>\r\330Z\3\rC.", 11}, {"\4", 1}, {"System.out\0", 11}, {"childCount=0\0", 13}], 4) = 36 <0.000192>
+23:30:06.776434 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000469>
+23:30:06.777065 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000155>
+23:30:06.777385 getuid32()              = 10318 <0.000247>
+23:30:06.777949 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=33, u64=33}}], 16, 0, NULL, 8) = 2 <0.000136>
+23:30:06.778251 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000135>
+23:30:06.778508 recvfrom(33, "nysv\0\0\0\0\36\237Q\333\2\16\0\0S\2\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000112>
+23:30:06.778879 recvfrom(33, 0xffb4ad68, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000190>
+23:30:06.779509 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000119>
+23:30:06.779805 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000137>
+23:30:06.780070 futex(0xda329814, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000140>
+23:30:06.780317 futex(0xda329818, FUTEX_WAIT_BITSET_PRIVATE, 16, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000143>
+23:30:06.780618 getuid32()              = 10318 <0.000189>
+23:30:06.780986 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000123>
+23:30:06.781270 writev(3, [{"\0\3611>\r\330Z*P\220.", 11}, {"\4", 1}, {"Choreographer\0", 14}, {"Skipped 30 frames!  The applicat"..., 83}], 4) = 109 <0.000127>
+23:30:06.781580 recvfrom(39, 0xe3778c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000172>
+23:30:06.781891 recvfrom(46, 0xd6516010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000188>
+23:30:06.782563 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000117>
+23:30:06.782740 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000033>
+23:30:06.782881 futex(0xda329a94, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000153>
+23:30:06.783232 futex(0xda329a98, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000086>
+23:30:06.784062 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000130>
+23:30:06.784336 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000204>
+23:30:06.784710 futex(0xda329a20, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = 0 <0.017844>
+23:30:06.803019 futex(0xda329a98, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff) = 0 <0.428274>
+23:30:07.231443 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000099>
+23:30:07.231721 futex(0xda329a98, FUTEX_WAIT_BITSET_PRIVATE, 28, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000117>
+23:30:07.232133 ioctl(8, BINDER_WRITE_READ, 0xffb4b378) = 0 <0.000332>
+23:30:07.232508 ioctl(8, BINDER_WRITE_READ, 0xffb4b378) = 0 <0.002600>
+23:30:07.235268 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000167>
+23:30:07.235909 futex(0xda329818, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.000315>
+23:30:07.236678 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000173>
+23:30:07.237030 futex(0xda3297a0, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = 0 <0.038206>
+23:30:07.275297 futex(0xda329818, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff) = 0 <0.391216>
+23:30:07.669361 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000024>
+23:30:07.669433 futex(0xda329818, FUTEX_WAIT_BITSET_PRIVATE, 28, NULL, ffffffff) = 0 <0.000945>
+23:30:07.670875 ioctl(8, BINDER_WRITE_READ, 0xffb4b378) = 0 <0.000484>
+23:30:07.671402 ioctl(8, BINDER_WRITE_READ, 0xffb4b378) = 0 <0.201589>
+23:30:07.873094 getuid32()              = 10318 <0.000019>
+23:30:07.873159 epoll_pwait(29, [{EPOLLIN, {u32=39, u64=39}}], 16, 0, NULL, 8) = 1 <0.000024>
+23:30:07.873238 recvfrom(39, "\1\0\0\0\377\377\377\377\240\2\0\0\0\0\0\0\200\345|\351\2\16\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000027>
+23:30:07.873529 writev(3, [{"\3\3611?\r\330Z\364%\0204", 11}, {"\5", 1}, {"ViewRootImpl[MainActivity]\0", 27}, {"Dropping event due to no window "..., 217}], 4) = 256 <0.000060>
+23:30:07.873740 sendto(39, "\3\0\0\0\4qn\345\240\2\0\0\0\333e\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000137>
+23:30:07.873928 recvfrom(39, "\1\0\0\0jL\276\345\242\2\0\0\260\tx\315BT\0&\3\16\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000022>
+23:30:07.874027 writev(3, [{"\3\3611?\r\330Z\231_\0304", 11}, {"\5", 1}, {"ViewRootImpl[MainActivity]\0", 27}, {"Cancelling event due to no windo"..., 218}], 4) = 257 <0.000040>
+23:30:07.874140 writev(3, [{"\3\3611?\r\330Z\235\36\0324", 11}, {"\5", 1}, {"ViewRootImpl[MainActivity]\0", 27}, {"Cancelling event due to no windo"..., 218}], 4) = 257 <0.000023>
+23:30:07.874224 writev(3, [{"\3\3611?\r\330Zjj\0334", 11}, {"\5", 1}, {"ViewRootImpl[MainActivity]\0", 27}, {"Cancelling event due to no windo"..., 218}], 4) = 257 <0.000023>
+23:30:07.874311 writev(3, [{"\3\3611?\r\330Zz\273\0344", 11}, {"\5", 1}, {"ViewRootImpl[MainActivity]\0", 27}, {"Cancelling event due to no windo"..., 218}], 4) = 257 <0.000026>
+23:30:07.874579 writev(3, [{"\3\3611?\r\330Z\314\307 4", 11}, {"\5", 1}, {"ViewRootImpl[MainActivity]\0", 27}, {"Cancelling event due to no windo"..., 218}], 4) = 257 <0.000022>
+23:30:07.874663 writev(3, [{"\3\3611?\r\330Z\305\35\"4", 11}, {"\5", 1}, {"ViewRootImpl[MainActivity]\0", 27}, {"Cancelling event due to no windo"..., 218}], 4) = 257 <0.000022>
+23:30:07.874766 writev(3, [{"\3\3611?\r\330ZZ\250#4", 11}, {"\5", 1}, {"ViewRootImpl[MainActivity]\0", 27}, {"Cancelling event due to no windo"..., 218}], 4) = 257 <0.000022>
+23:30:07.875345 ioctl(8, BINDER_WRITE_READ, 0xffb4a5f8) = 0 <0.000140>
+23:30:07.875524 ioctl(8, BINDER_WRITE_READ, 0xffb4a5f8) = 0 <0.003626>
+23:30:07.882165 ioctl(8, BINDER_WRITE_READ, 0xffb4a778) = 0 <0.013153>
+23:30:07.895435 ioctl(8, BINDER_WRITE_READ, 0xffb4a778) = 0 <0.000226>
+23:30:07.895736 sendto(39, "\3\0\0\0t\273g\343\242\2\0\0\1\2476\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000043>
+23:30:07.895830 recvfrom(39, 0xe3778c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000088>
+23:30:07.896008 recvfrom(33, 0xffb4ad18, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000021>
+23:30:07.896070 ioctl(8, BINDER_WRITE_READ, 0xffb4b428) = 0 <0.004779>
+23:30:07.901730 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000134>
+23:30:07.902004 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000126>
+23:30:07.902261 getuid32()              = 10318 <0.000110>
+23:30:07.903278 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.003144>
+23:30:07.906692 getuid32()              = 10318 <0.000018>
+23:30:07.906750 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 0, NULL, 8) = 1 <0.000017>
+23:30:07.906814 recvfrom(33, "nysv\0\0\0\0\375J\253<\3\16\0\0f\2\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000020>
+23:30:07.906870 recvfrom(33, 0xffb4ad68, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.001135>
+23:30:07.912919 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000100>
+23:30:07.914470 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.002113>
+23:30:07.917831 getuid32()              = 10318 <0.001379>
+23:30:07.919782 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000026>
+23:30:07.920088 getuid32()              = 10318 <0.001166>
+23:30:07.921504 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.002424>
+23:30:07.933730 getuid32()              = 10318 <0.000119>
+23:30:07.934018 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.001148>
+23:30:07.940044 getuid32()              = 10318 <0.000099>
+23:30:07.940277 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000214>
+23:30:07.940747 writev(3, [{"\0\3611?\r\330ZK\22\0218", 11}, {"\4", 1}, {"System.out\0", 11}, {"load data:0\0", 12}], 4) = 35 <0.001397>
+23:30:07.942228 writev(3, [{"\0\3611?\r\330Z+\n)8", 11}, {"\4", 1}, {"System.out\0", 11}, {"test:sort\0", 10}], 4) = 33 <0.000046>
+23:30:07.942559 writev(3, [{"\0\3611?\r\330ZQ\342,8", 11}, {"\4", 1}, {"System.out\0", 11}, {"test:load\0", 10}], 4) = 33 <0.000085>
+23:30:07.943063 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000100>
+23:30:07.943724 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000038>
+23:30:07.943827 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000036>
+23:30:07.943930 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", F_OK) = 0 <0.000044>
+23:30:07.946094 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", {st_mode=0115410, st_size=1, ...}, 0) = 0 <0.000042>
+23:30:07.946209 fcntl64(42, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000039>
+23:30:07.946346 fstat64(42, {st_mode=0, st_size=1, ...}) = 0 <0.000032>
+23:30:07.946482 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=0, st_size=1, ...}, 0) = 0 <0.000034>
+23:30:07.946582 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 43 <0.000040>
+23:30:07.946677 fstat64(43, {st_mode=0, st_size=1, ...}) = 0 <0.000031>
+23:30:07.946811 geteuid32()             = 10318 <0.000031>
+23:30:07.946908 fstat64(43, {st_mode=0117050, st_size=1, ...}) = 0 <0.000032>
+23:30:07.947001 pread64(43, "\0", 1, 0) = 1 <0.000176>
+23:30:07.947345 close(43)               = 0 <0.000206>
+23:30:07.947704 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000082>
+23:30:07.947887 pread64(42, "\0\0\0\3\0\0\0\4\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.001875>
+23:30:07.949927 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.000156>
+23:30:07.950298 faccessat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.000150>
+23:30:07.950847 fstat64(42, {st_mode=S_IFDIR|S_ISGID|0767, st_size=1, ...}) = 0 <0.005051>
+23:30:07.956158 fcntl64(42, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0 <0.000161>
+23:30:07.956605 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=0152000, st_size=1, ...}, 0) = 0 <0.000165>
+23:30:07.957342 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=S_IFSOCK|S_ISGID|0440, st_size=1, ...}, 0) = 0 <0.000172>
+23:30:07.957738 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db-journal", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0660) = 43 <0.001300>
+23:30:07.959561 fstat64(43, {st_mode=S_IFBLK|S_ISUID|S_ISGID|S_ISVTX, st_rdev=makedev(129, 128), ...}) = 0 <0.000227>
+23:30:07.960199 geteuid32()             = 10318 <0.000311>
+23:30:07.960781 fstat64(43, {st_mode=0117110, st_size=1, ...}) = 0 <0.004338>
+23:30:07.965393 pwrite64(43, "\0\0\0\0\0\0\0\0\0\0\0\0\326\31\335\7\0\0\0\4\0\0\2\0\0\0\20\0\0\0\0\0"..., 512, 0) = 512 <0.000422>
+23:30:07.966045 pwrite64(43, "\0\0\0\4", 4, 512) = 4 <0.000294>
+23:30:07.966844 pwrite64(43, "\r\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 516) = 4096 <0.000112>
+23:30:07.967279 pwrite64(43, "\326\31\335\7", 4, 4612) = 4 <0.000199>
+23:30:07.967635 fcntl64(42, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000320>
+23:30:07.968263 fcntl64(42, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000169>
+23:30:07.972689 pwrite64(43, "\0\0\0\1", 4, 4616) = 4 <0.000438>
+23:30:07.973373 pwrite64(43, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\3\0\0\0\4"..., 4096, 4620) = 4096 <0.000157>
+23:30:07.973749 pwrite64(43, "\326\31\335'", 4, 8716) = 4 <0.000083>
+23:30:07.973933 pread64(43, "", 8, 9216) = 0 <0.000083>
+23:30:07.974145 fdatasync(43)           = 0 <0.006372>
+23:30:07.982416 openat(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 45 <0.000134>
+23:30:07.982851 fdatasync(45)           = 0 <0.009248>
+23:30:07.992351 close(45)               = 0 <0.000085>
+23:30:07.992605 pwrite64(43, "\331\325\5\371 \241c\327\0\0\0\2", 12, 0) = 12 <0.002683>
+23:30:07.995523 fdatasync(43)           = 0 <0.004415>
+23:30:08.000061 pwrite64(42, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\4\0\0\0\4"..., 4096, 0) = 4096 <0.000037>
+23:30:08.000148 pwrite64(42, "\r\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 12288) = 4096 <0.000024>
+23:30:08.000209 fdatasync(42)           = 0 <0.004021>
+23:30:08.009499 pwrite64(43, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 28, 0) = 28 <0.000042>
+23:30:08.009597 fdatasync(43)           = 0 <0.007152>
+23:30:08.018032 fstat64(43, {st_mode=052, st_size=1, ...}) = 0 <0.000197>
+23:30:08.018330 fcntl64(42, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000251>
+23:30:08.018660 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0 <0.000038>
+23:30:08.018789 close(43)               = 0 <0.000074>
+23:30:08.021772 fcntl64(42, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000025>
+23:30:08.021927 fstat64(42, {st_mode=S_IFIFO|S_ISGID, st_size=1, ...}) = 0 <0.000028>
+23:30:08.022067 fstatat64(AT_FDCWD, "/data/user/0/com.myproject1.wallpaper.mkbelbzfzGvSvLpeAYa/databases/setting.db", {st_mode=S_IFSOCK|S_ISGID|S_ISVTX, st_size=1, ...}, 0) = 0 <0.000028>
+23:30:08.022145 close(42)               = 0 <0.000021>
+23:30:08.022255 getuid32()              = 10318 <0.000019>
+23:30:08.022312 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000020>
+23:30:08.022872 getuid32()              = 10318 <0.001630>
+23:30:08.024798 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.001901>
+23:30:08.027141 getuid32()              = 10318 <0.000209>
+23:30:08.031034 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.004203>
+23:30:08.035588 getuid32()              = 10318 <0.000107>
+23:30:08.035768 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000031>
+23:30:08.035902 getuid32()              = 10318 <0.000014>
+23:30:08.035947 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000014>
+23:30:08.035997 getuid32()              = 10318 <0.000013>
+23:30:08.036039 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000014>
+23:30:08.036087 getuid32()              = 10318 <0.000014>
+23:30:08.036127 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000014>
+23:30:08.036366 getuid32()              = 10318 <0.000408>
+23:30:08.038861 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000118>
+23:30:08.039611 getuid32()              = 10318 <0.006007>
+23:30:08.049681 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.002607>
+23:30:08.054546 recvfrom(39, 0xe3778c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.003325>
+23:30:08.059112 recvfrom(46, 0xd6516010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.003206>
+23:30:08.064476 ioctl(8, BINDER_WRITE_READ, 0xffb4b2c8) = 0 <0.001417>
+23:30:08.065999 ioctl(8, BINDER_WRITE_READ, 0xffb4b2c8) = 0 <0.000163>
+23:30:08.066284 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.001168>
+23:30:08.067650 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000225>
+23:30:08.068103 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.003806>
+23:30:08.072179 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000261>
+23:30:08.072614 futex(0xda329a94, FUTEX_WAKE_PRIVATE, 1) = 1 <0.002038>
+23:30:08.074984 futex(0xda329a98, FUTEX_WAIT_BITSET_PRIVATE, 32, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000124>
+23:30:08.080302 recvfrom(33, 0xffb496a8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000186>
+23:30:08.080796 ioctl(8, BINDER_WRITE_READ, 0xffb49db8) = 0 <0.000198>
+23:30:08.082292 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000063>
+23:30:08.082458 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000112>
+23:30:08.082815 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000122>
+23:30:08.083388 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000184>
+23:30:08.083663 futex(0xda329a20, FUTEX_WAIT_BITSET_PRIVATE, 4, NULL, ffffffff) = 0 <0.002150>
+23:30:08.086298 futex(0xda329a98, FUTEX_WAIT_BITSET_PRIVATE, 36, NULL, ffffffff) = 0 <0.090907>
+23:30:08.179494 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000324>
+23:30:08.180171 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000411>
+23:30:08.180991 futex(0xda329a94, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000463>
+23:30:08.181924 futex(0xda329a98, FUTEX_WAIT_BITSET_PRIVATE, 40, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000024>
+23:30:08.182027 ioctl(8, BINDER_WRITE_READ, 0xffb4b378) = 0 <0.002002>
+23:30:08.185019 ioctl(8, BINDER_WRITE_READ, 0xffb4b378) = 0 <0.001905>
+23:30:08.187345 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000308>
+23:30:08.188125 pread64(30, "PK\3\4\24\0\10\0\10\0\262x&G2T\367P?\1\0\0X\2\0\0\33\0\0\0", 30, 8540013) = 30 <0.000211>
+23:30:08.188553 pread64(30, "res/layout/gallery_item.xml", 27, 8540043) = 27 <0.000596>
+23:30:08.190091 mmap2(NULL, 4325, PROT_READ, MAP_SHARED, 30, 0x824000) = 0xd65f9000 <0.000279>
+23:30:08.191705 munmap(0xd65f9000, 4325) = 0 <0.001657>
+23:30:08.194529 writev(3, [{"\0\3611@\r\330Z\2277\223\v", 11}, {"\4", 1}, {"System.out\0", 11}, {"moving to screen 0\0", 19}], 4) = 42 <0.000451>
+23:30:08.195328 writev(3, [{"\0\3611@\r\330Z53\242\v", 11}, {"\4", 1}, {"System.out\0", 11}, {"moving to screen 0\0", 19}], 4) = 42 <0.000259>
+23:30:08.195977 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000709>
+23:30:08.197852 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000232>
+23:30:08.198370 futex(0xda329814, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000474>
+23:30:08.199189 futex(0xda329818, FUTEX_WAIT_BITSET_PRIVATE, 32, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000027>
+23:30:08.199472 ioctl(8, BINDER_WRITE_READ, 0xffb4b328) = 0 <0.000618>
+23:30:08.200147 ioctl(8, BINDER_WRITE_READ, 0xffb4b328) = 0 <0.000948>
+23:30:08.201806 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000619>
+23:30:08.202722 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.007297>
+23:30:08.210360 futex(0xda329818, FUTEX_WAIT_BITSET_PRIVATE, 36, NULL, ffffffff) = 0 <0.055431>
+23:30:08.265878 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000348>
+23:30:08.266485 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000468>
+23:30:08.267262 ioctl(8, BINDER_WRITE_READ, 0xffb4b298) = 0 <0.000234>
+23:30:08.267724 ioctl(8, BINDER_WRITE_READ, 0xffb4b298) = 0 <0.000737>
+23:30:08.269354 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000068>
+23:30:08.269449 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000030>
+23:30:08.269966 writev(3, [{"\0\3611@\r\330Z\231\262\22\20", 11}, {"\4", 1}, {"System.out\0", 11}, {"moving to screen 0\0", 19}], 4) = 42 <0.001581>
+23:30:08.271673 writev(3, [{"\0\3611@\r\330Z\245\0161\20", 11}, {"\4", 1}, {"System.out\0", 11}, {"moving to screen 0\0", 19}], 4) = 42 <0.000219>
+23:30:08.274574 writev(3, [{"\0\3611@\r\330Z\221\204O\20", 11}, {"\4", 1}, {"System.out\0", 11}, {"childCount=0\0", 13}], 4) = 36 <0.000080>
+23:30:08.274760 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000035>
+23:30:08.274833 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000030>
+23:30:08.274898 futex(0xda329814, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000028>
+23:30:08.274977 futex(0xda329818, FUTEX_WAIT_BITSET_PRIVATE, 40, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000019>
+23:30:08.275455 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000409>
+23:30:08.276260 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000287>
+23:30:08.276828 futex(0xda3297a0, FUTEX_WAIT_BITSET_PRIVATE, 4, NULL, ffffffff) = 0 <0.054955>
+23:30:08.332727 futex(0xda329818, FUTEX_WAIT_BITSET_PRIVATE, 44, NULL, ffffffff) = 0 <0.320775>
+23:30:08.653695 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000142>
+23:30:08.654025 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000194>
+23:30:08.654355 futex(0xda329814, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000166>
+23:30:08.654668 futex(0xda329818, FUTEX_WAIT_BITSET_PRIVATE, 48, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000115>
+23:30:08.654947 ioctl(8, BINDER_WRITE_READ, 0xffb4b378) = 0 <0.000138>
+23:30:08.655219 ioctl(8, BINDER_WRITE_READ, 0xffb4b378) = 0 <0.183422>
+23:30:08.838933 getuid32()              = 10318 <0.000132>
+23:30:08.839262 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}, {EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 2 <0.000170>
+23:30:08.839615 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000141>
+23:30:08.839930 recvfrom(33, "nysv\0\0\0\0+h\227G\3\16\0\0h\2\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000131>
+23:30:08.840207 recvfrom(33, 0xffb4ad68, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000100>
+23:30:08.840495 getuid32()              = 10318 <0.000083>
+23:30:08.840712 writev(3, [{"\2\3611@\r\330Z\23X\0332", 11}, {"Eu\0\0", 4}, {"\3\3\0\0\0\0\0\2'\0\0\0com.baoruan.wallpape"..., 76}], 3) = 91 <0.000152>
+23:30:08.841032 ioctl(8, BINDER_WRITE_READ, 0xffb4b628) = 0 <0.000130>
+23:30:08.841296 ioctl(8, BINDER_WRITE_READ, 0xffb4b628) = 0 <0.000113>
+23:30:08.841531 getuid32()              = 10318 <0.000089>
+23:30:08.841726 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000093>
+23:30:08.841989 getuid32()              = 10318 <0.000094>
+23:30:08.842418 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000091>
+23:30:08.842642 writev(3, [{"\0\3611@\r\330Z\366\35582", 11}, {"\4", 1}, {"Choreographer\0", 14}, {"Skipped 45 frames!  The applicat"..., 83}], 4) = 109 <0.000111>
+23:30:08.842950 recvfrom(39, 0xe3778c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000116>
+23:30:08.843200 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000099>
+23:30:08.843556 recvfrom(33, 0xffb49f78, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000339>
+23:30:08.844015 ioctl(8, BINDER_WRITE_READ, 0xffb4a688) = 0 <0.000129>
+23:30:08.844289 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000551>
+23:30:08.844990 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000373>
+23:30:08.845494 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000102>
+23:30:08.845702 futex(0xe3732ba8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000105>
+23:30:08.845919 futex(0xda329a20, FUTEX_WAIT_BITSET_PRIVATE, 8, NULL, ffffffff) = 0 <0.051638>
+23:30:08.897757 getuid32()              = 10318 <0.000174>
+23:30:08.898348 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=33, u64=33}}], 16, 0, NULL, 8) = 2 <0.000108>
+23:30:08.898613 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000208>
+23:30:08.898967 recvfrom(33, "nysv\0\0\0\0\3\30Ju\3\16\0\0\214\2\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000092>
+23:30:08.899177 recvfrom(33, 0xffb4ad68, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000086>
+23:30:08.899456 pread64(30, "PK\3\4\n\0\0\0\0\0\262x&G=\370D'\376\307\5\0\376\307\5\0\30\0\1\0", 30, 6557477) = 30 <0.000094>
+23:30:08.899662 pread64(30, "res/drawable-hdpi/c1.jpg", 24, 6557507) = 24 <0.000095>
+23:30:08.899895 mmap2(NULL, 382810, PROT_READ, MAP_SHARED, 30, 0x640000) = 0xc8705000 <0.000128>
+23:30:08.900198 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000136>
+23:30:08.900506 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000106>
+23:30:08.912436 futex(0xe36bfeb0, FUTEX_WAKE, 1) = 0 <0.000115>
+23:30:08.912822 writev(3, [{"\0\3611@\r\330Z\343<f6", 11}, {"\4", 1}, {"art\0", 4}, {"Starting a blocking GC Alloc\0", 29}], 4) = 45 <0.000160>
+23:30:08.913159 futex(0xe36bfeb0, FUTEX_WAKE, 1) = 0 <0.000093>
+23:30:08.913420 writev(3, [{"\0\3611@\r\330Z\316\307p6", 11}, {"\4", 1}, {"art\0", 4}, {"Starting a blocking GC Alloc\0", 29}], 4) = 45 <0.000153>
+23:30:08.915230 madvise(0xe7c48000, 262144, MADV_DONTNEED) = 0 <0.000417>
+23:30:08.917118 madvise(0xded4d000, 8392704, MADV_DONTNEED) = 0 <0.000142>
+23:30:08.917403 madvise(0xe7dfd000, 4096, MADV_DONTNEED) = 0 <0.000123>
+23:30:08.917744 madvise(0xe7c48000, 262144, MADV_DONTNEED) = 0 <0.000120>
+23:30:08.918018 madvise(0xcf897000, 4194304, MADV_DONTNEED) = 0 <0.000145>
+23:30:08.918340 madvise(0xe2d50000, 1048576, MADV_DONTNEED) = 0 <0.000174>
+23:30:08.918689 madvise(0xe2c54000, 1032192, MADV_DONTNEED) = 0 <0.000195>
+23:30:08.919036 madvise(0xe7c9f000, 131072, MADV_DONTNEED) = 0 <0.000141>
+23:30:08.919428 futex(0xdb67ba28, FUTEX_WAKE, 1) = 1 <0.000138>
+23:30:08.919687 futex(0xd6b33a30, FUTEX_WAKE, 1) = 1 <0.000126>
+23:30:08.919930 futex(0xdce05010, FUTEX_WAKE, 1) = 1 <0.000139>
+23:30:08.920203 futex(0xdce05030, FUTEX_WAKE, 1) = 1 <0.000139>
+23:30:08.920533 futex(0xdce05010, FUTEX_WAKE, 1) = 1 <0.000132>
+23:30:08.920993 writev(3, [{"\0\3611@\r\330Z\303A\3446", 11}, {"\4", 1}, {"art\0", 4}, {"Alloc sticky concurrent mark swe"..., 141}], 4) = 157 <0.000132>
+23:30:08.921292 futex(0xe36bfeb0, FUTEX_WAKE, 1) = 0 <0.000102>
+23:30:08.921559 writev(3, [{"\0\3611@\r\330Z\273\313\3546", 11}, {"\4", 1}, {"art\0", 4}, {"Starting a blocking GC Alloc\0", 29}], 4) = 45 <0.000106>
+23:30:08.921827 madvise(0xcb0d8000, 4096, MADV_DONTNEED) = 0 <0.000173>
+23:30:08.922175 madvise(0xdffa8000, 12288, MADV_DONTNEED) = 0 <0.000108>
+23:30:08.925924 madvise(0xdf54e000, 8392704, MADV_DONTNEED) = 0 <0.000100>
+23:30:08.926261 munmap(0xc4696000, 16732160) = 0 <0.001083>
+23:30:08.927492 madvise(0xe7c48000, 262144, MADV_DONTNEED) = 0 <0.000100>
+23:30:08.927707 madvise(0xcf497000, 4194304, MADV_DONTNEED) = 0 <0.000104>
+23:30:08.927924 madvise(0xe2d50000, 1048576, MADV_DONTNEED) = 0 <0.000100>
+23:30:08.928138 madvise(0xe2b58000, 1032192, MADV_DONTNEED) = 0 <0.000102>
+23:30:08.928352 madvise(0xe7cf2000, 131072, MADV_DONTNEED) = 0 <0.000112>
+23:30:08.928923 futex(0xdb67ba28, FUTEX_WAKE, 1) = 1 <0.000116>
+23:30:08.929157 futex(0xd6b33a30, FUTEX_WAKE, 1) = 1 <0.000114>
+23:30:08.929384 futex(0xdce05010, FUTEX_WAKE, 1) = 1 <0.000094>
+23:30:08.929571 futex(0xdce05030, FUTEX_WAKE, 1) = 1 <0.000358>
+23:30:08.930024 futex(0xdce05010, FUTEX_WAKE, 1) = 1 <0.000091>
+23:30:08.931069 writev(3, [{"\0\3611@\r\330Z\22>s7", 11}, {"\4", 1}, {"art\0", 4}, {"Alloc partial concurrent mark sw"..., 143}], 4) = 159 <0.000648>
+23:30:08.933341 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000391>
+23:30:08.934184 fstat64(42, {st_mode=0112400, st_size=1, ...}) = 0 <0.003019>
+23:30:08.937673 ioctl(42, ASHMEM_SET_NAME, 0xffb48eb0) = 0 <0.000130>
+23:30:08.937984 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xff5000) = 0 <0.000141>
+23:30:08.938262 mmap2(NULL, 16732160, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xc4696000 <0.000100>
+23:30:08.938529 close(42)               = 0 <0.000124>
+23:30:08.938850 futex(0xe36b00f8, FUTEX_WAKE, 1) = 1 <0.000175>
+23:30:08.939171 futex(0xe36bfeb0, FUTEX_WAKE, 1) = 1 <0.000132>
+23:30:08.973462 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 60.32    0.290911        3232        90        13 futex
+ 28.82    0.138959        1930        72           ioctl
+  4.13    0.019930         997        20           fdatasync
+  1.31    0.006309         103        61           fstat64
+  1.00    0.004830         121        40           pwrite64
+  0.83    0.004000         167        24           epoll_pwait
+  0.68    0.003299         206        16         9 faccessat
+  0.66    0.003206         134        24        17 recvfrom
+  0.40    0.001917         192        10           geteuid32
+  0.33    0.001591          48        33           writev
+  0.32    0.001560         260         6           munmap
+  0.30    0.001439          65        22         1 fstatat64
+  0.29    0.001388         694         2           statfs64
+  0.25    0.001203         150         8           mmap2
+  0.14    0.000677          11        59           fcntl64
+  0.11    0.000530          27        20           madvise
+  0.07    0.000348           9        38           write
+  0.03    0.000144         144         1           epoll_ctl
+  0.00    0.000000           0         1           dup
+  0.00    0.000000           0         1           clone
+  0.00    0.000000           0         1           mprotect
+  0.00    0.000000           0         3           prctl
+  0.00    0.000000           0         7           rt_sigprocmask
+  0.00    0.000000           0        21           pread64
+  0.00    0.000000           0        27           getuid32
+  0.00    0.000000           0        19           openat
+  0.00    0.000000           0         1           mkdirat
+  0.00    0.000000           0         2         2 unlinkat
+  0.00    0.000000           0         2           fchmodat
+  0.00    0.000000           0         2           sendto
+  0.00    0.000000           0         4           read
+  0.00    0.000000           0        20           close
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.482241                   657        42 total
