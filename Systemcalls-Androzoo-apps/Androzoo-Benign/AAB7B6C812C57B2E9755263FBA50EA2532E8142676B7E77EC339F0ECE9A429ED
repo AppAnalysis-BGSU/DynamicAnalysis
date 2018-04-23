@@ -1,0 +1,57 @@
+20:49:13.942364 ioctl(8, BINDER_WRITE_READ, 0xffb19078) = 0 <0.000574>
+20:49:13.943289 dup(47)                 = 49 <0.000157>
+20:49:13.943606 fcntl64(49, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.001009>
+20:49:13.944871 close(47)               = 0 <0.000254>
+20:49:13.945318 epoll_ctl(26, EPOLL_CTL_ADD, 49, {EPOLLIN, {u32=49, u64=49}}) = 0 <0.000165>
+20:49:13.945750 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 47 <0.000160>
+20:49:13.946087 fstat64(47, {st_mode=S_IFSOCK|S_ISUID|S_ISVTX|0200, st_size=1, ...}) = 0 <0.000107>
+20:49:13.946336 ioctl(47, ASHMEM_SET_NAME, 0xffb191e0) = 0 <0.000149>
+20:49:13.946636 ioctl(47, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000071>
+20:49:13.948915 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 47, 0) = 0xd2262000 <0.000158>
+20:49:13.949242 close(47)               = 0 <0.000154>
+20:49:13.949559 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd03f6000 <0.000153>
+20:49:13.949844 madvise(0xd03f6000, 1069056, MADV_MERGEABLE) = 0 <0.000129>
+20:49:13.950120 mprotect(0xd03f6000, 4096, PROT_NONE) = 0 <0.000269>
+20:49:13.950540 prctl(0x53564d41 /* PR_??? */, 0, 0xd03f6000, 4096, "thread stack guard page") = 0 <0.001744>
+20:49:13.952439 clone(child_stack=0xd04fa910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd04fa928, tls={entry_number:12, base_addr:0xd04fa970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xffb19530, child_tidptr=0xd04fa928) = 19112 <0.000491>
+20:49:13.953176 futex(0xd04fa960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000124>
+20:49:13.956346 getuid32()              = 11123 <0.003818>
+20:49:13.963967 ioctl(8, BINDER_WRITE_READ, 0xffb18f78) = 0 <0.008899>
+20:49:13.976338 ioctl(8, BINDER_WRITE_READ, 0xffb18f78) = 0 <0.003940>
+20:49:13.985487 writev(3, [{"\0wJ\t9\331Z\2104q:", 11}, {"\5", 1}, {"InstanceID/Rpc\0", 15}, {"Failed to resolve REGISTER inten"..., 48}], 4) = 75 <0.000171>
+20:49:13.986036 ioctl(8, BINDER_WRITE_READ, 0xffb18f88) = 0 <0.000728>
+20:49:13.988602 ioctl(8, BINDER_WRITE_READ, 0xffb18f88) = 0 <0.000128>
+20:49:13.989003 ioctl(8, BINDER_WRITE_READ, 0xffb18f88) = 0 <0.003912>
+20:49:13.997015 ioctl(8, BINDER_WRITE_READ, 0xffb18f88) = 0 <0.000116>
+20:49:13.999827 writev(3, [{"\0wJ\t9\331Z\212\367q;", 11}, {"\5", 1}, {"InstanceID/Rpc\0", 15}, {"Both Google Play Services and le"..., 61}], 4) = 88 <0.000159>
+20:49:14.000579 writev(3, [{"\0wJ\n9\331Z\225\310\7\0", 11}, {"\3", 1}, {"AndroidRuntime\0", 15}, {"Shutting down VM\n\0", 18}], 4) = 45 <0.000165>
+20:49:14.001087 futex(0xe3cc16a8, FUTEX_WAKE, 1) = 1 <0.000214>
+20:49:14.001549 futex(0xdf1b5aa0, FUTEX_WAKE, 1) = 1 <0.000262>
+20:49:14.001979 futex(0xeff05430, FUTEX_WAKE, 1) = 1 <0.000626>
+20:49:14.004339 futex(0xeff05450, FUTEX_WAKE, 1) = 1 <0.000168>
+20:49:14.004799 futex(0xeff05430, FUTEX_WAKE, 1) = 0 <0.000137>
+20:49:14.005143 futex(0xebd40180, FUTEX_WAKE, 1) = 0 <0.000166>
+20:49:14.005494 futex(0xebd30138, FUTEX_WAIT, 672, {4, 0}) = 0 <0.125315>
+20:49:14.131172 writev(3, [{"\4wJ\n9\331Z\"\204\320\7", 11}, {"\6", 1}, {"AndroidRuntime\0", 15}, {"FATAL EXCEPTION: main\nProcess: c"..., 1531}], 4) = 1558 <0.000130>
+20:49:14.131812 ioctl(8, BINDER_WRITE_READ, 0xffb19fe8) = 0 <0.000207>
+20:49:14.132339 ioctl(8, BINDER_WRITE_READ <unfinished ...>
+20:49:16.263392 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.004640         464        10           ioctl
+  0.00    0.000000           0         2           close
+  0.00    0.000000           0         1           dup
+  0.00    0.000000           0         1           clone
+  0.00    0.000000           0         1           mprotect
+  0.00    0.000000           0         4           writev
+  0.00    0.000000           0         1           prctl
+  0.00    0.000000           0         2           mmap2
+  0.00    0.000000           0         1           fstat64
+  0.00    0.000000           0         1           getuid32
+  0.00    0.000000           0         1           madvise
+  0.00    0.000000           0         1           fcntl64
+  0.00    0.000000           0         8           futex
+  0.00    0.000000           0         1           epoll_ctl
+  0.00    0.000000           0         1           openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.004640                    36           total

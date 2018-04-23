@@ -1,0 +1,705 @@
+19:57:55.345345 futex(0xe29a9778, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.082705>
+19:57:55.430494 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.014212>
+19:57:55.447853 futex(0xebdb2368, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000140>
+19:57:55.448129 futex(0xe29a9700, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = 0 <0.067780>
+19:57:55.520004 futex(0xe29a9778, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff) = 0 <0.778761>
+19:57:56.298845 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000281>
+19:57:56.299340 futex(0xebdb2368, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000043>
+19:57:56.299476 futex(0xe29a9774, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000193>
+19:57:56.299727 futex(0xe29a9778, FUTEX_WAIT_BITSET_PRIVATE, 28, NULL, ffffffff) = 0 <0.000030>
+19:57:56.299801 futex(0xe29a9774, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, ffffffff) = 0 <0.000032>
+19:57:56.299864 futex(0xe29a9774, FUTEX_WAKE_PRIVATE, 1) = 0 <0.000018>
+19:57:56.299932 ioctl(8, BINDER_WRITE_READ, 0xffb1a0b8) = 0 <0.000042>
+19:57:56.300016 ioctl(8, BINDER_WRITE_READ, 0xffb1a0b8) = 0 <0.024332>
+19:57:56.324418 getuid32()              = 11046 <0.000018>
+19:57:56.324474 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=39, u64=39}}], 16, 0, NULL, 8) = 2 <0.000030>
+19:57:56.324550 read(25, "\2\0\0\0\0\0\0\0", 8) = 8 <0.000020>
+19:57:56.324619 recvfrom(39, "\2\0\0\0\10\344_\324\314\213\0\0\300\317d\254\0v\340*\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000031>
+19:57:56.324807 sendto(39, "\3\0\0\0\0\0\0\0\314\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000075>
+19:57:56.325119 recvfrom(39, "\2\0\0\0\10\344_\324\316\213\0\0\300\317d\254\0v\340*\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000022>
+19:57:56.325185 recvfrom(39, "\2\0\0\0\10\344_\324\320\213\0\0\300\317d\254@\270\357*\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000028>
+19:57:56.325253 recvfrom(39, "\2\0\0\0\10\344_\324\322\213\0\0\300\317d\254@\270\357*\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000031>
+19:57:56.325341 recvfrom(39, "\2\0\0\0\10\344_\324\324\213\0\0\300\317d\254@\270\357*\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000020>
+19:57:56.325398 recvfrom(39, "\2\0\0\0\10\344_\324\326\213\0\0\300\317d\254\200\372\376*\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000020>
+19:57:56.325468 recvfrom(39, "\2\0\0\0\10\344_\324\330\213\0\0\300\317d\254\200\372\376*\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000019>
+19:57:56.325522 recvfrom(39, "\2\0\0\0\10\344_\324\332\213\0\0\300\317d\254\300<\16+\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000148>
+19:57:56.325715 recvfrom(39, "\2\0\0\0\10\344_\324\334\213\0\0\300\317d\254\300<\16+\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000034>
+19:57:56.325802 recvfrom(39, "\2\0\0\0\10\344_\324\336\213\0\0\300\317d\254\300<\16+\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000023>
+19:57:56.325901 sendto(39, "\3\0\0\0\0\0\0\0\316\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000066>
+19:57:56.326005 sendto(39, "\3\0\0\0\0\0\0\0\320\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000187>
+19:57:56.326231 sendto(39, "\3\0\0\0\0\0\0\0\322\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000064>
+19:57:56.326348 sendto(39, "\3\0\0\0\0\0\0\0\324\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000059>
+19:57:56.326444 sendto(39, "\3\0\0\0\0\0\0\0\326\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000059>
+19:57:56.326538 sendto(39, "\3\0\0\0\0\0\0\0\330\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000084>
+19:57:56.326886 sendto(39, "\3\0\0\0\0\0\0\0\332\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000060>
+19:57:56.326983 sendto(39, "\3\0\0\0\0\0\0\0\334\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000057>
+19:57:56.327195 sendto(39, "\3\0\0\0\0\0\0\0\336\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000065>
+19:57:56.327307 recvfrom(39, "\2\0\0\0\10\344_\324\342\213\0\0\300\317d\254\300W\305+\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000036>
+19:57:56.327430 sendto(39, "\3\0\0\0p\n\233\342\342\213\0\0\1\0\267C", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000061>
+19:57:56.327628 recvfrom(39, "\2\0\0\0\10\344_\324\344\213\0\0\300\317d\254\200'0,\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000022>
+19:57:56.327721 sendto(39, "\3\0\0\0p\n\233\342\344\213\0\0\1\0\267C", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000194>
+19:57:56.328055 recvfrom(39, "\1\0\0\0\36\1\0\0\346\213\0\0\0\0\0\0\0\276\310,\36\1\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000021>
+19:57:56.328157 writev(3, [{"\0035\27\4-\331Z\336\17\217\23", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Dropping event due to no window "..., 208}], 4) = 247 <0.000061>
+19:57:56.328271 sendto(39, "\3\0\0\0\0\0\0\0\346\213\0\0\0\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000024>
+19:57:56.328350 recvfrom(39, 0xebdf8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000020>
+19:57:56.328514 getuid32()              = 11046 <0.000019>
+19:57:56.328568 epoll_pwait(29, [{EPOLLIN, {u32=39, u64=39}}], 16, 0, NULL, 8) = 1 <0.000019>
+19:57:56.328628 recvfrom(39, "\1\0\0\0\36\1\0\0\350\213\0\0\0\0\0\0@\3548N\36\1\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000021>
+19:57:56.328744 writev(3, [{"\0035\27\4-\331Z1z\227\23", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000088>
+19:57:56.328965 writev(3, [{"\0035\27\4-\331Z\371a\232\23", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000200>
+19:57:56.329348 writev(3, [{"\0035\27\4-\331Z`\37\241\23", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000102>
+19:57:56.329655 writev(3, [{"\0035\27\4-\331Z\202\352\245\23", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000259>
+19:57:56.330287 writev(3, [{"\0035\27\4-\331Z\21\241\256\23", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000137>
+19:57:56.330831 writev(3, [{"\0035\27\4-\331Z\216\360\266\23", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000168>
+19:57:56.331159 sendto(39, "\3\0\0\0\0\0\0\0\350\213\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000151>
+19:57:56.331504 recvfrom(39, 0xebdf8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000110>
+19:57:56.331845 ioctl(8, BINDER_WRITE_READ, 0xffb1a298) = 0 <0.000143>
+19:57:56.332131 ioctl(8, BINDER_WRITE_READ, 0xffb1a298) = 0 <0.007970>
+19:57:56.340476 getuid32()              = 11046 <0.000498>
+19:57:56.341645 epoll_pwait(29, [{EPOLLIN, {u32=39, u64=39}}], 16, 0, NULL, 8) = 1 <0.000195>
+19:57:56.342023 recvfrom(39, "\2\0\0\0\10\344_\324\354\213\0\0@\3548N\0\305\340N\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000122>
+19:57:56.342361 sendto(39, "\3\0\0\0\0\0\0\0\354\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000157>
+19:57:56.343141 recvfrom(39, "\2\0\0\0\10\344_\324\356\213\0\0@\3548N@\7\360N\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000140>
+19:57:56.343418 recvfrom(39, "\2\0\0\0\10\344_\324\360\213\0\0@\3548N@\7\360N\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000140>
+19:57:56.343704 recvfrom(39, "\2\0\0\0\10\344_\324\362\213\0\0@\3548N@\7\360N\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000159>
+19:57:56.344066 sendto(39, "\3\0\0\0\0\0\0\0\356\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000154>
+19:57:56.344346 sendto(39, "\3\0\0\0\0\0\0\0\360\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000123>
+19:57:56.344647 sendto(39, "\3\0\0\0\0\0\0\0\362\213\0\0\0\364o\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000121>
+19:57:56.344887 recvfrom(39, 0xebdf8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000115>
+19:57:56.345164 getuid32()              = 11046 <0.000116>
+19:57:56.345423 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000152>
+19:57:56.345767 getuid32()              = 11046 <0.000115>
+19:57:56.346024 getuid32()              = 11046 <0.000112>
+19:57:56.346313 ioctl(8, BINDER_WRITE_READ, 0xffb1a1e8) = 0 <0.000108>
+19:57:56.346554 ioctl(8, BINDER_WRITE_READ, 0xffb1a1e8) = 0 <0.000205>
+19:57:56.346876 fstat64(40, {st_mode=0762, st_size=1, ...}) = 0 <0.000083>
+19:57:56.347061 fstat64(40, {st_mode=0130220, st_size=1, ...}) = 0 <0.000094>
+19:57:56.347290 ioctl(40, ASHMEM_GET_SIZE, 0) = 84 <0.000104>
+19:57:56.347513 dup(40)                 = 42 <0.000095>
+19:57:56.347722 close(40)               = 0 <0.000097>
+19:57:56.347941 dup(42)                 = 40 <0.000089>
+19:57:56.348172 fstat64(40, {st_mode=050, st_size=1, ...}) = 0 <0.000090>
+19:57:56.348375 ioctl(40, ASHMEM_GET_SIZE, 0) = 84 <0.000091>
+19:57:56.348571 mmap2(NULL, 84, PROT_READ, MAP_SHARED, 40, 0) = 0xdec9c000 <0.000099>
+19:57:56.348797 fstat64(42, {st_mode=013, st_size=1, ...}) = 0 <0.000088>
+19:57:56.348999 fstat64(42, {st_mode=0130220, st_size=1, ...}) = 0 <0.000094>
+19:57:56.349206 ioctl(42, ASHMEM_GET_SIZE, 0) = 84 <0.000094>
+19:57:56.349404 close(42)               = 0 <0.000088>
+19:57:56.349618 ioctl(8, BINDER_WRITE_READ, 0xffb1a308) = 0 <0.000108>
+19:57:56.349832 ioctl(8, BINDER_WRITE_READ, 0xffb1a308) = 0 <0.000088>
+19:57:56.350061 ioctl(8, BINDER_WRITE_READ, 0xffb1a368) = 0 <0.000120>
+19:57:56.350485 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", F_OK) = -1 ENOENT (No such file or directory) <0.000232>
+19:57:56.350879 openat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000131>
+19:57:56.351134 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000208>
+19:57:56.351745 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 43 <0.000171>
+19:57:56.352099 fstat64(43, {st_mode=0107, st_size=1, ...}) = 0 <0.000085>
+19:57:56.352298 ioctl(43, ASHMEM_SET_NAME, 0xffb19460) = 0 <0.000082>
+19:57:56.352486 ioctl(43, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000083>
+19:57:56.352668 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 43, 0) = 0xdec97000 <0.000092>
+19:57:56.352970 close(43)               = 0 <0.000085>
+19:57:56.353252 write(42, "<?xml version='1.0' encoding='ut"..., 106) = 106 <0.000098>
+19:57:56.353470 fsync(42)               = 0 <0.001438>
+19:57:56.354980 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xffb19874, 0xffb19870) = -1 ENOTSOCK (Socket operation on non-socket) <0.000028>
+19:57:56.355063 close(42)               = 0 <0.000039>
+19:57:56.355149 fchmodat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", 0660) = 0 <0.000043>
+19:57:56.355247 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000031>
+19:57:56.355356 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", 0xffb19828, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000030>
+19:57:56.355512 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", F_OK) = 0 <0.000032>
+19:57:56.355624 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000026>
+19:57:56.355752 renameat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak") = 0 <0.000143>
+19:57:56.356144 openat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000087>
+19:57:56.356293 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000028>
+19:57:56.356369 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 43 <0.000088>
+19:57:56.356671 fstat64(43, {st_mode=0107, st_size=1, ...}) = 0 <0.000142>
+19:57:56.356859 ioctl(43, ASHMEM_SET_NAME, 0xffb19470) = 0 <0.000019>
+19:57:56.356908 ioctl(43, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000018>
+19:57:56.357056 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 43, 0) = 0xdec8b000 <0.000034>
+19:57:56.357248 close(43)               = 0 <0.000022>
+19:57:56.357357 write(42, "<?xml version='1.0' encoding='ut"..., 146) = 146 <0.000139>
+19:57:56.357548 fsync(42)               = 0 <0.001753>
+19:57:56.359530 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xffb19884, 0xffb19880) = -1 ENOTSOCK (Socket operation on non-socket) <0.000128>
+19:57:56.359811 close(42)               = 0 <0.000096>
+19:57:56.360024 fchmodat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", 0660) = 0 <0.000095>
+19:57:56.360235 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000083>
+19:57:56.360444 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000169>
+19:57:56.360713 unlinkat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", 0) = 0 <0.000116>
+19:57:56.360969 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", F_OK) = 0 <0.000085>
+19:57:56.361160 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000082>
+19:57:56.361351 renameat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak") = 0 <0.000095>
+19:57:56.361577 openat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000106>
+19:57:56.361789 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000084>
+19:57:56.361994 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 43 <0.000091>
+19:57:56.362184 fstat64(43, {st_mode=0107, st_size=1, ...}) = 0 <0.000079>
+19:57:56.362366 ioctl(43, ASHMEM_SET_NAME, 0xffb19470) = 0 <0.000080>
+19:57:56.362541 ioctl(43, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000080>
+19:57:56.362772 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 43, 0) = 0xd395a000 <0.000092>
+19:57:56.362972 close(43)               = 0 <0.000082>
+19:57:56.363204 write(42, "<?xml version='1.0' encoding='ut"..., 181) = 181 <0.000095>
+19:57:56.363401 fsync(42)               = 0 <0.001064>
+19:57:56.364584 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xffb19884, 0xffb19880) = -1 ENOTSOCK (Socket operation on non-socket) <0.000082>
+19:57:56.364783 close(42)               = 0 <0.000082>
+19:57:56.364970 fchmodat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", 0660) = 0 <0.000094>
+19:57:56.365174 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000083>
+19:57:56.365380 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000083>
+19:57:56.365579 unlinkat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", 0) = 0 <0.000125>
+19:57:56.365841 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", F_OK) = 0 <0.000085>
+19:57:56.366038 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000084>
+19:57:56.366252 renameat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak") = 0 <0.000106>
+19:57:56.366484 openat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000099>
+19:57:56.366765 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000083>
+19:57:56.366961 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 43 <0.000086>
+19:57:56.367166 fstat64(43, {st_mode=0107, st_size=1, ...}) = 0 <0.000079>
+19:57:56.367348 ioctl(43, ASHMEM_SET_NAME, 0xffb19470) = 0 <0.000079>
+19:57:56.367528 ioctl(43, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000079>
+19:57:56.367702 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 43, 0) = 0xd3955000 <0.000105>
+19:57:56.367912 close(43)               = 0 <0.000092>
+19:57:56.368153 write(42, "<?xml version='1.0' encoding='ut"..., 217) = 217 <0.000094>
+19:57:56.368348 fsync(42)               = 0 <0.001068>
+19:57:56.369532 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xffb19884, 0xffb19880) = -1 ENOTSOCK (Socket operation on non-socket) <0.000080>
+19:57:56.369714 close(42)               = 0 <0.000081>
+19:57:56.369898 fchmodat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", 0660) = 0 <0.000099>
+19:57:56.370105 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000087>
+19:57:56.370316 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000083>
+19:57:56.370561 unlinkat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", 0) = 0 <0.000124>
+19:57:56.370920 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", F_OK) = 0 <0.000103>
+19:57:56.371261 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000091>
+19:57:56.371501 renameat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak") = 0 <0.000162>
+19:57:56.371795 openat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000097>
+19:57:56.372001 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000108>
+19:57:56.372213 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 43 <0.000085>
+19:57:56.372412 fstat64(43, {st_mode=0107, st_size=1, ...}) = 0 <0.000099>
+19:57:56.372640 ioctl(43, ASHMEM_SET_NAME, 0xffb19470) = 0 <0.000095>
+19:57:56.372837 ioctl(43, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000079>
+19:57:56.373036 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 43, 0) = 0xd388d000 <0.000185>
+19:57:56.373479 close(43)               = 0 <0.000157>
+19:57:56.373835 write(42, "<?xml version='1.0' encoding='ut"..., 253) = 253 <0.000133>
+19:57:56.374120 fsync(42)               = 0 <0.001453>
+19:57:56.375725 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xffb19884, 0xffb19880) = -1 ENOTSOCK (Socket operation on non-socket) <0.000106>
+19:57:56.376031 close(42)               = 0 <0.000124>
+19:57:56.376400 fchmodat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", 0660) = 0 <0.000107>
+19:57:56.376661 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000109>
+19:57:56.376918 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000108>
+19:57:56.377123 unlinkat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", 0) = 0 <0.000123>
+19:57:56.377422 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", F_OK) = 0 <0.000107>
+19:57:56.377671 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000109>
+19:57:56.377919 renameat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak") = 0 <0.000116>
+19:57:56.378167 openat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000113>
+19:57:56.378396 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000094>
+19:57:56.378619 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 43 <0.000138>
+19:57:56.378891 fstat64(43, {st_mode=0107, st_size=1, ...}) = 0 <0.000103>
+19:57:56.379117 ioctl(43, ASHMEM_SET_NAME, 0xffb19470) = 0 <0.000072>
+19:57:56.379295 ioctl(43, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000071>
+19:57:56.379450 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 43, 0) = 0xd3888000 <0.000107>
+19:57:56.379687 close(43)               = 0 <0.000109>
+19:57:56.379960 write(42, "<?xml version='1.0' encoding='ut"..., 288) = 288 <0.000105>
+19:57:56.380190 fsync(42)               = 0 <0.001252>
+19:57:56.381566 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xffb19884, 0xffb19880) = -1 ENOTSOCK (Socket operation on non-socket) <0.000106>
+19:57:56.381812 close(42)               = 0 <0.000097>
+19:57:56.382028 fchmodat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", 0660) = 0 <0.000115>
+19:57:56.382275 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000092>
+19:57:56.382506 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000105>
+19:57:56.382750 unlinkat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", 0) = 0 <0.000116>
+19:57:56.383012 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", F_OK) = 0 <0.000086>
+19:57:56.383217 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000090>
+19:57:56.383428 renameat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak") = 0 <0.000097>
+19:57:56.383644 openat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000110>
+19:57:56.383866 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000093>
+19:57:56.384075 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 43 <0.000091>
+19:57:56.384270 fstat64(43, {st_mode=0107, st_size=1, ...}) = 0 <0.000081>
+19:57:56.384469 ioctl(43, ASHMEM_SET_NAME, 0xffb19470) = 0 <0.000080>
+19:57:56.384648 ioctl(43, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000097>
+19:57:56.384846 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 43, 0) = 0xd3883000 <0.000091>
+19:57:56.385043 close(43)               = 0 <0.000086>
+19:57:56.385277 write(42, "<?xml version='1.0' encoding='ut"..., 324) = 324 <0.000093>
+19:57:56.385473 fsync(42)               = 0 <0.001090>
+19:57:56.386711 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xffb19884, 0xffb19880) = -1 ENOTSOCK (Socket operation on non-socket) <0.000086>
+19:57:56.386910 close(42)               = 0 <0.000085>
+19:57:56.387098 fchmodat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", 0660) = 0 <0.000107>
+19:57:56.387321 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000094>
+19:57:56.387541 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000159>
+19:57:56.387821 unlinkat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", 0) = 0 <0.000129>
+19:57:56.388140 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", F_OK) = 0 <0.000155>
+19:57:56.388411 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000095>
+19:57:56.388645 renameat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak") = 0 <0.000136>
+19:57:56.388911 openat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000119>
+19:57:56.389164 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000146>
+19:57:56.389452 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 43 <0.000126>
+19:57:56.389715 fstat64(43, {st_mode=0107, st_size=1, ...}) = 0 <0.000154>
+19:57:56.389989 ioctl(43, ASHMEM_SET_NAME, 0xffb19470) = 0 <0.000116>
+19:57:56.390251 ioctl(43, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000126>
+19:57:56.390512 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 43, 0) = 0xd13f7000 <0.000209>
+19:57:56.390873 close(43)               = 0 <0.000144>
+19:57:56.391231 write(42, "<?xml version='1.0' encoding='ut"..., 360) = 360 <0.000140>
+19:57:56.391545 fsync(42)               = 0 <0.001202>
+19:57:56.392874 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xffb19884, 0xffb19880) = -1 ENOTSOCK (Socket operation on non-socket) <0.000098>
+19:57:56.393120 close(42)               = 0 <0.000116>
+19:57:56.393408 fchmodat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", 0660) = 0 <0.000174>
+19:57:56.393717 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000092>
+19:57:56.393947 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000092>
+19:57:56.394152 unlinkat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", 0) = 0 <0.000117>
+19:57:56.394423 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", F_OK) = 0 <0.000091>
+19:57:56.394642 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000096>
+19:57:56.394934 renameat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak") = 0 <0.000101>
+19:57:56.395160 openat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 42 <0.000103>
+19:57:56.395369 fstat64(42, {st_mode=0171710, st_size=1, ...}) = 0 <0.000086>
+19:57:56.395571 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 43 <0.000150>
+19:57:56.395831 fstat64(43, {st_mode=0107, st_size=1, ...}) = 0 <0.000087>
+19:57:56.396028 ioctl(43, ASHMEM_SET_NAME, 0xffb19470) = 0 <0.000092>
+19:57:56.396220 ioctl(43, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000086>
+19:57:56.396409 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 43, 0) = 0xd13f2000 <0.000094>
+19:57:56.396639 close(43)               = 0 <0.000090>
+19:57:56.396891 write(42, "<?xml version='1.0' encoding='ut"..., 407) = 407 <0.000099>
+19:57:56.397108 fsync(42)               = 0 <0.001068>
+19:57:56.398290 getsockopt(42, SOL_SOCKET, SO_ERROR, 0xffb19884, 0xffb19880) = -1 ENOTSOCK (Socket operation on non-socket) <0.000087>
+19:57:56.398487 close(42)               = 0 <0.000097>
+19:57:56.398723 fchmodat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", 0660) = 0 <0.000090>
+19:57:56.398925 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000081>
+19:57:56.399134 fstatat64(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000081>
+19:57:56.399315 unlinkat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml.bak", 0) = 0 <0.000101>
+19:57:56.399545 faccessat(AT_FDCWD, "/data/user/0/com.RevoApp.SashaPieterseFind/shared_prefs/com.RevoApp.SashaPieterseFind.xml", F_OK) = 0 <0.000091>
+19:57:56.399772 ioctl(8, BINDER_WRITE_READ, 0xffb19a48) = 0 <0.000094>
+19:57:56.399961 ioctl(8, BINDER_WRITE_READ, 0xffb19a48) = 0 <0.000077>
+19:57:56.400191 ioctl(8, BINDER_WRITE_READ, 0xffb19b88) = 0 <0.000101>
+19:57:56.400398 ioctl(8, BINDER_WRITE_READ, 0xffb19b88) = 0 <0.000076>
+19:57:56.400835 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\36\0\0\0", 30, 28097032) = 30 <0.000081>
+19:57:56.401012 pread64(23, "res/layout/progress_dialog.xml", 30, 28097062) = 30 <0.000076>
+19:57:56.401186 mmap2(NULL, 3173, PROT_READ, MAP_SHARED, 23, 0x1acb000) = 0xdec96000 <0.000081>
+19:57:56.401397 munmap(0xdec96000, 3173) = 0 <0.000083>
+19:57:56.401781 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0 \0\0\0", 30, 27691393) = 30 <0.000079>
+19:57:56.401954 pread64(23, "res/anim/linear_interpolator.xml", 32, 27691423) = 32 <0.000076>
+19:57:56.402126 mmap2(NULL, 2564, PROT_READ, MAP_SHARED, 23, 0x1a68000) = 0xdec96000 <0.000087>
+19:57:56.402321 munmap(0xdec96000, 2564) = 0 <0.000081>
+19:57:56.402534 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0&\0\0\0", 30, 27915316) = 30 <0.000078>
+19:57:56.402742 pread64(23, "res/drawable/progress_medium_whi"..., 38, 27915346) = 38 <0.000088>
+19:57:56.402937 mmap2(NULL, 1410, PROT_READ, MAP_SHARED, 23, 0x1a9f000) = 0xdec96000 <0.000090>
+19:57:56.403154 munmap(0xdec96000, 1410) = 0 <0.000097>
+19:57:56.403580 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:&\347N\2571\37\0\0001\37\0\0*\0\0\0", 30, 7440628) = 30 <0.000277>
+19:57:56.403971 pread64(23, "res/drawable-xhdpi-v4/spinner_wh"..., 42, 7440658) = 42 <0.000094>
+19:57:56.404183 mmap2(NULL, 10349, PROT_READ, MAP_SHARED, 23, 0x718000) = 0xdec94000 <0.000101>
+19:57:56.404415 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000084>
+19:57:56.404687 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000142>
+19:57:56.405036 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000092>
+19:57:56.405253 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000111>
+19:57:56.405820 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000107>
+19:57:56.406026 fstat64(42, {st_mode=0, st_size=1, ...}) = 0 <0.000112>
+19:57:56.406274 ioctl(42, ASHMEM_SET_NAME, 0xffb17050) = 0 <0.000106>
+19:57:56.406559 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x1c000) = 0 <0.000161>
+19:57:56.406852 mmap2(NULL, 114688, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd13d6000 <0.000155>
+19:57:56.407171 close(42)               = 0 <0.000105>
+19:57:56.407776 munmap(0xdec94000, 10349) = 0 <0.000141>
+19:57:56.408324 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27975372) = 30 <0.000165>
+19:57:56.408633 pread64(23, "res/interpolator/linear_out_slow"..., 39, 27975402) = 39 <0.000099>
+19:57:56.408878 mmap2(NULL, 4069, PROT_READ, MAP_SHARED, 23, 0x1aad000) = 0xdec96000 <0.000134>
+19:57:56.409194 munmap(0xdec96000, 4069) = 0 <0.000132>
+19:57:56.409541 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27970871) = 30 <0.000135>
+19:57:56.409775 pread64(23, "res/interpolator/fast_out_linear"..., 39, 27970901) = 39 <0.000131>
+19:57:56.410060 mmap2(NULL, 3665, PROT_READ, MAP_SHARED, 23, 0x1aac000) = 0xdec96000 <0.000108>
+19:57:56.410310 munmap(0xdec96000, 3665) = 0 <0.000103>
+19:57:56.410571 madvise(0xe3cd0000, 8192, MADV_DONTNEED) = 0 <0.000210>
+19:57:56.410976 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0000\0\0\0", 30, 28111958) = 30 <0.000118>
+19:57:56.411244 pread64(23, "res/layout/screen_simple_overlay"..., 48, 28111988) = 48 <0.000112>
+19:57:56.411502 mmap2(NULL, 1610, PROT_READ, MAP_SHARED, 23, 0x1acf000) = 0xdec96000 <0.000123>
+19:57:56.411791 munmap(0xdec96000, 1610) = 0 <0.000136>
+19:57:56.412361 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\33\0\0\0", 30, 27997464) = 30 <0.000084>
+19:57:56.412591 pread64(23, "res/layout/alert_dialog.xml", 27, 27997494) = 27 <0.000093>
+19:57:56.412787 mmap2(NULL, 2578, PROT_READ, MAP_SHARED, 23, 0x1ab3000) = 0xdec96000 <0.000110>
+19:57:56.413085 munmap(0xdec96000, 2578) = 0 <0.000108>
+19:57:56.413592 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\373n^\257\271\6\0\0\271\6\0\0(\0\0\0", 30, 6321818) = 30 <0.000129>
+19:57:56.413896 pread64(23, "res/drawable-xhdpi-v4/ic_dialog_"..., 40, 6321848) = 40 <0.000151>
+19:57:56.414224 mmap2(NULL, 3481, PROT_READ, MAP_SHARED, 23, 0x607000) = 0xdec96000 <0.000125>
+19:57:56.414516 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000118>
+19:57:56.414847 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000146>
+19:57:56.415173 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000127>
+19:57:56.415477 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000144>
+19:57:56.416044 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000118>
+19:57:56.416299 fstat64(42, {st_mode=035, st_size=1, ...}) = 0 <0.000106>
+19:57:56.416534 ioctl(42, ASHMEM_SET_NAME, 0xffb17210) = 0 <0.000083>
+19:57:56.416740 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xd000) = 0 <0.000072>
+19:57:56.416934 mmap2(NULL, 53248, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd13c9000 <0.000103>
+19:57:56.417178 close(42)               = 0 <0.000102>
+19:57:56.417567 munmap(0xdec96000, 3481) = 0 <0.000104>
+19:57:56.418204 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\311Xd\2\250\0\0\0\250\0\0\0003\0\0\0", 30, 6129923) = 30 <0.000114>
+19:57:56.418440 pread64(23, "res/drawable-xhdpi-v4/divider_ho"..., 51, 6129953) = 51 <0.000107>
+19:57:56.418694 mmap2(NULL, 2556, PROT_READ, MAP_SHARED, 23, 0x5d8000) = 0xdec96000 <0.000110>
+19:57:56.418953 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000109>
+19:57:56.419193 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000109>
+19:57:56.419443 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000112>
+19:57:56.419686 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000093>
+19:57:56.419968 munmap(0xdec96000, 2556) = 0 <0.000111>
+19:57:56.420350 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:}\7\210\302\5\3\0\0\5\3\0\0007\0\1\0", 30, 7336322) = 30 <0.000105>
+19:57:56.420652 pread64(23, "res/drawable-xhdpi-v4/scrollbar_"..., 55, 7336352) = 55 <0.000098>
+19:57:56.420878 mmap2(NULL, 1245, PROT_READ, MAP_SHARED, 23, 0x6ff000) = 0xdec96000 <0.000127>
+19:57:56.421185 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000079>
+19:57:56.421425 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000131>
+19:57:56.421739 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000101>
+19:57:56.421954 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000120>
+19:57:56.422256 mprotect(0x74308000, 8192, PROT_READ|PROT_WRITE) = 0 <0.000129>
+19:57:56.422696 munmap(0xdec96000, 1245) = 0 <0.000143>
+19:57:56.423004 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:U|\313R\37\3\0\0\37\3\0\0005\0\0\0", 30, 7337181) = 30 <0.000187>
+19:57:56.423296 pread64(23, "res/drawable-xhdpi-v4/scrollbar_"..., 53, 7337211) = 53 <0.000087>
+19:57:56.423510 mmap2(NULL, 2127, PROT_READ, MAP_SHARED, 23, 0x6ff000) = 0xdec96000 <0.000096>
+19:57:56.423749 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000049>
+19:57:56.423910 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000097>
+19:57:56.424142 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000107>
+19:57:56.424403 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000086>
+19:57:56.424660 mprotect(0x7430a000, 8192, PROT_READ|PROT_WRITE) = 0 <0.000096>
+19:57:56.424973 munmap(0xdec96000, 2127) = 0 <0.000102>
+19:57:56.425579 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:Y\356r\224=\1\0\0=\1\0\0$\0\2\0", 30, 5110988) = 30 <0.000118>
+19:57:56.425840 pread64(23, "res/drawable-xhdpi-v4/bottom_bar"..., 36, 5111018) = 36 <0.000094>
+19:57:56.426062 mmap2(NULL, 3661, PROT_READ, MAP_SHARED, 23, 0x4df000) = 0xdec96000 <0.000097>
+19:57:56.426307 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000085>
+19:57:56.426504 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000109>
+19:57:56.426866 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000123>
+19:57:56.427154 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000166>
+19:57:56.427828 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000112>
+19:57:56.428068 fstat64(42, {st_mode=0, st_size=1, ...}) = 0 <0.000097>
+19:57:56.428285 ioctl(42, ASHMEM_SET_NAME, 0xffb170d0) = 0 <0.000094>
+19:57:56.428487 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xd1000) = 0 <0.000101>
+19:57:56.428697 mmap2(NULL, 856064, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd0a2f000 <0.000103>
+19:57:56.428921 close(42)               = 0 <0.000095>
+19:57:56.430356 madvise(0xd3603000, 331776, MADV_DONTNEED) = 0 <0.000097>
+19:57:56.430700 munmap(0xdec96000, 3661) = 0 <0.000083>
+19:57:56.431013 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\34\0\0\0", 30, 27777450) = 30 <0.000158>
+19:57:56.431271 pread64(23, "res/drawable/btn_default.xml", 28, 27777480) = 28 <0.000078>
+19:57:56.431451 mmap2(NULL, 2896, PROT_READ, MAP_SHARED, 23, 0x1a7d000) = 0xdec96000 <0.000081>
+19:57:56.431667 munmap(0xdec96000, 2896) = 0 <0.000082>
+19:57:56.431890 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\243\370<\314\17\5\0\0\17\5\0\0.\0\1\0", 30, 5210551) = 30 <0.000086>
+19:57:56.432078 pread64(23, "res/drawable-xhdpi-v4/btn_defaul"..., 46, 5210581) = 46 <0.000085>
+19:57:56.432277 mmap2(NULL, 1811, PROT_READ, MAP_SHARED, 23, 0x4f8000) = 0xdec96000 <0.000085>
+19:57:56.432484 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000090>
+19:57:56.432687 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000084>
+19:57:56.432893 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000082>
+19:57:56.433085 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000083>
+19:57:56.433375 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000088>
+19:57:56.433563 fstat64(42, {st_mode=0, st_size=1, ...}) = 0 <0.000085>
+19:57:56.433762 ioctl(42, ASHMEM_SET_NAME, 0xffb16b50) = 0 <0.000082>
+19:57:56.433936 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xe000) = 0 <0.000089>
+19:57:56.434133 mmap2(NULL, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd13bb000 <0.000088>
+19:57:56.434333 close(42)               = 0 <0.000083>
+19:57:56.434726 munmap(0xdec96000, 1811) = 0 <0.000088>
+19:57:56.434943 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:h\247\t\336u\t\0\0u\t\0\0006\0\1\0", 30, 5211923) = 30 <0.000084>
+19:57:56.435135 pread64(23, "res/drawable-xhdpi-v4/btn_defaul"..., 54, 5211953) = 54 <0.000082>
+19:57:56.435318 mmap2(NULL, 4317, PROT_READ, MAP_SHARED, 23, 0x4f8000) = 0xdec95000 <0.000086>
+19:57:56.435523 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000082>
+19:57:56.435713 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000084>
+19:57:56.435928 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000084>
+19:57:56.436127 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000084>
+19:57:56.436393 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000087>
+19:57:56.436583 fstat64(42, {st_mode=0230, st_size=1, ...}) = 0 <0.000106>
+19:57:56.436811 ioctl(42, ASHMEM_SET_NAME, 0xffb16b50) = 0 <0.000085>
+19:57:56.436993 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xe000) = 0 <0.000091>
+19:57:56.437182 mmap2(NULL, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd13ad000 <0.000088>
+19:57:56.437383 close(42)               = 0 <0.000084>
+19:57:56.437595 munmap(0xdec95000, 4317) = 0 <0.000416>
+19:57:56.438195 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\272\254\250r:\7\0\0:\7\0\0/\0\1\0", 30, 5218130) = 30 <0.000159>
+19:57:56.438454 pread64(23, "res/drawable-xhdpi-v4/btn_defaul"..., 47, 5218160) = 47 <0.000295>
+19:57:56.438870 mmap2(NULL, 5850, PROT_READ, MAP_SHARED, 23, 0x4f9000) = 0xdec95000 <0.000072>
+19:57:56.439100 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000096>
+19:57:56.439340 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000143>
+19:57:56.439635 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000115>
+19:57:56.439891 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000168>
+19:57:56.440326 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000217>
+19:57:56.440731 fstat64(42, {st_mode=0230, st_size=1, ...}) = 0 <0.000151>
+19:57:56.441035 ioctl(42, ASHMEM_SET_NAME, 0xffb16b50) = 0 <0.000157>
+19:57:56.441332 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xe000) = 0 <0.000099>
+19:57:56.441564 mmap2(NULL, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd139f000 <0.000109>
+19:57:56.441822 close(42)               = 0 <0.000098>
+19:57:56.442385 munmap(0xdec95000, 5850) = 0 <0.000104>
+19:57:56.442648 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:~l-\207\232\4\0\0\232\4\0\0000\0\2\0", 30, 5221948) = 30 <0.000112>
+19:57:56.442929 pread64(23, "res/drawable-xhdpi-v4/btn_defaul"..., 48, 5221978) = 48 <0.000117>
+19:57:56.443209 mmap2(NULL, 4902, PROT_READ, MAP_SHARED, 23, 0x4fa000) = 0xdec95000 <0.000153>
+19:57:56.443554 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000106>
+19:57:56.443848 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000121>
+19:57:56.444177 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000096>
+19:57:56.444398 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000104>
+19:57:56.444726 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000113>
+19:57:56.444955 fstat64(42, {st_mode=0230, st_size=1, ...}) = 0 <0.000098>
+19:57:56.445172 ioctl(42, ASHMEM_SET_NAME, 0xffb16b50) = 0 <0.000105>
+19:57:56.445389 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xe000) = 0 <0.000096>
+19:57:56.445586 mmap2(NULL, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd1391000 <0.000108>
+19:57:56.445826 close(42)               = 0 <0.000103>
+19:57:56.446188 munmap(0xdec95000, 4902) = 0 <0.000104>
+19:57:56.446449 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:6h\342\303\262\6\0\0\262\6\0\0>\0\3\0", 30, 5214429) = 30 <0.000119>
+19:57:56.446870 pread64(23, "res/drawable-xhdpi-v4/btn_defaul"..., 62, 5214459) = 62 <0.000111>
+19:57:56.447112 mmap2(NULL, 2030, PROT_READ, MAP_SHARED, 23, 0x4f9000) = 0xdec96000 <0.000106>
+19:57:56.447359 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000095>
+19:57:56.447592 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000101>
+19:57:56.447831 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000099>
+19:57:56.448077 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000103>
+19:57:56.448426 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000105>
+19:57:56.448643 fstat64(42, {st_mode=0230, st_size=1, ...}) = 0 <0.000100>
+19:57:56.448863 ioctl(42, ASHMEM_SET_NAME, 0xffb16b50) = 0 <0.000102>
+19:57:56.449088 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xe000) = 0 <0.000133>
+19:57:56.449337 mmap2(NULL, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd1383000 <0.000110>
+19:57:56.449635 close(42)               = 0 <0.000111>
+19:57:56.449991 munmap(0xdec96000, 2030) = 0 <0.000111>
+19:57:56.450735 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\2122/\204\377\t\0\0\377\t\0\0+\0\1\0", 30, 7208306) = 30 <0.000105>
+19:57:56.450971 pread64(23, "res/drawable-xhdpi-v4/popup_full"..., 43, 7208336) = 43 <0.000098>
+19:57:56.451185 mmap2(NULL, 6075, PROT_READ, MAP_SHARED, 23, 0x6df000) = 0xdec95000 <0.000107>
+19:57:56.451438 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000102>
+19:57:56.451662 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000097>
+19:57:56.452166 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000103>
+19:57:56.452406 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000116>
+19:57:56.452759 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000110>
+19:57:56.452988 fstat64(42, {st_mode=0, st_size=1, ...}) = 0 <0.000101>
+19:57:56.453215 ioctl(42, ASHMEM_SET_NAME, 0xffb17b30) = 0 <0.000101>
+19:57:56.453417 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x1f000) = 0 <0.000073>
+19:57:56.453602 mmap2(NULL, 126976, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xd0a10000 <0.000101>
+19:57:56.453882 close(42)               = 0 <0.000125>
+19:57:56.454513 munmap(0xdec95000, 6075) = 0 <0.000327>
+19:57:56.455158 ioctl(8, BINDER_WRITE_READ, 0xffb19c28) = 0 <0.000161>
+19:57:56.455528 ioctl(8, BINDER_WRITE_READ, 0xffb19c28) = 0 <0.000111>
+19:57:56.455871 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000138>
+19:57:56.456174 futex(0xebdb2368, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000196>
+19:57:56.456590 futex(0xe29a99f4, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000190>
+19:57:56.456931 futex(0xe29a99f8, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000140>
+19:57:56.457264 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000144>
+19:57:56.457546 futex(0xebdb2368, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000203>
+19:57:56.457885 futex(0xe29a99f4, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000155>
+19:57:56.458165 futex(0xe29a99f8, FUTEX_WAIT_BITSET_PRIVATE, 4, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000101>
+19:57:56.458401 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000319>
+19:57:56.458835 futex(0xebdb2368, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000121>
+19:57:56.459067 futex(0xe29a99f4, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000140>
+19:57:56.459338 futex(0xe29a99f8, FUTEX_WAIT_BITSET_PRIVATE, 8, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000118>
+19:57:56.459607 recvfrom(33, 0xffb19328, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000117>
+19:57:56.459869 ioctl(8, BINDER_WRITE_READ, 0xffb19a38) = 0 <0.000155>
+19:57:56.460179 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000188>
+19:57:56.460496 futex(0xebdb2368, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000136>
+19:57:56.460825 ioctl(8, BINDER_WRITE_READ, 0xffb19ca8) = 0 <0.000167>
+19:57:56.461121 ioctl(8, BINDER_WRITE_READ, 0xffb19ca8) = 0 <0.000880>
+19:57:56.462168 dup(42)                 = 43 <0.000101>
+19:57:56.462470 fcntl64(43, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.000110>
+19:57:56.462730 close(42)               = 0 <0.000125>
+19:57:56.463087 epoll_ctl(29, EPOLL_CTL_ADD, 43, {EPOLLIN, {u32=43, u64=43}}) = 0 <0.000135>
+19:57:56.463539 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 42 <0.000120>
+19:57:56.463799 fstat64(42, {st_mode=0, st_size=1, ...}) = 0 <0.000108>
+19:57:56.464040 ioctl(42, ASHMEM_SET_NAME, 0xffb19bd0) = 0 <0.000106>
+19:57:56.464275 ioctl(42, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000136>
+19:57:56.464567 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 42, 0) = 0xdec95000 <0.000119>
+19:57:56.464835 close(42)               = 0 <0.000106>
+19:57:56.465070 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd090b000 <0.000109>
+19:57:56.465315 madvise(0xd090b000, 1069056, MADV_MERGEABLE) = 0 <0.000110>
+19:57:56.465527 mprotect(0xd090b000, 4096, PROT_NONE) = 0 <0.000084>
+19:57:56.465707 prctl(0x53564d41 /* PR_??? */, 0, 0xd090b000, 4096, "thread stack guard page") = 0 <0.000094>
+19:57:56.465911 clone(child_stack=0xd0a0f910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd0a0f928, tls={entry_number:12, base_addr:0xd0a0f970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xffb19f20, child_tidptr=0xd0a0f928) = 5977 <0.000123>
+19:57:56.466150 futex(0xd0a0f960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000106>
+19:57:56.466405 getuid32()              = 11046 <0.000103>
+19:57:56.466636 epoll_pwait(29, [{EPOLLIN, {u32=39, u64=39}}, {EPOLLIN, {u32=43, u64=43}}], 16, 0, NULL, 8) = 2 <0.000108>
+19:57:56.466948 recvfrom(39, "\1\0\0\0\36\1\0\0\364\213\0\0\0\0\0\0\0\340\227O\36\1\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000109>
+19:57:56.467247 ioctl(8, BINDER_WRITE_READ, 0xffb19778) = 0 <0.000121>
+19:57:56.467504 ioctl(8, BINDER_WRITE_READ, 0xffb19778) = 0 <0.000110>
+19:57:56.467818 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000135>
+19:57:56.468113 futex(0xebdb2368, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000156>
+19:57:56.468458 sendto(39, "\3\0\0\0\240\216\261\377\364\213\0\0\1T\226\355", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000131>
+19:57:56.468740 recvfrom(39, "\1\0\0\0$,\276\315\366\213\0\0\0\0\0\0\200\2027V\36\1\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000106>
+19:57:56.469011 sendto(39, "\3\0\0\0\20\0\0\0\366\213\0\0\0\254w\355", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000133>
+19:57:56.469296 recvfrom(39, 0xebdf8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000105>
+19:57:56.469536 recvfrom(43, "\1\0\0\0\36\1\0\0\367\213\0\0\0\0\0\0@\"\247O\36\1\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000070>
+19:57:56.469829 writev(3, [{"\0035\27\4-\331Z\362\365\377\33", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 214}], 4) = 253 <0.000110>
+19:57:56.470119 writev(3, [{"\0035\27\4-\331Z`X\4\34", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 214}], 4) = 253 <0.000275>
+19:57:56.470609 writev(3, [{"\0035\27\4-\331Z^\0\f\34", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 214}], 4) = 253 <0.000123>
+19:57:56.471273 writev(3, [{"\0035\27\4-\331Z\321\n\26\34", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 214}], 4) = 253 <0.000131>
+19:57:56.471687 futex(0xdf1b3550, FUTEX_WAKE, 1) = 0 <0.000104>
+19:57:56.471942 writev(3, [{"\0035\27\4-\331ZK[ \34", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 214}], 4) = 253 <0.000145>
+19:57:56.472263 writev(3, [{"\0035\27\4-\331Z\207&%\34", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 214}], 4) = 253 <0.000373>
+19:57:56.472807 writev(3, [{"\0035\27\4-\331ZH\313-\34", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 214}], 4) = 253 <0.000348>
+19:57:56.473389 writev(3, [{"\0035\27\4-\331Z\310/6\34", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 214}], 4) = 253 <0.000243>
+19:57:56.473852 writev(3, [{"\0035\27\4-\331Z7\7=\34", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 214}], 4) = 253 <0.000355>
+19:57:56.474454 sendto(43, "\3\0\0\0\20\0\0\0\367\213\0\0\0\254w\355", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000718>
+19:57:56.475344 recvfrom(43, "\2\0\0\0\10\344_\324\371\213\0\0@\"\247O@0\316V\36\1\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000144>
+19:57:56.475656 recvfrom(43, "\2\0\0\0\10\344_\324\373\213\0\0@\"\247O\200r\335V\36\1\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000266>
+19:57:56.476136 recvfrom(43, "\2\0\0\0\10\344_\324\375\213\0\0@\"\247O\300\264\354V\36\1\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000121>
+19:57:56.476762 recvfrom(43, "\2\0\0\0\10\344_\324\377\213\0\0@\"\247O\300\264\354V\36\1\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000317>
+19:57:56.477305 recvfrom(43, "\2\0\0\0\10\344_\324\1\214\0\0@\"\247O@9\vW\36\1\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000146>
+19:57:56.477748 recvfrom(43, "\2\0\0\0\10\344_\324\3\214\0\0@\"\247O@9\vW\36\1\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000160>
+19:57:56.478077 recvfrom(43, "\2\0\0\0\10\344_\324\5\214\0\0@\"\247O\200{\32W\36\1\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000238>
+19:57:56.478995 recvfrom(43, "\2\0\0\0\10\344_\324\7\214\0\0@\"\247O\200{\32W\36\1\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000146>
+19:57:56.479297 recvfrom(43, "\2\0\0\0\10\344_\324\t\214\0\0@\"\247O\300\275)W\36\1\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000131>
+19:57:56.479603 recvfrom(43, "\2\0\0\0\10\344_\324\v\214\0\0@\"\247O\300\275)W\36\1\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000116>
+19:57:56.479881 recvfrom(43, 0xdf1a9a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000211>
+19:57:56.480228 getuid32()              = 11046 <0.000104>
+19:57:56.480610 epoll_pwait(29, [{EPOLLIN, {u32=39, u64=39}}, {EPOLLIN, {u32=33, u64=33}}], 16, 0, NULL, 8) = 2 <0.000128>
+19:57:56.480972 recvfrom(39, "\2\0\0\0\10\344_\324\17\214\0\0@\"\247O\0\0009W\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000111>
+19:57:56.481248 ioctl(8, BINDER_WRITE_READ, 0xffb19b28) = 0 <0.000122>
+19:57:56.481509 ioctl(8, BINDER_WRITE_READ, 0xffb19b28) = 0 <0.000126>
+19:57:56.481814 sendto(39, "\3\0\0\0P\222\261\377\17\214\0\0\0\264\330\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000109>
+19:57:56.482080 recvfrom(39, "\2\0\0\0\10\344_\324\21\214\0\0@\"\247O@BHW\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000112>
+19:57:56.482327 recvfrom(39, "\2\0\0\0\10\344_\324\23\214\0\0@\"\247O@BHW\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000120>
+19:57:56.483020 recvfrom(39, "\2\0\0\0\10\344_\324\25\214\0\0@\"\247O\200\204WW\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000132>
+19:57:56.483304 recvfrom(39, "\2\0\0\0\10\344_\324\27\214\0\0@\"\247O\200\204WW\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000134>
+19:57:56.483592 recvfrom(39, "\2\0\0\0\10\344_\324\31\214\0\0@\"\247O\200\204WW\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000117>
+19:57:56.483868 recvfrom(39, "\2\0\0\0\10\344_\324\33\214\0\0@\"\247O\300\306fW\36\1\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000120>
+19:57:56.484172 sendto(39, "\3\0\0\0P\222\261\377\21\214\0\0\0\264\330\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000117>
+19:57:56.484436 sendto(39, "\3\0\0\0P\222\261\377\23\214\0\0\0\264\330\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000181>
+19:57:56.484782 sendto(39, "\3\0\0\0P\222\261\377\25\214\0\0\0\264\330\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000143>
+19:57:56.485056 sendto(39, "\3\0\0\0P\222\261\377\27\214\0\0\0\264\330\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000187>
+19:57:56.485375 sendto(39, "\3\0\0\0P\222\261\377\31\214\0\0\0\264\330\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000116>
+19:57:56.485654 sendto(39, "\3\0\0\0P\222\261\377\33\214\0\0\0\264\330\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000119>
+19:57:56.485905 recvfrom(39, 0xebdf8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000105>
+19:57:56.486163 recvfrom(33, "nysv\0\0\0\0t\365\300V\36\1\0\00060\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000141>
+19:57:56.486452 recvfrom(33, 0xffb19aa8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000135>
+19:57:56.486870 ioctl(8, BINDER_WRITE_READ, 0xffb1a2e8) = 0 <0.000161>
+19:57:56.487203 ioctl(8, BINDER_WRITE_READ, 0xffb1a2e8) = 0 <0.000173>
+19:57:56.487536 dup(44)                 = 45 <0.000153>
+19:57:56.487862 fcntl64(45, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.000121>
+19:57:56.488157 close(44)               = 0 <0.000158>
+19:57:56.488500 getuid32()              = 11046 <0.000077>
+19:57:56.488724 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000176>
+19:57:56.489146 getuid32()              = 11046 <0.000135>
+19:57:56.489449 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000150>
+19:57:56.489819 writev(3, [{"\0005\27\4-\331Z\273\3740\35", 11}, {"\5", 1}, {"InputMethodManager\0", 19}, {"Ignoring onBind: cur seq=341, gi"..., 44}], 4) = 75 <0.000235>
+19:57:56.490272 close(41)               = 0 <0.000157>
+19:57:56.490615 getuid32()              = 11046 <0.000250>
+19:57:56.491103 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000157>
+19:57:56.491469 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000268>
+19:57:56.491898 futex(0xebdb2368, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000147>
+19:57:56.492186 futex(0xe29a99f4, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000121>
+19:57:56.492433 futex(0xe29a99f8, FUTEX_WAIT_BITSET_PRIVATE, 12, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000108>
+19:57:56.492920 getuid32()              = 11046 <0.000131>
+19:57:56.493176 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000096>
+19:57:56.493423 recvfrom(43, 0xdf1a9a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000099>
+19:57:56.493752 writev(3, [{"\0035\27\4-\331Z+Em\35", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Dropping event due to no window "..., 297}], 4) = 336 <0.000127>
+19:57:56.494070 sendto(43, "\3\0\0\0\3\0\0\0\371\213\0\0\0\3\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000366>
+19:57:56.494837 sendto(43, "\3\0\0\0\3\0\0\0\373\213\0\0\0\3\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000270>
+19:57:56.495385 sendto(43, "\3\0\0\0\3\0\0\0\375\213\0\0\0\3\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000168>
+19:57:56.495682 sendto(43, "\3\0\0\0\3\0\0\0\377\213\0\0\0\3\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000124>
+19:57:56.495929 sendto(43, "\3\0\0\0\3\0\0\0\1\214\0\0\0\3\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000139>
+19:57:56.496196 sendto(43, "\3\0\0\0\3\0\0\0\3\214\0\0\0\3\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000130>
+19:57:56.496456 sendto(43, "\3\0\0\0\3\0\0\0\5\214\0\0\0\3\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000120>
+19:57:56.496729 sendto(43, "\3\0\0\0\3\0\0\0\7\214\0\0\0\3\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000167>
+19:57:56.497090 sendto(43, "\3\0\0\0\3\0\0\0\t\214\0\0\0\3\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000121>
+19:57:56.497336 sendto(43, "\3\0\0\0\3\0\0\0\v\214\0\0\0\3\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000115>
+19:57:56.497592 recvfrom(43, 0xdf1a9a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000102>
+19:57:56.497831 recvfrom(33, 0xffb198e8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000094>
+19:57:56.498050 ioctl(8, BINDER_WRITE_READ, 0xffb19ff8) = 0 <0.000135>
+19:57:56.498424 recvfrom(39, 0xebdf8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000113>
+19:57:56.498780 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000104>
+19:57:56.499524 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000138>
+19:57:56.499781 futex(0xebdb2368, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000133>
+19:57:56.500040 futex(0xe29a99f4, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000117>
+19:57:56.500271 futex(0xe29a99f8, FUTEX_WAIT_BITSET_PRIVATE, 16, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000093>
+19:57:56.500517 ioctl(8, BINDER_WRITE_READ, 0xffb1a068) = 0 <0.000221>
+19:57:56.500875 ioctl(8, BINDER_WRITE_READ, 0xffb1a068) = 0 <0.004796>
+19:57:56.505917 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000121>
+19:57:56.506343 futex(0xebdb2368, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000268>
+19:57:56.506832 ioctl(8, BINDER_WRITE_READ, 0xffb1a098) = 0 <0.000333>
+19:57:56.507326 ioctl(8, BINDER_WRITE_READ, 0xffb1a098) = 0 <0.021249>
+19:57:56.528802 ioctl(8, BINDER_WRITE_READ, 0xffb19fd8) = 0 <0.000128>
+19:57:56.529058 ioctl(8, BINDER_WRITE_READ, 0xffb19fd8) = 0 <0.000099>
+19:57:56.529614 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000111>
+19:57:56.530088 futex(0xe29a9700, FUTEX_WAIT_BITSET_PRIVATE, 4, NULL, ffffffff) = 0 <0.060264>
+19:57:56.590549 getuid32()              = 11046 <0.000216>
+19:57:56.590950 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=33, u64=33}}, {EPOLLIN, {u32=43, u64=43}}], 16, 0, NULL, 8) = 3 <0.000188>
+19:57:56.591379 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000283>
+19:57:56.591839 recvfrom(33, "nysv\0\0\0\0\200\275\275X\36\1\0\00080\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000207>
+19:57:56.595746 recvfrom(33, 0xffb19aa8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.001346>
+19:57:56.597323 recvfrom(43, "\1\0\0\0\36\1\0\0\35\214\0\0\0\0\0\0\3002CZ\36\1\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000480>
+19:57:56.598577 writev(3, [{"\0035\27\4-\331Zp\313\253#", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Dropping event due to no window "..., 215}], 4) = 254 <0.000535>
+19:57:56.599684 sendto(43, "\3\0\0\0t\273\317\353\35\214\0\0\0\226\225\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000561>
+19:57:56.600726 recvfrom(43, "\1\0\0\0\36\1\0\0\37\214\0\0\0\0\0\0\3002CZ\36\1\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000491>
+19:57:56.602267 writev(3, [{"\0035\27\4-\331ZY\255\341#", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 216}], 4) = 255 <0.001615>
+19:57:56.604769 writev(3, [{"\0035\27\4-\331Z\27\31\v$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 216}], 4) = 255 <0.000145>
+19:57:56.605148 writev(3, [{"\0035\27\4-\331Za\231\20$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 216}], 4) = 255 <0.000139>
+19:57:56.606939 writev(3, [{"\0035\27\4-\331Z\250\302\31$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 216}], 4) = 255 <0.000534>
+19:57:56.607883 writev(3, [{"\0035\27\4-\331Z8\341:$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 216}], 4) = 255 <0.000513>
+19:57:56.609019 writev(3, [{"\0035\27\4-\331Z:JI$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 216}], 4) = 255 <0.000790>
+19:57:56.610283 writev(3, [{"\0035\27\4-\331Z\17\4^$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 216}], 4) = 255 <0.000262>
+19:57:56.610818 writev(3, [{"\0035\27\4-\331Zw\6g$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 216}], 4) = 255 <0.000248>
+19:57:56.611264 writev(3, [{"\0035\27\4-\331Z\31&n$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 216}], 4) = 255 <0.000136>
+19:57:56.611595 sendto(43, "\3\0\0\0Xd\264o\37\214\0\0\0:\tq", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000135>
+19:57:56.611914 recvfrom(43, "\1\0\0\0\36\1\0\0!\214\0\0\0\0\0\0\0)\27_\36\1\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000135>
+19:57:56.612269 writev(3, [{"\0035\27\4-\331Zbv}$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Dropping event due to no window "..., 208}], 4) = 247 <0.000112>
+19:57:56.612572 sendto(43, "\3\0\0\0t\273\317\353!\214\0\0\0\226\225\353", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000144>
+19:57:56.612888 recvfrom(43, "\1\0\0\0\36\1\0\0#\214\0\0\0\0\0\0@k&_\36\1\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000355>
+19:57:56.613527 writev(3, [{"\0035\27\4-\331Z\36\314\220$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000132>
+19:57:56.613868 writev(3, [{"\0035\27\4-\331ZJ\321\225$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000130>
+19:57:56.614185 writev(3, [{"\0035\27\4-\331Z\300\332\232$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000157>
+19:57:56.614529 writev(3, [{"\0035\27\4-\331Zb\v\240$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000209>
+19:57:56.614916 writev(3, [{"\0035\27\4-\331Z\n\22\246$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000148>
+19:57:56.615244 writev(3, [{"\0035\27\4-\331Z\234\273\252$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000135>
+19:57:56.615739 writev(3, [{"\0035\27\4-\331Z\2365\260$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000190>
+19:57:56.616113 writev(3, [{"\0035\27\4-\331ZD3\270$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000177>
+19:57:56.616482 writev(3, [{"\0035\27\4-\331Z*\220\275$", 11}, {"\5", 1}, {"ViewRootImpl[HomeActivity]\0", 27}, {"Cancelling event due to no windo"..., 209}], 4) = 248 <0.000171>
+19:57:56.616839 sendto(43, "\3\0\0\0Xd\264o#\214\0\0\0:\tq", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000143>
+19:57:56.617151 recvfrom(43, 0xdf1a9a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000170>
+19:57:56.617624 getuid32()              = 11046 <0.000111>
+19:57:56.617867 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000111>
+19:57:56.618173 getuid32()              = 11046 <0.000246>
+19:57:56.618565 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000134>
+19:57:56.618972 getuid32()              = 11046 <0.000110>
+19:57:56.619206 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000115>
+19:57:56.619478 getuid32()              = 11046 <0.000120>
+19:57:56.619729 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000118>
+19:57:56.619990 getuid32()              = 11046 <0.000119>
+19:57:56.620236 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000276>
+19:57:56.620661 recvfrom(43, 0xdf1a9a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000108>
+19:57:56.620967 futex(0xe29a99f8, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.504977>
+19:57:57.127108 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000186>
+19:57:57.127442 futex(0xebdb2368, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000122>
+19:57:57.127688 futex(0xe29a9980, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = 0 <0.007378>
+19:57:57.135321 futex(0xe29a99f8, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff) = 0 <0.232310>
+19:57:57.368181 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000550>
+19:57:57.369289 futex(0xebdb2368, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000199>
+19:57:57.371220 futex(0xe29a99f4, FUTEX_WAKE_PRIVATE, 1) = 1 <0.002776>
+19:57:57.374200 futex(0xe29a99f8, FUTEX_WAIT_BITSET_PRIVATE, 28, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000138>
+19:57:57.374585 ioctl(8, BINDER_WRITE_READ, 0xffb1a0b8) = 0 <0.000266>
+19:57:57.375021 ioctl(8, BINDER_WRITE_READ, 0xffb1a0b8) = 0 <0.097066>
+19:57:57.472408 getuid32()              = 11046 <0.000391>
+19:57:57.472948 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}], 16, 0, NULL, 8) = 1 <0.000522>
+19:57:57.473704 recvfrom(43, "\1\0\0\0\36\1\0\0%\214\0\0\0\0\0\0@\206\335_\36\1\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000130>
+19:57:57.474025 ioctl(8, BINDER_WRITE_READ, 0xffb19778) = 0 <0.000199>
+19:57:57.474436 ioctl(8, BINDER_WRITE_READ, 0xffb19778) = 0 <0.085904>
+19:57:57.560556 sendto(43, "\3\0\0\0\0\254\300\22%\214\0\0\0\373\\s", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000275>
+19:57:57.561057 recvfrom(43, "\1\0\0\0\0\0\0\0'\214\0\0\0\0\0\0\232V\254x\36\1\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64 <0.000229>
+19:57:57.561668 sendto(43, "\3\0\0\0\0\254\300\22'\214\0\0\0\373\\s", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000157>
+19:57:57.562081 recvfrom(43, 0xdf1a9a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000131>
+19:57:57.562498 recvfrom(33, 0xffb19a58, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000458>
+19:57:57.563171 ioctl(8, BINDER_WRITE_READ, 0xffb1a168) = 0 <0.000147>
+19:57:57.563524 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000150>
+19:57:57.563829 getuid32()              = 11046 <0.000131>
+19:57:57.564156 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000179>
+19:57:57.564473 getuid32()              = 11046 <0.000102>
+19:57:57.564698 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000121>
+19:57:57.564968 getuid32()              = 11046 <0.000112>
+19:57:57.565205 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000089>
+19:57:57.565846 getuid32()              = 11046 <0.000119>
+19:57:57.566079 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000095>
+19:57:57.566326 getuid32()              = 11046 <0.000098>
+19:57:57.566648 writev(3, [{"\0025\27\5-\331Z\365/\304!", 11}, {"Eu\0\0", 4}, {"\3\3\0\0\0\0\0\2*\0\0\0com.RevoApp.SashaPie"..., 79}], 3) = 94 <0.000129>
+19:57:57.567026 ioctl(8, BINDER_WRITE_READ, 0xffb1a368) = 0 <0.000124>
+19:57:57.567296 ioctl(8, BINDER_WRITE_READ, 0xffb1a368) = 0 <0.408878>
+19:57:58.012310 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 91.15    0.070972        1918        37         6 futex
+  5.14    0.004000         167        24           write
+  2.76    0.002149          55        39           writev
+  0.29    0.000229           4        63        17 recvfrom
+  0.21    0.000165           4        40           pread64
+  0.20    0.000154           4        44           sendto
+  0.14    0.000110           1        79           ioctl
+  0.11    0.000087           5        18         1 fstatat64
+  0.00    0.000000           0         4           dup
+  0.00    0.000000           0        20           munmap
+  0.00    0.000000           0         9           fsync
+  0.00    0.000000           0         1           clone
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0         1           prctl
+  0.00    0.000000           0        48           rt_sigprocmask
+  0.00    0.000000           0        41           mmap2
+  0.00    0.000000           0        33           fstat64
+  0.00    0.000000           0        24           getuid32
+  0.00    0.000000           0         3           madvise
+  0.00    0.000000           0         2           fcntl64
+  0.00    0.000000           0         1           epoll_ctl
+  0.00    0.000000           0        28           openat
+  0.00    0.000000           0         8           unlinkat
+  0.00    0.000000           0         8           renameat
+  0.00    0.000000           0         9           fchmodat
+  0.00    0.000000           0        18         9 faccessat
+  0.00    0.000000           0        21           epoll_pwait
+  0.00    0.000000           0         9         9 getsockopt
+  0.00    0.000000           0         2           read
+  0.00    0.000000           0        33           close
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.077866                   670        42 total

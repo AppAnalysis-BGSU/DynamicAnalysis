@@ -1,0 +1,731 @@
+18:43:19.352573 restart_syscall(<... resuming interrupted futex ...>) = -1 ETIMEDOUT (Connection timed out) <0.018770>
+18:43:19.373033 futex(0xe5e97e28, FUTEX_WAKE, 1) = 1 <0.000479>
+18:43:19.373766 futex(0xd92b4d50, FUTEX_WAKE, 1) = 1 <0.000250>
+18:43:19.374160 futex(0xea005370, FUTEX_WAKE, 1) = 1 <0.000346>
+18:43:19.374819 futex(0xea005390, FUTEX_WAKE, 1) = 1 <0.000216>
+18:43:19.375346 futex(0xea005370, FUTEX_WAKE, 1) = 1 <0.000259>
+18:43:19.377011 futex(0xe5ec0180, FUTEX_WAKE, 1) = 0 <0.000153>
+18:43:19.377315 futex(0xe5eb0138, FUTEX_WAIT, 309, {0, 49995870}) = -1 ETIMEDOUT (Connection timed out) <0.050748>
+18:43:19.428375 futex(0xe5e97e28, FUTEX_WAKE, 1) = 1 <0.000210>
+18:43:19.428761 futex(0xd92b4d50, FUTEX_WAKE, 1) = 1 <0.000221>
+18:43:19.429170 futex(0xea005370, FUTEX_WAKE, 1) = 1 <0.000167>
+18:43:19.429487 futex(0xea005390, FUTEX_WAKE, 1) = 1 <0.000180>
+18:43:19.429883 futex(0xea005370, FUTEX_WAKE, 1) = 1 <0.000208>
+18:43:19.430291 futex(0xe5ec0180, FUTEX_WAKE, 1) = 0 <0.000213>
+18:43:19.430699 futex(0xe5eb0138, FUTEX_WAIT, 309, {0, 49995226}) = -1 ETIMEDOUT (Connection timed out) <0.050319>
+18:43:19.481253 futex(0xe5e97e28, FUTEX_WAKE, 1) = 1 <0.000164>
+18:43:19.481579 futex(0xd92b4d50, FUTEX_WAKE, 1) = 1 <0.000157>
+18:43:19.481914 futex(0xea005370, FUTEX_WAKE, 1) = 1 <0.000206>
+18:43:19.482279 futex(0xea005390, FUTEX_WAKE, 1) = 1 <0.000166>
+18:43:19.482628 futex(0xea005370, FUTEX_WAKE, 1) = 1 <0.000147>
+18:43:19.482947 futex(0xe5ec0180, FUTEX_WAKE, 1) = 0 <0.000302>
+18:43:19.483411 futex(0xe5eb0138, FUTEX_WAIT, 309, {0, 49996666}) = -1 ETIMEDOUT (Connection timed out) <0.051831>
+18:43:19.537705 futex(0xe5e97e28, FUTEX_WAKE, 1) = 1 <0.000697>
+18:43:19.538852 futex(0xd92b4d50, FUTEX_WAKE, 1) = 1 <0.000183>
+18:43:19.539189 futex(0xea005370, FUTEX_WAKE, 1) = 1 <0.000189>
+18:43:19.539481 futex(0xea005390, FUTEX_WAKE, 1) = 1 <0.000075>
+18:43:19.540069 futex(0xea005370, FUTEX_WAKE, 1) = 1 <0.000030>
+18:43:19.540175 futex(0xe5ec0180, FUTEX_WAKE, 1) = 0 <0.000102>
+18:43:19.540321 futex(0xe5eb0138, FUTEX_WAIT, 309, {0, 49995565}) = -1 ETIMEDOUT (Connection timed out) <0.050128>
+18:43:19.590581 futex(0xe5e97e28, FUTEX_WAKE, 1) = 1 <0.000036>
+18:43:19.590658 futex(0xd92b4d50, FUTEX_WAKE, 1) = 0 <0.000019>
+18:43:19.590707 futex(0xea005370, FUTEX_WAKE, 1) = 1 <0.000032>
+18:43:19.590772 futex(0xea005370, FUTEX_WAKE, 1) = 0 <0.000020>
+18:43:19.590848 futex(0xe5ec0180, FUTEX_WAKE, 1) = 0 <0.000021>
+18:43:19.590918 futex(0xe5eb0138, FUTEX_WAIT, 309, {0, 49996278}) = -1 ETIMEDOUT (Connection timed out) <0.050134>
+18:43:19.641607 ioctl(8, BINDER_WRITE_READ, 0xfff09108) = 0 <0.000055>
+18:43:19.641718 ioctl(8, BINDER_WRITE_READ, 0xfff09108) = 0 <0.000188>
+18:43:19.642163 ioctl(8, BINDER_WRITE_READ, 0xfff09328) = 0 <0.000489>
+18:43:19.642701 ioctl(8, BINDER_WRITE_READ, 0xfff09328) = 0 <0.035225>
+18:43:19.678013 futex(0xe5e97e28, FUTEX_WAKE, 1) = 1 <0.000022>
+18:43:19.678073 futex(0xd92b4d50, FUTEX_WAKE, 1) = 1 <0.000022>
+18:43:19.678125 futex(0xea005370, FUTEX_WAKE, 1) = 1 <0.000045>
+18:43:19.678202 futex(0xea005390, FUTEX_WAKE, 1) = 0 <0.000018>
+18:43:19.678250 futex(0xea005370, FUTEX_WAKE, 1) = 1 <0.000037>
+18:43:19.678352 futex(0xe5ec0180, FUTEX_WAKE, 1) = 0 <0.000022>
+18:43:19.678405 futex(0xe5eb0138, FUTEX_WAIT, 309, {0, 49995913}) = 0 <0.000627>
+18:43:19.679311 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27975372) = 30 <0.000028>
+18:43:19.679389 pread64(23, "res/interpolator/linear_out_slow"..., 39, 27975402) = 39 <0.000019>
+18:43:19.679444 mmap2(NULL, 4069, PROT_READ, MAP_SHARED, 23, 0x1aad000) = 0xd8d9a000 <0.000024>
+18:43:19.679530 munmap(0xd8d9a000, 4069) = 0 <0.000024>
+18:43:19.679690 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27970871) = 30 <0.000020>
+18:43:19.679746 pread64(23, "res/interpolator/fast_out_linear"..., 39, 27970901) = 39 <0.000018>
+18:43:19.679798 mmap2(NULL, 3665, PROT_READ, MAP_SHARED, 23, 0x1aac000) = 0xd8d9a000 <0.000021>
+18:43:19.679916 munmap(0xd8d9a000, 3665) = 0 <0.000024>
+18:43:19.680104 ioctl(8, BINDER_WRITE_READ, 0xfff0bf38) = 0 <0.000050>
+18:43:19.680196 ioctl(8, BINDER_WRITE_READ, 0xfff0bf38) = 0 <0.000118>
+18:43:19.680374 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0!\0\0\0", 30, 28113507) = 30 <0.000020>
+18:43:19.680429 pread64(23, "res/layout/screen_title_icons.xm"..., 33, 28113537) = 33 <0.000018>
+18:43:19.680481 mmap2(NULL, 3802, PROT_READ, MAP_SHARED, 23, 0x1acf000) = 0xd8d9a000 <0.000022>
+18:43:19.680577 munmap(0xd8d9a000, 3802) = 0 <0.000023>
+18:43:19.681418 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\32\0\0\0", 30, 27962525) = 30 <0.000021>
+18:43:19.681476 pread64(23, "res/drawable/title_bar.xml", 26, 27962555) = 26 <0.000018>
+18:43:19.681529 mmap2(NULL, 3481, PROT_READ, MAP_SHARED, 23, 0x1aaa000) = 0xd8d9a000 <0.000021>
+18:43:19.681601 munmap(0xd8d9a000, 3481) = 0 <0.000047>
+18:43:19.681740 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\3477\247\330\330\0\0\0\330\0\0\0-\0\1\0", 30, 3132084) = 30 <0.000020>
+18:43:19.681796 pread64(23, "res/drawable-mdpi-v4/activity_ti"..., 45, 3132114) = 45 <0.000018>
+18:43:19.681848 mmap2(NULL, 3032, PROT_READ, MAP_SHARED, 23, 0x2fc000) = 0xd8d9a000 <0.000021>
+18:43:19.681932 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000019>
+18:43:19.681995 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000018>
+18:43:19.682084 mprotect(0x7430c000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000040>
+18:43:19.682181 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000019>
+18:43:19.682241 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000018>
+18:43:19.682339 munmap(0xd8d9a000, 3032) = 0 <0.000024>
+18:43:19.682579 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0 \0\0\0", 30, 27691393) = 30 <0.000021>
+18:43:19.682651 pread64(23, "res/anim/linear_interpolator.xml", 32, 27691423) = 32 <0.000019>
+18:43:19.682705 mmap2(NULL, 2564, PROT_READ, MAP_SHARED, 23, 0x1a68000) = 0xd8d9a000 <0.000021>
+18:43:19.682769 munmap(0xd8d9a000, 2564) = 0 <0.000023>
+18:43:19.682854 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0(\0\0\0", 30, 27916816) = 30 <0.000019>
+18:43:19.682908 pread64(23, "res/drawable/progress_small_titl"..., 40, 27916846) = 40 <0.000019>
+18:43:19.682961 mmap2(NULL, 2912, PROT_READ, MAP_SHARED, 23, 0x1a9f000) = 0xd8d9a000 <0.000021>
+18:43:19.683032 munmap(0xd8d9a000, 2912) = 0 <0.000022>
+18:43:19.683365 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\202\324\232\363\215\3\0\0\215\3\0\0)\0\3\0", 30, 4304950) = 30 <0.020937>
+18:43:19.704462 pread64(23, "res/drawable-mdpi-v4/spinner_whi"..., 41, 4304980) = 41 <0.000103>
+18:43:19.704699 mmap2(NULL, 1037, PROT_READ, MAP_SHARED, 23, 0x41b000) = 0xd8d9a000 <0.000109>
+18:43:19.704986 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000101>
+18:43:19.705225 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000112>
+18:43:19.705519 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000103>
+18:43:19.705773 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000111>
+18:43:19.706087 munmap(0xd8d9a000, 1037) = 0 <0.000112>
+18:43:19.706538 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0$\0\0\0", 30, 27909444) = 30 <0.000105>
+18:43:19.706770 pread64(23, "res/drawable/progress_horizontal"..., 36, 27909474) = 36 <0.000110>
+18:43:19.707058 mmap2(NULL, 3991, PROT_READ, MAP_SHARED, 23, 0x1a9d000) = 0xd8d9a000 <0.000112>
+18:43:19.707349 munmap(0xd8d9a000, 3991) = 0 <0.000119>
+18:43:19.708072 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0002\0\0\0", 30, 27911477) = 30 <0.000112>
+18:43:19.708374 pread64(23, "res/drawable/progress_indetermin"..., 50, 27911507) = 50 <0.000266>
+18:43:19.708828 mmap2(NULL, 1683, PROT_READ, MAP_SHARED, 23, 0x1a9e000) = 0xd8d9a000 <0.000088>
+18:43:19.709102 munmap(0xd8d9a000, 1683) = 0 <0.000117>
+18:43:19.709550 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\317\244\267\303\371\2\0\0\371\2\0\0003\0\3\0", 30, 4213864) = 30 <0.010493>
+18:43:19.720182 pread64(23, "res/drawable-mdpi-v4/progressbar"..., 51, 4213894) = 51 <0.000102>
+18:43:19.720420 mmap2(NULL, 4021, PROT_READ, MAP_SHARED, 23, 0x404000) = 0xd8d9a000 <0.000107>
+18:43:19.720693 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000100>
+18:43:19.720932 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000100>
+18:43:19.721194 mprotect(0x7430d000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000105>
+18:43:19.721443 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000101>
+18:43:19.721682 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000100>
+18:43:19.721989 munmap(0xd8d9a000, 4021) = 0 <0.000105>
+18:43:19.722276 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:?\223\221\t\220\1\0\0\220\1\0\0003\0\2\0", 30, 4214709) = 30 <0.000109>
+18:43:19.722507 pread64(23, "res/drawable-mdpi-v4/progressbar"..., 51, 4214739) = 51 <0.000763>
+18:43:19.723404 mmap2(NULL, 408, PROT_READ, MAP_SHARED, 23, 0x405000) = 0xd8d9a000 <0.000105>
+18:43:19.723654 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000223>
+18:43:19.724028 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000125>
+18:43:19.724307 mprotect(0x7430e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000120>
+18:43:19.724600 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000123>
+18:43:19.724887 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000129>
+18:43:19.725244 munmap(0xd8d9a000, 408) = 0 <0.000129>
+18:43:19.725575 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:K\30~\17\222\1\0\0\222\1\0\0003\0\3\0", 30, 4215192) = 30 <0.000123>
+18:43:19.725845 pread64(23, "res/drawable-mdpi-v4/progressbar"..., 51, 4215222) = 51 <0.000131>
+18:43:19.726079 mmap2(NULL, 894, PROT_READ, MAP_SHARED, 23, 0x405000) = 0xd8d9a000 <0.000029>
+18:43:19.726178 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000025>
+18:43:19.726252 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000024>
+18:43:19.726333 mprotect(0x7430f000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000027>
+18:43:19.726413 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000024>
+18:43:19.726487 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000023>
+18:43:19.726608 munmap(0xd8d9a000, 894) = 0 <0.000029>
+18:43:19.727236 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0,\310\22\23\1779\1\0\1779\1\0\33\0\1\0", 30, 752378) = 30 <0.000027>
+18:43:19.727310 pread64(30, "res/drawable/background.png", 27, 752408) = 27 <0.000024>
+18:43:19.727378 mmap2(NULL, 83123, PROT_READ, MAP_SHARED, 30, 0xb7000) = 0xccef4000 <0.000029>
+18:43:19.727486 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000024>
+18:43:19.727558 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000024>
+18:43:19.727639 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 39 <0.000032>
+18:43:19.727721 fstat64(39, {st_mode=S_IFLNK|S_ISGID|S_ISVTX|0504, st_size=1, ...}) = 0 <0.000024>
+18:43:19.727790 ioctl(39, ASHMEM_SET_NAME, 0xfff09f50) = 0 <0.000024>
+18:43:19.727920 ioctl(39, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xb2000) = 0 <0.000027>
+18:43:19.728006 mmap2(NULL, 729088, PROT_READ|PROT_WRITE, MAP_PRIVATE, 39, 0) = 0xcce42000 <0.000032>
+18:43:19.728085 close(39)               = 0 <0.000025>
+18:43:19.728222 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000024>
+18:43:19.728295 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000023>
+18:43:19.732900 munmap(0xccef4000, 83123) = 0 <0.000041>
+18:43:19.733125 ioctl(8, BINDER_WRITE_READ, 0xfff0ce58) = 0 <0.000152>
+18:43:19.733330 ioctl(8, BINDER_WRITE_READ, 0xfff0ce98) = 0 <0.000043>
+18:43:19.733417 ioctl(8, BINDER_WRITE_READ, 0xfff0ce98) = 0 <0.000155>
+18:43:19.734004 futex(0xea0da5e0, FUTEX_WAKE, 1) = 1 <0.000075>
+18:43:19.734133 futex(0xea0da5c0, FUTEX_WAKE, 1) = 1 <0.000052>
+18:43:19.734475 ioctl(8, BINDER_WRITE_READ, 0xfff0cfb8) = 0 <0.000078>
+18:43:19.734607 ioctl(8, BINDER_WRITE_READ, 0xfff0cfb8) = 0 <0.000105>
+18:43:19.734834 writev(3, [{"\0\3178\7m\332Z)p\314+", 11}, {"\4", 1}, {"TiRootActivity\0", 15}, {"(main) [0,0] checkpoint, on root"..., 104}], 4) = 131 <0.000048>
+18:43:19.735104 futex(0xea0da5e0, FUTEX_WAKE, 1) = 1 <0.000051>
+18:43:19.735260 futex(0xea0da5c0, FUTEX_WAKE, 1) = 1 <0.000052>
+18:43:19.735467 ioctl(8, BINDER_WRITE_READ, 0xfff0c128) = 0 <0.000087>
+18:43:19.735610 ioctl(8, BINDER_WRITE_READ, 0xfff0c128) = 0 <0.000406>
+18:43:19.736249 getuid32()              = 11616 <0.000121>
+18:43:19.736615 writev(3, [{"\2\3178\7m\332Z\240E\346+", 11}, {"Fu\0\0", 4}, {"\3\3\0\0\0\0\0\2+\0\0\0com.beautyadd.applic"..., 76}], 3) = 91 <0.000125>
+18:43:19.736977 ioctl(8, BINDER_WRITE_READ, 0xfff0cdc8) = 0 <0.000159>
+18:43:19.737265 ioctl(8, BINDER_WRITE_READ, 0xfff0cdc8) = 0 <0.000117>
+18:43:19.737594 ioctl(8, BINDER_WRITE_READ, 0xfff0ce38) = 0 <0.000220>
+18:43:19.737965 ioctl(8, BINDER_WRITE_READ, 0xfff0ce38) = 0 <0.039768>
+18:43:19.778124 ioctl(8, BINDER_WRITE_READ, 0xfff0ca48) = 0 <0.000167>
+18:43:19.778440 ioctl(8, BINDER_WRITE_READ, 0xfff0ca48) = 0 <0.000119>
+18:43:19.778716 ioctl(8, BINDER_WRITE_READ, 0xfff0cc78) = 0 <0.000125>
+18:43:19.779004 ioctl(8, BINDER_WRITE_READ, 0xfff0cbb8) = 0 <0.000123>
+18:43:19.779242 ioctl(8, BINDER_WRITE_READ, 0xfff0cbb8) = 0 <0.000114>
+18:43:19.779504 ioctl(8, BINDER_WRITE_READ, 0xfff0cbc8) = 0 <0.000124>
+18:43:19.779770 ioctl(8, BINDER_WRITE_READ, 0xfff0cbc8) = 0 <0.000132>
+18:43:19.779961 dup(39)                 = 40 <0.000031>
+18:43:19.780044 close(39)               = 0 <0.000031>
+18:43:19.780135 ioctl(8, BINDER_WRITE_READ, 0xfff0cbe8) = 0 <0.000117>
+18:43:19.780392 ioctl(8, BINDER_WRITE_READ, 0xfff0cbe8) = 0 <0.000123>
+18:43:19.780668 ioctl(8, BINDER_WRITE_READ, 0xfff0cbf8) = 0 <0.000119>
+18:43:19.780881 ioctl(8, BINDER_WRITE_READ, 0xfff0cbf8) = 0 <0.000113>
+18:43:19.781133 dup(39)                 = 41 <0.000109>
+18:43:19.781624 close(39)               = 0 <0.000040>
+18:43:19.781805 epoll_ctl(29, EPOLL_CTL_ADD, 40, {EPOLLIN, {u32=40, u64=40}}) = 0 <0.000122>
+18:43:19.782139 ioctl(8, BINDER_WRITE_READ, 0xfff0cce8) = 0 <0.000201>
+18:43:19.782583 ioctl(8, BINDER_WRITE_READ, 0xfff0cd98) = 0 <0.000134>
+18:43:19.782921 ioctl(8, BINDER_WRITE_READ, 0xfff0cd98) = 0 <0.000098>
+18:43:19.783215 recvfrom(40, 0xfff0c498, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000020>
+18:43:19.783276 ioctl(8, BINDER_WRITE_READ, 0xfff0cba8) = 0 <0.000045>
+18:43:19.783433 ioctl(8, BINDER_WRITE_READ, 0xfff0ce18) = 0 <0.000073>
+18:43:19.783546 ioctl(8, BINDER_WRITE_READ, 0xfff0ce18) = 0 <0.161299>
+18:43:19.944912 dup(39)                 = 42 <0.000117>
+18:43:19.945084 fcntl64(42, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.000019>
+18:43:19.945143 close(39)               = 0 <0.000018>
+18:43:19.945250 epoll_ctl(29, EPOLL_CTL_ADD, 42, {EPOLLIN, {u32=42, u64=42}}) = 0 <0.000039>
+18:43:19.945400 ioctl(8, BINDER_WRITE_READ, 0xfff0cfb8) = 0 <0.000042>
+18:43:19.945478 ioctl(8, BINDER_WRITE_READ, 0xfff0cfb8) = 0 <0.026030>
+18:43:19.971757 getuid32()              = 11616 <0.000027>
+18:43:19.971832 epoll_pwait(29, [{EPOLLIN, {u32=40, u64=40}}], 16, 0, NULL, 8) = 1 <0.000188>
+18:43:19.972191 recvfrom(40, "nysv\0\0\0\0\202*^\373[\2\0\0\306p\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000134>
+18:43:19.972425 recvfrom(40, 0xfff0c778, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000128>
+18:43:19.972724 getuid32()              = 11616 <0.000026>
+18:43:19.972956 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0113266, st_size=1, ...}, 0) = 0 <0.000172>
+18:43:19.973205 fstatat64(AT_FDCWD, "/data/app/com.beautyadd.application-1/base.apk", {st_mode=0113266, st_size=1, ...}, 0) = 0 <0.000025>
+18:43:19.973360 getuid32()              = 11616 <0.000019>
+18:43:19.973495 ioctl(8, BINDER_WRITE_READ, 0xfff0d008) = 0 <0.000216>
+18:43:19.973895 getuid32()              = 11616 <0.000069>
+18:43:19.974020 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000096>
+18:43:19.974414 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 39 <0.000046>
+18:43:19.974548 fstat64(39, {st_mode=S_IFSOCK|0644, st_size=1, ...}) = 0 <0.000028>
+18:43:19.974630 ioctl(39, ASHMEM_SET_NAME, 0xfff0c7a0) = 0 <0.000019>
+18:43:19.974683 ioctl(39, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000017>
+18:43:19.974733 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 39, 0) = 0xccf07000 <0.000030>
+18:43:19.974801 close(39)               = 0 <0.000020>
+18:43:19.974853 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xccd3d000 <0.000020>
+18:43:19.974907 madvise(0xccd3d000, 1069056, MADV_MERGEABLE) = 0 <0.000041>
+18:43:19.974978 mprotect(0xccd3d000, 4096, PROT_NONE) = 0 <0.000020>
+18:43:19.975026 prctl(0x53564d41 /* PR_??? */, 0, 0xccd3d000, 4096, "thread stack guard page") = 0 <0.000019>
+18:43:19.975082 clone(child_stack=0xcce41910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcce41928, tls={entry_number:12, base_addr:0xcce41970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xfff0caf0, child_tidptr=0xcce41928) = 14582 <0.000104>
+18:43:19.975355 futex(0xcce41960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000140>
+18:43:19.975709 ioctl(8, BINDER_WRITE_READ, 0xfff0d028) = 0 <0.000200>
+18:43:19.976056 getuid32()              = 11616 <0.000113>
+18:43:19.976363 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000208>
+18:43:19.976831 writev(3, [{"\0\3178\7m\332Z'\3567:", 11}, {"\4", 1}, {"TiAnalyticsSvc\0", 15}, {"(main) [1,242] Send already in p"..., 57}], 4) = 84 <0.000239>
+18:43:19.977290 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 43 <0.000133>
+18:43:19.977742 fstat64(43, {st_mode=S_IFSOCK|S_ISUID|S_ISVTX|020, st_size=1, ...}) = 0 <0.000114>
+18:43:19.977997 futex(0xe603c198, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000116>
+18:43:19.978333 ioctl(43, ASHMEM_SET_NAME, 0xfff0c7a0) = 0 <0.000113>
+18:43:19.978612 ioctl(43, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000109>
+18:43:19.978964 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 43, 0) = 0xccf02000 <0.000143>
+18:43:19.979272 close(43)               = 0 <0.000107>
+18:43:19.979581 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xccc38000 <0.000075>
+18:43:19.979708 madvise(0xccc38000, 1069056, MADV_MERGEABLE) = 0 <0.000035>
+18:43:19.979797 mprotect(0xccc38000, 4096, PROT_NONE) = 0 <0.000032>
+18:43:19.980030 prctl(0x53564d41 /* PR_??? */, 0, 0xccc38000, 4096, "thread stack guard page") = 0 <0.000112>
+18:43:19.980322 clone(child_stack=0xccd3c910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xccd3c928, tls={entry_number:12, base_addr:0xccd3c970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xfff0caf0, child_tidptr=0xccd3c928) = 14583 <0.000147>
+18:43:19.980655 futex(0xccd3c960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000163>
+18:43:19.981001 ioctl(8, BINDER_WRITE_READ, 0xfff0d028) = 0 <0.000163>
+18:43:19.981335 getuid32()              = 11616 <0.000132>
+18:43:19.981627 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000131>
+18:43:19.982177 getuid32()              = 11616 <0.000144>
+18:43:19.982600 writev(3, [{"\2\3178\7m\332Z~M\217:", 11}, {"Eu\0\0", 4}, {"\3\3\0\0\0\0\0\2+\0\0\0com.beautyadd.applic"..., 80}], 3) = 95 <0.000147>
+18:43:19.983016 ioctl(8, BINDER_WRITE_READ, 0xfff0d038) = 0 <0.000146>
+18:43:19.983950 ioctl(8, BINDER_WRITE_READ, 0xfff0d038) = 0 <0.007748>
+18:43:19.992434 getuid32()              = 11616 <0.000133>
+18:43:19.992872 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000220>
+18:43:19.993318 getuid32()              = 11616 <0.000140>
+18:43:19.993624 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000129>
+18:43:19.993911 getuid32()              = 11616 <0.000122>
+18:43:19.994181 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000109>
+18:43:19.994484 recvfrom(42, 0xea0f5a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000132>
+18:43:19.994756 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000176>
+18:43:19.995325 ioctl(8, BINDER_WRITE_READ, 0xfff0cd38) = 0 <0.000130>
+18:43:19.995583 ioctl(8, BINDER_WRITE_READ, 0xfff0cd38) = 0 <0.009622>
+18:43:20.005551 getuid32()              = 11616 <0.000123>
+18:43:20.005860 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1 <0.000073>
+18:43:20.006075 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000107>
+18:43:20.006358 getuid32()              = 11616 <0.000106>
+18:43:20.006577 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFLNK|S_ISVTX|0504, st_size=1, ...}, 0) = 0 <0.000218>
+18:43:20.006963 fstatat64(AT_FDCWD, "/data/app/com.beautyadd.application-1/base.apk", {st_mode=S_IFLNK|S_ISVTX|0504, st_size=1, ...}, 0) = 0 <0.000081>
+18:43:20.007461 ioctl(8, BINDER_WRITE_READ, 0xfff0cea8) = 0 <0.000088>
+18:43:20.007690 ioctl(8, BINDER_WRITE_READ, 0xfff0cea8) = 0 <0.000395>
+18:43:20.008326 getuid32()              = 11616 <0.000087>
+18:43:20.008544 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0132000, st_size=1, ...}, 0) = 0 <0.000090>
+18:43:20.008775 fstatat64(AT_FDCWD, "/data/app/com.beautyadd.application-1/base.apk", {st_mode=0132000, st_size=1, ...}, 0) = 0 <0.000110>
+18:43:20.009138 getuid32()              = 11616 <0.000025>
+18:43:20.009235 getuid32()              = 11616 <0.000028>
+18:43:20.009412 fstat64(33, {st_mode=021, st_size=1, ...}) = 0 <0.000026>
+18:43:20.009549 ioctl(33, ASHMEM_GET_SIZE, 0) = 84 <0.000026>
+18:43:20.009658 fstat64(33, {st_mode=0, st_size=1, ...}) = 0 <0.000024>
+18:43:20.009850 ioctl(33, ASHMEM_PIN, 0xfff0ce80) = 0 <0.000027>
+18:43:20.009940 ioctl(8, BINDER_WRITE_READ, 0xfff0ce08) = 0 <0.000179>
+18:43:20.010479 ioctl(8, BINDER_WRITE_READ, 0xfff0c208) = 0 <0.000049>
+18:43:20.010574 ioctl(8, BINDER_WRITE_READ, 0xfff0c208) = 0 <0.000136>
+18:43:20.010934 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27975372) = 30 <0.000036>
+18:43:20.011028 pread64(23, "res/interpolator/linear_out_slow"..., 39, 27975402) = 39 <0.000062>
+18:43:20.011231 mmap2(NULL, 4069, PROT_READ, MAP_SHARED, 23, 0x1aad000) = 0xd8d9a000 <0.000026>
+18:43:20.011319 munmap(0xd8d9a000, 4069) = 0 <0.000026>
+18:43:20.011629 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27970871) = 30 <0.000022>
+18:43:20.011705 pread64(23, "res/interpolator/fast_out_linear"..., 39, 27970901) = 39 <0.000020>
+18:43:20.011761 mmap2(NULL, 3665, PROT_READ, MAP_SHARED, 23, 0x1aac000) = 0xd8d9a000 <0.000021>
+18:43:20.011833 munmap(0xd8d9a000, 3665) = 0 <0.000110>
+18:43:20.012084 ioctl(8, BINDER_WRITE_READ, 0xfff0c6d8) = 0 <0.000031>
+18:43:20.012149 ioctl(8, BINDER_WRITE_READ, 0xfff0c6d8) = 0 <0.000326>
+18:43:20.012568 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\34\0\0\0", 30, 28111428) = 30 <0.000033>
+18:43:20.012654 pread64(23, "res/layout/screen_simple.xml", 28, 28111458) = 28 <0.000078>
+18:43:20.012872 mmap2(NULL, 1094, PROT_READ, MAP_SHARED, 23, 0x1acf000) = 0xd8d9a000 <0.000097>
+18:43:20.013108 munmap(0xd8d9a000, 1094) = 0 <0.000104>
+18:43:20.013601 ioctl(8, BINDER_WRITE_READ, 0xfff0ce58) = 0 <0.000184>
+18:43:20.013917 ioctl(8, BINDER_WRITE_READ, 0xfff0ce98) = 0 <0.000176>
+18:43:20.014273 ioctl(8, BINDER_WRITE_READ, 0xfff0cfb8) = 0 <0.000175>
+18:43:20.014591 ioctl(8, BINDER_WRITE_READ, 0xfff0c5c8) = 0 <0.000179>
+18:43:20.014903 getuid32()              = 11616 <0.000092>
+18:43:20.015125 writev(3, [{"\2\3178\10m\332ZF\377\345\0", 11}, {"Fu\0\0", 4}, {"\3\3\0\0\0\0\0\2$\0\0\0ti.modules.titanium."..., 69}], 3) = 84 <0.000110>
+18:43:20.015490 ioctl(8, BINDER_WRITE_READ, 0xfff0cd98) = 0 <0.000107>
+18:43:20.015709 ioctl(8, BINDER_WRITE_READ, 0xfff0cd98) = 0 <0.000128>
+18:43:20.016117 recvfrom(40, 0xfff0c498, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000092>
+18:43:20.016338 ioctl(8, BINDER_WRITE_READ, 0xfff0cba8) = 0 <0.000114>
+18:43:20.016608 ioctl(8, BINDER_WRITE_READ, 0xfff0ce18) = 0 <0.000164>
+18:43:20.016894 ioctl(8, BINDER_WRITE_READ, 0xfff0ce18) = 0 <0.003915>
+18:43:20.021042 dup(44)                 = 45 <0.000118>
+18:43:20.021380 fcntl64(45, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.000082>
+18:43:20.021616 close(44)               = 0 <0.000097>
+18:43:20.022005 epoll_ctl(29, EPOLL_CTL_ADD, 45, {EPOLLIN, {u32=45, u64=45}}) = 0 <0.000098>
+18:43:20.022207 ioctl(8, BINDER_WRITE_READ, 0xfff0cfb8) = 0 <0.000389>
+18:43:20.022644 ioctl(8, BINDER_WRITE_READ, 0xfff0cfb8) = 0 <0.000185>
+18:43:20.022882 getuid32()              = 11616 <0.000022>
+18:43:20.022946 epoll_pwait(29, [{EPOLLIN, {u32=40, u64=40}}], 16, 0, NULL, 8) = 1 <0.000174>
+18:43:20.023178 recvfrom(40, "nysv\0\0\0\0p/H\t\\\2\0\0\323p\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000147>
+18:43:20.023377 recvfrom(40, 0xfff0c778, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000024>
+18:43:20.023605 getuid32()              = 11616 <0.000025>
+18:43:20.023674 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000171>
+18:43:20.024244 futex(0xea0da5e0, FUTEX_WAKE, 1) = 1 <0.000057>
+18:43:20.024361 futex(0xea0da5c0, FUTEX_WAKE, 1) = 0 <0.000052>
+18:43:20.024493 writev(3, [{"\0\3178\10m\332Z\3au\1", 11}, {"\5", 1}, {"TiTabActivity\0", 14}, {"(main) [39,290] Notifying TiTabG"..., 58}], 4) = 84 <0.000047>
+18:43:20.024704 getuid32()              = 11616 <0.000032>
+18:43:20.024793 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000265>
+18:43:20.025126 getuid32()              = 11616 <0.000020>
+18:43:20.025190 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000186>
+18:43:20.025567 recvfrom(45, 0xea0f8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000065>
+18:43:20.025691 recvfrom(42, 0xea0f5a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000026>
+18:43:20.025935 ioctl(8, BINDER_WRITE_READ, 0xfff0cd38) = 0 <0.000165>
+18:43:20.026145 ioctl(8, BINDER_WRITE_READ, 0xfff0cd38) = 0 <0.046206>
+18:43:20.072923 recvfrom(40, 0xfff0c488, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000138>
+18:43:20.073384 ioctl(8, BINDER_WRITE_READ, 0xfff0cb98) = 0 <0.000284>
+18:43:20.073928 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000171>
+18:43:20.074368 ioctl(8, BINDER_WRITE_READ, 0xfff0cd38) = 0 <0.000158>
+18:43:20.074593 ioctl(8, BINDER_WRITE_READ, 0xfff0cd38) = 0 <0.001467>
+18:43:20.076269 getuid32()              = 11616 <0.000133>
+18:43:20.076622 epoll_pwait(29, [{EPOLLIN, {u32=45, u64=45}}, {EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 2 <0.000161>
+18:43:20.076981 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000155>
+18:43:20.077310 recvfrom(45, "\2\0\0\0\210)#\351\363P\1\0\200\210U\5\0\211\316\10\\\2\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000140>
+18:43:20.077622 recvfrom(45, "\2\0\0\0\210)#\351\365P\1\0\200\210U\5\300\315R\f\\\2\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000120>
+18:43:20.077898 recvfrom(45, "\2\0\0\0\210)#\351\367P\1\0\200\210U\5\0\20b\f\\\2\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000122>
+18:43:20.078166 recvfrom(45, "\2\0\0\0\210)#\351\371P\1\0\200\210U\5@Rq\f\\\2\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000121>
+18:43:20.078437 recvfrom(45, "\2\0\0\0\210)#\351\373P\1\0\200\210U\5@Rq\f\\\2\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000120>
+18:43:20.078720 mmap2(NULL, 524288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xccb00000 <0.000114>
+18:43:20.078966 madvise(0xccb00000, 524288, MADV_MERGEABLE) = 0 <0.000125>
+18:43:20.079231 prctl(0x53564d41 /* PR_??? */, 0, 0xccb00000, 524288, "libc_malloc") = 0 <0.000119>
+18:43:20.079504 recvfrom(45, "\2\0\0\0\210)#\351\375P\1\0\200\210U\5@Rq\f\\\2\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000116>
+18:43:20.079775 recvfrom(45, "\2\0\0\0\210)#\351\377P\1\0\200\210U\5\200\224\200\f\\\2\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000101>
+18:43:20.080027 recvfrom(45, "\2\0\0\0\210)#\351\1Q\1\0\200\210U\5\200\224\200\f\\\2\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000121>
+18:43:20.080299 recvfrom(45, "\2\0\0\0\210)#\351\3Q\1\0\200\210U\5\300\326\217\f\\\2\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000119>
+18:43:20.080581 recvfrom(45, "\2\0\0\0\210)#\351\5Q\1\0\200\210U\5\300\326\217\f\\\2\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000121>
+18:43:20.080832 recvfrom(45, 0xea0f8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000104>
+18:43:20.081711 futex(0xe5eb00f8, FUTEX_WAKE, 1) = 1 <0.000143>
+18:43:20.082005 futex(0xe5ebfeb0, FUTEX_WAKE, 1) = 1 <0.000154>
+18:43:20.082513 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0 \0\0\0", 30, 27954321) = 30 <0.000167>
+18:43:20.082859 pread64(23, "res/drawable/tab_bottom_left.xml", 32, 27954351) = 32 <0.000246>
+18:43:20.083269 mmap2(NULL, 3560, PROT_READ, MAP_SHARED, 23, 0x1aa8000) = 0xd8d9a000 <0.000143>
+18:43:20.083618 munmap(0xd8d9a000, 3560) = 0 <0.000279>
+18:43:20.084194 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\33R\17*\274\0\0\0\274\0\0\0-\0\2\0", 30, 4424379) = 30 <0.000699>
+18:43:20.085099 pread64(23, "res/drawable-mdpi-v4/tab_press_b"..., 45, 4424409) = 45 <0.000125>
+18:43:20.085379 mmap2(NULL, 964, PROT_READ, MAP_SHARED, 23, 0x438000) = 0xd8d9a000 <0.000120>
+18:43:20.085695 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000148>
+18:43:20.085986 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000129>
+18:43:20.086312 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000107>
+18:43:20.086681 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000149>
+18:43:20.087056 munmap(0xd8d9a000, 964) = 0 <0.000472>
+18:43:20.087737 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\214\205M6\266\0\0\0\266\0\0\0000\0\0\0", 30, 4426174) = 30 <0.000188>
+18:43:20.088462 pread64(23, "res/drawable-mdpi-v4/tab_selecte"..., 48, 4426204) = 48 <0.000217>
+18:43:20.088856 mmap2(NULL, 2754, PROT_READ, MAP_SHARED, 23, 0x438000) = 0xd8d9a000 <0.000153>
+18:43:20.089279 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000144>
+18:43:20.089604 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000152>
+18:43:20.090136 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000160>
+18:43:20.090502 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000219>
+18:43:20.090958 munmap(0xd8d9a000, 2754) = 0 <0.000235>
+18:43:20.091474 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\243\225\7\"\274\0\0\0\274\0\0\0-\0\2\0", 30, 4422583) = 30 <0.001081>
+18:43:20.092786 pread64(23, "res/drawable-mdpi-v4/tab_focus_b"..., 45, 4422613) = 45 <0.000201>
+18:43:20.093171 mmap2(NULL, 3264, PROT_READ, MAP_SHARED, 23, 0x437000) = 0xd8db2000 <0.000219>
+18:43:20.093632 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000195>
+18:43:20.093954 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000022>
+18:43:20.094069 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000031>
+18:43:20.094167 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000029>
+18:43:20.094310 munmap(0xd8db2000, 3264) = 0 <0.000195>
+18:43:20.094618 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0!\0\0\0", 30, 27955042) = 30 <0.000021>
+18:43:20.094675 pread64(23, "res/drawable/tab_bottom_right.xm"..., 33, 27955072) = 33 <0.000019>
+18:43:20.094729 mmap2(NULL, 4282, PROT_READ, MAP_SHARED, 23, 0x1aa8000) = 0xd8db1000 <0.000029>
+18:43:20.094838 munmap(0xd8db1000, 4282) = 0 <0.000025>
+18:43:20.094946 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\33R\17*\274\0\0\0\274\0\0\0.\0\0\0", 30, 4424644) = 30 <0.000022>
+18:43:20.095006 pread64(23, "res/drawable-mdpi-v4/tab_press_b"..., 46, 4424674) = 46 <0.000033>
+18:43:20.095094 mmap2(NULL, 1228, PROT_READ, MAP_SHARED, 23, 0x438000) = 0xd8db2000 <0.000026>
+18:43:20.095185 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000043>
+18:43:20.095292 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000023>
+18:43:20.095378 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000019>
+18:43:20.095546 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000020>
+18:43:20.095648 munmap(0xd8db2000, 1228) = 0 <0.000035>
+18:43:20.095771 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\214\205M6\266\0\0\0\266\0\0\0001\0\3\0", 30, 4426698) = 30 <0.000020>
+18:43:20.095827 pread64(23, "res/drawable-mdpi-v4/tab_selecte"..., 49, 4426728) = 49 <0.000034>
+18:43:20.095978 mmap2(NULL, 3282, PROT_READ, MAP_SHARED, 23, 0x438000) = 0xd8db2000 <0.000022>
+18:43:20.096050 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000018>
+18:43:20.096106 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000018>
+18:43:20.096176 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000019>
+18:43:20.096250 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000019>
+18:43:20.096337 munmap(0xd8db2000, 3282) = 0 <0.000024>
+18:43:20.096419 pread64(23, "PK\3\4\n\0\0\10\0\0\0\0!:\243\225\7\"\274\0\0\0\274\0\0\0.\0\0\0", 30, 4422848) = 30 <0.000019>
+18:43:20.096474 pread64(23, "res/drawable-mdpi-v4/tab_focus_b"..., 46, 4422878) = 46 <0.000018>
+18:43:20.096526 mmap2(NULL, 3528, PROT_READ, MAP_SHARED, 23, 0x437000) = 0xd8db2000 <0.000021>
+18:43:20.096596 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000018>
+18:43:20.096652 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000018>
+18:43:20.096736 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000019>
+18:43:20.096794 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000018>
+18:43:20.096875 munmap(0xd8db2000, 3528) = 0 <0.000023>
+18:43:20.097951 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0jx\2744\372\7\0\0\377\27\0\0%\0\0\0", 30, 251806) = 30 <0.000021>
+18:43:20.098012 pread64(30, "assets/Resources/main_windows/sh"..., 37, 251836) = 37 <0.000018>
+18:43:20.098066 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0_\242\363\334Z\2\0\0\24\10\0\0 \0\0\0", 30, 743663) = 30 <0.000019>
+18:43:20.098119 pread64(30, "assets/Resources/size_setting.js", 32, 743693) = 32 <0.000018>
+18:43:20.098175 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0001\367\224\312\227\31\1\0\227\31\1\0-\0\3\0", 30, 8206) = 30 <0.000035>
+18:43:20.098245 pread64(30, "assets/Resources/image/android/b"..., 45, 8236) = 45 <0.000019>
+18:43:20.098300 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0\337\230=X(\16\0\0]6\0\0'\0\0\0", 30, 243577) = 30 <0.000019>
+18:43:20.098351 pread64(30, "assets/Resources/main_windows/se"..., 39, 243607) = 39 <0.000019>
+18:43:20.098404 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0f\372\310U\377\1\0\0\374\5\0\0'\0\0\0", 30, 743067) = 30 <0.000019>
+18:43:20.098455 pread64(30, "assets/Resources/size_setting - "..., 39, 743097) = 39 <0.000018>
+18:43:20.098510 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0\316\211X[\360\7\0\0\225\27\0\0/\0\0\0", 30, 233556) = 30 <0.000019>
+18:43:20.098562 pread64(30, "assets/Resources/main_windows/fa"..., 47, 233586) = 47 <0.000019>
+18:43:20.098615 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\324\236\332\\\25\f\0\0\25\f\0\0+\0\3\0", 30, 208576) = 30 <0.000019>
+18:43:20.098666 pread64(30, "assets/Resources/image/email_sha"..., 43, 208606) = 43 <0.000019>
+18:43:20.098742 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\354@\355!0\1\0\0000\1\0\0%\0\3\0", 30, 208202) = 30 <0.000019>
+18:43:20.098795 pread64(30, "assets/Resources/image/del_butto"..., 37, 208232) = 37 <0.000019>
+18:43:20.098848 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0b\316\6\363\2373\0\0\231<\0\0&\0\0\0", 30, 191192) = 30 <0.000019>
+18:43:20.098899 pread64(30, "assets/Resources/image/backgroun"..., 38, 191222) = 38 <0.000019>
+18:43:20.098952 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0O\217\252\37\343\1\0\0\274\4\0\0-\0\0\0", 30, 227088) = 30 <0.000019>
+18:43:20.099003 pread64(30, "assets/Resources/main_windows/co"..., 45, 227118) = 45 <0.000018>
+18:43:20.099055 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0D\200O>w\1\0\0\365\2\0\0)\0\0\0", 30, 230241) = 30 <0.000019>
+18:43:20.099106 pread64(30, "assets/Resources/main_windows/fa"..., 41, 230271) = 41 <0.000019>
+18:43:20.099159 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0!8'\271&\v\0\0&\v\0\0+\0\3\0", 30, 223060) = 30 <0.000019>
+18:43:20.099226 pread64(30, "assets/Resources/image/twitt_sha"..., 43, 223090) = 43 <0.000019>
+18:43:20.099280 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\00035\317\223<\5\0\0<\5\0\0\33\0\1\0", 30, 662174) = 30 <0.000019>
+18:43:20.099331 pread64(30, "assets/Resources/search.png", 27, 662204) = 27 <0.000019>
+18:43:20.099386 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0E\335\367\377h\1\0\0h\1\0\0'\0\2\0", 30, 181713) = 30 <0.000019>
+18:43:20.099437 pread64(30, "assets/Resources/image/back_imag"..., 39, 181743) = 39 <0.000019>
+18:43:20.099490 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\362\204\275\323N\1\0\0N\1\0\0'\0\1\0", 30, 183786) = 30 <0.000018>
+18:43:20.099540 pread64(30, "assets/Resources/image/back_imag"..., 39, 183816) = 39 <0.000019>
+18:43:20.099593 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0001\367\224\312\227\31\1\0\227\31\1\0)\0\3\0", 30, 668794) = 30 <0.000019>
+18:43:20.099646 pread64(30, "assets/Resources/share_page-320-"..., 41, 668824) = 41 <0.000019>
+18:43:20.099715 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\210\202k\3555\1\0\0005\1\0\0'\0\3\0", 30, 185132) = 30 <0.000020>
+18:43:20.099769 pread64(30, "assets/Resources/image/back_imag"..., 39, 185162) = 39 <0.000018>
+18:43:20.099821 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0\243\266m\36h\20\0\0\217f\0\0000\0\0\0", 30, 235681) = 30 <0.000089>
+18:43:20.099959 pread64(30, "assets/Resources/main_windows/fa"..., 48, 235711) = 48 <0.000019>
+18:43:20.100015 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0q\257\234:\21\2\0\0\21\2\0\0'\0\1\0", 30, 186262) = 30 <0.000019>
+18:43:20.100066 pread64(30, "assets/Resources/image/back_imag"..., 39, 186292) = 39 <0.000019>
+18:43:20.100119 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\0341\234\0J\213\0\0J\213\0\0\"\0\1\0", 30, 624523) = 30 <0.000019>
+18:43:20.100170 pread64(30, "assets/Resources/no_connection.p"..., 34, 624553) = 34 <0.000024>
+18:43:20.100232 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0\223|(\350\345\1\0\0008\4\0\0%\0\0\0", 30, 239975) = 30 <0.000020>
+18:43:20.100285 pread64(30, "assets/Resources/main_windows/in"..., 37, 240005) = 37 <0.000018>
+18:43:20.100337 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0K)\375\232:\16\0\0:\16\0\0'\0\0\0", 30, 204491) = 30 <0.000018>
+18:43:20.100389 pread64(30, "assets/Resources/image/backgroun"..., 39, 204521) = 39 <0.000018>
+18:43:20.100441 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0|\370\267\257\372\v\0\0\367!\0\0(\0\0\0", 30, 253931) = 30 <0.000020>
+18:43:20.100493 pread64(30, "assets/Resources/main_windows/tw"..., 40, 253961) = 40 <0.000018>
+18:43:20.100545 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\226\207\270\v\355\r\0\0\355\r\0\0.\0\3\0", 30, 211745) = 30 <0.000019>
+18:43:20.100596 pread64(30, "assets/Resources/image/facebook_"..., 46, 211775) = 46 <0.000019>
+18:43:20.100649 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\201\225\353k\10\3\0\0\10\3\0\0+\0\2\0", 30, 222209) = 30 <0.000019>
+18:43:20.100702 pread64(30, "assets/Resources/image/icon_arro"..., 43, 222239) = 43 <0.000019>
+18:43:20.100754 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\7\201\212:)?\1\0)?\1\0\34\0\1\0", 30, 356825) = 30 <0.000019>
+18:43:20.100806 pread64(30, "assets/Resources/default.png", 28, 356855) = 28 <0.000041>
+18:43:20.100887 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0|\237h\30\n\4\0\0G\v\0\0&\0\0\0", 30, 250688) = 30 <0.000019>
+18:43:20.100940 pread64(30, "assets/Resources/main_windows/sh"..., 38, 250718) = 38 <0.000018>
+18:43:20.100992 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0=\231\230r\261\7\0\0\330\32\0\0*\0\0\0", 30, 241520) = 30 <0.000019>
+18:43:20.101043 pread64(30, "assets/Resources/main_windows/re"..., 42, 241550) = 42 <0.000019>
+18:43:20.101095 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0F\235\266\200\34\3\0\0\"\t\0\0'\0\0\0", 30, 240639) = 30 <0.000019>
+18:43:20.101146 pread64(30, "assets/Resources/main_windows/ot"..., 39, 240669) = 39 <0.000031>
+18:43:20.101215 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0i\232.\362\302\3\0\0\302\3\0\0&\0\2\0", 30, 178874) = 30 <0.000019>
+18:43:20.101267 pread64(30, "assets/Resources/image/back_butt"..., 38, 178904) = 38 <0.000018>
+18:43:20.101319 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0\206-i6\266\2\0\0C\6\0\0/\0\0\0", 30, 232769) = 30 <0.000019>
+18:43:20.101370 pread64(30, "assets/Resources/main_windows/fa"..., 47, 232799) = 47 <0.000019>
+18:43:20.101423 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0+\353\210\247\201\0\0\0Z\1\0\0000\0\0\0", 30, 226314) = 30 <0.000018>
+18:43:20.101474 pread64(30, "assets/Resources/main_windows/se"..., 48, 226344) = 48 <0.000018>
+18:43:20.101526 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0)\240\300\224\20\5\1\0\20\5\1\0-\0\2\0", 30, 80371) = 30 <0.000018>
+18:43:20.101577 pread64(30, "assets/Resources/image/idevice/b"..., 45, 80401) = 45 <0.000018>
+18:43:20.101629 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\333\317\376\25Q\7\0\0Q\7\0\0\32\0\0\0", 30, 663740) = 30 <0.000018>
+18:43:20.101694 pread64(30, "assets/Resources/share.png", 26, 663770) = 26 <0.000019>
+18:43:20.101752 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0r\271D\354\206\4\0\0\206\4\0\0\36\0\1\0", 30, 257083) = 30 <0.000019>
+18:43:20.101807 pread64(30, "assets/Resources/KS_nav_ui.png", 30, 257113) = 30 <0.000018>
+18:43:20.101863 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0c0\212\256\310\6\0\0K\27\0\0\27\0\0\0", 30, 259442) = 30 <0.000019>
+18:43:20.101914 pread64(30, "assets/Resources/app.js", 23, 259472) = 23 <0.000019>
+18:43:20.101969 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0l\32n\r\363\0\0\0\265\1\0\0-\0\0\0", 30, 229907) = 30 <0.000019>
+18:43:20.102021 pread64(30, "assets/Resources/main_windows/em"..., 45, 229937) = 45 <0.000018>
+18:43:20.102073 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\322\201\223]*{\0\0*{\0\0!\0\1\0", 30, 147280) = 30 <0.000019>
+18:43:20.102124 pread64(30, "assets/Resources/image/Banner.pn"..., 33, 147310) = 33 <0.000019>
+18:43:20.102179 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\261\361\206\351\301\v\0\0\301\v\0\0\34\0\3\0", 30, 744343) = 30 <0.000019>
+18:43:20.102230 pread64(30, "assets/Resources/twitter.png", 28, 744373) = 28 <0.000019>
+18:43:20.102285 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\325\261\17;\4\5\0\0\4\5\0\0%\0\0\0", 30, 215389) = 30 <0.000019>
+18:43:20.102336 pread64(30, "assets/Resources/image/fav_butto"..., 37, 215419) = 37 <0.000019>
+18:43:20.102388 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0\205h\323\363\356\f\0\0\325:\0\0.\0\0\0", 30, 247286) = 30 <0.000019>
+18:43:20.102439 pread64(30, "assets/Resources/main_windows/se"..., 46, 247316) = 46 <0.000019>
+18:43:20.102492 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\223\340\332G\366\v\0\0\366\v\0\0!\0\0\0", 30, 665669) = 30 <0.000018>
+18:43:20.102543 pread64(30, "assets/Resources/share_button.pn"..., 33, 665699) = 33 <0.000018>
+18:43:20.102602 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0\220\22\271\232\304\1\0\0@\5\0\0005\0\0\0", 30, 226537) = 30 <0.000019>
+18:43:20.102654 pread64(30, "assets/Resources/main_windows/se"..., 53, 226567) = 53 <0.000022>
+18:43:20.102730 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0jx\2744\372\7\0\0\377\27\0\0\30\0\0\0", 30, 740955) = 30 <0.000019>
+18:43:20.102781 pread64(30, "assets/Resources/shop.js", 24, 740985) = 24 <0.000019>
+18:43:20.102836 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0)9\343j\360\7\0\0|\25\0\0\30\0\0\0", 30, 620755) = 30 <0.000019>
+18:43:20.102888 pread64(30, "assets/Resources/lang.js", 24, 620785) = 24 <0.000019>
+18:43:20.102943 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0.\241]@\32\5\0\0\32\5\0\0\33\0\2\0", 30, 355145) = 30 <0.000019>
+18:43:20.102994 pread64(30, "assets/Resources/coupon.png", 27, 355175) = 27 <0.000019>
+18:43:20.103050 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0@\24\324\207\311\6\0\0\311\6\0\0'\0\1\0", 30, 179906) = 30 <0.000019>
+18:43:20.103101 pread64(30, "assets/Resources/image/back_imag"..., 39, 179936) = 39 <0.000019>
+18:43:20.103153 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0\340\243{9\356\0\0\0\\\2\0\0\37\0\0\0", 30, 356510) = 30 <0.000032>
+18:43:20.103328 pread64(30, "assets/Resources/css_setting.js", 31, 356540) = 31 <0.000019>
+18:43:20.103387 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0)\320\224D\"\6\0\0\"\6\0\0'\0\3\0", 30, 182144) = 30 <0.000019>
+18:43:20.103446 pread64(30, "assets/Resources/image/back_imag"..., 39, 182174) = 39 <0.000030>
+18:43:20.103530 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\277\30\241ah\3\0\0h\3\0\0'\0\1\0", 30, 184190) = 30 <0.000029>
+18:43:20.103611 pread64(30, "assets/Resources/image/back_imag"..., 39, 184220) = 39 <0.000031>
+18:43:20.103692 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0W\262\307Z\244\20\0\0\244\20\0\0&\0\3\0", 30, 186861) = 30 <0.000032>
+18:43:20.103785 pread64(30, "assets/Resources/image/back_opti"..., 38, 186891) = 38 <0.000020>
+18:43:20.103842 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0CT\1<\246\2\0\0\246\2\0\0'\0\2\0", 30, 185513) = 30 <0.000039>
+18:43:20.104077 pread64(30, "assets/Resources/image/back_imag"..., 39, 185543) = 39 <0.000028>
+18:43:20.104152 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0\\8\25\270\342\0\0\0006\2\0\0004\0\0\0", 30, 225990) = 30 <0.000020>
+18:43:20.104211 pread64(30, "assets/Resources/main_windows/se"..., 52, 226020) = 52 <0.000014>
+18:43:20.104263 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\2519\342vJ\33\0\0J\33\0\0\34\0\3\0", 30, 261247) = 30 <0.000015>
+18:43:20.104318 pread64(30, "assets/Resources/appicon.png", 28, 261277) = 28 <0.000014>
+18:43:20.104365 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0001\367\224\312\227\31\1\0\227\31\1\0\37\0\1\0", 30, 282414) = 30 <0.000014>
+18:43:20.104406 pread64(30, "assets/Resources/background.png", 31, 282444) = 31 <0.000139>
+18:43:20.104581 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0!Mw\224\201W\1\0\201W\1\0)\0\0\0", 30, 526593) = 30 <0.000015>
+18:43:20.104639 pread64(30, "assets/Resources/default_app_log"..., 41, 526623) = 41 <0.000016>
+18:43:20.104690 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\224\0\330\353&\t\0\0&\t\0\0\32\0\3\0", 30, 614601) = 30 <0.000024>
+18:43:20.104742 pread64(30, "assets/Resources/email.png", 26, 614631) = 26 <0.000022>
+18:43:20.104798 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0|gi\313\302\21\0\0\302\21\0\0 \0\2\0", 30, 216740) = 30 <0.000014>
+18:43:20.104840 pread64(30, "assets/Resources/image/focus.png", 32, 216770) = 32 <0.000014>
+18:43:20.104892 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0e\363\227/2\4\0\0002\4\0\0!\0\3\0", 30, 258302) = 30 <0.000022>
+18:43:20.104944 pread64(30, "assets/Resources/KS_nav_views.pn"..., 33, 258332) = 33 <0.000023>
+18:43:20.105001 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0o\245\316\236\370\1\0\0B\5\0\0 \0\0\0", 30, 354563) = 30 <0.000014>
+18:43:20.105043 pread64(30, "assets/Resources/contact_info.js", 32, 354593) = 32 <0.000014>
+18:43:20.105212 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0$.^3k\16\0\0k\16\0\0\35\0\3\0", 30, 617002) = 30 <0.000016>
+18:43:20.105260 pread64(30, "assets/Resources/facebook.png", 29, 617032) = 29 <0.000015>
+18:43:20.105308 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0!Mw\224\201W\1\0\201W\1\0%\0\0\0", 30, 438589) = 30 <0.000014>
+18:43:20.105359 pread64(30, "assets/Resources/default_app_log"..., 37, 438619) = 37 <0.000014>
+18:43:20.105415 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0\344i\236\244n\10\0\0N\31\0\0)\0\0\0", 30, 227662) = 30 <0.000015>
+18:43:20.105459 pread64(30, "assets/Resources/main_windows/di"..., 41, 227692) = 41 <0.000014>
+18:43:20.105511 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\207Z\201\274\3526\0\0\3526\0\0\37\0\1\0", 30, 268294) = 30 <0.000022>
+18:43:20.105562 pread64(30, "assets/Resources/appicon@2X.png", 31, 268324) = 31 <0.000015>
+18:43:20.105611 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\303\332};J\7\0\0J\7\0\0\36\0\2\0", 30, 660246) = 30 <0.000028>
+18:43:20.105670 pread64(30, "assets/Resources/recommend.png", 30, 660276) = 30 <0.000014>
+18:43:20.105827 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0wl\356\332K\6\0\0K\6\0\0\31\0\0\0", 30, 622857) = 30 <0.000016>
+18:43:20.105874 pread64(30, "assets/Resources/more.png", 25, 622887) = 25 <0.000014>
+18:43:20.105922 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0T\371j9\261\7\0\0E\30\0\0003\0\0\0", 30, 230703) = 30 <0.000015>
+18:43:20.105965 pread64(30, "assets/Resources/main_windows/fa"..., 51, 230733) = 51 <0.000014>
+18:43:20.106010 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\0\271\3406\240\21\3\0\0\21\3\0\0*\0\2\0", 30, 221350) = 30 <0.000014>
+18:43:20.106052 pread64(30, "assets/Resources/image/icon_arro"..., 42, 221380) = 42 <0.000014>
+18:43:20.106096 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0\0\0\0\0\2\0\0\0\0\0\0\0000\0\0\0", 30, 240543) = 30 <0.000015>
+18:43:20.106163 pread64(30, "assets/Resources/main_windows/no"..., 48, 240573) = 48 <0.000018>
+18:43:20.106217 pread64(30, "PK\3\4\24\0\10\0\10\0\0\0!\0\235Lli_\0\0\0\325\0\0\0\33\0\0\0", 30, 663572) = 30 <0.000014>
+18:43:20.106260 pread64(30, "assets/Resources/setting.js", 27, 663602) = 27 <0.000014>
+18:43:20.107303 futex(0xea0da5e0, FUTEX_WAKE, 1) = 1 <0.000038>
+18:43:20.107381 futex(0xea0da5c0, FUTEX_WAKE, 1) = 0 <0.000027>
+18:43:20.107473 pread64(30, "PK\3\4\n\0\0\0\0\0\0\0!\00035\317\223<\5\0\0<\5\0\0\33\0\1\0", 30, 662174) = 30 <0.000027>
+18:43:20.107551 pread64(30, "assets/Resources/search.png", 27, 662204) = 27 <0.000028>
+18:43:20.107654 mmap2(NULL, 4116, PROT_READ, MAP_SHARED, 30, 0xa1000) = 0xd8db1000 <0.000038>
+18:43:20.108190 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000029>
+18:43:20.108279 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000027>
+18:43:20.108387 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000027>
+18:43:20.108469 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000026>
+18:43:20.108749 munmap(0xd8db1000, 4116) = 0 <0.000061>
+18:43:20.109149 writev(3, [{"\0\3178\10m\332Z\33\31\201\6", 11}, {"\5", 1}, {"ResourceType\0", 13}, {"No package identifier when getti"..., 72}], 4) = 97 <0.000292>
+18:43:20.109728 writev(3, [{"\0\3178\10m\332Z\323\360\211\6", 11}, {"\3", 1}, {"AndroidRuntime\0", 15}, {"Shutting down VM\n\0", 18}], 4) = 45 <0.000166>
+18:43:20.110249 writev(3, [{"\0\3178\10m\332Z\364\341\221\6", 11}, {"\6", 1}, {"TiUncaughtHandler\0", 18}, {"(main) [85,375] Sending event: e"..., 1334}], 4) = 1364 <0.000145>
+18:43:20.110803 faccessat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases", F_OK) = 0 <0.000066>
+18:43:20.110987 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db", {st_mode=0, st_size=1, ...}, 0) = 0 <0.000036>
+18:43:20.111108 openat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 49 <0.000043>
+18:43:20.111206 fstat64(49, {st_mode=0, st_size=1, ...}) = 0 <0.000026>
+18:43:20.111281 fstat64(49, {st_mode=0137430, st_size=1, ...}) = 0 <0.000026>
+18:43:20.111352 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db", {st_mode=054720, st_size=1, ...}, 0) = 0 <0.000030>
+18:43:20.111438 pread64(49, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\6\0\0\0\6"..., 100, 0) = 100 <0.000028>
+18:43:20.111991 fcntl64(49, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000081>
+18:43:20.112138 fcntl64(49, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000036>
+18:43:20.112248 fcntl64(49, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000037>
+18:43:20.112476 faccessat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", F_OK) = 0 <0.000063>
+18:43:20.112727 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", {st_mode=S_IFREG|S_ISVTX|0410, st_size=1, ...}, 0) = 0 <0.000140>
+18:43:20.113036 fcntl64(49, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000221>
+18:43:20.113432 fstat64(49, {st_mode=0, st_size=1, ...}) = 0 <0.000149>
+18:43:20.113756 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db", {st_mode=04, st_size=1, ...}, 0) = 0 <0.000153>
+18:43:20.114134 openat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 50 <0.000131>
+18:43:20.114427 fstat64(50, {st_mode=S_IFREG|S_ISUID|S_ISGID|033, st_size=1, ...}) = 0 <0.000111>
+18:43:20.114734 geteuid32()             = 11616 <0.000135>
+18:43:20.115044 fstat64(50, {st_mode=0135110, st_size=1, ...}) = 0 <0.000153>
+18:43:20.115369 pread64(50, "\0", 1, 0) = 1 <0.000151>
+18:43:20.115649 close(50)               = 0 <0.000129>
+18:43:20.115936 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000105>
+18:43:20.116161 faccessat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.000102>
+18:43:20.116374 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000090>
+18:43:20.116584 pread64(49, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\6\0\0\0\6"..., 4096, 0) = 4096 <0.000093>
+18:43:20.116909 fcntl64(49, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000094>
+18:43:20.117396 fcntl64(49, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000095>
+18:43:20.117600 fcntl64(49, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000102>
+18:43:20.117810 fcntl64(49, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000092>
+18:43:20.118011 faccessat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", F_OK) = 0 <0.000096>
+18:43:20.118219 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", {st_mode=S_IFREG|S_ISVTX|0410, st_size=1, ...}, 0) = 0 <0.000096>
+18:43:20.118429 fcntl64(49, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000090>
+18:43:20.118628 fstat64(49, {st_mode=0, st_size=1, ...}) = 0 <0.000099>
+18:43:20.118844 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db", {st_mode=0, st_size=1, ...}, 0) = 0 <0.000094>
+18:43:20.119051 openat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 50 <0.000099>
+18:43:20.119285 fstat64(50, {st_mode=0, st_size=1, ...}) = 0 <0.000090>
+18:43:20.119484 geteuid32()             = 11616 <0.000089>
+18:43:20.119694 fstat64(50, {st_mode=0135210, st_size=1, ...}) = 0 <0.000093>
+18:43:20.119952 pread64(50, "\0", 1, 0) = 1 <0.000103>
+18:43:20.120198 close(50)               = 0 <0.000105>
+18:43:20.120441 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000313>
+18:43:20.120915 pread64(49, "\0\0\0\6\0\0\0\6\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.000132>
+18:43:20.121201 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000109>
+18:43:20.121443 faccessat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.000121>
+18:43:20.121719 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000079>
+18:43:20.121961 fcntl64(49, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000118>
+18:43:20.122328 fcntl64(49, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000130>
+18:43:20.122607 fcntl64(49, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000127>
+18:43:20.122875 fcntl64(49, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000103>
+18:43:20.123112 faccessat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", F_OK) = 0 <0.000207>
+18:43:20.123474 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", {st_mode=S_IFREG|S_ISVTX|0410, st_size=1, ...}, 0) = 0 <0.000121>
+18:43:20.123747 fcntl64(49, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000181>
+18:43:20.124078 fstat64(49, {st_mode=0, st_size=1, ...}) = 0 <0.000122>
+18:43:20.124358 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db", {st_mode=0175104, st_size=1, ...}, 0) = 0 <0.000127>
+18:43:20.124630 openat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 50 <0.000119>
+18:43:20.124901 fstat64(50, {st_mode=0177777, st_size=1, ...}) = 0 <0.000112>
+18:43:20.125161 geteuid32()             = 11616 <0.000124>
+18:43:20.125422 fstat64(50, {st_mode=0135170, st_size=1, ...}) = 0 <0.000105>
+18:43:20.125661 pread64(50, "\0", 1, 0) = 1 <0.000113>
+18:43:20.125943 close(50)               = 0 <0.000103>
+18:43:20.126159 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000095>
+18:43:20.126367 pread64(49, "\0\0\0\6\0\0\0\6\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.000095>
+18:43:20.126573 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000095>
+18:43:20.126781 faccessat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.000098>
+18:43:20.126991 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000094>
+18:43:20.127217 pread64(49, "\r\0\0\0\1\17\367\0\17\367\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 8192) = 4096 <0.000096>
+18:43:20.127456 fcntl64(49, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000098>
+18:43:20.127710 fchmodat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db", 0660) = 0 <0.000110>
+18:43:20.128079 fcntl64(49, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000100>
+18:43:20.128296 fcntl64(49, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000096>
+18:43:20.128503 fcntl64(49, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000100>
+18:43:20.128719 faccessat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", F_OK) = 0 <0.000098>
+18:43:20.128927 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", {st_mode=S_IFREG|S_ISVTX|0410, st_size=1, ...}, 0) = 0 <0.000096>
+18:43:20.129148 fcntl64(49, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000093>
+18:43:20.129353 fstat64(49, {st_mode=0, st_size=1, ...}) = 0 <0.000093>
+18:43:20.129565 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db", {st_mode=010, st_size=1, ...}, 0) = 0 <0.000099>
+18:43:20.129779 openat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 50 <0.000098>
+18:43:20.129988 fstat64(50, {st_mode=0167620, st_size=1, ...}) = 0 <0.000102>
+18:43:20.130205 geteuid32()             = 11616 <0.000092>
+18:43:20.130411 fstat64(50, {st_mode=0136110, st_size=1, ...}) = 0 <0.000093>
+18:43:20.130621 pread64(50, "\0", 1, 0) = 1 <0.000094>
+18:43:20.130825 close(50)               = 0 <0.000093>
+18:43:20.131025 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000093>
+18:43:20.131230 pread64(49, "\0\0\0\6\0\0\0\6\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.000093>
+18:43:20.131434 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000092>
+18:43:20.131640 faccessat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.000096>
+18:43:20.131880 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000061>
+18:43:20.132080 fcntl64(49, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000097>
+18:43:20.132336 read(24, "\35\222\37\256\216^\240\224\243zS\215D\2345n", 16) = 16 <0.000099>
+18:43:20.132711 fcntl64(49, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000097>
+18:43:20.132919 fcntl64(49, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000094>
+18:43:20.133205 fcntl64(49, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000097>
+18:43:20.133415 faccessat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", F_OK) = 0 <0.000099>
+18:43:20.133625 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", {st_mode=S_IFREG|S_ISVTX|0410, st_size=1, ...}, 0) = 0 <0.000099>
+18:43:20.133854 fcntl64(49, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000093>
+18:43:20.134059 fstat64(49, {st_mode=0, st_size=1, ...}) = 0 <0.000095>
+18:43:20.134272 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db", {st_mode=0, st_size=1, ...}, 0) = 0 <0.000095>
+18:43:20.134481 openat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 50 <0.000098>
+18:43:20.134698 fstat64(50, {st_mode=0134664, st_size=1, ...}) = 0 <0.000093>
+18:43:20.134901 geteuid32()             = 11616 <0.000092>
+18:43:20.135106 fstat64(50, {st_mode=0136310, st_size=1, ...}) = 0 <0.000100>
+18:43:20.135316 pread64(50, "\0", 1, 0) = 1 <0.000094>
+18:43:20.135520 close(50)               = 0 <0.000102>
+18:43:20.135729 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000092>
+18:43:20.135944 pread64(49, "\0\0\0\6\0\0\0\6\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.000095>
+18:43:20.136161 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000142>
+18:43:20.136435 faccessat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.000107>
+18:43:20.136657 fstat64(49, {st_mode=S_IFIFO|S_ISGID|0767, st_size=1, ...}) = 0 <0.000112>
+18:43:20.136913 fcntl64(49, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0 <0.000116>
+18:43:20.137344 pread64(49, "\r\0\0\0\1\17\364\0\17\364\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 16384) = 4096 <0.000325>
+18:43:20.137925 pread64(49, "\r\0\0\0\2\f\302\0\0166\f\302\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 20480) = 4096 <0.000169>
+18:43:20.138381 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db", {st_mode=0154000, st_size=1, ...}, 0) = 0 <0.000427>
+18:43:20.139105 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db", {st_mode=0156610, st_size=1, ...}, 0) = 0 <0.000151>
+18:43:20.142210 openat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db-journal", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0660) = 50 <0.000224>
+18:43:20.142636 fstat64(50, {st_mode=S_IFREG|S_ISGID|071, st_size=1, ...}) = 0 <0.000209>
+18:43:20.143044 geteuid32()             = 11616 <0.000249>
+18:43:20.143521 fstat64(50, {st_mode=0136150, st_size=1, ...}) = 0 <0.000139>
+18:43:20.143834 pwrite64(50, "\0\0\0\0\0\0\0\0\0\0\0\0\365\370.\227\0\0\0\6\0\0\2\0\0\0\20\0\0\0\0\0"..., 512, 0) = 512 <0.000153>
+18:43:20.144220 pwrite64(50, "\0\0\0\6", 4, 512) = 4 <0.000166>
+18:43:20.144574 pwrite64(50, "\r\0\0\0\2\f\302\0\0166\f\302\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 516) = 4096 <0.000191>
+18:43:20.144944 pwrite64(50, "\365\370/\324", 4, 4612) = 4 <0.000089>
+18:43:20.145247 pwrite64(50, "\0\0\0\5", 4, 4616) = 4 <0.000177>
+18:43:20.145588 pwrite64(50, "\r\0\0\0\1\17\364\0\17\364\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 4620) = 4096 <0.000181>
+18:43:20.145926 pwrite64(50, "\365\370.\227", 4, 8716) = 4 <0.000152>
+18:43:20.146286 fcntl64(49, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000158>
+18:43:20.146632 fcntl64(49, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000137>
+18:43:20.146951 pwrite64(50, "\0\0\0\1", 4, 8720) = 4 <0.000149>
+18:43:20.147273 pwrite64(50, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\6\0\0\0\6"..., 4096, 8724) = 4096 <0.000152>
+18:43:20.147594 pwrite64(50, "\365\370/Y", 4, 12820) = 4 <0.000150>
+18:43:20.147922 pread64(50, "", 8, 13312) = 0 <0.000118>
+18:43:20.148203 fdatasync(50)           = 0 <0.001225>
+18:43:20.149586 openat(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 51 <0.000161>
+18:43:20.149905 fdatasync(51)           = 0 <0.000997>
+18:43:20.151030 close(51)               = 0 <0.000116>
+18:43:20.151286 pwrite64(50, "\331\325\5\371 \241c\327\0\0\0\3", 12, 0) = 12 <0.000137>
+18:43:20.151589 fdatasync(50)           = 0 <0.000654>
+18:43:20.152499 pwrite64(49, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\7\0\0\0\6"..., 4096, 0) = 4096 <0.000145>
+18:43:20.152798 pwrite64(49, "\r\0\0\0\1\17\364\0\17\364\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 16384) = 4096 <0.000126>
+18:43:20.153067 pwrite64(49, "\r\0\0\0\3\7\23\0\0166\f\302\7\23\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 20480) = 4096 <0.000231>
+18:43:20.153460 fdatasync(49)           = 0 <0.000873>
+18:43:20.154485 pwrite64(50, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 28, 0) = 28 <0.000134>
+18:43:20.154759 fdatasync(50)           = 0 <0.000463>
+18:43:20.155366 fstat64(50, {st_mode=061, st_size=1, ...}) = 0 <0.000123>
+18:43:20.155654 fcntl64(49, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000139>
+18:43:20.156002 fcntl64(49, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0 <0.000106>
+18:43:20.156235 close(50)               = 0 <0.000107>
+18:43:20.156535 fcntl64(49, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000112>
+18:43:20.156894 fstat64(49, {st_mode=S_IFIFO|S_ISGID, st_size=1, ...}) = 0 <0.000108>
+18:43:20.157139 fstatat64(AT_FDCWD, "/data/user/0/com.beautyadd.application/databases/tianalytics.db", {st_mode=0133100, st_size=1, ...}, 0) = 0 <0.000121>
+18:43:20.157401 close(49)               = 0 <0.000100>
+18:43:20.157857 writev(3, [{"\4\3178\10m\332Z\232\274g\t", 11}, {"\6", 1}, {"AndroidRuntime\0", 15}, {"FATAL EXCEPTION: main\nProcess: c"..., 1236}], 4) = 1263 <0.000147>
+18:43:20.158397 ioctl(8, BINDER_WRITE_READ, 0xfff0ccd8) = 0 <0.000144>
+18:43:20.158727 ioctl(8, BINDER_WRITE_READ <unfinished ...>
+18:43:20.672392 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 44.46    0.004627          86        54         5 futex
+ 21.35    0.002222         444         5           fdatasync
+ 17.10    0.001780           9       207           pread64
+ 14.10    0.001467          20        75           ioctl
+  2.00    0.000208          16        13           epoll_pwait
+  0.99    0.000103           2        52           rt_sigprocmask
+  0.00    0.000000           0        15           close
+  0.00    0.000000           0         4           dup
+  0.00    0.000000           0        26           munmap
+  0.00    0.000000           0         2           clone
+  0.00    0.000000           0         6           mprotect
+  0.00    0.000000           0        10           writev
+  0.00    0.000000           0         3           prctl
+  0.00    0.000000           0        15           pwrite64
+  0.00    0.000000           0        32           mmap2
+  0.00    0.000000           0        40           fstat64
+  0.00    0.000000           0        22           getuid32
+  0.00    0.000000           0         6           geteuid32
+  0.00    0.000000           0         3           madvise
+  0.00    0.000000           0        32           fcntl64
+  0.00    0.000000           0         3           epoll_ctl
+  0.00    0.000000           0        11           openat
+  0.00    0.000000           0        21           fstatat64
+  0.00    0.000000           0         1           fchmodat
+  0.00    0.000000           0        11         5 faccessat
+  0.00    0.000000           0        21         9 recvfrom
+  0.00    0.000000           0         1         1 restart_syscall
+  0.00    0.000000           0         3           read
+  0.00    0.000000           0         2           write
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.010407                   696        20 total

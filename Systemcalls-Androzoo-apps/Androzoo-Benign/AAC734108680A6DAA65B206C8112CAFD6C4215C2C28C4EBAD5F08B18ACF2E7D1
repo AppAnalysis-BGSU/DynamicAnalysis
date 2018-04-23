@@ -1,0 +1,35 @@
+20:44:34.359346 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, -1, NULL, 8) = 1 <0.000116>
+20:44:34.363634 recvfrom(33, "nysv\0\0\0\0\33i:\261\17\3\0\0\344D\1\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000478>
+20:44:34.364556 recvfrom(33, 0xffc062d8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000293>
+20:44:34.365251 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000184>
+20:44:34.368158 recvfrom(39, 0xe92f8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.001206>
+20:44:34.369794 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000525>
+20:44:34.370876 futex(0xdfea9778, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.150174>
+20:44:34.521617 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000186>
+20:44:34.522088 futex(0xe92b22a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.001927>
+20:44:34.524162 futex(0xdfea9700, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = 0 <0.007648>
+20:44:34.531935 futex(0xdfea9778, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff) = 0 <0.565786>
+20:44:35.097925 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000123>
+20:44:35.098123 futex(0xdfea9778, FUTEX_WAIT_BITSET_PRIVATE, 28, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000071>
+20:44:35.098457 ioctl(8, BINDER_WRITE_READ, 0xffc068e8) = 0 <0.000170>
+20:44:35.098792 ioctl(8, BINDER_WRITE_READ, 0xffc068e8) = 0 <0.011177>
+20:44:35.110280 getuid32()              = 11630 <0.000137>
+20:44:35.110624 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1 <0.000034>
+20:44:35.110727 read(25, "\2\0\0\0\0\0\0\0", 8) = 8 <0.000341>
+20:44:35.111247 getuid32()              = 11630 <0.000027>
+20:44:35.111441 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000514>
+20:44:35.123603 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000132>
+20:44:35.123904 ioctl(8, BINDER_WRITE_READ, 0xffc06df8) = 0 <0.000090>
+20:44:35.124151 epoll_pwait(29,  <unfinished ...>
+20:44:35.378720 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.024000        4800         5         1 futex
+  0.00    0.000000           0         1           read
+  0.00    0.000000           0         4           write
+  0.00    0.000000           0         3           ioctl
+  0.00    0.000000           0         2           getuid32
+  0.00    0.000000           0         4           epoll_pwait
+  0.00    0.000000           0         3         2 recvfrom
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.024000                    22         3 total

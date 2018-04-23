@@ -1,0 +1,499 @@
+17:02:51.086206 ioctl(8, BINDER_WRITE_READ, 0xfff8e748) = 0 <0.000240>
+17:02:51.087529 ioctl(8, BINDER_WRITE_READ, 0xfff8e788) = 0 <0.000711>
+17:02:51.116311 ioctl(8, BINDER_WRITE_READ, 0xfff8e788) = 0 <0.000292>
+17:02:51.117355 ioctl(8, BINDER_WRITE_READ, 0xfff8e8a8) = 0 <0.002177>
+17:02:51.119624 ioctl(8, BINDER_WRITE_READ, 0xfff8e8a8) = 0 <0.000045>
+17:02:51.119866 openat(AT_FDCWD, "/dev/alarm", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000090>
+17:02:51.120143 ioctl(-1, _IOC(_IOC_WRITE, 0x61, 0x34, 0x08), 0xfff8d540) = -1 EBADF (Bad file descriptor) <0.000114>
+17:02:51.120395 clock_gettime(CLOCK_BOOTTIME, {162861, 388230579}) = 0 <0.005027>
+17:02:51.125730 futex(0xdbc46c88, FUTEX_WAKE, 1) = 1 <0.002231>
+17:02:51.128035 futex(0xdbc62750, FUTEX_WAKE, 1) = 1 <0.000038>
+17:02:51.128162 ioctl(8, BINDER_WRITE_READ, 0xfff8deb8) = 0 <0.000951>
+17:02:51.129322 ioctl(8, BINDER_WRITE_READ, 0xfff8deb8) = 0 <0.001550>
+17:02:51.132533 getuid32()              = 11806 <0.000173>
+17:02:51.132889 getuid32()              = 11806 <0.000668>
+17:02:51.134193 ioctl(8, BINDER_WRITE_READ, 0xfff8de58) = 0 <0.000234>
+17:02:51.134571 ioctl(8, BINDER_WRITE_READ, 0xfff8de58) = 0 <0.011626>
+17:02:51.146413 getuid32()              = 11806 <0.000695>
+17:02:51.147324 ioctl(8, BINDER_WRITE_READ, 0xfff8deb8) = 0 <0.000135>
+17:02:51.147605 ioctl(8, BINDER_WRITE_READ, 0xfff8deb8) = 0 <0.000338>
+17:02:51.148195 getuid32()              = 11806 <0.000122>
+17:02:51.148593 writev(3, [{"\2z\26{\370\334Z\346!\331\10", 11}, {"Fu\0\0", 4}, {"\3\3\0\0\0\0\0\2B\0\0\0com.magazinecloner.m"..., 99}], 3) = 114 <0.001466>
+17:02:51.150749 ioctl(8, BINDER_WRITE_READ, 0xfff8e688) = 0 <0.011543>
+17:02:51.162659 ioctl(8, BINDER_WRITE_READ, 0xfff8e688) = 0 <0.007444>
+17:02:51.175132 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000646>
+17:02:51.176160 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.002360>
+17:02:51.178675 futex(0xdbcec354, FUTEX_WAKE_PRIVATE, 1) = 1 <0.002694>
+17:02:51.182271 futex(0xdbcec358, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = -1 EAGAIN (Try again) <0.002589>
+17:02:51.184964 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000194>
+17:02:51.185285 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000136>
+17:02:51.185576 futex(0xdbcec354, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000129>
+17:02:51.185976 futex(0xdbcec358, FUTEX_WAIT_BITSET_PRIVATE, 4, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000128>
+17:02:51.186377 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000509>
+17:02:51.187404 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000193>
+17:02:51.192899 futex(0xdbcec354, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000345>
+17:02:51.194020 futex(0xdbcec358, FUTEX_WAIT_BITSET_PRIVATE, 8, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000709>
+17:02:51.195387 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.001122>
+17:02:51.197699 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.001376>
+17:02:51.199289 ioctl(8, BINDER_WRITE_READ, 0xfff8e708) = 0 <0.000144>
+17:02:51.199538 ioctl(8, BINDER_WRITE_READ, 0xfff8e708) = 0 <0.000046>
+17:02:51.201173 dup(38)                 = 40 <0.000030>
+17:02:51.201519 fcntl64(40, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.000024>
+17:02:51.201590 close(38)               = 0 <0.000024>
+17:02:51.201686 epoll_ctl(29, EPOLL_CTL_ADD, 40, {EPOLLIN, {u32=40, u64=40}}) = 0 <0.000029>
+17:02:51.201840 ioctl(8, BINDER_WRITE_READ, 0xfff8e8a8) = 0 <0.000080>
+17:02:51.201964 ioctl(8, BINDER_WRITE_READ, 0xfff8e8a8) = 0 <0.003461>
+17:02:51.205528 getuid32()              = 11806 <0.000029>
+17:02:51.205631 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, 0, NULL, 8) = 1 <0.000031>
+17:02:51.205732 recvfrom(35, "nysv\0\0\0\0(\372}\31\37\224\0\0\225\350\1\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000032>
+17:02:51.205841 recvfrom(35, 0xfff8e068, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000029>
+17:02:51.209360 openat(AT_FDCWD, "/dev/alarm", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.004833>
+17:02:51.214303 ioctl(-1, _IOC(_IOC_WRITE, 0x61, 0x34, 0x08), 0xfff8da60) = -1 EBADF (Bad file descriptor) <0.000248>
+17:02:51.214956 clock_gettime(CLOCK_BOOTTIME, {162861, 482357136}) = 0 <0.000299>
+17:02:51.215599 futex(0xdbc47138, FUTEX_WAKE, 1) = 1 <0.000396>
+17:02:51.216234 futex(0xdbc62f00, FUTEX_WAKE, 1) = 1 <0.000451>
+17:02:51.218079 futex(0xdbc5b590, FUTEX_WAKE, 1) = 1 <0.002401>
+17:02:51.221434 futex(0xdbc5b5b0, FUTEX_WAKE, 1) = 1 <0.000168>
+17:02:51.221924 futex(0xdbc5b590, FUTEX_WAKE, 1) = 1 <0.000185>
+17:02:51.223364 getuid32()              = 11806 <0.000667>
+17:02:51.226347 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000972>
+17:02:51.228136 openat(AT_FDCWD, "/dev/alarm", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.002706>
+17:02:51.231015 ioctl(-1, _IOC(_IOC_WRITE, 0x61, 0x34, 0x08), 0xfff8da60) = -1 EBADF (Bad file descriptor) <0.000223>
+17:02:51.231585 clock_gettime(CLOCK_BOOTTIME, {162861, 498996144}) = 0 <0.000278>
+17:02:51.232141 futex(0xdbc47138, FUTEX_WAKE, 1) = 1 <0.000315>
+17:02:51.232618 futex(0xdbc62f00, FUTEX_WAKE, 1) = 1 <0.001007>
+17:02:51.233900 futex(0xdbc5b590, FUTEX_WAKE, 1) = 1 <0.000163>
+17:02:51.234242 futex(0xdbc5b5b0, FUTEX_WAKE, 1) = 1 <0.000194>
+17:02:51.235055 futex(0xdbc5b590, FUTEX_WAKE, 1) = 1 <0.000113>
+17:02:51.235247 getuid32()              = 11806 <0.000039>
+17:02:51.235350 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000039>
+17:02:51.235527 openat(AT_FDCWD, "/dev/alarm", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000043>
+17:02:51.235636 ioctl(-1, _IOC(_IOC_WRITE, 0x61, 0x34, 0x08), 0xfff8d570) = -1 EBADF (Bad file descriptor) <0.000035>
+17:02:51.235729 clock_gettime(CLOCK_BOOTTIME, {162861, 503015803}) = 0 <0.000036>
+17:02:51.235964 futex(0xdbc46c88, FUTEX_WAKE, 1) = 1 <0.000105>
+17:02:51.236116 futex(0xdbc62750, FUTEX_WAKE, 1) = 0 <0.001443>
+17:02:51.237615 futex(0xdbc43b10, FUTEX_WAKE, 1) = 1 <0.000043>
+17:02:51.237706 futex(0xdbc43b30, FUTEX_WAKE, 1) = 1 <0.000034>
+17:02:51.237778 futex(0xdbc43b10, FUTEX_WAKE, 1) = 1 <0.000645>
+17:02:51.240041 futex(0xe5020a10, FUTEX_WAIT, 1, NULL) = 0 <0.005551>
+17:02:51.245799 futex(0xdbc43b90, FUTEX_WAKE, 1) = 1 <0.000229>
+17:02:51.246292 futex(0xdbc43b70, FUTEX_WAKE, 1) = 1 <0.000178>
+17:02:51.246793 ioctl(8, BINDER_WRITE_READ, 0xfff8df38) = 0 <0.000214>
+17:02:51.247202 ioctl(8, BINDER_WRITE_READ, 0xfff8df38) = 0 <0.002864>
+17:02:51.251154 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 38 <0.000154>
+17:02:51.251485 fstat64(38, {st_mode=0, st_size=1, ...}) = 0 <0.000109>
+17:02:51.252537 futex(0xe6748198, FUTEX_WAKE_PRIVATE, 1) = 1 <0.005025>
+17:02:51.260658 ioctl(38, ASHMEM_SET_NAME, 0xfff8d2b0) = 0 <0.001121>
+17:02:51.262500 ioctl(38, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000192>
+17:02:51.262958 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 38, 0) = 0xcbe26000 <0.000539>
+17:02:51.263663 close(38)               = 0 <0.000138>
+17:02:51.263936 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcab7b000 <0.000109>
+17:02:51.264170 madvise(0xcab7b000, 1069056, MADV_MERGEABLE) = 0 <0.000121>
+17:02:51.264413 mprotect(0xcab7b000, 4096, PROT_NONE) = 0 <0.000106>
+17:02:51.264640 prctl(0x53564d41 /* PR_??? */, 0, 0xcab7b000, 4096, "thread stack guard page") = 0 <0.000145>
+17:02:51.264925 clone(child_stack=0xcac7f910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcac7f928, tls={entry_number:12, base_addr:0xcac7f970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xfff8d600, child_tidptr=0xcac7f928) = 5802 <0.000171>
+17:02:51.265266 futex(0xcac7f960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000139>
+17:02:51.265612 getuid32()              = 11806 <0.000136>
+17:02:51.265945 writev(3, [{"\2z\26{\370\334Z{\310\330\17", 11}, {"Eu\0\0", 4}, {"\3\3\0\0\0\0\0\2B\0\0\0com.magazinecloner.m"..., 103}], 3) = 118 <0.000167>
+17:02:51.266574 ioctl(8, BINDER_WRITE_READ, 0xfff8e928) = 0 <0.000167>
+17:02:51.266923 ioctl(8, BINDER_WRITE_READ, 0xfff8e928) = 0 <0.031142>
+17:02:51.298247 getuid32()              = 11806 <0.000117>
+17:02:51.298510 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000107>
+17:02:51.298775 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000140>
+17:02:51.299063 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000124>
+17:02:51.299321 futex(0xdbcec174, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000126>
+17:02:51.299562 futex(0xdbcec178, FUTEX_WAIT_BITSET_PRIVATE, 12, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000093>
+17:02:51.299783 getuid32()              = 11806 <0.000092>
+17:02:51.299987 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000092>
+17:02:51.300222 recvfrom(41, 0xe5075a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000103>
+17:02:51.300452 recvfrom(40, 0xcbde6010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000094>
+17:02:51.300680 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000264>
+17:02:51.301284 recvfrom(35, 0xfff8d9c8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000111>
+17:02:51.301536 ioctl(8, BINDER_WRITE_READ, 0xfff8e0d8) = 0 <0.000134>
+17:02:51.303527 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000317>
+17:02:51.308857 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.002089>
+17:02:51.311165 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000155>
+17:02:51.312377 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.002841>
+17:02:51.326133 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000187>
+17:02:51.326488 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000160>
+17:02:51.326794 futex(0xdbcec174, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000164>
+17:02:51.327099 futex(0xdbcec178, FUTEX_WAIT_BITSET_PRIVATE, 16, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000119>
+17:02:51.327417 ioctl(8, BINDER_WRITE_READ, 0xfff8e628) = 0 <0.000191>
+17:02:51.327863 ioctl(8, BINDER_WRITE_READ, 0xfff8e628) = 0 <0.000848>
+17:02:51.329309 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000181>
+17:02:51.329977 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000485>
+17:02:51.333053 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000119>
+17:02:51.333338 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000119>
+17:02:51.333636 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000119>
+17:02:51.333922 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000114>
+17:02:51.334959 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000160>
+17:02:51.335257 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000166>
+17:02:51.335570 futex(0xdbcec354, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000153>
+17:02:51.335860 futex(0xdbcec358, FUTEX_WAIT_BITSET_PRIVATE, 12, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000114>
+17:02:51.336144 ioctl(8, BINDER_WRITE_READ, 0xfff8e628) = 0 <0.000191>
+17:02:51.336498 ioctl(8, BINDER_WRITE_READ, 0xfff8e628) = 0 <0.001064>
+17:02:51.338450 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000161>
+17:02:51.338773 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000173>
+17:02:51.339168 getuid32()              = 11806 <0.000130>
+17:02:51.339441 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=35, u64=35}}], 16, 0, NULL, 8) = 2 <0.000122>
+17:02:51.339717 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000122>
+17:02:51.339998 recvfrom(35, "nysv\0\0\0\0QWY*\37\224\0\0\231\350\1\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000126>
+17:02:51.340363 recvfrom(35, 0xfff8e068, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000121>
+17:02:51.340674 getuid32()              = 11806 <0.000216>
+17:02:51.341040 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0113266, st_size=1, ...}, 0) = 0 <0.000129>
+17:02:51.341324 fstatat64(AT_FDCWD, "/data/app/com.magazinecloner.rider-1/base.apk", {st_mode=0113266, st_size=1, ...}, 0) = 0 <0.000125>
+17:02:51.341733 getuid32()              = 11806 <0.000228>
+17:02:51.342236 ioctl(8, BINDER_WRITE_READ, 0xfff8d788) = 0 <0.000167>
+17:02:51.342549 ioctl(8, BINDER_WRITE_READ, 0xfff8d788) = 0 <0.000122>
+17:02:51.342842 getuid32()              = 11806 <0.000119>
+17:02:51.343119 ioctl(8, BINDER_WRITE_READ, 0xfff8d7d8) = 0 <0.000179>
+17:02:51.343683 ioctl(8, BINDER_WRITE_READ, 0xfff8d7d8) = 0 <0.000151>
+17:02:51.344006 ioctl(8, BINDER_WRITE_READ, 0xfff8e8f8) = 0 <0.000136>
+17:02:51.344307 getuid32()              = 11806 <0.000107>
+17:02:51.344544 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000106>
+17:02:51.344880 ioctl(8, BINDER_WRITE_READ, 0xfff8e918) = 0 <0.000197>
+17:02:51.345274 ioctl(8, BINDER_WRITE_READ, 0xfff8e918) = 0 <0.003661>
+17:02:51.349079 getuid32()              = 11806 <0.000106>
+17:02:51.349314 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000104>
+17:02:51.349594 ioctl(8, BINDER_WRITE_READ, 0xfff8e918) = 0 <0.000157>
+17:02:51.349914 getuid32()              = 11806 <0.000106>
+17:02:51.350146 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000182>
+17:02:51.350475 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000125>
+17:02:51.350727 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000139>
+17:02:51.350987 futex(0xdbcec354, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000132>
+17:02:51.351239 futex(0xdbcec358, FUTEX_WAIT_BITSET_PRIVATE, 16, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000109>
+17:02:51.351483 getuid32()              = 11806 <0.000100>
+17:02:51.351702 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000099>
+17:02:51.351984 openat(AT_FDCWD, "/dev/alarm", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000112>
+17:02:51.352220 ioctl(-1, _IOC(_IOC_WRITE, 0x61, 0x34, 0x08), 0xfff8e390) = -1 EBADF (Bad file descriptor) <0.000100>
+17:02:51.352442 clock_gettime(CLOCK_BOOTTIME, {162861, 619755844}) = 0 <0.000101>
+17:02:51.352677 getuid32()              = 11806 <0.000089>
+17:02:51.352961 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000119>
+17:02:51.353230 openat(AT_FDCWD, "/dev/alarm", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000108>
+17:02:51.353462 ioctl(-1, _IOC(_IOC_WRITE, 0x61, 0x34, 0x08), 0xfff8e390) = -1 EBADF (Bad file descriptor) <0.000099>
+17:02:51.353681 clock_gettime(CLOCK_BOOTTIME, {162861, 621019772}) = 0 <0.000146>
+17:02:51.353964 getuid32()              = 11806 <0.000099>
+17:02:51.354182 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000099>
+17:02:51.354425 ioctl(8, BINDER_WRITE_READ, 0xfff8e918) = 0 <0.000125>
+17:02:51.354695 getuid32()              = 11806 <0.000122>
+17:02:51.355043 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000101>
+17:02:51.355284 getuid32()              = 11806 <0.000102>
+17:02:51.355504 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000100>
+17:02:51.355727 getuid32()              = 11806 <0.000100>
+17:02:51.355941 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000093>
+17:02:51.356149 getuid32()              = 11806 <0.000092>
+17:02:51.356430 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000141>
+17:02:51.356725 recvfrom(41, 0xe5075a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000180>
+17:02:51.357044 recvfrom(40, 0xcbde6010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000101>
+17:02:51.357315 recvfrom(35, 0xfff8de38, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000100>
+17:02:51.357546 ioctl(8, BINDER_WRITE_READ, 0xfff8e548) = 0 <0.000138>
+17:02:51.358005 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000125>
+17:02:51.358264 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000688>
+17:02:51.359693 futex(0xdbcec174, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000856>
+17:02:51.365454 futex(0xdbcec178, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000135>
+17:02:51.365748 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000185>
+17:02:51.366104 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000632>
+17:02:51.367049 futex(0xdbcec174, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000123>
+17:02:51.367334 futex(0xdbcec178, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff) = 0 <0.001369>
+17:02:51.371709 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000117>
+17:02:51.372038 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000211>
+17:02:51.372399 futex(0xdbcec174, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000137>
+17:02:51.372720 futex(0xdbcec178, FUTEX_WAIT_BITSET_PRIVATE, 28, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000315>
+17:02:51.373752 ioctl(8, BINDER_WRITE_READ, 0xfff8e628) = 0 <0.012129>
+17:02:51.386504 ioctl(8, BINDER_WRITE_READ, 0xfff8e628) = 0 <0.000140>
+17:02:51.386951 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000145>
+17:02:51.387242 futex(0xdbcec358, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.030033>
+17:02:51.417802 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000142>
+17:02:51.418017 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000038>
+17:02:51.418096 futex(0xdbcec354, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000032>
+17:02:51.418165 futex(0xdbcec358, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000028>
+17:02:51.418274 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000043>
+17:02:51.418387 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000034>
+17:02:51.418458 futex(0xdbcec354, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000033>
+17:02:51.418527 futex(0xdbcec358, FUTEX_WAIT_BITSET_PRIVATE, 28, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000022>
+17:02:51.418632 ioctl(8, BINDER_WRITE_READ, 0xfff8e628) = 0 <0.000538>
+17:02:51.419213 ioctl(8, BINDER_WRITE_READ, 0xfff8e628) = 0 <0.000475>
+17:02:51.419790 getuid32()              = 11806 <0.000022>
+17:02:51.419856 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, 0, NULL, 8) = 1 <0.000026>
+17:02:51.419935 recvfrom(35, "nysv\0\0\0\00042U-\37\224\0\0\233\350\1\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000027>
+17:02:51.420008 recvfrom(35, 0xfff8e068, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000026>
+17:02:51.420116 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000035>
+17:02:51.420193 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000055>
+17:02:51.420290 getuid32()              = 11806 <0.000022>
+17:02:51.420351 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000022>
+17:02:51.420429 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000034>
+17:02:51.420503 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000032>
+17:02:51.420572 futex(0xdbcec174, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000032>
+17:02:51.420640 futex(0xdbcec178, FUTEX_WAIT_BITSET_PRIVATE, 32, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000022>
+17:02:51.420713 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000037>
+17:02:51.420897 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000034>
+17:02:51.420969 futex(0xdbcec174, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000134>
+17:02:51.421224 futex(0xdbcec178, FUTEX_WAIT_BITSET_PRIVATE, 36, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000480>
+17:02:51.421859 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000141>
+17:02:51.422139 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000096>
+17:02:51.422924 futex(0xdbcec354, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000136>
+17:02:51.423176 futex(0xdbcec358, FUTEX_WAIT_BITSET_PRIVATE, 32, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000098>
+17:02:51.423784 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000478>
+17:02:51.424381 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000125>
+17:02:51.424622 futex(0xdbcec354, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000264>
+17:02:51.425003 futex(0xdbcec358, FUTEX_WAIT_BITSET_PRIVATE, 36, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000099>
+17:02:51.425316 getuid32()              = 11806 <0.000102>
+17:02:51.425569 writev(3, [{"\2z\26{\370\334Z\252\304\\\31", 11}, {"au\0\0", 4}, {"\3\3\0\0\0\0\0\2B\0\0\0com.magazinecloner.m"..., 91}], 3) = 106 <0.000220>
+17:02:51.426134 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000138>
+17:02:51.426401 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000140>
+17:02:51.426854 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000141>
+17:02:51.427122 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000129>
+17:02:51.427374 futex(0xdbcec354, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000141>
+17:02:51.427636 futex(0xdbcec358, FUTEX_WAIT_BITSET_PRIVATE, 40, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000102>
+17:02:51.427881 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000130>
+17:02:51.428136 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000141>
+17:02:51.428398 futex(0xdbcec354, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000128>
+17:02:51.428646 futex(0xdbcec358, FUTEX_WAIT_BITSET_PRIVATE, 44, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000179>
+17:02:51.428949 epoll_ctl(29, EPOLL_CTL_DEL, 40, NULL) = 0 <0.000103>
+17:02:51.429198 ioctl(8, BINDER_WRITE_READ, 0xfff8e768) = 0 <0.000155>
+17:02:51.429537 ioctl(8, BINDER_WRITE_READ, 0xfff8e768) = 0 <0.000665>
+17:02:51.430345 close(40)               = 0 <0.000108>
+17:02:51.430946 writev(3, [{"\0z\26{\370\334Z\235\306\256\31", 11}, {"\6", 1}, {"WindowManager\0", 14}, {"\nandroid.view.WindowLeaked: Acti"..., 1803}], 4) = 1829 <0.000112>
+17:02:51.431629 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000216>
+17:02:51.431976 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000201>
+17:02:51.432312 futex(0xdbcec174, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000141>
+17:02:51.432689 futex(0xdbcec178, FUTEX_WAIT_BITSET_PRIVATE, 40, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000026>
+17:02:51.433010 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000045>
+17:02:51.433107 futex(0xcbdfc0e8, FUTEX_WAKE_PRIVATE, 1) = 0 <0.000024>
+17:02:51.433171 futex(0xdbcec174, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000041>
+17:02:51.433253 futex(0xdbcec178, FUTEX_WAIT_BITSET_PRIVATE, 44, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000024>
+17:02:51.433369 ioctl(8, BINDER_WRITE_READ, 0xfff8e908) = 0 <0.000048>
+17:02:51.433469 getuid32()              = 11806 <0.000024>
+17:02:51.433536 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000026>
+17:02:51.433636 getuid32()              = 11806 <0.000026>
+17:02:51.433707 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000024>
+17:02:51.433973 mprotect(0x74312000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000033>
+17:02:51.434206 mprotect(0x74313000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000029>
+17:02:51.435241 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 38 <0.000115>
+17:02:51.435410 fstat64(38, {st_mode=S_IFSOCK|S_ISGID|0230, st_size=1, ...}) = 0 <0.000025>
+17:02:51.435485 ioctl(38, ASHMEM_SET_NAME, 0xfff8c400) = 0 <0.000025>
+17:02:51.435550 ioctl(38, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x20000) = 0 <0.000025>
+17:02:51.435617 mmap2(NULL, 131072, PROT_READ|PROT_WRITE, MAP_PRIVATE, 38, 0) = 0xcab5b000 <0.000036>
+17:02:51.435702 close(38)               = 0 <0.000026>
+17:02:51.436760 getuid32()              = 11806 <0.000034>
+17:02:51.436958 epoll_pwait(29, [{EPOLLIN|EPOLLHUP, {u32=41, u64=41}}], 16, 0, NULL, 8) = 1 <0.000026>
+17:02:51.437036 epoll_ctl(29, EPOLL_CTL_DEL, 41, NULL) = 0 <0.000026>
+17:02:51.437140 getuid32()              = 11806 <0.000023>
+17:02:51.437206 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000024>
+17:02:51.437368 ioctl(8, BINDER_WRITE_READ, 0xfff8e908) = 0 <0.000069>
+17:02:51.437481 ioctl(8, BINDER_WRITE_READ, 0xfff8e908) = 0 <0.000223>
+17:02:51.437755 close(41)               = 0 <0.000046>
+17:02:51.437854 getuid32()              = 11806 <0.000067>
+17:02:51.437967 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000024>
+17:02:51.438042 getuid32()              = 11806 <0.000024>
+17:02:51.438107 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000024>
+17:02:51.438183 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000023>
+17:02:51.438313 ioctl(8, BINDER_WRITE_READ, 0xfff8eb88) = 0 <0.000031>
+17:02:51.438392 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 1464, NULL, 8) = 1 <0.140072>
+17:02:51.578542 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000034>
+17:02:51.578648 getuid32()              = 11806 <0.000031>
+17:02:51.578739 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0165270, st_size=1, ...}, 0) = 0 <0.000048>
+17:02:51.578855 fstatat64(AT_FDCWD, "/data/app/com.magazinecloner.rider-1/base.apk", {st_mode=0165270, st_size=1, ...}, 0) = 0 <0.000041>
+17:02:51.579198 ioctl(8, BINDER_WRITE_READ, 0xfff8e798) = 0 <0.000084>
+17:02:51.579354 ioctl(8, BINDER_WRITE_READ, 0xfff8e798) = 0 <0.000034>
+17:02:51.579456 getuid32()              = 11806 <0.000030>
+17:02:51.579560 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0132000, st_size=1, ...}, 0) = 0 <0.000035>
+17:02:51.579656 fstatat64(AT_FDCWD, "/data/app/com.magazinecloner.rider-1/base.apk", {st_mode=0132000, st_size=1, ...}, 0) = 0 <0.000034>
+17:02:51.579818 getuid32()              = 11806 <0.000030>
+17:02:51.579902 getuid32()              = 11806 <0.000030>
+17:02:51.579985 fstat64(31, {st_mode=021, st_size=1, ...}) = 0 <0.000031>
+17:02:51.580071 ioctl(31, ASHMEM_GET_SIZE, 0) = 84 <0.000031>
+17:02:51.580158 fstat64(31, {st_mode=0, st_size=1, ...}) = 0 <0.000031>
+17:02:51.580243 ioctl(31, ASHMEM_PIN, 0xfff8e770) = 0 <0.000033>
+17:02:51.580362 ioctl(8, BINDER_WRITE_READ, 0xfff8e6f8) = 0 <0.000062>
+17:02:51.580480 ioctl(8, BINDER_WRITE_READ, 0xfff8e6f8) = 0 <0.000033>
+17:02:51.580676 ioctl(8, BINDER_WRITE_READ, 0xfff8e6f8) = 0 <0.004242>
+17:02:51.584973 ioctl(8, BINDER_WRITE_READ, 0xfff8e6f8) = 0 <0.000431>
+17:02:51.585626 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27975372) = 30 <0.000029>
+17:02:51.585707 pread64(23, "res/interpolator/linear_out_slow"..., 39, 27975402) = 39 <0.000026>
+17:02:51.585801 mmap2(NULL, 4069, PROT_READ, MAP_SHARED, 23, 0x1aad000) = 0xd7f07000 <0.000046>
+17:02:51.585951 munmap(0xd7f07000, 4069) = 0 <0.000070>
+17:02:51.586143 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27970871) = 30 <0.000027>
+17:02:51.586217 pread64(23, "res/interpolator/fast_out_linear"..., 39, 27970901) = 39 <0.000025>
+17:02:51.586307 mmap2(NULL, 3665, PROT_READ, MAP_SHARED, 23, 0x1aac000) = 0xd7f07000 <0.000029>
+17:02:51.586402 munmap(0xd7f07000, 3665) = 0 <0.000096>
+17:02:51.591822 ioctl(8, BINDER_WRITE_READ, 0xfff8d748) = 0 <0.000294>
+17:02:51.592373 ioctl(8, BINDER_WRITE_READ, 0xfff8d748) = 0 <0.000123>
+17:02:51.592692 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\34\0\0\0", 30, 28111428) = 30 <0.000498>
+17:02:51.593515 pread64(23, "res/layout/screen_simple.xml", 28, 28111458) = 28 <0.000147>
+17:02:51.593815 mmap2(NULL, 1094, PROT_READ, MAP_SHARED, 23, 0x1acf000) = 0xd7f07000 <0.000124>
+17:02:51.594254 munmap(0xd7f07000, 1094) = 0 <0.000310>
+17:02:51.595553 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\27\0\0\0", 30, 28246010) = 30 <0.000702>
+17:02:51.596542 pread64(23, "res/transition/fade.xml", 23, 28246040) = 23 <0.000109>
+17:02:51.596921 mmap2(NULL, 170, PROT_READ, MAP_SHARED, 23, 0x1af0000) = 0xd7f07000 <0.000137>
+17:02:51.597275 munmap(0xd7f07000, 170) = 0 <0.000198>
+17:02:51.597725 futex(0xe91861d0, FUTEX_WAKE, 1) = 1 <0.000150>
+17:02:51.598018 futex(0xe91861b0, FUTEX_WAKE, 1) = 1 <0.000164>
+17:02:51.598454 pread64(30, "PK\3\4\24\0\10\10\10\0\1(SH\6\5\2734e\0\0\0\314\0\0\0\36\0\0\0", 30, 3704953) = 30 <0.000135>
+17:02:51.598746 pread64(30, "res/transition/popup_issue.xml", 30, 3704983) = 30 <0.000121>
+17:02:51.599021 mmap2(NULL, 2330, PROT_READ, MAP_SHARED, 30, 0x388000) = 0xd7f07000 <0.000126>
+17:02:51.599324 munmap(0xd7f07000, 2330) = 0 <0.000125>
+17:02:51.599709 ioctl(8, BINDER_WRITE_READ, 0xfff8d238) = 0 <0.001281>
+17:02:51.601387 ioctl(8, BINDER_WRITE_READ, 0xfff8d238) = 0 <0.000745>
+17:02:51.602465 faccessat(AT_FDCWD, "/data/user/0/com.magazinecloner.rider", F_OK) = 0 <0.000137>
+17:02:51.602777 faccessat(AT_FDCWD, "/data/user/0/com.magazinecloner.rider/shared_prefs", F_OK) = 0 <0.000116>
+17:02:51.603183 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 38 <0.000189>
+17:02:51.603502 fstat64(38, {st_mode=0154360, st_size=1, ...}) = 0 <0.000111>
+17:02:51.603770 ioctl(38, ASHMEM_SET_NAME, 0xfff8d920) = 0 <0.000118>
+17:02:51.604011 ioctl(38, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000116>
+17:02:51.604261 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 38, 0) = 0xcc576000 <0.000129>
+17:02:51.604586 close(38)               = 0 <0.000109>
+17:02:51.604910 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcaa56000 <0.000107>
+17:02:51.605140 madvise(0xcaa56000, 1069056, MADV_MERGEABLE) = 0 <0.000101>
+17:02:51.605372 mprotect(0xcaa56000, 4096, PROT_NONE) = 0 <0.000103>
+17:02:51.605592 prctl(0x53564d41 /* PR_??? */, 0, 0xcaa56000, 4096, "thread stack guard page") = 0 <0.000100>
+17:02:51.605837 clone(child_stack=0xcab5a910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcab5a928, tls={entry_number:12, base_addr:0xcab5a970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xfff8dc70, child_tidptr=0xcab5a928) = 5812 <0.000140>
+17:02:51.606116 futex(0xcab5a960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000118>
+17:02:51.606572 pread64(30, "PK\3\4\24\0\10\10\10\0\1(SH\362\355\20\243\226\1\0\0<\3\0\0004\0\0\0", 30, 3524414) = 30 <0.000174>
+17:02:51.606911 pread64(30, "res/layout/abc_screen_simple_ove"..., 52, 3524444) = 52 <0.000105>
+17:02:51.607179 mmap2(NULL, 2342, PROT_READ, MAP_SHARED, 30, 0x35c000) = 0xd7f07000 <0.000107>
+17:02:51.607459 munmap(0xd7f07000, 2342) = 0 <0.000174>
+17:02:51.608019 pread64(30, "PK\3\4\24\0\10\10\10\0\1(SH\332\256\265+*\1\0\0,\2\0\0)\0\0\0", 30, 3523527) = 30 <0.000265>
+17:02:51.608427 pread64(30, "res/layout/abc_screen_content_in"..., 41, 3523557) = 41 <0.000037>
+17:02:51.608524 mmap2(NULL, 1336, PROT_READ, MAP_SHARED, 30, 0x35c000) = 0xd7f07000 <0.000029>
+17:02:51.608628 munmap(0xd7f07000, 1336) = 0 <0.000068>
+17:02:51.609405 pread64(30, "PK\3\4\24\0\10\10\10\0\1(SHWX%'\266\1\0\0\344\3\0\0(\0\0\0", 30, 3530341) = 30 <0.000032>
+17:02:51.609496 pread64(30, "res/layout/activity_homepage_bra"..., 40, 3530371) = 40 <0.000030>
+17:02:51.609580 mmap2(NULL, 4193, PROT_READ, MAP_SHARED, 30, 0x35d000) = 0xcc576000 <0.000034>
+17:02:51.609695 munmap(0xcc576000, 4193) = 0 <0.000077>
+17:02:51.610009 futex(0xe505a500, FUTEX_WAKE, 1) = 1 <0.000044>
+17:02:51.610101 futex(0xe505a4e0, FUTEX_WAKE, 1) = 1 <0.000041>
+17:02:51.610390 pread64(30, "PK\3\4\24\0\10\10\10\0\1(SH\237m\334p}\1\0\0\f\3\0\0\37\0\0\0", 30, 3620098) = 30 <0.000036>
+17:02:51.610487 pread64(30, "res/layout/toolbar_coloured.xml", 31, 3620128) = 31 <0.000034>
+17:02:51.610581 mmap2(NULL, 3772, PROT_READ, MAP_SHARED, 30, 0x373000) = 0xd7f07000 <0.000045>
+17:02:51.610711 munmap(0xd7f07000, 3772) = 0 <0.000073>
+17:02:51.611508 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0%\0\0\0", 30, 28246640) = 30 <0.000022>
+17:02:51.611570 pread64(23, "res/transition/popup_window_ente"..., 37, 28246670) = 37 <0.000019>
+17:02:51.611624 mmap2(NULL, 1030, PROT_READ, MAP_SHARED, 23, 0x1af0000) = 0xd7f07000 <0.000022>
+17:02:51.611704 munmap(0xd7f07000, 1030) = 0 <0.000072>
+17:02:51.611907 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0$\0\0\0", 30, 28247062) = 30 <0.000020>
+17:02:51.611964 pread64(23, "res/transition/popup_window_exit"..., 36, 28247092) = 36 <0.000019>
+17:02:51.612018 mmap2(NULL, 1273, PROT_READ, MAP_SHARED, 23, 0x1af0000) = 0xd7f07000 <0.000022>
+17:02:51.612090 munmap(0xd7f07000, 1273) = 0 <0.000023>
+17:02:51.612337 pread64(30, "PK\3\4\24\0\10\10\10\0\1(SHP\24\10\211\371\3\0\0|\v\0\0(\0\0\0", 30, 3585714) = 30 <0.000023>
+17:02:51.612398 pread64(30, "res/layout/navigation_drawer_bra"..., 40, 3585744) = 40 <0.000019>
+17:02:51.612452 mmap2(NULL, 2801, PROT_READ, MAP_SHARED, 30, 0x36b000) = 0xd7f07000 <0.000022>
+17:02:51.612539 munmap(0xd7f07000, 2801) = 0 <0.000023>
+17:02:51.613012 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27740333) = 30 <0.000021>
+17:02:51.613071 pread64(23, "res/color/highlighted_text_mater"..., 39, 27740363) = 39 <0.000019>
+17:02:51.613125 mmap2(NULL, 2500, PROT_READ, MAP_SHARED, 23, 0x1a74000) = 0xd7f07000 <0.000022>
+17:02:51.613199 munmap(0xd7f07000, 2500) = 0 <0.000024>
+17:02:51.614044 pread64(30, "PK\3\4\24\0\10\10\10\0\1(SH\260\344\373\6n\1\0\0T\4\0\0001\0\0\0", 30, 3577268) = 30 <0.000020>
+17:02:51.614101 pread64(30, "res/layout/include_navigation_dr"..., 49, 3577298) = 49 <0.000018>
+17:02:51.614153 mmap2(NULL, 1905, PROT_READ, MAP_SHARED, 30, 0x369000) = 0xd7f07000 <0.000020>
+17:02:51.614227 munmap(0xd7f07000, 1905) = 0 <0.000023>
+17:02:51.614814 futex(0xe505a500, FUTEX_WAKE, 1) = 1 <0.000036>
+17:02:51.614885 futex(0xe505a4e0, FUTEX_WAKE, 1) = 0 <0.000019>
+17:02:51.615625 pread64(30, "PK\3\4\n\0\0\10\0\0n'SH\207\354\34<\240O\0\0\240O\0\0005\0\0\0", 30, 2694481) = 30 <0.000020>
+17:02:51.615682 pread64(30, "res/drawable-nodpi-v4/powered_by"..., 53, 2694511) = 53 <0.000018>
+17:02:51.615733 mmap2(NULL, 23876, PROT_READ, MAP_SHARED, 30, 0x291000) = 0xcc448000 <0.000037>
+17:02:51.615829 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000017>
+17:02:51.615886 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000017>
+17:02:51.615961 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 38 <0.000027>
+17:02:51.616023 fstat64(38, {st_mode=0, st_size=1, ...}) = 0 <0.000018>
+17:02:51.616079 ioctl(38, ASHMEM_SET_NAME, 0xfff8a1e0) = 0 <0.000017>
+17:02:51.616126 ioctl(38, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2f000) = 0 <0.000016>
+17:02:51.616173 mmap2(NULL, 192512, PROT_READ|PROT_WRITE, MAP_PRIVATE, 38, 0) = 0xcab2c000 <0.000025>
+17:02:51.616233 close(38)               = 0 <0.000038>
+17:02:51.616318 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000017>
+17:02:51.616376 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000017>
+17:02:51.618008 munmap(0xcc448000, 23876) = 0 <0.000069>
+17:02:51.618254 pread64(30, "PK\3\4\n\0\0\10\0\0m'SH\235\257\361#\360\0\0\0\360\0\0\0008\0\1\0", 30, 3438125) = 30 <0.000019>
+17:02:51.618309 pread64(30, "res/drawable-xxxhdpi-v4/abc_ic_a"..., 56, 3438155) = 56 <0.000019>
+17:02:51.618366 mmap2(NULL, 1908, PROT_READ, MAP_SHARED, 30, 0x347000) = 0xd7f07000 <0.000020>
+17:02:51.618435 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000017>
+17:02:51.618489 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000016>
+17:02:51.618552 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000017>
+17:02:51.618608 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000017>
+17:02:51.618744 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 38 <0.000036>
+17:02:51.618859 fstat64(38, {st_mode=S_IFBLK|0544, st_rdev=makedev(33, 182), ...}) = 0 <0.000028>
+17:02:51.618933 ioctl(38, ASHMEM_SET_NAME, 0xfff8a280) = 0 <0.000018>
+17:02:51.618979 ioctl(38, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x7000) = 0 <0.000017>
+17:02:51.619027 mmap2(NULL, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE, 38, 0) = 0xcc447000 <0.000022>
+17:02:51.619084 close(38)               = 0 <0.000018>
+17:02:51.619238 munmap(0xd7f07000, 1908) = 0 <0.000023>
+17:02:51.619749 pread64(30, "PK\3\4\n\0\0\10\0\0n'SH\237\237:\226\347\0\0\0\347\0\0\0)\0\3\0", 30, 2995006) = 30 <0.000020>
+17:02:51.619805 pread64(30, "res/drawable-xhdpi-v4/drawer_sha"..., 41, 2995036) = 41 <0.000035>
+17:02:51.619876 mmap2(NULL, 1135, PROT_READ, MAP_SHARED, 30, 0x2db000) = 0xd7f07000 <0.000020>
+17:02:51.619946 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000017>
+17:02:51.620000 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000016>
+17:02:51.620064 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000025>
+17:02:51.620143 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000024>
+17:02:51.620274 mprotect(0x74314000, 12288, PROT_READ|PROT_WRITE) = 0 <0.000051>
+17:02:51.620457 munmap(0xd7f07000, 1135) = 0 <0.000031>
+17:02:51.620972 futex(0xdbc47688, FUTEX_WAKE, 1) = 1 <0.000044>
+17:02:51.621060 futex(0xdbc63620, FUTEX_WAKE, 1) = 0 <0.000024>
+17:02:51.621122 futex(0xe9185a30, FUTEX_WAKE, 1) = 1 <0.000039>
+17:02:51.621200 futex(0xe9185a30, FUTEX_WAKE, 1) = 0 <0.000026>
+17:02:51.621600 futex(0xdbc477e8, FUTEX_WAKE, 1) = 1 <0.000044>
+17:02:51.621685 futex(0xdbc63800, FUTEX_WAKE, 1) = 0 <0.000023>
+17:02:51.621746 futex(0xe9185bb0, FUTEX_WAKE, 1) = 1 <0.000043>
+17:02:51.621848 futex(0xe9185bb0, FUTEX_WAKE, 1) = 0 <0.000025>
+17:02:51.622172 futex(0xdbc47898, FUTEX_WAKE, 1) = 1 <0.000047>
+17:02:51.622278 futex(0xdbc63980, FUTEX_WAKE, 1) = 1 <0.000044>
+17:02:51.622391 futex(0xe9185d30, FUTEX_WAKE, 1) = 1 <0.000044>
+17:02:51.622479 futex(0xe9185d50, FUTEX_WAKE, 1) = 1 <0.000043>
+17:02:51.622563 futex(0xe9185d30, FUTEX_WAKE, 1) = 1 <0.000043>
+17:02:51.622719 ioctl(8, BINDER_WRITE_READ, 0xfff8cfa8) = 0 <0.000158>
+17:02:51.622941 ioctl(8, BINDER_WRITE_READ, 0xfff8d348) = 0 <0.000233>
+17:02:51.623217 ioctl(8, BINDER_WRITE_READ, 0xfff8d348) = 0 <0.000147>
+17:02:51.623713 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27975372) = 30 <0.000171>
+17:02:51.624055 pread64(23, "res/interpolator/linear_out_slow"..., 39, 27975402) = 39 <0.000125>
+17:02:51.624390 mmap2(NULL, 4069, PROT_READ, MAP_SHARED, 23, 0x1aad000) = 0xd7f07000 <0.000136>
+17:02:51.624723 munmap(0xd7f07000, 4069) = 0 <0.000407>
+17:02:51.625669 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27970871) = 30 <0.000149>
+17:02:51.625974 pread64(23, "res/interpolator/fast_out_linear"..., 39, 27970901) = 39 <0.000106>
+17:02:51.626264 mmap2(NULL, 3665, PROT_READ, MAP_SHARED, 23, 0x1aac000) = 0xd7f07000 <0.000147>
+17:02:51.626579 munmap(0xd7f07000, 3665) = 0 <0.000202>
+17:02:51.627068 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0000\0\0\0", 30, 28111958) = 30 <0.000118>
+17:02:51.627338 pread64(23, "res/layout/screen_simple_overlay"..., 48, 28111988) = 48 <0.000128>
+17:02:51.627606 mmap2(NULL, 1610, PROT_READ, MAP_SHARED, 23, 0x1acf000) = 0xd7f07000 <0.000121>
+17:02:51.627903 munmap(0xd7f07000, 1610) = 0 <0.000209>
+17:02:51.628580 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\27\0\0\0", 30, 28246010) = 30 <0.000122>
+17:02:51.628922 pread64(23, "res/transition/fade.xml", 23, 28246040) = 23 <0.000114>
+17:02:51.629196 mmap2(NULL, 170, PROT_READ, MAP_SHARED, 23, 0x1af0000) = 0xd7f07000 <0.000124>
+17:02:51.629482 munmap(0xd7f07000, 170) = 0 <0.000157>
+17:02:51.629846 pread64(30, "PK\3\4\24\0\10\10\10\0\1(SH\6\5\2734e\0\0\0\314\0\0\0\36\0\0\0", 30, 3704953) = 30 <0.000108>
+17:02:51.630101 pread64(30, "res/transition/popup_issue.xml", 30, 3704983) = 30 <0.000138>
+17:02:51.630398 mmap2(NULL, 2330, PROT_READ, MAP_SHARED, 30, 0x388000) = 0xd7f07000 <0.000138>
+17:02:51.630699 munmap(0xd7f07000, 2330) = 0 <0.000269>
+17:02:51.631228 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0$\0\0\0", 30, 28003276) = 30 <0.000137>
+17:02:51.631502 pread64(23, "res/layout/alert_dialog_material"..., 36, 28003306) = 36 <0.000123>
+17:02:51.631790 mmap2(NULL, 3806, PROT_READ, MAP_SHARED, 23, 0x1ab4000) = 0xd7f07000 <0.000123>
+17:02:51.632111 munmap(0xd7f07000, 3806) = 0 <0.000263>
+17:02:51.632955 ????( <unfinished ...>
+17:02:51.658472 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 70.62    0.065655         853        77         6 ioctl
+  9.68    0.008998          83       108        19 futex
+  7.21    0.006706         610        11         6 openat
+  5.52    0.005128         855         6           clock_gettime
+  4.30    0.004000         154        26           epoll_pwait
+  1.59    0.001479          40        37           getuid32
+  0.55    0.000509          19        27           write
+  0.25    0.000232           5        46           pread64
+  0.15    0.000138          17         8           close
+  0.13    0.000124           4        30           mmap2
+  0.00    0.000000           0         1           dup
+  0.00    0.000000           0        23           munmap
+  0.00    0.000000           0         2           clone
+  0.00    0.000000           0         5           mprotect
+  0.00    0.000000           0         4           writev
+  0.00    0.000000           0         2           prctl
+  0.00    0.000000           0        20           rt_sigprocmask
+  0.00    0.000000           0         7           fstat64
+  0.00    0.000000           0         2           madvise
+  0.00    0.000000           0         1           fcntl64
+  0.00    0.000000           0         3           epoll_ctl
+  0.00    0.000000           0         6           fstatat64
+  0.00    0.000000           0         2           faccessat
+  0.00    0.000000           0        12         9 recvfrom
+  0.00    0.000000           0         2           read
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.092969                   468        40 total

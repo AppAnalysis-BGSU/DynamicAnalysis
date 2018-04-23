@@ -1,0 +1,973 @@
+20:02:22.675345 ioctl(8, BINDER_WRITE_READ, 0xffc06d28) = 0 <0.088646>
+20:02:22.764632 getuid32()              = 11582 <0.001177>
+20:02:22.772128 getuid32()              = 11582 <0.000126>
+20:02:22.772484 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000144>
+20:02:22.772917 getuid32()              = 11582 <0.000121>
+20:02:22.773190 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000113>
+20:02:22.773475 openat(AT_FDCWD, "/dev/alarm", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.001933>
+20:02:22.775569 ioctl(-1, _IOC(_IOC_WRITE, 0x61, 0x34, 0x08), 0xffc06d10) = -1 EBADF (Bad file descriptor) <0.005888>
+20:02:22.785690 clock_gettime(CLOCK_BOOTTIME, {834, 359649241}) = 0 <0.000142>
+20:02:22.786039 prctl(PR_SET_NAME, "ok.lakhforwhy01\0") = 0 <0.000156>
+20:02:22.786341 openat(AT_FDCWD, "/sys/qemu_trace/process_name", O_RDWR|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000134>
+20:02:22.786634 getuid32()              = 11582 <0.000117>
+20:02:22.787185 openat(AT_FDCWD, "/sys/devices/system/cpu", O_RDONLY|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 30 <0.000126>
+20:02:22.787450 getdents64(30, /* 21 entries */, 4140) = 600 <0.000109>
+20:02:22.787702 getdents64(30, /* 0 entries */, 4140) = 0 <0.000105>
+20:02:22.787942 close(30)               = 0 <0.000105>
+20:02:22.788506 ioctl(8, BINDER_WRITE_READ, 0xffc06918) = 0 <0.000136>
+20:02:22.788779 ioctl(8, BINDER_WRITE_READ, 0xffc06918) = 0 <0.000126>
+20:02:22.789111 ioctl(8, BINDER_WRITE_READ, 0xffc068f8) = 0 <0.000130>
+20:02:22.789368 ioctl(8, BINDER_WRITE_READ, 0xffc068f8) = 0 <0.000096>
+20:02:22.789663 ioctl(8, BINDER_WRITE_READ, 0xffc068b8) = 0 <0.000173>
+20:02:22.789977 ioctl(8, BINDER_WRITE_READ, 0xffc068b8) = 0 <0.000357>
+20:02:22.790690 ioctl(8, BINDER_WRITE_READ, 0xffc06948) = 0 <0.008483>
+20:02:22.799332 ioctl(8, BINDER_WRITE_READ, 0xffc06948) = 0 <0.000141>
+20:02:22.800833 getuid32()              = 11582 <0.000375>
+20:02:22.801525 getuid32()              = 11582 <0.000341>
+20:02:22.802122 openat(AT_FDCWD, "/proc/self/cmdline", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 30 <0.006191>
+20:02:22.808613 fstat64(30, {st_mode=0152310, st_size=1, ...}) = 0 <0.000128>
+20:02:22.808927 read(30, "com.nd.android.abook.lakhforwhy0"..., 1024) = 76 <0.000437>
+20:02:22.809570 read(30, "", 1024)      = 0 <0.000214>
+20:02:22.811474 close(30)               = 0 <0.000252>
+20:02:22.811877 ioctl(8, BINDER_WRITE_READ, 0xffc06ac8) = 0 <0.000182>
+20:02:22.812276 ioctl(8, BINDER_WRITE_READ, 0xffc06ac8) = 0 <0.000196>
+20:02:22.812684 ioctl(8, BINDER_WRITE_READ, 0xffc06af8) = 0 <0.000854>
+20:02:22.813686 ioctl(8, BINDER_WRITE_READ, 0xffc06af8) = 0 <0.000136>
+20:02:22.814030 getuid32()              = 11582 <0.004544>
+20:02:22.818905 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/base.apk", {st_mode=0165264, st_size=1, ...}, 0) = 0 <0.000146>
+20:02:22.819305 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/base.apk", {st_mode=0165264, st_size=1, ...}, 0) = 0 <0.000214>
+20:02:22.819826 fstatat64(AT_FDCWD, "/data", {st_mode=S_IFLNK|S_ISGID|0220, st_size=34, ...}, 0) = 0 <0.000192>
+20:02:22.826071 fstatat64(AT_FDCWD, "/data/dalvik-cache/", {st_mode=02, st_size=3, ...}, 0) = 0 <0.000139>
+20:02:22.826451 openat(AT_FDCWD, "/data/dalvik-cache/x86/data@app@com.nd.android.abook.lakhforwhy01-1@base.apk@classes.dex.flock", O_RDWR|O_CREAT|O_LARGEFILE, 0666) = -1 EACCES (Permission denied) <0.000148>
+20:02:22.826849 unlinkat(AT_FDCWD, "/data/dalvik-cache/x86/data@app@com.nd.android.abook.lakhforwhy01-1@base.apk@classes.dex.flock", 0) = -1 ENOENT (No such file or directory) <0.000167>
+20:02:22.827321 fstatat64(AT_FDCWD, "/data/dalvik-cache/x86/data@app@com.nd.android.abook.lakhforwhy01-1@base.apk@classes.dex", 0xffc06250, 0) = -1 ENOENT (No such file or directory) <0.000336>
+20:02:22.828337 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/oat/x86/base.odex", {st_mode=0, st_size=1, ...}, 0) = 0 <0.003183>
+20:02:22.831679 fstatat64(AT_FDCWD, "/data", {st_mode=S_IFREG|S_ISUID|0720, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000044>
+20:02:22.832244 fstatat64(AT_FDCWD, "/data/app", {st_mode=S_IFREG|S_ISUID|0720, st_size=17, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000223>
+20:02:22.832956 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1", {st_mode=S_IFREG|S_ISUID|0720, st_size=4, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000170>
+20:02:22.833839 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/oat", {st_mode=S_IFREG|S_ISUID|0720, st_size=3, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.005291>
+20:02:22.839455 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/oat/x86", {st_mode=S_IFREG|S_ISUID|0720, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000196>
+20:02:22.839957 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/oat/x86/base.odex", {st_mode=S_IFREG|S_ISUID|0720, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000162>
+20:02:22.840434 mprotect(0xe0282000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000241>
+20:02:22.840810 mprotect(0xed751000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000106>
+20:02:22.841251 mprotect(0xed9bb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000053>
+20:02:22.841360 mprotect(0xed9bc000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000067>
+20:02:22.841525 mprotect(0xeda26000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000060>
+20:02:22.841639 mprotect(0xed56e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000042>
+20:02:22.841756 mprotect(0xed5bb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000138>
+20:02:22.842060 mprotect(0xed616000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000209>
+20:02:22.842434 mprotect(0xed668000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000109>
+20:02:22.842725 mprotect(0xed6f3000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000493>
+20:02:22.843592 mprotect(0xed739000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000269>
+20:02:22.844075 mprotect(0xed84a000, 4096, PROT_READ|PROT_WRITE) = 0 <0.001171>
+20:02:22.849907 mprotect(0xed894000, 4096, PROT_READ|PROT_WRITE) = 0 <0.001876>
+20:02:22.854029 mprotect(0xed9b3000, 4096, PROT_READ|PROT_WRITE) = 0 <0.001273>
+20:02:22.855832 mprotect(0xed9fb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000952>
+20:02:22.857961 mprotect(0xedab9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.005558>
+20:02:22.863798 mprotect(0xe0239000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000177>
+20:02:22.864424 mprotect(0xed9b5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000197>
+20:02:22.864828 mprotect(0xe9353000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000368>
+20:02:22.865720 mprotect(0xed57b000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000205>
+20:02:22.866082 mprotect(0xed5bc000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000211>
+20:02:22.866491 mprotect(0xed61d000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000127>
+20:02:22.866804 mprotect(0xed637000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000759>
+20:02:22.874197 mprotect(0xed68e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000202>
+20:02:22.874657 mprotect(0xedabb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000184>
+20:02:22.875122 openat(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/oat/x86/base.odex", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 30 <0.000179>
+20:02:22.875586 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc1ca000 <0.000209>
+20:02:22.875963 madvise(0xdc1ca000, 8192, MADV_MERGEABLE) = 0 <0.000182>
+20:02:22.876385 prctl(0x53564d41 /* PR_??? */, 0, 0xdc1ca000, 8192, "linker_alloc_lob") = 0 <0.000183>
+20:02:22.876789 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc1c8000 <0.000154>
+20:02:22.877193 madvise(0xdc1c8000, 8192, MADV_MERGEABLE) = 0 <0.000156>
+20:02:22.877506 prctl(0x53564d41 /* PR_??? */, 0, 0xdc1c8000, 8192, "linker_alloc_lob") = 0 <0.000107>
+20:02:22.877806 readlinkat(AT_FDCWD, "/proc/self/fd/30", "/data/app/com.nd.android.abook.l"..., 4096) = 63 <0.000404>
+20:02:22.878460 munmap(0xdc1c8000, 8192) = 0 <0.000127>
+20:02:22.878719 munmap(0xdc1ca000, 8192) = 0 <0.000192>
+20:02:22.879009 fstat64(30, {st_mode=054720, st_size=1, ...}) = 0 <0.000041>
+20:02:22.879114 openat(AT_FDCWD, "/dev/urandom", O_RDONLY|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC) = 31 <0.001494>
+20:02:22.880701 fstat64(31, {st_mode=0, st_size=1, ...}) = 0 <0.000060>
+20:02:22.881052 ioctl(31, RNDGETENTCNT, 0xffc05d44) = 0 <0.001799>
+20:02:22.883658 read(31, ",\251y4\32c\252\233hh[g\223\217{\252>$\214v.c34\367J4QAx^-"..., 40) = 40 <0.000685>
+20:02:22.886443 close(31)               = 0 <0.000899>
+20:02:22.889366 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe80d0000 <0.001783>
+20:02:22.892383 madvise(0xe80d0000, 4096, MADV_MERGEABLE) = 0 <0.000905>
+20:02:22.895381 prctl(0x53564d41 /* PR_??? */, 0, 0xe80d0000, 4096, "linker_alloc_small_objects") = 0 <0.000472>
+20:02:22.896735 pread64(30, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\0\0\0004\0\0\0"..., 52, 0) = 52 <0.000505>
+20:02:22.898448 mmap2(NULL, 328, PROT_READ, MAP_PRIVATE, 30, 0) = 0xe2773000 <0.000149>
+20:02:22.898964 mmap2(NULL, 488, PROT_READ, MAP_PRIVATE, 30, 0x40000) = 0xdc415000 <0.000179>
+20:02:22.899423 mmap2(NULL, 56, PROT_READ, MAP_PRIVATE, 30, 0x3f000) = 0xdc1cb000 <0.000614>
+20:02:22.900165 mmap2(NULL, 61, PROT_READ, MAP_PRIVATE, 30, 0x3e000) = 0xdc1ca000 <0.000061>
+20:02:22.900408 mmap2(NULL, 282624, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xd100f000 <0.000728>
+20:02:22.902362 madvise(0xd100f000, 282624, MADV_MERGEABLE) = 0 <0.000029>
+20:02:22.902438 mmap2(0xd100f000, 225280, PROT_READ, MAP_PRIVATE|MAP_FIXED, 30, 0) = 0xd100f000 <0.000035>
+20:02:22.902516 mmap2(0xd1046000, 24628, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 30, 0x37000) = 0xd1046000 <0.000027>
+20:02:22.902586 mmap2(0xd104d000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xd104d000 <0.000027>
+20:02:22.902660 madvise(0xd104d000, 20480, MADV_MERGEABLE) = 0 <0.000029>
+20:02:22.902736 prctl(0x53564d41 /* PR_??? */, 0, 0xd104d000, 20480, ".bss") = 0 <0.000029>
+20:02:22.902824 mmap2(0xd1052000, 196, PROT_READ, MAP_PRIVATE|MAP_FIXED, 30, 0x3e000) = 0xd1052000 <0.000039>
+20:02:22.902997 mmap2(0xd1053000, 56, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 30, 0x3f000) = 0xd1053000 <0.000030>
+20:02:22.903098 close(30)               = 0 <0.000026>
+20:02:22.903168 munmap(0xdc1ca000, 61)  = 0 <0.000052>
+20:02:22.903265 munmap(0xdc1cb000, 56)  = 0 <0.000033>
+20:02:22.903344 munmap(0xdc415000, 488) = 0 <0.000051>
+20:02:22.903444 munmap(0xe2773000, 328) = 0 <0.000051>
+20:02:22.903725 munmap(0xe80d0000, 4096) = 0 <0.000075>
+20:02:22.903869 mprotect(0xe0282000, 4096, PROT_READ) = 0 <0.000033>
+20:02:22.903949 mprotect(0xed751000, 4096, PROT_READ) = 0 <0.000038>
+20:02:22.904353 mprotect(0xed9bb000, 4096, PROT_READ) = 0 <0.000038>
+20:02:22.904437 mprotect(0xed9bc000, 4096, PROT_READ) = 0 <0.000030>
+20:02:22.904511 mprotect(0xeda26000, 4096, PROT_READ) = 0 <0.000029>
+20:02:22.904584 mprotect(0xed56e000, 4096, PROT_READ) = 0 <0.000029>
+20:02:22.904655 mprotect(0xed5bb000, 4096, PROT_READ) = 0 <0.000035>
+20:02:22.904737 mprotect(0xed616000, 4096, PROT_READ) = 0 <0.000030>
+20:02:22.904814 mprotect(0xed668000, 4096, PROT_READ) = 0 <0.000031>
+20:02:22.904907 mprotect(0xed6f3000, 4096, PROT_READ) = 0 <0.000030>
+20:02:22.905115 mprotect(0xed739000, 4096, PROT_READ) = 0 <0.000032>
+20:02:22.906437 mprotect(0xed84a000, 4096, PROT_READ) = 0 <0.000038>
+20:02:22.906530 mprotect(0xed894000, 4096, PROT_READ) = 0 <0.000033>
+20:02:22.906611 mprotect(0xed9b3000, 4096, PROT_READ) = 0 <0.000031>
+20:02:22.906691 mprotect(0xed9fb000, 4096, PROT_READ) = 0 <0.000031>
+20:02:22.906771 mprotect(0xedab9000, 4096, PROT_READ) = 0 <0.000022>
+20:02:22.906835 mprotect(0xe0239000, 4096, PROT_READ) = 0 <0.000165>
+20:02:22.907051 mprotect(0xed9b5000, 4096, PROT_READ) = 0 <0.000035>
+20:02:22.907149 mprotect(0xe9353000, 4096, PROT_READ) = 0 <0.000033>
+20:02:22.907232 mprotect(0xed57b000, 4096, PROT_READ) = 0 <0.000035>
+20:02:22.907319 mprotect(0xed5bc000, 4096, PROT_READ) = 0 <0.000036>
+20:02:22.907403 mprotect(0xed61d000, 4096, PROT_READ) = 0 <0.000036>
+20:02:22.907628 mprotect(0xed637000, 4096, PROT_READ) = 0 <0.000032>
+20:02:22.907702 mprotect(0xed68e000, 4096, PROT_READ) = 0 <0.000026>
+20:02:22.907767 mprotect(0xedabb000, 4096, PROT_READ) = 0 <0.000026>
+20:02:22.907896 fstatat64(AT_FDCWD, "/data", {st_mode=S_IFREG|S_ISUID|S_ISGID|S_ISVTX|0302, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000031>
+20:02:22.908001 fstatat64(AT_FDCWD, "/data/app", {st_mode=S_IFREG|S_ISUID|S_ISGID|S_ISVTX|0302, st_size=17, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000026>
+20:02:22.908080 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1", {st_mode=S_IFREG|S_ISUID|S_ISGID|S_ISVTX|0302, st_size=4, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000020>
+20:02:22.908249 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/base.apk", {st_mode=S_IFREG|S_ISUID|S_ISGID|S_ISVTX|0302, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000022>
+20:02:22.908326 openat(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/base.apk", O_RDONLY|O_LARGEFILE) = 30 <0.000027>
+20:02:22.908399 read(30, "PK\3\4", 4)   = 4 <0.000026>
+20:02:22.908485 lseek(30, 0, SEEK_SET)  = 0 <0.000017>
+20:02:22.908533 _llseek(30, 0, [33850658], SEEK_END) = 0 <0.000013>
+20:02:22.908582 _llseek(30, 33785101, [33785101], SEEK_SET) = 0 <0.000106>
+20:02:22.908724 read(30, "\10\0assets/com.nd.android.abook.la"..., 65557) = 65557 <0.000052>
+20:02:22.908837 mmap2(NULL, 70924, PROT_READ, MAP_SHARED, 30, 0x2037000) = 0xdc194000 <0.000029>
+20:02:22.908946 madvise(0xdc103000, 86016, MADV_DONTNEED) = 0 <0.000033>
+20:02:22.909173 fcntl64(30, F_GETFD)    = 0 <0.000019>
+20:02:22.909226 fcntl64(30, F_SETFD, FD_CLOEXEC) = 0 <0.000014>
+20:02:22.909268 pread64(30, "PK\3\4\24\0\10\0\10\0K\205%A\230&\35](C\1\0\214\3\3\0\v\0\0\0", 30, 33699112) = 30 <0.000015>
+20:02:22.909435 pread64(30, "classes.dex", 11, 33699142) = 11 <0.000029>
+20:02:22.909544 close(30)               = 0 <0.000023>
+20:02:22.909609 munmap(0xdc194000, 70924) = 0 <0.000033>
+20:02:22.909711 fstatat64(AT_FDCWD, "/data", {st_mode=016, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000025>
+20:02:22.909793 fstatat64(AT_FDCWD, "/data/app", {st_mode=016, st_size=17, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000025>
+20:02:22.909984 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1", {st_mode=016, st_size=4, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000290>
+20:02:22.910580 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/base.apk", {st_mode=016, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000156>
+20:02:22.911345 openat(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/oat/x86/base.art", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000164>
+20:02:22.911905 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/oat/x86/base.art", 0xffc062f0, 0) = -1 ENOENT (No such file or directory) <0.000154>
+20:02:22.912705 fstatat64(AT_FDCWD, "/system/lib", {st_mode=0172064, st_size=6, ...}, 0) = 0 <0.000317>
+20:02:22.913413 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=0172064, st_size=3, ...}, 0) = 0 <0.000202>
+20:02:22.913926 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/lib/x86", 0xffc067d8, 0) = -1 ENOENT (No such file or directory) <0.000330>
+20:02:22.914501 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/lib/x86", 0xffc067d8, 0) = -1 ENOENT (No such file or directory) <0.000227>
+20:02:22.914943 writev(3, [{"\0B\26\216\177\332Z\24\211\2076", 11}, {"\5", 1}, {"System\0", 7}, {"ClassLoader referenced unknown p"..., 91}], 4) = 110 <0.000200>
+20:02:22.915543 fstatat64(AT_FDCWD, "/system/lib", {st_mode=0165264, st_size=6, ...}, 0) = 0 <0.000198>
+20:02:22.915984 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=0165264, st_size=3, ...}, 0) = 0 <0.000170>
+20:02:22.916381 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe80d0000 <0.000541>
+20:02:22.917205 madvise(0xe80d0000, 4096, MADV_MERGEABLE) = 0 <0.000146>
+20:02:22.917539 prctl(0x53564d41 /* PR_??? */, 0, 0xe80d0000, 4096, "linker_alloc_small_objects") = 0 <0.000202>
+20:02:22.917980 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe2773000 <0.000115>
+20:02:22.918637 madvise(0xe2773000, 4096, MADV_MERGEABLE) = 0 <0.000134>
+20:02:22.918988 prctl(0x53564d41 /* PR_??? */, 0, 0xe2773000, 4096, "linker_alloc_small_objects") = 0 <0.000176>
+20:02:22.919482 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc415000 <0.000157>
+20:02:22.919804 madvise(0xdc415000, 4096, MADV_MERGEABLE) = 0 <0.000146>
+20:02:22.920201 prctl(0x53564d41 /* PR_??? */, 0, 0xdc415000, 4096, "linker_alloc_small_objects") = 0 <0.000148>
+20:02:22.920556 munmap(0xe2773000, 4096) = 0 <0.000157>
+20:02:22.921046 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe2773000 <0.000175>
+20:02:22.921398 madvise(0xe2773000, 4096, MADV_MERGEABLE) = 0 <0.000153>
+20:02:22.921806 prctl(0x53564d41 /* PR_??? */, 0, 0xe2773000, 4096, "linker_alloc_small_objects") = 0 <0.000144>
+20:02:22.922267 mmap2(NULL, 24, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc1cb000 <0.000145>
+20:02:22.922790 madvise(0xdc1cb000, 24, MADV_MERGEABLE) = 0 <0.000102>
+20:02:22.923011 prctl(0x53564d41 /* PR_??? */, 0, 0xdc1cb000, 24, "linker_alloc_vector") = 0 <0.000119>
+20:02:22.923402 munmap(0xedabc000, 12)  = 0 <0.000150>
+20:02:22.923684 munmap(0xdc415000, 4096) = 0 <0.000254>
+20:02:22.924073 mprotect(0xe0282000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000101>
+20:02:22.924298 mprotect(0xed751000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000150>
+20:02:22.924622 mprotect(0xed9bb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000114>
+20:02:22.924886 mprotect(0xed9bc000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000182>
+20:02:22.925221 mprotect(0xeda26000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000126>
+20:02:22.925642 mprotect(0xed56e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000084>
+20:02:22.925866 mprotect(0xed5bb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000121>
+20:02:22.926535 mprotect(0xed616000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000297>
+20:02:22.926960 mprotect(0xed668000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000220>
+20:02:22.927333 mprotect(0xed6f3000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000103>
+20:02:22.927555 mprotect(0xed739000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000116>
+20:02:22.927802 mprotect(0xed84a000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000109>
+20:02:22.928034 mprotect(0xed894000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000109>
+20:02:22.928267 mprotect(0xed9b3000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000109>
+20:02:22.928498 mprotect(0xed9fb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000108>
+20:02:22.928741 mprotect(0xedab9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000109>
+20:02:22.928974 mprotect(0xe0239000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000107>
+20:02:22.929210 mprotect(0xed9b5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000108>
+20:02:22.929443 mprotect(0xe9353000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000109>
+20:02:22.929689 mprotect(0xed57b000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000112>
+20:02:22.929925 mprotect(0xed5bc000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000111>
+20:02:22.930305 mprotect(0xed61d000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000184>
+20:02:22.930613 mprotect(0xed637000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000113>
+20:02:22.930912 mprotect(0xed68e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000134>
+20:02:22.931262 mprotect(0xedabb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000452>
+20:02:22.932350 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000115>
+20:02:22.932619 fstatat64(AT_FDCWD, "/data/app", {st_mode=0, st_size=17, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000203>
+20:02:22.932967 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1", {st_mode=0, st_size=4, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000111>
+20:02:22.933223 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/lib", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000117>
+20:02:22.933479 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/lib/x86", 0xffc02638, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000109>
+20:02:22.933731 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xedabc000 <0.000117>
+20:02:22.933982 madvise(0xedabc000, 4096, MADV_MERGEABLE) = 0 <0.000251>
+20:02:22.934376 prctl(0x53564d41 /* PR_??? */, 0, 0xedabc000, 4096, "linker_alloc") = 0 <0.000100>
+20:02:22.934615 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc415000 <0.000104>
+20:02:22.934856 madvise(0xdc415000, 4096, MADV_MERGEABLE) = 0 <0.000101>
+20:02:22.935080 prctl(0x53564d41 /* PR_??? */, 0, 0xdc415000, 4096, "linker_alloc") = 0 <0.000100>
+20:02:22.935322 mprotect(0xe0282000, 4096, PROT_READ) = 0 <0.000103>
+20:02:22.935545 mprotect(0xed751000, 4096, PROT_READ) = 0 <0.000102>
+20:02:22.935767 mprotect(0xed9bb000, 4096, PROT_READ) = 0 <0.000109>
+20:02:22.936004 mprotect(0xed9bc000, 4096, PROT_READ) = 0 <0.000102>
+20:02:22.936220 mprotect(0xeda26000, 4096, PROT_READ) = 0 <0.000102>
+20:02:22.936435 mprotect(0xed56e000, 4096, PROT_READ) = 0 <0.000101>
+20:02:22.936648 mprotect(0xed5bb000, 4096, PROT_READ) = 0 <0.000102>
+20:02:22.936875 mprotect(0xed616000, 4096, PROT_READ) = 0 <0.000100>
+20:02:22.937087 mprotect(0xed668000, 4096, PROT_READ) = 0 <0.000100>
+20:02:22.937304 mprotect(0xed6f3000, 4096, PROT_READ) = 0 <0.000101>
+20:02:22.937527 mprotect(0xed739000, 4096, PROT_READ) = 0 <0.000102>
+20:02:22.937744 mprotect(0xed84a000, 4096, PROT_READ) = 0 <0.000113>
+20:02:22.938021 mprotect(0xed894000, 4096, PROT_READ) = 0 <0.000236>
+20:02:22.938578 mprotect(0xed9b3000, 4096, PROT_READ) = 0 <0.000224>
+20:02:22.938984 mprotect(0xed9fb000, 4096, PROT_READ) = 0 <0.000172>
+20:02:22.939361 mprotect(0xedab9000, 4096, PROT_READ) = 0 <0.000153>
+20:02:22.939647 mprotect(0xe0239000, 4096, PROT_READ) = 0 <0.000122>
+20:02:22.939901 mprotect(0xed9b5000, 4096, PROT_READ) = 0 <0.000125>
+20:02:22.940157 mprotect(0xe9353000, 4096, PROT_READ) = 0 <0.000123>
+20:02:22.940420 mprotect(0xed57b000, 4096, PROT_READ) = 0 <0.000124>
+20:02:22.940676 mprotect(0xed5bc000, 4096, PROT_READ) = 0 <0.000130>
+20:02:22.940935 mprotect(0xed61d000, 4096, PROT_READ) = 0 <0.000110>
+20:02:22.941169 mprotect(0xed637000, 4096, PROT_READ) = 0 <0.000163>
+20:02:22.941464 mprotect(0xed68e000, 4096, PROT_READ) = 0 <0.000110>
+20:02:22.941701 mprotect(0xedabb000, 4096, PROT_READ) = 0 <0.000110>
+20:02:22.941937 mprotect(0xedabc000, 4096, PROT_READ) = 0 <0.000108>
+20:02:22.942247 mprotect(0xdc415000, 4096, PROT_READ) = 0 <0.000131>
+20:02:22.942539 munmap(0xe2773000, 4096) = 0 <0.000224>
+20:02:22.942954 munmap(0xe80d0000, 4096) = 0 <0.000116>
+20:02:22.943285 mprotect(0xe0282000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000110>
+20:02:22.943523 mprotect(0xed751000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000110>
+20:02:22.943761 mprotect(0xed9bb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000114>
+20:02:22.944003 mprotect(0xed9bc000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000111>
+20:02:22.944235 mprotect(0xeda26000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000112>
+20:02:22.944483 mprotect(0xed56e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000109>
+20:02:22.944714 mprotect(0xed5bb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000179>
+20:02:22.945022 mprotect(0xed616000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000109>
+20:02:22.945281 mprotect(0xed668000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000112>
+20:02:22.945517 mprotect(0xed6f3000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000108>
+20:02:22.945756 mprotect(0xed739000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000110>
+20:02:22.945989 mprotect(0xed84a000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000107>
+20:02:22.946295 mprotect(0xed894000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000106>
+20:02:22.946524 mprotect(0xed9b3000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000102>
+20:02:22.946746 mprotect(0xed9fb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000103>
+20:02:22.946968 mprotect(0xedab9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000103>
+20:02:22.947189 mprotect(0xe0239000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000113>
+20:02:22.947420 mprotect(0xed9b5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000102>
+20:02:22.947641 mprotect(0xe9353000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000119>
+20:02:22.947878 mprotect(0xed57b000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000102>
+20:02:22.948094 mprotect(0xed5bc000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000113>
+20:02:22.948325 mprotect(0xed61d000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000101>
+20:02:22.948539 mprotect(0xed637000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000101>
+20:02:22.948758 mprotect(0xed68e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000101>
+20:02:22.948972 mprotect(0xedabb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000099>
+20:02:22.949185 mprotect(0xedabc000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000103>
+20:02:22.949419 mprotect(0xdc415000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000100>
+20:02:22.949645 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000117>
+20:02:22.949898 fstatat64(AT_FDCWD, "/data/app", {st_mode=0, st_size=17, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000104>
+20:02:22.950131 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1", {st_mode=0, st_size=4, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000157>
+20:02:22.950425 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/lib", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000104>
+20:02:22.950657 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/lib/x86", 0xffc026a8, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000106>
+20:02:22.950895 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe80d0000 <0.000105>
+20:02:22.951117 madvise(0xe80d0000, 4096, MADV_MERGEABLE) = 0 <0.000120>
+20:02:22.951353 prctl(0x53564d41 /* PR_??? */, 0, 0xe80d0000, 4096, "linker_alloc_small_objects") = 0 <0.000101>
+20:02:22.951586 munmap(0xe80d0000, 4096) = 0 <0.000109>
+20:02:22.951811 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000103>
+20:02:22.952037 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, 0) = 0 <0.000136>
+20:02:22.952311 fstatat64(AT_FDCWD, "/mnt", {st_mode=0, st_size=11, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000105>
+20:02:22.952541 fstatat64(AT_FDCWD, "/mnt/expand", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000103>
+20:02:22.952941 fstatat64(AT_FDCWD, "/mnt/expand", {st_mode=0, st_size=2, ...}, 0) = 0 <0.000109>
+20:02:22.953210 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000120>
+20:02:22.953489 fstatat64(AT_FDCWD, "/data/user", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000107>
+20:02:22.953780 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000118>
+20:02:22.954053 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000307>
+20:02:22.954517 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000162>
+20:02:22.954849 fstatat64(AT_FDCWD, "/data/data", {st_mode=0, st_size=96, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000122>
+20:02:22.955130 fstatat64(AT_FDCWD, "/data/data/com.nd.android.abook.lakhforwhy01", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000148>
+20:02:22.955444 fstatat64(AT_FDCWD, "/data/data/com.nd.android.abook.lakhforwhy01", {st_mode=0, st_size=2, ...}, 0) = 0 <0.000136>
+20:02:22.955758 mprotect(0xe0282000, 4096, PROT_READ) = 0 <0.000125>
+20:02:22.956029 mprotect(0xed751000, 4096, PROT_READ) = 0 <0.000124>
+20:02:22.956295 mprotect(0xed9bb000, 4096, PROT_READ) = 0 <0.000124>
+20:02:22.956554 mprotect(0xed9bc000, 4096, PROT_READ) = 0 <0.000120>
+20:02:22.956817 mprotect(0xeda26000, 4096, PROT_READ) = 0 <0.000121>
+20:02:22.957073 mprotect(0xed56e000, 4096, PROT_READ) = 0 <0.000118>
+20:02:22.957371 mprotect(0xed5bb000, 4096, PROT_READ) = 0 <0.000154>
+20:02:22.957733 mprotect(0xed616000, 4096, PROT_READ) = 0 <0.000283>
+20:02:22.958283 mprotect(0xed668000, 4096, PROT_READ) = 0 <0.000180>
+20:02:22.958640 mprotect(0xed6f3000, 4096, PROT_READ) = 0 <0.000198>
+20:02:22.959019 mprotect(0xed739000, 4096, PROT_READ) = 0 <0.000118>
+20:02:22.959351 mprotect(0xed84a000, 4096, PROT_READ) = 0 <0.000146>
+20:02:22.959656 mprotect(0xed894000, 4096, PROT_READ) = 0 <0.000177>
+20:02:22.960049 mprotect(0xed9b3000, 4096, PROT_READ) = 0 <0.000202>
+20:02:22.960516 mprotect(0xed9fb000, 4096, PROT_READ) = 0 <0.000179>
+20:02:22.961004 mprotect(0xedab9000, 4096, PROT_READ) = 0 <0.000387>
+20:02:22.961541 mprotect(0xe0239000, 4096, PROT_READ) = 0 <0.000032>
+20:02:22.961623 mprotect(0xed9b5000, 4096, PROT_READ) = 0 <0.000321>
+20:02:22.962559 mprotect(0xe9353000, 4096, PROT_READ) = 0 <0.000091>
+20:02:22.963000 mprotect(0xed57b000, 4096, PROT_READ) = 0 <0.000132>
+20:02:22.963307 mprotect(0xed5bc000, 4096, PROT_READ) = 0 <0.000148>
+20:02:22.963620 mprotect(0xed61d000, 4096, PROT_READ) = 0 <0.000138>
+20:02:22.963908 mprotect(0xed637000, 4096, PROT_READ) = 0 <0.000113>
+20:02:22.964149 mprotect(0xed68e000, 4096, PROT_READ) = 0 <0.000110>
+20:02:22.964384 mprotect(0xedabb000, 4096, PROT_READ) = 0 <0.000112>
+20:02:22.964623 mprotect(0xedabc000, 4096, PROT_READ) = 0 <0.000109>
+20:02:22.964861 mprotect(0xdc415000, 4096, PROT_READ) = 0 <0.000109>
+20:02:22.965135 mprotect(0xeda52000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000124>
+20:02:22.965397 mprotect(0xeda52000, 4096, PROT_READ) = 0 <0.000114>
+20:02:22.965636 futex(0xebca9254, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000109>
+20:02:22.965913 getuid32()              = 11582 <0.000110>
+20:02:22.966182 getuid32()              = 11582 <0.000112>
+20:02:22.966452 getuid32()              = 11582 <0.000104>
+20:02:22.966806 fstatat64(AT_FDCWD, "/data/misc/profiles/cur/0/com.nd.android.abook.lakhforwhy01/primary.prof", {st_mode=S_IFDIR|0500, st_size=1, ...}, 0) = 0 <0.000135>
+20:02:22.967108 mmap2(NULL, 1044480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd0f10000 <0.000114>
+20:02:22.967342 madvise(0xd0f10000, 1044480, MADV_MERGEABLE) = 0 <0.000110>
+20:02:22.967574 mprotect(0xd0f10000, 4096, PROT_NONE) = 0 <0.000107>
+20:02:22.967801 prctl(0x53564d41 /* PR_??? */, 0, 0xd0f10000, 4096, "thread stack guard page") = 0 <0.000107>
+20:02:22.968050 clone(child_stack=0xd100e910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd100e928, tls={entry_number:12, base_addr:0xd100e970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xffc06880, child_tidptr=0xd100e928) = 5720 <0.000151>
+20:02:22.968344 futex(0xd100e960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000170>
+20:02:22.968737 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFDIR|S_ISUID|0412, st_size=1, ...}, 0) = 0 <0.000116>
+20:02:22.968995 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFBLK|S_ISGID|S_ISVTX|0750, st_rdev=makedev(129, 164), ...}, 0) = 0 <0.000111>
+20:02:22.969302 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/base.apk", {st_mode=S_IFDIR|S_ISUID|0412, st_size=1, ...}, 0) = 0 <0.000116>
+20:02:22.969557 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/base.apk", {st_mode=S_IFBLK|S_ISUID|0230, st_rdev=makedev(129, 164), ...}, 0) = 0 <0.000110>
+20:02:22.969825 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFBLK|S_ISUID|010, st_rdev=makedev(129, 164), ...}, 0) = 0 <0.000112>
+20:02:22.970100 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/base.apk", {st_mode=S_IFBLK|S_ISUID|010, st_rdev=makedev(129, 164), ...}, 0) = 0 <0.000136>
+20:02:22.970385 openat(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/base.apk", O_RDONLY|O_LARGEFILE) = 30 <0.000090>
+20:02:22.970601 _llseek(30, 0, [33850658], SEEK_END) = 0 <0.000101>
+20:02:22.970838 _llseek(30, 33785101, [33785101], SEEK_SET) = 0 <0.000101>
+20:02:22.971058 read(30, "\10\0assets/com.nd.android.abook.la"..., 65557) = 65557 <0.000137>
+20:02:22.971324 mmap2(NULL, 70924, PROT_READ, MAP_SHARED, 30, 0x2037000) = 0xdc194000 <0.000159>
+20:02:22.971641 madvise(0xdc103000, 86016, MADV_DONTNEED) = 0 <0.000128>
+20:02:22.972374 pread64(30, "PK\3\4\n\0\0\0\0\0M\205%A\262\325\245\346\330\21\0\0\330\21\0\0\16\0\2\0", 30, 33686622) = 30 <0.000113>
+20:02:22.972719 pread64(30, "resources.arsc", 14, 33686652) = 14 <0.000591>
+20:02:22.973640 mmap2(NULL, 5732, PROT_READ, MAP_SHARED, 30, 0x2020000) = 0xdc1c4000 <0.000135>
+20:02:22.973975 madvise(0xdc6a1000, 4096, MADV_DONTNEED) = 0 <0.000105>
+20:02:22.974358 ioctl(8, BINDER_WRITE_READ, 0xffc06788) = 0 <0.000178>
+20:02:22.974686 ioctl(8, BINDER_WRITE_READ, 0xffc06788) = 0 <0.000143>
+20:02:22.975776 getuid32()              = 11582 <0.000104>
+20:02:22.976033 faccessat(AT_FDCWD, "/data/user/0/com.nd.android.abook.lakhforwhy01", F_OK) = 0 <0.000113>
+20:02:22.976372 faccessat(AT_FDCWD, "/data/user/0/com.nd.android.abook.lakhforwhy01/cache", F_OK) = -1 ENOENT (No such file or directory) <0.000131>
+20:02:22.976666 mkdirat(AT_FDCWD, "/data/user/0/com.nd.android.abook.lakhforwhy01/cache", 0771) = 0 <0.000178>
+20:02:22.977000 fchmodat(AT_FDCWD, "/data/user/0/com.nd.android.abook.lakhforwhy01/cache", 0771) = 0 <0.000121>
+20:02:22.977298 faccessat(AT_FDCWD, "/data/user_de/0/com.nd.android.abook.lakhforwhy01", F_OK) = 0 <0.000117>
+20:02:22.977633 faccessat(AT_FDCWD, "/data/user_de/0/com.nd.android.abook.lakhforwhy01/code_cache", F_OK) = -1 ENOENT (No such file or directory) <0.000224>
+20:02:22.978011 mkdirat(AT_FDCWD, "/data/user_de/0/com.nd.android.abook.lakhforwhy01/code_cache", 0771) = 0 <0.000237>
+20:02:22.978397 fchmodat(AT_FDCWD, "/data/user_de/0/com.nd.android.abook.lakhforwhy01/code_cache", 0771) = 0 <0.000119>
+20:02:22.978644 getuid32()              = 11582 <0.000101>
+20:02:22.978867 getuid32()              = 11582 <0.000108>
+20:02:22.979171 ioctl(8, BINDER_WRITE_READ, 0xffc06ab8) = 0 <0.000149>
+20:02:22.979455 ioctl(8, BINDER_WRITE_READ, 0xffc06ab8) = 0 <0.000114>
+20:02:22.979901 munmap(0x18c00000, 167772160) = 0 <0.000119>
+20:02:22.980153 munmap(0x28c00000, 167772160) = 0 <0.000183>
+20:02:22.980566 getuid32()              = 11582 <0.000104>
+20:02:22.980811 ioctl(8, BINDER_WRITE_READ, 0xffc06a28) = 0 <0.000120>
+20:02:22.981048 ioctl(8, BINDER_WRITE_READ, 0xffc06a28) = 0 <0.000111>
+20:02:22.981329 getuid32()              = 11582 <0.000100>
+20:02:22.981926 getuid32()              = 11582 <0.000177>
+20:02:22.982406 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000100>
+20:02:22.982915 ioctl(8, BINDER_WRITE_READ, 0xffc06988) = 0 <0.000179>
+20:02:22.983265 ioctl(8, BINDER_WRITE_READ, 0xffc06988) = 0 <0.000106>
+20:02:22.983515 ioctl(8, BINDER_WRITE_READ, 0xffc069d8) = 0 <0.000231>
+20:02:22.984308 getuid32()              = 11582 <0.000070>
+20:02:22.984512 ioctl(8, BINDER_WRITE_READ, 0xffc06a08) = 0 <0.000285>
+20:02:22.985006 ioctl(8, BINDER_WRITE_READ, 0xffc06a08) = 0 <0.000918>
+20:02:22.986559 getuid32()              = 11582 <0.000083>
+20:02:22.986750 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000096>
+20:02:22.987090 getuid32()              = 11582 <0.000134>
+20:02:22.987397 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=01, st_size=1, ...}, 0) = 0 <0.000090>
+20:02:22.987774 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/base.apk", {st_mode=01, st_size=1, ...}, 0) = 0 <0.000099>
+20:02:22.988358 ioctl(8, BINDER_WRITE_READ, 0xffc06b38) = 0 <0.000147>
+20:02:22.988631 ioctl(8, BINDER_WRITE_READ, 0xffc06b38) = 0 <0.000104>
+20:02:22.989619 ioctl(8, BINDER_WRITE_READ, 0xffc06a08) = 0 <0.000136>
+20:02:22.989893 ioctl(8, BINDER_WRITE_READ, 0xffc06a08) = 0 <0.000106>
+20:02:22.990321 getuid32()              = 11582 <0.000106>
+20:02:22.990587 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0132000, st_size=1, ...}, 0) = 0 <0.000111>
+20:02:22.990828 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/base.apk", {st_mode=0132000, st_size=1, ...}, 0) = 0 <0.000099>
+20:02:22.991094 getuid32()              = 11582 <0.000096>
+20:02:22.991318 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFBLK|S_ISUID|0770, st_rdev=makedev(129, 164), ...}, 0) = 0 <0.000096>
+20:02:22.991535 fstatat64(AT_FDCWD, "/data/app/com.nd.android.abook.lakhforwhy01-1/base.apk", {st_mode=S_IFBLK|S_ISUID|0770, st_rdev=makedev(129, 164), ...}, 0) = 0 <0.000097>
+20:02:22.991855 getuid32()              = 11582 <0.000092>
+20:02:22.992165 getuid32()              = 11582 <0.000136>
+20:02:22.992630 ioctl(8, BINDER_WRITE_READ, 0xffc06758) = 0 <0.000149>
+20:02:22.992929 ioctl(8, BINDER_WRITE_READ, 0xffc06758) = 0 <0.000131>
+20:02:22.993262 ioctl(8, BINDER_WRITE_READ, 0xffc06858) = 0 <0.000201>
+20:02:22.993576 ioctl(8, BINDER_WRITE_READ, 0xffc06858) = 0 <0.000104>
+20:02:22.993812 fstat64(31, {st_mode=0746, st_size=1, ...}) = 0 <0.000091>
+20:02:22.994019 openat(AT_FDCWD, "/dev/ashmem", O_RDONLY|O_LARGEFILE) = 32 <0.000452>
+20:02:22.994597 fstat64(32, {st_mode=0174534, st_size=1, ...}) = 0 <0.000101>
+20:02:22.994821 close(32)               = 0 <0.000096>
+20:02:22.995036 fstat64(31, {st_mode=0130220, st_size=1, ...}) = 0 <0.000100>
+20:02:22.995269 ioctl(31, ASHMEM_GET_SIZE, 0) = 84 <0.000097>
+20:02:22.995485 dup(31)                 = 32 <0.000099>
+20:02:22.995715 close(31)               = 0 <0.000098>
+20:02:22.995992 dup(32)                 = 31 <0.000111>
+20:02:22.996239 fstat64(31, {st_mode=050, st_size=1, ...}) = 0 <0.000098>
+20:02:22.996460 ioctl(31, ASHMEM_GET_SIZE, 0) = 84 <0.000098>
+20:02:22.996675 mmap2(NULL, 84, PROT_READ, MAP_SHARED, 31, 0) = 0xe80d0000 <0.000113>
+20:02:22.996923 fstat64(32, {st_mode=013, st_size=1, ...}) = 0 <0.000097>
+20:02:22.997143 fstat64(32, {st_mode=0130220, st_size=1, ...}) = 0 <0.000098>
+20:02:22.997363 ioctl(32, ASHMEM_GET_SIZE, 0) = 84 <0.000108>
+20:02:22.997591 close(32)               = 0 <0.000097>
+20:02:22.997838 ioctl(8, BINDER_WRITE_READ, 0xffc06968) = 0 <0.000129>
+20:02:22.998303 ioctl(8, BINDER_WRITE_READ, 0xffc06968) = 0 <0.000128>
+20:02:22.998828 ioctl(8, BINDER_WRITE_READ, 0xffc06048) = 0 <0.000154>
+20:02:22.999120 ioctl(8, BINDER_WRITE_READ, 0xffc06048) = 0 <0.000114>
+20:02:22.999495 ioctl(8, BINDER_WRITE_READ, 0xffc06048) = 0 <0.000137>
+20:02:22.999777 ioctl(8, BINDER_WRITE_READ, 0xffc06048) = 0 <0.000104>
+20:02:23.000316 ioctl(8, BINDER_WRITE_READ, 0xffc060d8) = 0 <0.000159>
+20:02:23.000601 ioctl(8, BINDER_WRITE_READ, 0xffc060d8) = 0 <0.000104>
+20:02:23.000898 writev(3, [{"\0B\26\217\177\332Z!\304\f\0", 11}, {"\5", 1}, {"com.nd.android.abook.lakhforwhy0"..., 34}, {"2392\0", 5}], 4) = 51 <0.000163>
+20:02:23.001241 writev(3, [{"\0B\26\217\177\332Z\304\275\21\0", 11}, {"\5", 1}, {"com.nd.android.abook.lakhforwhy0"..., 34}, {"1440\0", 5}], 4) = 51 <0.000169>
+20:02:23.001640 ioctl(8, BINDER_WRITE_READ, 0xffc06108) = 0 <0.000270>
+20:02:23.002063 ioctl(8, BINDER_WRITE_READ, 0xffc06108) = 0 <0.000245>
+20:02:23.002496 ioctl(8, BINDER_WRITE_READ, 0xffc06158) = 0 <0.000101>
+20:02:23.002870 ioctl(8, BINDER_WRITE_READ, 0xffc06158) = 0 <0.000105>
+20:02:23.003182 ioctl(8, BINDER_WRITE_READ, 0xffc05cf8) = 0 <0.000159>
+20:02:23.003470 ioctl(8, BINDER_WRITE_READ, 0xffc05cf8) = 0 <0.000108>
+20:02:23.003741 ioctl(8, BINDER_WRITE_READ, 0xffc05d88) = 0 <0.000129>
+20:02:23.003997 ioctl(8, BINDER_WRITE_READ, 0xffc05d88) = 0 <0.000107>
+20:02:23.004440 ioctl(8, BINDER_WRITE_READ, 0xffc05d48) = 0 <0.000218>
+20:02:23.004843 ioctl(8, BINDER_WRITE_READ, 0xffc05d48) = 0 <0.000135>
+20:02:23.005219 ioctl(8, BINDER_WRITE_READ, 0xffc05e68) = 0 <0.000169>
+20:02:23.005501 ioctl(8, BINDER_WRITE_READ, 0xffc05e68) = 0 <0.000091>
+20:02:23.005719 ioctl(8, BINDER_WRITE_READ, 0xffc05e68) = 0 <0.000123>
+20:02:23.005957 ioctl(8, BINDER_WRITE_READ, 0xffc05e68) = 0 <0.000091>
+20:02:23.006264 getuid32()              = 11582 <0.000090>
+20:02:23.006486 ioctl(8, BINDER_WRITE_READ, 0xffc05e48) = 0 <0.000120>
+20:02:23.006728 ioctl(8, BINDER_WRITE_READ, 0xffc05e48) = 0 <0.000091>
+20:02:23.006962 ioctl(8, BINDER_WRITE_READ, 0xffc05e78) = 0 <0.000140>
+20:02:23.007234 ioctl(8, BINDER_WRITE_READ, 0xffc05e78) = 0 <0.000091>
+20:02:23.007670 madvise(0xdc68f000, 20480, MADV_DONTNEED) = 0 <0.000101>
+20:02:23.008460 writev(3, [{"\0B\26\217\177\332Z\314;\200\0", 11}, {"\4", 1}, {"com.nd.android.abook.lakhforwhy0"..., 34}, {"ContentView init completed!\0", 28}], 4) = 74 <0.000138>
+20:02:23.008880 openat(AT_FDCWD, "/system/lib/libsoundpool.so", O_RDONLY|O_LARGEFILE) = 32 <0.000148>
+20:02:23.009328 getsockopt(32, SOL_SOCKET, SO_ERROR, 0xffc04fc4, 0xffc04fc0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000115>
+20:02:23.009621 close(32)               = 0 <0.000100>
+20:02:23.009853 mprotect(0xe0282000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000101>
+20:02:23.010065 mprotect(0xed751000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000194>
+20:02:23.010370 mprotect(0xed9bb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000101>
+20:02:23.010593 mprotect(0xed9bc000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000101>
+20:02:23.010811 mprotect(0xeda26000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000098>
+20:02:23.011021 mprotect(0xed56e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000100>
+20:02:23.011239 mprotect(0xed5bb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000103>
+20:02:23.011458 mprotect(0xed616000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000098>
+20:02:23.011666 mprotect(0xed668000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000110>
+20:02:23.011886 mprotect(0xed6f3000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000099>
+20:02:23.012096 mprotect(0xed739000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000098>
+20:02:23.012305 mprotect(0xed84a000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000099>
+20:02:23.012516 mprotect(0xed894000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000099>
+20:02:23.012742 mprotect(0xed9b3000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000101>
+20:02:23.013039 mprotect(0xed9fb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000094>
+20:02:23.013235 mprotect(0xedab9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000091>
+20:02:23.013430 mprotect(0xe0239000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000090>
+20:02:23.013624 mprotect(0xed9b5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000090>
+20:02:23.013826 mprotect(0xe9353000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000091>
+20:02:23.014029 mprotect(0xed57b000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000087>
+20:02:23.014279 mprotect(0xed5bc000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000095>
+20:02:23.014491 mprotect(0xed61d000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000091>
+20:02:23.014687 mprotect(0xed637000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000099>
+20:02:23.014890 mprotect(0xed68e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000091>
+20:02:23.015085 mprotect(0xedabb000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000091>
+20:02:23.015289 mprotect(0xedabc000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000092>
+20:02:23.015481 mprotect(0xdc415000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000100>
+20:02:23.015704 openat(AT_FDCWD, "/system/lib/libsoundpool.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 32 <0.000095>
+20:02:23.015907 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc192000 <0.000093>
+20:02:23.016105 madvise(0xdc192000, 8192, MADV_MERGEABLE) = 0 <0.000090>
+20:02:23.016307 prctl(0x53564d41 /* PR_??? */, 0, 0xdc192000, 8192, "linker_alloc_lob") = 0 <0.000089>
+20:02:23.016520 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc190000 <0.000091>
+20:02:23.016715 madvise(0xdc190000, 8192, MADV_MERGEABLE) = 0 <0.000090>
+20:02:23.016907 prctl(0x53564d41 /* PR_??? */, 0, 0xdc190000, 8192, "linker_alloc_lob") = 0 <0.000090>
+20:02:23.017119 readlinkat(AT_FDCWD, "/proc/self/fd/32", "/system/lib/libsoundpool.so", 4096) = 27 <0.000107>
+20:02:23.017349 munmap(0xdc190000, 8192) = 0 <0.000100>
+20:02:23.017556 munmap(0xdc192000, 8192) = 0 <0.000094>
+20:02:23.017761 fstat64(32, {st_mode=071260, st_size=1, ...}) = 0 <0.000091>
+20:02:23.017977 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe2773000 <0.000093>
+20:02:23.018161 madvise(0xe2773000, 4096, MADV_MERGEABLE) = 0 <0.000105>
+20:02:23.018390 prctl(0x53564d41 /* PR_??? */, 0, 0xe2773000, 4096, "linker_alloc_small_objects") = 0 <0.000085>
+20:02:23.018589 pread64(32, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\0\0\0004\0\0\0"..., 52, 0) = 52 <0.000086>
+20:02:23.018789 mmap2(NULL, 360, PROT_READ, MAP_PRIVATE, 32, 0) = 0xdc193000 <0.000088>
+20:02:23.018976 mmap2(NULL, 2328, PROT_READ, MAP_PRIVATE, 32, 0xb000) = 0xdc192000 <0.000086>
+20:02:23.019164 mmap2(NULL, 6616, PROT_READ, MAP_PRIVATE, 32, 0xa000) = 0xdc190000 <0.000087>
+20:02:23.019350 mmap2(NULL, 14068, PROT_READ, MAP_PRIVATE, 32, 0) = 0xdc18c000 <0.000086>
+20:02:23.019572 openat(AT_FDCWD, "/system/lib/liblog.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 33 <0.000090>
+20:02:23.019764 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc18a000 <0.000086>
+20:02:23.019949 madvise(0xdc18a000, 8192, MADV_MERGEABLE) = 0 <0.000084>
+20:02:23.020130 prctl(0x53564d41 /* PR_??? */, 0, 0xdc18a000, 8192, "linker_alloc_lob") = 0 <0.000084>
+20:02:23.020342 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd0f0e000 <0.000086>
+20:02:23.020529 madvise(0xd0f0e000, 8192, MADV_MERGEABLE) = 0 <0.000086>
+20:02:23.020714 prctl(0x53564d41 /* PR_??? */, 0, 0xd0f0e000, 8192, "linker_alloc_lob") = 0 <0.000105>
+20:02:23.020964 readlinkat(AT_FDCWD, "/proc/self/fd/33", "/system/lib/liblog.so", 4096) = 21 <0.000094>
+20:02:23.021173 munmap(0xd0f0e000, 8192) = 0 <0.000158>
+20:02:23.021457 munmap(0xdc18a000, 8192) = 0 <0.000208>
+20:02:23.022039 fstat64(33, {st_mode=01, st_size=1, ...}) = 0 <0.000304>
+20:02:23.022479 openat(AT_FDCWD, "/system/lib/libcutils.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 34 <0.000093>
+20:02:23.022675 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc18a000 <0.000187>
+20:02:23.022988 madvise(0xdc18a000, 8192, MADV_MERGEABLE) = 0 <0.000089>
+20:02:23.023170 prctl(0x53564d41 /* PR_??? */, 0, 0xdc18a000, 8192, "linker_alloc_lob") = 0 <0.000108>
+20:02:23.023420 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd0f0e000 <0.000089>
+20:02:23.023610 madvise(0xd0f0e000, 8192, MADV_MERGEABLE) = 0 <0.000083>
+20:02:23.023791 prctl(0x53564d41 /* PR_??? */, 0, 0xd0f0e000, 8192, "linker_alloc_lob") = 0 <0.000129>
+20:02:23.024086 readlinkat(AT_FDCWD, "/proc/self/fd/34", "/system/lib/libcutils.so", 4096) = 24 <0.000132>
+20:02:23.024373 munmap(0xd0f0e000, 8192) = 0 <0.000126>
+20:02:23.024633 munmap(0xdc18a000, 8192) = 0 <0.000119>
+20:02:23.024896 fstat64(34, {st_mode=01, st_size=1, ...}) = 0 <0.000116>
+20:02:23.025173 openat(AT_FDCWD, "/system/lib/libutils.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 35 <0.000127>
+20:02:23.025421 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc18a000 <0.000103>
+20:02:23.025642 madvise(0xdc18a000, 8192, MADV_MERGEABLE) = 0 <0.000101>
+20:02:23.025867 prctl(0x53564d41 /* PR_??? */, 0, 0xdc18a000, 8192, "linker_alloc_lob") = 0 <0.000099>
+20:02:23.026111 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd0f0e000 <0.000176>
+20:02:23.026411 madvise(0xd0f0e000, 8192, MADV_MERGEABLE) = 0 <0.000100>
+20:02:23.026626 prctl(0x53564d41 /* PR_??? */, 0, 0xd0f0e000, 8192, "linker_alloc_lob") = 0 <0.000100>
+20:02:23.026863 readlinkat(AT_FDCWD, "/proc/self/fd/35", "/system/lib/libutils.so", 4096) = 23 <0.000112>
+20:02:23.027104 munmap(0xd0f0e000, 8192) = 0 <0.000106>
+20:02:23.027325 munmap(0xdc18a000, 8192) = 0 <0.000103>
+20:02:23.027547 fstat64(35, {st_mode=01, st_size=1, ...}) = 0 <0.000109>
+20:02:23.027803 openat(AT_FDCWD, "/system/lib/libandroid_runtime.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 36 <0.000115>
+20:02:23.028044 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc18a000 <0.000107>
+20:02:23.028280 madvise(0xdc18a000, 8192, MADV_MERGEABLE) = 0 <0.000108>
+20:02:23.028512 prctl(0x53564d41 /* PR_??? */, 0, 0xdc18a000, 8192, "linker_alloc_lob") = 0 <0.000104>
+20:02:23.028755 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd0f0e000 <0.000108>
+20:02:23.028998 madvise(0xd0f0e000, 8192, MADV_MERGEABLE) = 0 <0.000103>
+20:02:23.029221 prctl(0x53564d41 /* PR_??? */, 0, 0xd0f0e000, 8192, "linker_alloc_lob") = 0 <0.000074>
+20:02:23.029434 readlinkat(AT_FDCWD, "/proc/self/fd/36", "/system/lib/libandroid_runtime.s"..., 4096) = 33 <0.000115>
+20:02:23.029692 munmap(0xd0f0e000, 8192) = 0 <0.000145>
+20:02:23.029962 munmap(0xdc18a000, 8192) = 0 <0.000112>
+20:02:23.030278 fstat64(36, {st_mode=01, st_size=1, ...}) = 0 <0.000127>
+20:02:23.030572 openat(AT_FDCWD, "/system/lib/libnativehelper.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 37 <0.000124>
+20:02:23.030837 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc18a000 <0.000117>
+20:02:23.031098 madvise(0xdc18a000, 8192, MADV_MERGEABLE) = 0 <0.000120>
+20:02:23.031354 prctl(0x53564d41 /* PR_??? */, 0, 0xdc18a000, 8192, "linker_alloc_lob") = 0 <0.000121>
+20:02:23.031628 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd0f0e000 <0.000121>
+20:02:23.031892 madvise(0xd0f0e000, 8192, MADV_MERGEABLE) = 0 <0.000119>
+20:02:23.032146 prctl(0x53564d41 /* PR_??? */, 0, 0xd0f0e000, 8192, "linker_alloc_lob") = 0 <0.000117>
+20:02:23.032417 readlinkat(AT_FDCWD, "/proc/self/fd/37", "/system/lib/libnativehelper.so", 4096) = 30 <0.000123>
+20:02:23.032702 munmap(0xd0f0e000, 8192) = 0 <0.000208>
+20:02:23.033052 munmap(0xdc18a000, 8192) = 0 <0.000124>
+20:02:23.033344 fstat64(37, {st_mode=01, st_size=1, ...}) = 0 <0.000114>
+20:02:23.033628 openat(AT_FDCWD, "/system/lib/libmedia.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 38 <0.000120>
+20:02:23.033885 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc18a000 <0.000116>
+20:02:23.034130 madvise(0xdc18a000, 8192, MADV_MERGEABLE) = 0 <0.000124>
+20:02:23.034438 prctl(0x53564d41 /* PR_??? */, 0, 0xdc18a000, 8192, "linker_alloc_lob") = 0 <0.000123>
+20:02:23.034714 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd0f0e000 <0.000122>
+20:02:23.034965 madvise(0xd0f0e000, 8192, MADV_MERGEABLE) = 0 <0.000107>
+20:02:23.035195 prctl(0x53564d41 /* PR_??? */, 0, 0xd0f0e000, 8192, "linker_alloc_lob") = 0 <0.000112>
+20:02:23.035446 readlinkat(AT_FDCWD, "/proc/self/fd/38", "/system/lib/libmedia.so", 4096) = 23 <0.000129>
+20:02:23.035716 munmap(0xd0f0e000, 8192) = 0 <0.000120>
+20:02:23.035955 munmap(0xdc18a000, 8192) = 0 <0.000110>
+20:02:23.036190 fstat64(38, {st_mode=01, st_size=1, ...}) = 0 <0.000114>
+20:02:23.036445 openat(AT_FDCWD, "/system/lib/libmediandk.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 39 <0.000125>
+20:02:23.036706 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc18a000 <0.000120>
+20:02:23.036953 madvise(0xdc18a000, 8192, MADV_MERGEABLE) = 0 <0.000109>
+20:02:23.037182 prctl(0x53564d41 /* PR_??? */, 0, 0xdc18a000, 8192, "linker_alloc_lob") = 0 <0.000124>
+20:02:23.037444 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd0f0e000 <0.000112>
+20:02:23.037690 madvise(0xd0f0e000, 8192, MADV_MERGEABLE) = 0 <0.000111>
+20:02:23.037929 prctl(0x53564d41 /* PR_??? */, 0, 0xd0f0e000, 8192, "linker_alloc_lob") = 0 <0.000135>
+20:02:23.038227 readlinkat(AT_FDCWD, "/proc/self/fd/39", "/system/lib/libmediandk.so", 4096) = 26 <0.000219>
+20:02:23.038727 munmap(0xd0f0e000, 8192) = 0 <0.000111>
+20:02:23.039152 munmap(0xdc18a000, 8192) = 0 <0.000106>
+20:02:23.039383 fstat64(39, {st_mode=01, st_size=1, ...}) = 0 <0.000102>
+20:02:23.039636 openat(AT_FDCWD, "/system/lib/libbinder.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 40 <0.000116>
+20:02:23.039874 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc18a000 <0.000103>
+20:02:23.040097 madvise(0xdc18a000, 8192, MADV_MERGEABLE) = 0 <0.000098>
+20:02:23.040336 prctl(0x53564d41 /* PR_??? */, 0, 0xdc18a000, 8192, "linker_alloc_lob") = 0 <0.000113>
+20:02:23.040593 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd0f0e000 <0.000110>
+20:02:23.040833 madvise(0xd0f0e000, 8192, MADV_MERGEABLE) = 0 <0.000108>
+20:02:23.041066 prctl(0x53564d41 /* PR_??? */, 0, 0xd0f0e000, 8192, "linker_alloc_lob") = 0 <0.000301>
+20:02:23.041546 readlinkat(AT_FDCWD, "/proc/self/fd/40", "/system/lib/libbinder.so", 4096) = 24 <0.000300>
+20:02:23.042000 munmap(0xd0f0e000, 8192) = 0 <0.000184>
+20:02:23.042350 munmap(0xdc18a000, 8192) = 0 <0.000120>
+20:02:23.042645 fstat64(40, {st_mode=01, st_size=1, ...}) = 0 <0.000194>
+20:02:23.043043 openat(AT_FDCWD, "/system/lib/libc++.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 41 <0.000275>
+20:02:23.043499 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc18a000 <0.000332>
+20:02:23.044400 madvise(0xdc18a000, 8192, MADV_MERGEABLE) = 0 <0.000095>
+20:02:23.044866 prctl(0x53564d41 /* PR_??? */, 0, 0xdc18a000, 8192, "linker_alloc_lob") = 0 <0.000224>
+20:02:23.045344 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd0f0e000 <0.000215>
+20:02:23.045720 madvise(0xd0f0e000, 8192, MADV_MERGEABLE) = 0 <0.000136>
+20:02:23.045996 prctl(0x53564d41 /* PR_??? */, 0, 0xd0f0e000, 8192, "linker_alloc_lob") = 0 <0.000179>
+20:02:23.046337 readlinkat(AT_FDCWD, "/proc/self/fd/41", "/system/lib/libc++.so", 4096) = 21 <0.000135>
+20:02:23.046627 munmap(0xd0f0e000, 8192) = 0 <0.000122>
+20:02:23.046896 munmap(0xdc18a000, 8192) = 0 <0.000119>
+20:02:23.047158 fstat64(41, {st_mode=01, st_size=1, ...}) = 0 <0.000117>
+20:02:23.047453 openat(AT_FDCWD, "/system/lib/libc.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 42 <0.000123>
+20:02:23.047715 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc18a000 <0.000127>
+20:02:23.047979 madvise(0xdc18a000, 8192, MADV_MERGEABLE) = 0 <0.000116>
+20:02:23.048230 prctl(0x53564d41 /* PR_??? */, 0, 0xdc18a000, 8192, "linker_alloc_lob") = 0 <0.000117>
+20:02:23.048500 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd0f0e000 <0.000118>
+20:02:23.048755 madvise(0xd0f0e000, 8192, MADV_MERGEABLE) = 0 <0.000128>
+20:02:23.049017 prctl(0x53564d41 /* PR_??? */, 0, 0xd0f0e000, 8192, "linker_alloc_lob") = 0 <0.000116>
+20:02:23.049297 readlinkat(AT_FDCWD, "/proc/self/fd/42", "/system/lib/libc.so", 4096) = 19 <0.000125>
+20:02:23.049575 munmap(0xd0f0e000, 8192) = 0 <0.000120>
+20:02:23.049831 munmap(0xdc18a000, 8192) = 0 <0.000121>
+20:02:23.050098 fstat64(42, {st_mode=01, st_size=1, ...}) = 0 <0.000074>
+20:02:23.050341 openat(AT_FDCWD, "/system/lib/libm.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 43 <0.000123>
+20:02:23.050607 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc18a000 <0.000118>
+20:02:23.050878 madvise(0xdc18a000, 8192, MADV_MERGEABLE) = 0 <0.000116>
+20:02:23.051134 prctl(0x53564d41 /* PR_??? */, 0, 0xdc18a000, 8192, "linker_alloc_lob") = 0 <0.000128>
+20:02:23.051418 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xd0f0e000 <0.000118>
+20:02:23.051674 madvise(0xd0f0e000, 8192, MADV_MERGEABLE) = 0 <0.000118>
+20:02:23.051926 prctl(0x53564d41 /* PR_??? */, 0, 0xd0f0e000, 8192, "linker_alloc_lob") = 0 <0.000115>
+20:02:23.052196 readlinkat(AT_FDCWD, "/proc/self/fd/43", "/system/lib/libm.so", 4096) = 19 <0.000133>
+20:02:23.052480 munmap(0xd0f0e000, 8192) = 0 <0.000121>
+20:02:23.052736 munmap(0xdc18a000, 8192) = 0 <0.000120>
+20:02:23.053090 fstat64(43, {st_mode=01, st_size=1, ...}) = 0 <0.000116>
+20:02:23.053360 mmap2(NULL, 53248, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xd0f03000 <0.000118>
+20:02:23.053615 madvise(0xd0f03000, 53248, MADV_MERGEABLE) = 0 <0.000116>
+20:02:23.053868 mmap2(0xd0f03000, 40992, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 32, 0) = 0xd0f03000 <0.000122>
+20:02:23.054173 mmap2(0xd0f0e000, 4288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 32, 0xa000) = 0xd0f0e000 <0.000115>
+20:02:23.054494 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdc18b000 <0.000112>
+20:02:23.054770 madvise(0xdc18b000, 4096, MADV_MERGEABLE) = 0 <0.000093>
+20:02:23.054988 prctl(0x53564d41 /* PR_??? */, 0, 0xdc18b000, 4096, "linker_alloc") = 0 <0.000114>
+20:02:23.055354 mprotect(0xd0f0e000, 4096, PROT_READ) = 0 <0.000122>
+20:02:23.055616 close(32)               = 0 <0.000110>
+20:02:23.055862 close(33)               = 0 <0.000114>
+20:02:23.056110 close(34)               = 0 <0.000105>
+20:02:23.056341 close(35)               = 0 <0.000112>
+20:02:23.056595 close(36)               = 0 <0.000114>
+20:02:23.056839 close(37)               = 0 <0.000103>
+20:02:23.057075 close(38)               = 0 <0.000114>
+20:02:23.057458 close(39)               = 0 <0.000111>
+20:02:23.057702 close(40)               = 0 <0.000108>
+20:02:23.057934 close(41)               = 0 <0.000114>
+20:02:23.058188 close(42)               = 0 <0.000120>
+20:02:23.058430 close(43)               = 0 <0.000093>
+20:02:23.058641 munmap(0xdc18c000, 14068) = 0 <0.000098>
+20:02:23.058878 munmap(0xdc190000, 6616) = 0 <0.000139>
+20:02:23.059151 munmap(0xdc192000, 2328) = 0 <0.000125>
+20:02:23.059414 munmap(0xdc193000, 360) = 0 <0.000103>
+20:02:23.059640 munmap(0xe2773000, 4096) = 0 <0.000115>
+20:02:23.059878 mprotect(0xe0282000, 4096, PROT_READ) = 0 <0.000102>
+20:02:23.060094 mprotect(0xed751000, 4096, PROT_READ) = 0 <0.000101>
+20:02:23.060338 mprotect(0xed9bb000, 4096, PROT_READ) = 0 <0.000118>
+20:02:23.060588 mprotect(0xed9bc000, 4096, PROT_READ) = 0 <0.000118>
+20:02:23.060838 mprotect(0xeda26000, 4096, PROT_READ) = 0 <0.000102>
+20:02:23.061055 mprotect(0xed56e000, 4096, PROT_READ) = 0 <0.000102>
+20:02:23.061280 mprotect(0xed5bb000, 4096, PROT_READ) = 0 <0.000106>
+20:02:23.061501 mprotect(0xed616000, 4096, PROT_READ) = 0 <0.000110>
+20:02:23.061747 mprotect(0xed668000, 4096, PROT_READ) = 0 <0.000102>
+20:02:23.061964 mprotect(0xed6f3000, 4096, PROT_READ) = 0 <0.000113>
+20:02:23.062196 mprotect(0xed739000, 4096, PROT_READ) = 0 <0.000050>
+20:02:23.062385 mprotect(0xed84a000, 4096, PROT_READ) = 0 <0.000115>
+20:02:23.062634 mprotect(0xed894000, 4096, PROT_READ) = 0 <0.000195>
+20:02:23.062965 mprotect(0xed9b3000, 4096, PROT_READ) = 0 <0.000114>
+20:02:23.063213 mprotect(0xed9fb000, 4096, PROT_READ) = 0 <0.000114>
+20:02:23.063459 mprotect(0xedab9000, 4096, PROT_READ) = 0 <0.000113>
+20:02:23.063707 mprotect(0xdc18b000, 4096, PROT_READ) = 0 <0.000125>
+20:02:23.063962 mprotect(0xe0239000, 4096, PROT_READ) = 0 <0.000103>
+20:02:23.064183 mprotect(0xed9b5000, 4096, PROT_READ) = 0 <0.000110>
+20:02:23.064417 mprotect(0xe9353000, 4096, PROT_READ) = 0 <0.000102>
+20:02:23.064636 mprotect(0xed57b000, 4096, PROT_READ) = 0 <0.000107>
+20:02:23.064879 mprotect(0xed5bc000, 4096, PROT_READ) = 0 <0.000111>
+20:02:23.065115 mprotect(0xed61d000, 4096, PROT_READ) = 0 <0.000102>
+20:02:23.065341 mprotect(0xed637000, 4096, PROT_READ) = 0 <0.000101>
+20:02:23.065566 mprotect(0xed68e000, 4096, PROT_READ) = 0 <0.000102>
+20:02:23.065784 mprotect(0xedabb000, 4096, PROT_READ) = 0 <0.000110>
+20:02:23.066025 mprotect(0xedabc000, 4096, PROT_READ) = 0 <0.000169>
+20:02:23.066370 mprotect(0xdc415000, 4096, PROT_READ) = 0 <0.000116>
+20:02:23.066717 sigaction(SIGSEGV, NULL, {0xe8cd37c0, [], SA_RESTORER|SA_SIGINFO|SA_ONSTACK, 0xe994c0a0}) = 0 <0.000109>
+20:02:23.067056 mmap2(NULL, 1044480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd0e04000 <0.000104>
+20:02:23.067302 madvise(0xd0e04000, 1044480, MADV_MERGEABLE) = 0 <0.000106>
+20:02:23.067537 mprotect(0xd0e04000, 4096, PROT_NONE) = 0 <0.000105>
+20:02:23.067761 prctl(0x53564d41 /* PR_??? */, 0, 0xd0e04000, 4096, "thread stack guard page") = 0 <0.000127>
+20:02:23.068031 clone(child_stack=0xd0f02910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd0f02928, tls={entry_number:12, base_addr:0xd0f02970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xffc055b0, child_tidptr=0xd0f02928) = 5721 <0.000171>
+20:02:23.068330 futex(0xd0f02960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000124>
+20:02:23.068638 mmap2(NULL, 1044480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd0d05000 <0.000109>
+20:02:23.068880 madvise(0xd0d05000, 1044480, MADV_MERGEABLE) = 0 <0.000110>
+20:02:23.069113 mprotect(0xd0d05000, 4096, PROT_NONE) = 0 <0.000101>
+20:02:23.069330 prctl(0x53564d41 /* PR_??? */, 0, 0xd0d05000, 4096, "thread stack guard page") = 0 <0.000100>
+20:02:23.069563 clone(child_stack=0xd0e03910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd0e03928, tls={entry_number:12, base_addr:0xd0e03970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xffc05570, child_tidptr=0xd0e03928) = 5722 <0.000162>
+20:02:23.069885 futex(0xd0e03960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000123>
+20:02:23.070209 ioctl(8, BINDER_WRITE_READ, 0xffc054c8) = 0 <0.000133>
+20:02:23.070470 ioctl(8, BINDER_WRITE_READ, 0xffc054c8) = 0 <0.000107>
+20:02:23.070763 getuid32()              = 11582 <0.000107>
+20:02:23.071012 ioctl(8, BINDER_WRITE_READ, 0xffc054b8) = 0 <0.000139>
+20:02:23.071304 ioctl(8, BINDER_WRITE_READ, 0xffc054b8) = 0 <0.000123>
+20:02:23.071680 ioctl(8, BINDER_WRITE_READ, 0xffc054f8) = 0 <0.000200>
+20:02:23.072035 ioctl(8, BINDER_WRITE_READ, 0xffc054f8) = 0 <0.000133>
+20:02:23.075992 ioctl(8, BINDER_WRITE_READ, 0xffc05ca8) = 0 <0.000117>
+20:02:23.076228 ioctl(8, BINDER_WRITE_READ, 0xffc05ca8) = 0 <0.000089>
+20:02:23.076451 ioctl(8, BINDER_WRITE_READ, 0xffc05ca8) = 0 <0.000113>
+20:02:23.076671 ioctl(8, BINDER_WRITE_READ, 0xffc05ca8) = 0 <0.000092>
+20:02:23.077049 ioctl(8, BINDER_WRITE_READ, 0xffc05cf8) = 0 <0.000290>
+20:02:23.077518 ioctl(8, BINDER_WRITE_READ, 0xffc05cf8) = 0 <0.000235>
+20:02:23.077861 ioctl(8, BINDER_WRITE_READ, 0xffc05cf8) = 0 <0.000088>
+20:02:23.078327 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27975372) = 30 <0.000136>
+20:02:23.078629 pread64(23, "res/interpolator/linear_out_slow"..., 39, 27975402) = 39 <0.000094>
+20:02:23.078837 mmap2(NULL, 4069, PROT_READ, MAP_SHARED, 23, 0x1aad000) = 0xe2773000 <0.000097>
+20:02:23.079086 munmap(0xe2773000, 4069) = 0 <0.000096>
+20:02:23.079399 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 27970871) = 30 <0.000094>
+20:02:23.079603 pread64(23, "res/interpolator/fast_out_linear"..., 39, 27970901) = 39 <0.000094>
+20:02:23.079808 mmap2(NULL, 3665, PROT_READ, MAP_SHARED, 23, 0x1aac000) = 0xe2773000 <0.000093>
+20:02:23.080029 munmap(0xe2773000, 3665) = 0 <0.000096>
+20:02:23.080277 madvise(0xe11d0000, 8192, MADV_DONTNEED) = 0 <0.000093>
+20:02:23.080591 ioctl(8, BINDER_WRITE_READ, 0xffc05f38) = 0 <0.000225>
+20:02:23.080953 pread64(23, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\34\0\0\0", 30, 28111428) = 30 <0.000093>
+20:02:23.081156 pread64(23, "res/layout/screen_simple.xml", 28, 28111458) = 28 <0.000101>
+20:02:23.081369 mmap2(NULL, 1094, PROT_READ, MAP_SHARED, 23, 0x1acf000) = 0xe2773000 <0.000094>
+20:02:23.081598 munmap(0xe2773000, 1094) = 0 <0.000104>
+20:02:23.082973 ioctl(8, BINDER_WRITE_READ, 0xffc069b8) = 0 <0.000041>
+20:02:23.083051 ioctl(8, BINDER_WRITE_READ, 0xffc069b8) = 0 <0.000097>
+20:02:23.083197 ioctl(8, BINDER_WRITE_READ, 0xffc069f8) = 0 <0.000119>
+20:02:23.083416 ioctl(8, BINDER_WRITE_READ, 0xffc06b18) = 0 <0.000092>
+20:02:23.083577 ioctl(8, BINDER_WRITE_READ, 0xffc06458) = 0 <0.000038>
+20:02:23.083648 ioctl(8, BINDER_WRITE_READ, 0xffc06458) = 0 <0.000103>
+20:02:23.083811 getuid32()              = 11582 <0.000018>
+20:02:23.083877 writev(3, [{"\2B\26\217\177\332Z\35\254\377\4", 11}, {"Fu\0\0", 4}, {"\3\3\0\0\0\0\0\2;\0\0\0com.nd.android.abook"..., 92}], 3) = 107 <0.000076>
+20:02:23.084064 ioctl(8, BINDER_WRITE_READ, 0xffc06928) = 0 <0.000037>
+20:02:23.084136 ioctl(8, BINDER_WRITE_READ, 0xffc06928) = 0 <0.000019>
+20:02:23.084231 ioctl(8, BINDER_WRITE_READ, 0xffc06998) = 0 <0.000065>
+20:02:23.084331 ioctl(8, BINDER_WRITE_READ, 0xffc06998) = 0 <0.000151>
+20:02:23.084668 ioctl(8, BINDER_WRITE_READ, 0xffc065a8) = 0 <0.000037>
+20:02:23.084740 ioctl(8, BINDER_WRITE_READ, 0xffc065a8) = 0 <0.000018>
+20:02:23.084816 ioctl(8, BINDER_WRITE_READ, 0xffc067d8) = 0 <0.000020>
+20:02:23.084871 ioctl(8, BINDER_WRITE_READ, 0xffc06718) = 0 <0.000043>
+20:02:23.084959 ioctl(8, BINDER_WRITE_READ, 0xffc06718) = 0 <0.000055>
+20:02:23.085075 ioctl(8, BINDER_WRITE_READ, 0xffc06728) = 0 <0.000046>
+20:02:23.085165 ioctl(8, BINDER_WRITE_READ, 0xffc06728) = 0 <0.000113>
+20:02:23.085315 dup(32)                 = 33 <0.000018>
+20:02:23.085364 close(32)               = 0 <0.000058>
+20:02:23.085471 ioctl(8, BINDER_WRITE_READ, 0xffc06748) = 0 <0.000057>
+20:02:23.085598 ioctl(8, BINDER_WRITE_READ, 0xffc06748) = 0 <0.000137>
+20:02:23.085924 ioctl(8, BINDER_WRITE_READ, 0xffc06758) = 0 <0.000119>
+20:02:23.086186 ioctl(8, BINDER_WRITE_READ, 0xffc06758) = 0 <0.000111>
+20:02:23.086452 dup(32)                 = 34 <0.000090>
+20:02:23.086646 close(32)               = 0 <0.000089>
+20:02:23.086903 epoll_ctl(29, EPOLL_CTL_ADD, 33, {EPOLLIN, {u32=33, u64=33}}) = 0 <0.000085>
+20:02:23.087151 ioctl(8, BINDER_WRITE_READ, 0xffc06848) = 0 <0.000038>
+20:02:23.087223 ioctl(8, BINDER_WRITE_READ, 0xffc06848) = 0 <0.000097>
+20:02:23.087409 ioctl(8, BINDER_WRITE_READ, 0xffc068f8) = 0 <0.000038>
+20:02:23.087481 ioctl(8, BINDER_WRITE_READ, 0xffc068f8) = 0 <0.000088>
+20:02:23.087757 recvfrom(33, 0xffc05ff8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000114>
+20:02:23.088046 ioctl(8, BINDER_WRITE_READ, 0xffc06708) = 0 <0.000144>
+20:02:23.088387 ioctl(8, BINDER_WRITE_READ, 0xffc06978) = 0 <0.000159>
+20:02:23.088686 ioctl(8, BINDER_WRITE_READ, 0xffc06978) = 0 <0.000497>
+20:02:23.089333 dup(32)                 = 35 <0.000105>
+20:02:23.089573 fcntl64(35, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.000107>
+20:02:23.089809 close(32)               = 0 <0.000102>
+20:02:23.090074 epoll_ctl(29, EPOLL_CTL_ADD, 35, {EPOLLIN, {u32=35, u64=35}}) = 0 <0.000164>
+20:02:23.090437 ioctl(8, BINDER_WRITE_READ, 0xffc06b18) = 0 <0.000144>
+20:02:23.090737 ioctl(8, BINDER_WRITE_READ, 0xffc06b18) = 0 <0.000124>
+20:02:23.091002 getuid32()              = 11582 <0.000119>
+20:02:23.091271 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000124>
+20:02:23.091550 getuid32()              = 11582 <0.000118>
+20:02:23.091822 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000118>
+20:02:23.092092 getuid32()              = 11582 <0.000127>
+20:02:23.092388 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, 0, NULL, 8) = 1 <0.000124>
+20:02:23.092676 recvfrom(33, "nysv\0\0\0\0/\324\367U\302\0\0\0\365R\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000205>
+20:02:23.093038 recvfrom(33, 0xffc062d8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000118>
+20:02:23.093330 getuid32()              = 11582 <0.000117>
+20:02:23.093572 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000123>
+20:02:23.093862 recvfrom(35, 0xe92f5a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000118>
+20:02:23.094130 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000124>
+20:02:23.094533 recvfrom(33, 0xffc05cd8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000110>
+20:02:23.094780 ioctl(8, BINDER_WRITE_READ, 0xffc063e8) = 0 <0.000151>
+20:02:23.095149 ioctl(8, BINDER_WRITE_READ, 0xffc06898) = 0 <0.000155>
+20:02:23.095448 ioctl(8, BINDER_WRITE_READ, 0xffc06898) = 0 <0.079499>
+20:02:23.175613 ioctl(8, BINDER_WRITE_READ, 0xffc06948) = 0 <0.000290>
+20:02:23.175991 ioctl(8, BINDER_WRITE_READ, 0xffc06948) = 0 <0.000622>
+20:02:23.176920 mprotect(0x74308000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000199>
+20:02:23.177776 ioctl(8, BINDER_WRITE_READ, 0xffc06778) = 0 <0.000224>
+20:02:23.178122 ioctl(8, BINDER_WRITE_READ, 0xffc06778) = 0 <0.000136>
+20:02:23.179218 ioctl(8, BINDER_WRITE_READ, 0xffc06778) = 0 <0.000140>
+20:02:23.179502 ioctl(8, BINDER_WRITE_READ, 0xffc06778) = 0 <0.065490>
+20:02:23.245337 futex(0xed403138, FUTEX_WAKE, 1) = 1 <0.000041>
+20:02:23.245440 futex(0xed40e190, FUTEX_WAKE, 1) = 0 <0.000020>
+20:02:23.245490 futex(0xed405130, FUTEX_WAKE, 1) = 1 <0.000034>
+20:02:23.245569 futex(0xed405130, FUTEX_WAKE, 1) = 0 <0.000029>
+20:02:23.245953 ioctl(8, BINDER_WRITE_READ, 0xffc05b48) = 0 <0.000046>
+20:02:23.246051 ioctl(8, BINDER_WRITE_READ, 0xffc05b48) = 0 <0.000029>
+20:02:23.246136 getuid32()              = 11582 <0.000068>
+20:02:23.246249 ioctl(8, BINDER_WRITE_READ, 0xffc05b18) = 0 <0.000037>
+20:02:23.246319 ioctl(8, BINDER_WRITE_READ, 0xffc05b18) = 0 <0.000104>
+20:02:23.246483 ioctl(8, BINDER_WRITE_READ, 0xffc05b78) = 0 <0.000048>
+20:02:23.246566 ioctl(8, BINDER_WRITE_READ, 0xffc05b78) = 0 <0.000112>
+20:02:23.247062 ioctl(8, BINDER_WRITE_READ, 0xffc05a08) = 0 <0.000045>
+20:02:23.247154 ioctl(8, BINDER_WRITE_READ, 0xffc05a08) = 0 <0.000031>
+20:02:23.247235 ioctl(8, BINDER_WRITE_READ, 0xffc05be8) = 0 <0.000021>
+20:02:23.247293 ioctl(8, BINDER_WRITE_READ, 0xffc05a58) = 0 <0.000038>
+20:02:23.247365 ioctl(8, BINDER_WRITE_READ, 0xffc05a58) = 0 <0.000153>
+20:02:23.247572 ioctl(8, BINDER_WRITE_READ, 0xffc05b08) = 0 <0.000091>
+20:02:23.247717 ioctl(8, BINDER_WRITE_READ, 0xffc05b08) = 0 <0.000025>
+20:02:23.247784 ioctl(8, BINDER_WRITE_READ, 0xffc05b08) = 0 <0.000059>
+20:02:23.247965 ioctl(8, BINDER_WRITE_READ, 0xffc05b08) = 0 <0.000086>
+20:02:23.248251 getuid32()              = 11582 <0.000018>
+20:02:23.248302 getuid32()              = 11582 <0.000017>
+20:02:23.248623 writev(3, [{"\0B\26\217\177\332Z\326p\321\16", 11}, {"\5", 1}, {"ContextImpl\0", 12}, {"Implicit intents with startServi"..., 341}], 4) = 365 <0.000027>
+20:02:23.248723 ioctl(8, BINDER_WRITE_READ, 0xffc05b08) = 0 <0.000045>
+20:02:23.248803 ioctl(8, BINDER_WRITE_READ, 0xffc05b08) = 0 <0.000450>
+20:02:23.249892 madvise(0xdc6e2000, 24576, MADV_DONTNEED) = 0 <0.000025>
+20:02:23.250972 pread64(30, "PK\3\4\24\0\10\0\10\0U\205%A7r:2A\1\0\0\n\3\0\0@\0\0\0", 30, 30553660) = 30 <0.000022>
+20:02:23.251033 pread64(30, "assets/com.nd.android.abook.lakh"..., 64, 30553690) = 64 <0.000019>
+20:02:23.251088 mmap2(NULL, 2011, PROT_READ, MAP_SHARED, 30, 0x1d23000) = 0xe2773000 <0.000024>
+20:02:23.251708 writev(3, [{"\0B\26\217\177\332Zu\210\0\17", 11}, {"\4", 1}, {"com.nd.android.abook.lakhforwhy0"..., 34}, {"Loaded a page L\0", 16}], 4) = 62 <0.000024>
+20:02:23.252080 writev(3, [{"\0B\26\217\177\332Z3*\6\17", 11}, {"\4", 1}, {"com.nd.android.abook.lakhforwhy0"..., 34}, {"Loaded a page \0", 15}], 4) = 61 <0.000023>
+20:02:23.252439 munmap(0xe2773000, 2011) = 0 <0.000027>
+20:02:23.252564 writev(3, [{"\0B\26\217\177\332Z\30\215\r\17", 11}, {"\4", 1}, {"com.nd.android.abook.lakhforwhy0"..., 34}, {"return page resources, page:L\0", 30}], 4) = 76 <0.000034>
+20:02:23.252791 writev(3, [{"\0B\26\217\177\332ZO\5\21\17", 11}, {"\4", 1}, {"com.nd.android.abook.lakhforwhy0"..., 34}, {"All unload\0", 11}], 4) = 57 <0.000023>
+20:02:23.253013 ioctl(8, BINDER_WRITE_READ, 0xffc05578) = 0 <0.000050>
+20:02:23.253106 ioctl(8, BINDER_WRITE_READ, 0xffc05578) = 0 <0.000086>
+20:02:23.253255 futex(0xdc6b4b04, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000044>
+20:02:23.253339 futex(0xdc6b4b04, FUTEX_WAIT_BITSET_PRIVATE, 4, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000058>
+20:02:23.253437 futex(0xdfef7108, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000078>
+20:02:23.253559 futex(0xdfef7104, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000041>
+20:02:23.253643 futex(0xdfef7108, FUTEX_WAIT_BITSET_PRIVATE, 4, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000025>
+20:02:23.253768 mmap2(NULL, 1044480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd0e04000 <0.000046>
+20:02:23.253866 madvise(0xd0e04000, 1044480, MADV_MERGEABLE) = 0 <0.000036>
+20:02:23.253937 mprotect(0xd0e04000, 4096, PROT_NONE) = 0 <0.000018>
+20:02:23.253983 prctl(0x53564d41 /* PR_??? */, 0, 0xd0e04000, 4096, "thread stack guard page") = 0 <0.000017>
+20:02:23.254037 clone(child_stack=0xd0f02910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd0f02928, tls={entry_number:12, base_addr:0xd0f02970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xffc05590, child_tidptr=0xd0f02928) = 5731 <0.000047>
+20:02:23.254126 futex(0xd0f02960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000044>
+20:02:23.254371 mmap2(NULL, 1044480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd0d05000 <0.000042>
+20:02:23.254457 madvise(0xd0d05000, 1044480, MADV_MERGEABLE) = 0 <0.000126>
+20:02:23.254624 mprotect(0xd0d05000, 4096, PROT_NONE) = 0 <0.000023>
+20:02:23.254683 prctl(0x53564d41 /* PR_??? */, 0, 0xd0d05000, 4096, "thread stack guard page") = 0 <0.000021>
+20:02:23.254751 clone(child_stack=0xd0e03910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd0e03928, tls={entry_number:12, base_addr:0xd0e03970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xffc05550, child_tidptr=0xd0e03928) = 5732 <0.000052>
+20:02:23.254861 futex(0xd0e03960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000057>
+20:02:23.255002 ioctl(8, BINDER_WRITE_READ, 0xffc054a8) = 0 <0.000051>
+20:02:23.255096 ioctl(8, BINDER_WRITE_READ, 0xffc054a8) = 0 <0.000025>
+20:02:23.255175 getuid32()              = 11582 <0.000023>
+20:02:23.255247 ioctl(8, BINDER_WRITE_READ, 0xffc05498) = 0 <0.000046>
+20:02:23.255335 ioctl(8, BINDER_WRITE_READ, 0xffc05498) = 0 <0.000120>
+20:02:23.255520 ioctl(8, BINDER_WRITE_READ, 0xffc054d8) = 0 <0.000068>
+20:02:23.255631 ioctl(8, BINDER_WRITE_READ, 0xffc054d8) = 0 <0.000108>
+20:02:23.255799 writev(3, [{"\0B\26\217\177\332Z!\363>\17", 11}, {"\5", 1}, {"com.nd.android.abook.lakhforwhy0"..., 34}, {"SoundPool release\0", 18}], 4) = 64 <0.000132>
+20:02:23.256108 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 32 <0.000036>
+20:02:23.256203 fstat64(32, {st_mode=054, st_size=1, ...}) = 0 <0.000025>
+20:02:23.256533 ioctl(32, ASHMEM_SET_NAME, 0xffc04c40) = 0 <0.000043>
+20:02:23.256621 ioctl(32, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x4000) = 0 <0.000025>
+20:02:23.256945 mmap2(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE, 32, 0) = 0xd0cff000 <0.000137>
+20:02:23.257217 close(32)               = 0 <0.000092>
+20:02:23.257527 pread64(30, "PK\3\4\n\0\0\0\0\0\224y%AX\335lY\244\r\7\0\244\r\7\0C\0\2\0", 30, 31494049) = 30 <0.000156>
+20:02:23.257863 pread64(30, "assets/com.nd.android.abook.lakh"..., 67, 31494079) = 67 <0.000105>
+20:02:23.258322 mmap2(NULL, 462248, PROT_READ, MAP_SHARED, 30, 0x1e09000) = 0xd0c8e000 <0.000114>
+20:02:23.258639 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000076>
+20:02:23.258876 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000147>
+20:02:23.259312 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 32 <0.000101>
+20:02:23.259562 fstat64(32, {st_mode=S_IFREG|S_ISGID|0124, st_size=1, ...}) = 0 <0.000113>
+20:02:23.259821 ioctl(32, ASHMEM_SET_NAME, 0xffc02d00) = 0 <0.000085>
+20:02:23.260089 ioctl(32, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x301000) = 0 <0.000109>
+20:02:23.260302 mmap2(NULL, 3149824, PROT_READ|PROT_WRITE, MAP_PRIVATE, 32, 0) = 0xd098d000 <0.000100>
+20:02:23.260547 close(32)               = 0 <0.000088>
+20:02:23.261130 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000100>
+20:02:23.261365 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000188>
+20:02:23.286303 munmap(0xd0c8e000, 462248) = 0 <0.000128>
+20:02:23.286670 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 32 <0.000134>
+20:02:23.286938 fstat64(32, {st_mode=070220, st_size=1, ...}) = 0 <0.000104>
+20:02:23.287179 ioctl(32, ASHMEM_SET_NAME, 0xffc04240) = 0 <0.000105>
+20:02:23.287407 ioctl(32, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xd24000) = 0 <0.000103>
+20:02:23.287635 mmap2(NULL, 13778944, PROT_READ|PROT_WRITE, MAP_PRIVATE, 32, 0) = 0xcfc69000 <0.000121>
+20:02:23.287912 close(32)               = 0 <0.000137>
+20:02:23.288209 futex(0xe92300f8, FUTEX_WAKE, 1) = 1 <0.000253>
+20:02:23.288608 futex(0xe923feb0, FUTEX_WAKE, 1) = 1 <0.000159>
+20:02:23.324014 futex(0xe922d9f8, FUTEX_CMP_REQUEUE, 0, 2147483647, 0xe922d9d8, 3) = 1 <0.000120>
+20:02:23.324283 futex(0xe922d9d8, FUTEX_WAKE, 1) = 1 <0.000168>
+20:02:23.324852 futex(0xe92a0860, FUTEX_WAIT, 1, NULL) = 0 <0.000431>
+20:02:23.325652 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 32 <0.000167>
+20:02:23.325972 fstat64(32, {st_mode=S_IFDIR|S_ISUID|S_ISGID|0320, st_size=1, ...}) = 0 <0.000254>
+20:02:23.326411 ioctl(32, ASHMEM_SET_NAME, 0xffc04c40) = 0 <0.000151>
+20:02:23.326719 ioctl(32, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x4000) = 0 <0.000154>
+20:02:23.327034 mmap2(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE, 32, 0) = 0xd0cfb000 <0.000152>
+20:02:23.327357 close(32)               = 0 <0.000133>
+20:02:23.327692 pread64(30, "PK\3\4\n\0\0\0\0\0\223y%AaeT\220b\17\0\0b\17\0\0A\0\2\0", 30, 30554091) = 30 <0.000139>
+20:02:23.327996 pread64(30, "assets/com.nd.android.abook.lakh"..., 65, 30554121) = 65 <0.000132>
+20:02:23.328312 mmap2(NULL, 6062, PROT_READ, MAP_SHARED, 30, 0x1d23000) = 0xd0cf9000 <0.000151>
+20:02:23.328723 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000097>
+20:02:23.328958 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000135>
+20:02:23.329402 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 32 <0.000132>
+20:02:23.329675 fstat64(32, {st_mode=0230, st_size=1, ...}) = 0 <0.000105>
+20:02:23.329942 ioctl(32, ASHMEM_SET_NAME, 0xffc02d00) = 0 <0.000148>
+20:02:23.330312 ioctl(32, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x90000) = 0 <0.000086>
+20:02:23.330587 mmap2(NULL, 589824, PROT_READ|PROT_WRITE, MAP_PRIVATE, 32, 0) = 0xcfbd9000 <0.000133>
+20:02:23.330905 close(32)               = 0 <0.000111>
+20:02:23.331264 futex(0xe922d978, FUTEX_CMP_REQUEUE, 0, 2147483647, 0xe922d958, 1) = 1 <0.000110>
+20:02:23.331502 futex(0xe922d958, FUTEX_WAKE, 1) = 1 <0.000125>
+20:02:23.331787 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000105>
+20:02:23.332071 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0 <0.000101>
+20:02:23.334676 munmap(0xd0cf9000, 6062) = 0 <0.000148>
+20:02:23.335017 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 32 <0.000113>
+20:02:23.335252 fstat64(32, {st_mode=0230, st_size=1, ...}) = 0 <0.000108>
+20:02:23.335488 ioctl(32, ASHMEM_SET_NAME, 0xffc04240) = 0 <0.000101>
+20:02:23.335705 ioctl(32, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x276000) = 0 <0.000107>
+20:02:23.335934 mmap2(NULL, 2580480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 32, 0) = 0xcf963000 <0.000110>
+20:02:23.336172 close(32)               = 0 <0.000111>
+20:02:23.339764 futex(0xe922d978, FUTEX_CMP_REQUEUE, 0, 2147483647, 0xe922d958, 2) = 1 <0.000088>
+20:02:23.339958 futex(0xe922d958, FUTEX_WAKE, 1) = 1 <0.000107>
+20:02:23.340240 futex(0xd13560d0, FUTEX_WAKE, 4294967295) = 0 <0.000106>
+20:02:23.340510 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 32 <0.000112>
+20:02:23.340946 fstat64(32, {st_mode=0, st_size=1, ...}) = 0 <0.000099>
+20:02:23.341169 ioctl(32, ASHMEM_SET_NAME, 0xffc05f50) = 0 <0.000085>
+20:02:23.341351 ioctl(32, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000081>
+20:02:23.341530 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 32, 0) = 0xd0d01000 <0.000089>
+20:02:23.341736 close(32)               = 0 <0.000084>
+20:02:23.341924 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xd0bf6000 <0.000084>
+20:02:23.342105 madvise(0xd0bf6000, 1069056, MADV_MERGEABLE) = 0 <0.000181>
+20:02:23.342427 mprotect(0xd0bf6000, 4096, PROT_NONE) = 0 <0.000090>
+20:02:23.342619 prctl(0x53564d41 /* PR_??? */, 0, 0xd0bf6000, 4096, "thread stack guard page") = 0 <0.000150>
+20:02:23.342881 clone(child_stack=0xd0cfa910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xd0cfa928, tls={entry_number:12, base_addr:0xd0cfa970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xffc062a0, child_tidptr=0xd0cfa928) = 5733 <0.000126>
+20:02:23.343128 futex(0xd0cfa960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000118>
+20:02:23.343432 ioctl(8, BINDER_WRITE_READ, 0xffc06778) = 0 <0.000125>
+20:02:23.343699 ioctl(8, BINDER_WRITE_READ, 0xffc06778) = 0 <0.000080>
+20:02:23.343946 ioctl(8, BINDER_WRITE_READ, 0xffc06778) = 0 <0.000149>
+20:02:23.344142 ioctl(8, BINDER_WRITE_READ, 0xffc06778) = 0 <0.000634>
+20:02:23.344909 getuid32()              = 11582 <0.000077>
+20:02:23.345081 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=33, u64=33}}], 16, 0, NULL, 8) = 2 <0.000079>
+20:02:23.345271 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000078>
+20:02:23.345454 recvfrom(33, "nysv\0\0\0\0\256F\366V\302\0\0\0\366R\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000080>
+20:02:23.345638 recvfrom(33, 0xffc062d8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000085>
+20:02:23.345854 recvfrom(35, 0xe92f5a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000078>
+20:02:23.346045 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000231>
+20:02:23.346445 ioctl(8, BINDER_WRITE_READ, 0xffc06898) = 0 <0.000441>
+20:02:23.347236 ioctl(8, BINDER_WRITE_READ, 0xffc06898) = 0 <0.000077>
+20:02:23.347496 futex(0xe9240180, FUTEX_WAKE, 1) = 0 <0.000095>
+20:02:23.347695 futex(0xe9230138, FUTEX_WAIT, 266, NULL <unfinished ...>
+20:02:41.358484 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 44.55    0.006944          31       221           mprotect
+ 39.72    0.006191         200        31         4 openat
+  4.39    0.000685          98         7           read
+  3.24    0.000505          28        18           pread64
+  2.30    0.000359           2       161         1 ioctl
+  1.90    0.000296           6        52           madvise
+  1.41    0.000219          16        14           readlinkat
+  1.01    0.000157           3        62         6 fstatat64
+  0.79    0.000123           5        27         2 futex
+  0.69    0.000108           3        35           getuid32
+  0.00    0.000000           0         1           lseek
+  0.00    0.000000           0         5           dup
+  0.00    0.000000           0         1           sigaction
+  0.00    0.000000           0        51           munmap
+  0.00    0.000000           0         6           clone
+  0.00    0.000000           0         4           _llseek
+  0.00    0.000000           0        11           writev
+  0.00    0.000000           0        45           prctl
+  0.00    0.000000           0         8           rt_sigprocmask
+  0.00    0.000000           0        77           mmap2
+  0.00    0.000000           0        28           fstat64
+  0.00    0.000000           0         2           getdents64
+  0.00    0.000000           0         3           fcntl64
+  0.00    0.000000           0         2           epoll_ctl
+  0.00    0.000000           0         1           clock_gettime
+  0.00    0.000000           0         2           mkdirat
+  0.00    0.000000           0         1         1 unlinkat
+  0.00    0.000000           0         2           fchmodat
+  0.00    0.000000           0         4         2 faccessat
+  0.00    0.000000           0         9           epoll_pwait
+  0.00    0.000000           0         8         6 recvfrom
+  0.00    0.000000           0         1         1 getsockopt
+  0.00    0.000000           0         2           write
+  0.00    0.000000           0        31           close
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.015587                   933        23 total

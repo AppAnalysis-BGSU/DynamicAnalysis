@@ -1,0 +1,54 @@
+13:23:05.227828 ioctl(8, BINDER_WRITE_READ, 0xffb30c68) = 0 <0.030970>
+13:23:05.259217 futex(0xe2203ac8, FUTEX_WAKE, 1) = 1 <0.000042>
+13:23:05.259310 futex(0xe220eb50, FUTEX_WAKE, 1) = 1 <0.000035>
+13:23:05.259385 futex(0xe2205070, FUTEX_WAKE, 1) = 1 <0.000038>
+13:23:05.259463 futex(0xe2205090, FUTEX_WAKE, 1) = 1 <0.000034>
+13:23:05.259536 futex(0xe2205070, FUTEX_WAKE, 1) = 1 <0.000159>
+13:23:05.260145 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 49 <0.000045>
+13:23:05.260273 fstat64(49, {st_mode=S_IFIFO|0644, st_size=1, ...}) = 0 <0.000453>
+13:23:05.260968 futex(0xec7e1198, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000381>
+13:23:05.261399 ioctl(49, ASHMEM_SET_NAME, 0xffb30440) = 0 <0.000028>
+13:23:05.261473 ioctl(49, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000027>
+13:23:05.261547 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 49, 0) = 0xdbc6e000 <0.000032>
+13:23:05.261626 close(49)               = 0 <0.000027>
+13:23:05.261693 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcd67c000 <0.000046>
+13:23:05.261803 madvise(0xcd67c000, 1069056, MADV_MERGEABLE) = 0 <0.000030>
+13:23:05.261880 mprotect(0xcd67c000, 4096, PROT_NONE) = 0 <0.000030>
+13:23:05.262048 prctl(0x53564d41 /* PR_??? */, 0, 0xcd67c000, 4096, "thread stack guard page") = 0 <0.000200>
+13:23:05.263515 clone(child_stack=0xcd780910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcd780928, tls={entry_number:12, base_addr:0xcd780970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xffb30790, child_tidptr=0xcd780928) = 27468 <0.005078>
+13:23:05.274727 ioctl(8, BINDER_WRITE_READ, 0xffb30c68) = 0 <0.000742>
+13:23:05.276187 ioctl(8, BINDER_WRITE_READ, 0xffb30c68) = 0 <0.000256>
+13:23:05.276690 ioctl(8, BINDER_WRITE_READ, 0xffb30c68) = 0 <0.000311>
+13:23:05.277431 ioctl(8, BINDER_WRITE_READ, 0xffb30c68) = 0 <0.000504>
+13:23:05.280280 getuid32()              = 11345 <0.001528>
+13:23:05.283246 epoll_pwait(26, [{EPOLLIN, {u32=43, u64=43}}, {EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 2 <0.000718>
+13:23:05.291128 read(25, "\2\0\0\0\0\0\0\0", 8) = 8 <0.003725>
+13:23:05.295983 recvfrom(43, "nysv\0\0\0\0\267\316\215\275&:\0\0\324\312\1\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000176>
+13:23:05.296467 recvfrom(43, 0xffb307c8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000192>
+13:23:05.297114 recvfrom(51, 0xe8b75a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000030>
+13:23:05.297212 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000027>
+13:23:05.297324 futex(0xdf729778, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.179770>
+13:23:05.477293 ioctl(8, BINDER_WRITE_READ, 0xffb30d88) = 0 <0.000070>
+13:23:05.477423 ioctl(8, BINDER_WRITE_READ, 0xffb30d88) = 0 <0.001182>
+13:23:05.480087 futex(0xe8ac0180, FUTEX_WAKE, 1) = 0 <0.000116>
+13:23:05.480403 futex(0xe8ab0138, FUTEX_WAIT, 725, NULL <unfinished ...>
+13:23:22.314338 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 83.39    0.088000       11000         8           futex
+ 11.37    0.012000        1333         9           ioctl
+  3.79    0.004000        4000         1           clone
+  1.45    0.001528        1528         1           getuid32
+  0.00    0.000000           0         1           write
+  0.00    0.000000           0         1           close
+  0.00    0.000000           0         1           mprotect
+  0.00    0.000000           0         1           prctl
+  0.00    0.000000           0         2           mmap2
+  0.00    0.000000           0         1           fstat64
+  0.00    0.000000           0         1           madvise
+  0.00    0.000000           0         1           openat
+  0.00    0.000000           0         1           epoll_pwait
+  0.00    0.000000           0         3         2 recvfrom
+  0.00    0.000000           0         1           read
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.105528                    33         2 total

@@ -1,0 +1,12 @@
+14:28:50.682975 futex(0xe40a9958, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.028705>
+14:28:50.712179 ioctl(8, BINDER_WRITE_READ, 0xffee61c8) = 0 <0.000162>
+14:28:50.712497 ioctl(8, BINDER_WRITE_READ, 0xffee61c8) = 0 <0.001835>
+14:28:50.714521 futex(0xed440180, FUTEX_WAKE, 1) = 0 <0.000110>
+14:28:50.714724 futex(0xed430138, FUTEX_WAIT, 386, NULL <unfinished ...>
+14:28:51.813386 +++ killed by SIGSEGV +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+  0.00    0.000000           0         2           ioctl
+  0.00    0.000000           0         2           futex
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000000                     4           total

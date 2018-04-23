@@ -1,0 +1,44 @@
+21:23:57.696365 ioctl(8, BINDER_WRITE_READ, 0xffc06898) = 0 <0.181294>
+21:23:57.880267 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.002066>
+21:23:57.882410 ioctl(8, BINDER_WRITE_READ, 0xffc068c8) = 0 <0.000836>
+21:23:57.883323 ioctl(8, BINDER_WRITE_READ, 0xffc068c8) = 0 <0.054692>
+21:23:57.939403 ioctl(8, BINDER_WRITE_READ, 0xffc06808) = 0 <0.000629>
+21:23:57.940420 ioctl(8, BINDER_WRITE_READ, 0xffc06808) = 0 <0.000037>
+21:23:57.941676 recvfrom(33, 0xffc05fe8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000164>
+21:23:57.942285 ioctl(8, BINDER_WRITE_READ, 0xffc066f8) = 0 <0.000043>
+21:23:57.949457 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000207>
+21:23:57.950375 getuid32()              = 11657 <0.000032>
+21:23:57.950466 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1 <0.000031>
+21:23:57.950552 read(25, "\2\0\0\0\0\0\0\0", 8) = 8 <0.000027>
+21:23:57.950644 getuid32()              = 11657 <0.005380>
+21:23:57.957219 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000750>
+21:23:57.958043 epoll_pwait(29, [{EPOLLIN, {u32=33, u64=33}}], 16, -1, NULL, 8) = 1 <0.002621>
+21:23:57.960732 recvfrom(33, "nysv\0\0\0\0\243\372\273\0026\5\0\0G\315\1\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000238>
+21:23:57.961032 recvfrom(33, 0xffc062d8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000048>
+21:23:57.961178 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000028>
+21:23:57.961290 recvfrom(39, 0xe92f5a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000029>
+21:23:57.961426 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000026>
+21:23:57.961550 futex(0xdfea9818, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.283370>
+21:23:58.245495 write(32, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000062>
+21:23:58.245631 futex(0xe92b22a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000103>
+21:23:58.245827 futex(0xdfea97a0, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = 0 <0.139244>
+21:23:58.385141 futex(0xdfea9818, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff) = ? ERESTARTSYS (To be restarted if SA_RESTART is set) <7.091544>
+21:24:05.476737 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=19462, si_uid=11657} ---
+21:24:05.476777 futex(0xdc6b8a94, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000042>
+21:24:05.476872 futex(0xdc6b8a94, FUTEX_WAIT_BITSET_PRIVATE, 6, {5742, 50725367}, ffffffff) = 0 <0.000245>
+21:24:05.477165 futex(0xdc6b8a94, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000040>
+21:24:05.477255 rt_sigreturn()          = 240 <0.000035>
+21:24:05.477341 futex(0xdfea9818, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff <unfinished ...>
+21:24:17.454564 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 73.28    0.024000        3429         7         1 futex
+ 12.21    0.004000         667         6           ioctl
+ 12.21    0.004000        2000         2           getuid32
+  2.29    0.000750         250         3           epoll_pwait
+  0.00    0.000000           0         5           write
+  0.00    0.000000           0         1           rt_sigreturn
+  0.00    0.000000           0         4         3 recvfrom
+  0.00    0.000000           0         1           read
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.032750                    29         4 total

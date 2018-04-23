@@ -1,0 +1,47 @@
+21:21:52.496855 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1 <0.007610>
+21:21:52.504900 recvfrom(35, "nysv\0\0\0\0-\25\262\341\262\5\0\0C>\2\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.001934>
+21:21:52.511786 recvfrom(35, 0xffb19aa8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000109>
+21:21:52.514894 futex(0xed99c254, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.004918>
+21:21:52.519980 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000232>
+21:21:52.521351 recvfrom(42, 0xebdf8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000029>
+21:21:52.521446 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000025>
+21:21:52.522334 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000047>
+21:21:52.522430 futex(0xebdb22a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000037>
+21:21:52.522508 futex(0xe29a99f4, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000036>
+21:21:52.522583 futex(0xe29a99f8, FUTEX_WAIT_BITSET_PRIVATE, 16, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000024>
+21:21:52.524048 ioctl(8, BINDER_WRITE_READ, 0xffb1a068) = 0 <0.000055>
+21:21:52.524160 ioctl(8, BINDER_WRITE_READ, 0xffb1a068) = 0 <0.043620>
+21:21:52.568116 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000329>
+21:21:52.568768 ioctl(8, BINDER_WRITE_READ, 0xffb1a098) = 0 <0.000255>
+21:21:52.569259 ioctl(8, BINDER_WRITE_READ, 0xffb1a098) = 0 <0.057771>
+21:21:52.627461 ioctl(8, BINDER_WRITE_READ, 0xffb19fd8) = 0 <0.000231>
+21:21:52.627862 ioctl(8, BINDER_WRITE_READ, 0xffb19fd8) = 0 <0.000136>
+21:21:52.628419 recvfrom(35, 0xffb197b8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000125>
+21:21:52.628809 ioctl(8, BINDER_WRITE_READ, 0xffb19ec8) = 0 <0.000232>
+21:21:52.629213 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000134>
+21:21:52.629521 getuid32()              = 11157 <0.000230>
+21:21:52.629908 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1 <0.000205>
+21:21:52.630293 read(25, "\2\0\0\0\0\0\0\0", 8) = 8 <0.000135>
+21:21:52.630777 getuid32()              = 11157 <0.000214>
+21:21:52.631133 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000163>
+21:21:52.631434 epoll_pwait(29, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1 <0.006595>
+21:21:52.638191 recvfrom(35, "nysv\0\0\0\0\212\207\245\351\262\5\0\0K>\2\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000135>
+21:21:52.638474 recvfrom(35, 0xffb19aa8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000136>
+21:21:52.638791 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000134>
+21:21:52.639103 recvfrom(42, 0xebdf8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000122>
+21:21:52.639387 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000110>
+21:21:52.639676 futex(0xe29a99f8, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.113986>
+21:21:52.754064 write(34, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000129>
+21:21:52.754266 futex(0xe29a9980, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff <unfinished ...>
+21:21:53.935383 +++ killed by SIGABRT +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 49.75    0.012000        1714         7           ioctl
+ 33.16    0.008000        1600         5         1 futex
+ 16.58    0.004000        1000         4           epoll_pwait
+  0.51    0.000122          17         7         5 recvfrom
+  0.00    0.000000           0         8           write
+  0.00    0.000000           0         2           getuid32
+  0.00    0.000000           0         1           read
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.024122                    34         6 total
