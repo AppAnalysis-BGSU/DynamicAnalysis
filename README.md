@@ -1,6 +1,9 @@
 # DynamicAnalysis
-Deep learning to analyze android applications
-
+ Deep learning to classify android applications as `benign` and `malicious`. 
+ 
+ `Benign Android Applications:` As the term suggests, these android are not of threat to users using them as they do not show bad behaviors like deleting user info, stealing user info, sending unsolicited sms, making unauthorized phone calls etc. On the other hand, applications that depict such behavior are `Malicious Applications`.
+ 
+  
 ## Airpush-Malware 
  
  > Contains apks, system calls obtained on dynamic execution of the file , the jawa code and java code for **one Android application of Airpush Family**.
@@ -14,10 +17,10 @@ Some options I have used are
 * Throttle of `10` milliseconds between each event 
 * `2500` Random events  
  
- 
- 
-Run Task.sh using `bash Task.sh <Path to directory containing apk files`
+## How to Obtain System calls  
 
-Make Sure you provide valid path for the files to be pulled and saved inside the `Task.sh` script.
+1. Run Genymotion as administrator and start a device
+2. Change the device's read only permission to read write as `adb shell mount -o rw,remount -t yaffs2 rootfs /`
+3. Change the destination on the script accordingly and run it as `bash Task.sh <apk-containing-folder>`
 
 `aapt` and `adb` should be added to the Environnemt Path
