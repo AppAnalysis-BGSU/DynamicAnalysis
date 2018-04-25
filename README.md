@@ -1,14 +1,13 @@
 # DynamicAnalysis
  Deep learning to classify android applications as `benign` and `malicious`. 
  
- `Benign Android Applications:` As the term suggests, these applications are not of threat to users using them as they do not show behaviors like deleting user info, stealing user info, sending unsolicited sms, making unauthorized phone calls etc. On the other hand, applications that depict such behavior are `Malicious Applications`.
- 
-  
-## Airpush-Malware 
+## Contents of above directories:
+
+### Airpush-Malware 
  
  > Contains apks, system calls obtained on dynamic execution of the file , the jawa code and java code for **one Android application of Airpush Family**.
 
-## Systemcalls-Androzoo-apps
+### Systemcalls-Androzoo-apps
 
 Contains System calls of both benign and Malicious android applications obtained from Androzoo (Broken down to folders of 500 each due to github restrictions). I will keep on adding files to this directory as required.
 
