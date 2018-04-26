@@ -1,0 +1,172 @@
+21:11:49.269631 wait4(21876, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 21876 <0.057421>
+21:11:49.327432 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=21876, si_uid=12229, si_status=0, si_utime=13, si_stime=20} ---
+21:11:49.327627 fdatasync(33)           = 0 <0.000437>
+21:11:49.328269 close(33)               = 0 <0.000110>
+21:11:49.328507 fstatat64(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon/.\351\213\230\346\203\245\347\243\237", {st_mode=S_IFBLK|S_ISVTX|027, st_rdev=makedev(129, 164), ...}, 0) = 0 <0.000125>
+21:11:49.328848 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000100>
+21:11:49.329079 fstatat64(AT_FDCWD, "/data/data", {st_mode=0, st_size=96, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000116>
+21:11:49.329337 fstatat64(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon", {st_mode=0, st_size=3, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000101>
+21:11:49.329548 fstatat64(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon/.\351\213\230\346\203\245\347\243\237", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000083>
+21:11:49.329740 mprotect(0xdea35000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000082>
+21:11:49.329916 mprotect(0xebf04000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000081>
+21:11:49.330090 mprotect(0xec16e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000100>
+21:11:49.330320 mprotect(0xec16f000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000100>
+21:11:49.330530 mprotect(0xec1d9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000104>
+21:11:49.330741 mprotect(0xebd21000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000082>
+21:11:49.330980 mprotect(0xebd6e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000189>
+21:11:49.331367 mprotect(0xebdc9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000176>
+21:11:49.331759 mprotect(0xebe1b000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000136>
+21:11:49.332099 mprotect(0xebea6000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000101>
+21:11:49.332431 mprotect(0xebeec000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000177>
+21:11:49.332867 mprotect(0xebffd000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000321>
+21:11:49.333434 mprotect(0xec047000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000300>
+21:11:49.334124 mprotect(0xec166000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000240>
+21:11:49.334635 mprotect(0xec1ae000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000262>
+21:11:49.335087 mprotect(0xec26c000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000306>
+21:11:49.335722 mprotect(0xde9ec000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000710>
+21:11:49.336493 mprotect(0xec168000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000292>
+21:11:49.337068 mprotect(0xe7b06000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000278>
+21:11:49.337580 mprotect(0xebd2e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000229>
+21:11:49.338012 mprotect(0xebd6f000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000122>
+21:11:49.338319 mprotect(0xebdd0000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000121>
+21:11:49.338569 mprotect(0xebdea000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000153>
+21:11:49.338859 mprotect(0xebe41000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000136>
+21:11:49.339119 mprotect(0xec26e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000263>
+21:11:49.339735 mprotect(0xec26f000, 4096, PROT_READ|PROT_WRITE) = 0 <0.001762>
+21:11:49.342890 mprotect(0xe132e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000952>
+21:11:49.346788 openat(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon/.\351\213\230\346\203\245\347\243\237", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 33 <0.001008>
+21:11:49.348444 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe12d3000 <0.002081>
+21:11:49.350886 madvise(0xe12d3000, 8192, MADV_MERGEABLE) = 0 <0.000154>
+21:11:49.351610 prctl(0x53564d41 /* PR_??? */, 0, 0xe12d3000, 8192, "linker_alloc_lob") = 0 <0.000150>
+21:11:49.352445 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe12d1000 <0.000301>
+21:11:49.352962 madvise(0xe12d1000, 8192, MADV_MERGEABLE) = 0 <0.001751>
+21:11:49.354917 prctl(0x53564d41 /* PR_??? */, 0, 0xe12d1000, 8192, "linker_alloc_lob") = 0 <0.000162>
+21:11:49.355474 readlinkat(AT_FDCWD, "/proc/self/fd/33", "/data/data/com.android.Jawbreake"..., 4096) = 56 <0.000155>
+21:11:49.356225 munmap(0xe12d1000, 8192) = 0 <0.002784>
+21:11:49.359197 munmap(0xe12d3000, 8192) = 0 <0.000127>
+21:11:49.359491 fstat64(33, {st_mode=S_IFREG|S_ISUID|S_ISVTX|0220, st_size=1, ...}) = 0 <0.000157>
+21:11:49.360373 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe132b000 <0.001579>
+21:11:49.363780 madvise(0xe132b000, 4096, MADV_MERGEABLE) = 0 <0.000140>
+21:11:49.365615 prctl(0x53564d41 /* PR_??? */, 0, 0xe132b000, 4096, "linker_alloc_small_objects") = 0 <0.001724>
+21:11:49.367909 pread64(33, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\0\0\0004\0\0\0"..., 52, 0) = 52 <0.000406>
+21:11:49.368602 mmap2(NULL, 328, PROT_READ, MAP_PRIVATE, 33, 0) = 0xe12d4000 <0.000153>
+21:11:49.368955 mmap2(NULL, 488, PROT_READ, MAP_PRIVATE, 33, 0x24000) = 0xe12d3000 <0.000284>
+21:11:49.369485 mmap2(NULL, 56, PROT_READ, MAP_PRIVATE, 33, 0x23000) = 0xe12d2000 <0.000192>
+21:11:49.369994 mmap2(NULL, 62, PROT_READ, MAP_PRIVATE, 33, 0x22000) = 0xe12d1000 <0.000330>
+21:11:49.370672 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe12b3000 <0.000297>
+21:11:49.371202 madvise(0xe12b3000, 4096, MADV_MERGEABLE) = 0 <0.000138>
+21:11:49.371595 prctl(0x53564d41 /* PR_??? */, 0, 0xe12b3000, 4096, "linker_alloc_small_objects") = 0 <0.000332>
+21:11:49.372268 mmap2(NULL, 155648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xe128d000 <0.000261>
+21:11:49.372807 madvise(0xe128d000, 155648, MADV_MERGEABLE) = 0 <0.000341>
+21:11:49.373383 mmap2(0xe128d000, 73728, PROT_READ, MAP_PRIVATE|MAP_FIXED, 33, 0) = 0xe128d000 <0.000174>
+21:11:49.373719 mmap2(0xe129f000, 64165, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 33, 0x12000) = 0xe129f000 <0.000145>
+21:11:49.374040 mmap2(0xe12af000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xe12af000 <0.000130>
+21:11:49.374330 madvise(0xe12af000, 8192, MADV_MERGEABLE) = 0 <0.000139>
+21:11:49.374601 prctl(0x53564d41 /* PR_??? */, 0, 0xe12af000, 8192, ".bss") = 0 <0.000141>
+21:11:49.375088 mmap2(0xe12b1000, 196, PROT_READ, MAP_PRIVATE|MAP_FIXED, 33, 0x22000) = 0xe12b1000 <0.000255>
+21:11:49.375685 mmap2(0xe12b2000, 56, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 33, 0x23000) = 0xe12b2000 <0.000231>
+21:11:49.376256 munmap(0xe12b3000, 4096) = 0 <0.000222>
+21:11:49.376830 close(33)               = 0 <0.000277>
+21:11:49.377350 munmap(0xe12d1000, 62)  = 0 <0.000271>
+21:11:49.378177 munmap(0xe12d2000, 56)  = 0 <0.000376>
+21:11:49.378836 munmap(0xe12d3000, 488) = 0 <0.000368>
+21:11:49.379550 munmap(0xe12d4000, 328) = 0 <0.000229>
+21:11:49.380794 munmap(0xe132b000, 4096) = 0 <0.000095>
+21:11:49.381192 mprotect(0xdea35000, 4096, PROT_READ) = 0 <0.000258>
+21:11:49.381658 mprotect(0xebf04000, 4096, PROT_READ) = 0 <0.000590>
+21:11:49.382708 mprotect(0xec16e000, 4096, PROT_READ) = 0 <0.000500>
+21:11:49.383470 mprotect(0xec16f000, 4096, PROT_READ) = 0 <0.000243>
+21:11:49.383964 mprotect(0xec1d9000, 4096, PROT_READ) = 0 <0.000308>
+21:11:49.384743 mprotect(0xebd21000, 4096, PROT_READ) = 0 <0.000457>
+21:11:49.385672 mprotect(0xebd6e000, 4096, PROT_READ) = 0 <0.000515>
+21:11:49.386648 mprotect(0xebdc9000, 4096, PROT_READ) = 0 <0.000338>
+21:11:49.387645 mprotect(0xebe1b000, 4096, PROT_READ) = 0 <0.000510>
+21:11:49.388629 mprotect(0xebea6000, 4096, PROT_READ) = 0 <0.000444>
+21:11:49.389489 mprotect(0xebeec000, 4096, PROT_READ) = 0 <0.000431>
+21:11:49.390160 mprotect(0xebffd000, 4096, PROT_READ) = 0 <0.000229>
+21:11:49.390670 mprotect(0xec047000, 4096, PROT_READ) = 0 <0.000216>
+21:11:49.391157 mprotect(0xec166000, 4096, PROT_READ) = 0 <0.000299>
+21:11:49.391862 mprotect(0xec1ae000, 4096, PROT_READ) = 0 <0.001119>
+21:11:49.393264 mprotect(0xec26c000, 4096, PROT_READ) = 0 <0.000383>
+21:11:49.394084 mprotect(0xde9ec000, 4096, PROT_READ) = 0 <0.000396>
+21:11:49.394988 mprotect(0xec168000, 4096, PROT_READ) = 0 <0.000340>
+21:11:49.395693 mprotect(0xe7b06000, 4096, PROT_READ) = 0 <0.000422>
+21:11:49.396332 mprotect(0xebd2e000, 4096, PROT_READ) = 0 <0.000239>
+21:11:49.396881 mprotect(0xebd6f000, 4096, PROT_READ) = 0 <0.000329>
+21:11:49.397607 mprotect(0xebdd0000, 4096, PROT_READ) = 0 <0.000807>
+21:11:49.398904 mprotect(0xebdea000, 4096, PROT_READ) = 0 <0.000461>
+21:11:49.399801 mprotect(0xebe41000, 4096, PROT_READ) = 0 <0.000470>
+21:11:49.400645 mprotect(0xec26e000, 4096, PROT_READ) = 0 <0.000240>
+21:11:49.401127 mprotect(0xec26f000, 4096, PROT_READ) = 0 <0.000260>
+21:11:49.401578 mprotect(0xe132e000, 4096, PROT_READ) = 0 <0.000194>
+21:11:49.402051 fstatat64(AT_FDCWD, "/data", {st_mode=S_IFIFO|S_ISGID|S_ISVTX|0604, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000198>
+21:11:49.402445 fstatat64(AT_FDCWD, "/data/data", {st_mode=S_IFIFO|S_ISGID|S_ISVTX|0604, st_size=96, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000658>
+21:11:49.403647 fstatat64(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon", {st_mode=S_IFIFO|S_ISGID|S_ISVTX|0604, st_size=3, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000335>
+21:11:49.405273 fstatat64(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon/.\350\227\252\355\223\266\357\260\274", {st_mode=S_IFIFO|S_ISGID|S_ISVTX|0604, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000477>
+21:11:49.406215 fstatat64(AT_FDCWD, "/data", {st_mode=015, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000394>
+21:11:49.407031 fstatat64(AT_FDCWD, "/data/data", {st_mode=015, st_size=96, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000414>
+21:11:49.407764 fstatat64(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon", {st_mode=015, st_size=3, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000369>
+21:11:49.408469 fstatat64(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon/.\350\227\252\355\223\266\357\260\274", {st_mode=015, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000360>
+21:11:49.409274 openat(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon/.art", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000462>
+21:11:49.410004 fstatat64(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon/.art", 0xff9358f0, 0) = -1 ENOENT (No such file or directory) <0.000137>
+21:11:49.410356 unlinkat(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon/.\351\213\230\346\203\245\347\243\237.flock", 0) = 0 <0.000179>
+21:11:49.410821 flock(32, LOCK_UN)      = 0 <0.000316>
+21:11:49.411288 fdatasync(32)           = 0 <0.001811>
+21:11:49.413226 close(32)               = 0 <0.000142>
+21:11:49.413981 fstatat64(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon/.\350\227\252\355\223\266\357\260\274", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000231>
+21:11:49.414438 unlinkat(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon/.\350\227\252\355\223\266\357\260\274", 0) = 0 <0.000387>
+21:11:49.415287 fstatat64(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon/.\351\213\230\346\203\245\347\243\237", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000166>
+21:11:49.415662 unlinkat(AT_FDCWD, "/data/data/com.android.JawbreakerSuper.Deamon/.\351\213\230\346\203\245\347\243\237", 0) = 0 <0.000204>
+21:11:49.416285 futex(0xe1183008, FUTEX_WAKE, 1) = 1 <0.000251>
+21:11:49.416701 futex(0xe118e010, FUTEX_WAKE, 1) = 1 <0.000095>
+21:11:49.416894 futex(0xe1185130, FUTEX_WAKE, 1) = 1 <0.000873>
+21:11:49.418340 futex(0xe1185150, FUTEX_WAKE, 1) = 1 <0.000245>
+21:11:49.418954 futex(0xe1185130, FUTEX_WAKE, 1) = 1 <0.000303>
+21:11:49.421397 ioctl(8, BINDER_WRITE_READ, 0xff9362f8) = 0 <0.000431>
+21:11:49.422103 ioctl(8, BINDER_WRITE_READ, 0xff9362f8) = 0 <0.000251>
+21:11:49.424242 ioctl(8, BINDER_WRITE_READ, 0xff936388) = 0 <0.000237>
+21:11:49.425933 ioctl(8, BINDER_WRITE_READ, 0xff936388) = 0 <0.000311>
+21:11:49.428439 ioctl(8, BINDER_WRITE_READ, 0xff936298) = 0 <0.000514>
+21:11:49.429016 ioctl(8, BINDER_WRITE_READ, 0xff936298) = 0 <0.000224>
+21:11:49.429361 ioctl(8, BINDER_WRITE_READ, 0xff936298) = 0 <0.000137>
+21:11:49.430130 ioctl(8, BINDER_WRITE_READ, 0xff936298) = 0 <0.000350>
+21:11:49.431310 getuid32()              = 12229 <0.000102>
+21:11:49.431620 ioctl(8, BINDER_WRITE_READ, 0xff936278) = 0 <0.000154>
+21:11:49.431893 ioctl(8, BINDER_WRITE_READ, 0xff936278) = 0 <0.000261>
+21:11:49.432368 ioctl(8, BINDER_WRITE_READ, 0xff9362a8) = 0 <0.000448>
+21:11:49.432949 ioctl(8, BINDER_WRITE_READ, 0xff9362a8) = 0 <0.000103>
+21:11:49.433975 ioctl(8, BINDER_WRITE_READ, 0xff9363f8) = 0 <0.000648>
+21:11:49.439240 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 32 <0.000140>
+21:11:49.439519 fstat64(32, {st_mode=053260, st_size=1, ...}) = 0 <0.000099>
+21:11:49.439756 ioctl(32, ASHMEM_SET_NAME, 0xff9356d0) = 0 <0.000104>
+21:11:49.441030 ioctl(32, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x20000) = 0 <0.000234>
+21:11:49.441411 mmap2(NULL, 131072, PROT_READ|PROT_WRITE, MAP_PRIVATE, 32, 0) = 0xcf5b1000 <0.000097>
+21:11:49.441678 close(32)               = 0 <0.000118>
+21:11:49.442541 writev(3, [{"\0ZU\325\325\337Z\5\271_\32", 11}, {"\3", 1}, {"AndroidRuntime\0", 15}, {"Shutting down VM\n\0", 18}], 4) = 45 <0.000122>
+21:11:49.443234 writev(3, [{"\4ZU\325\325\337Z\235\373h\32", 11}, {"\6", 1}, {"AndroidRuntime\0", 15}, {"FATAL EXCEPTION: main\nProcess: c"..., 1720}], 4) = 1747 <0.000578>
+21:11:49.444471 ioctl(8, BINDER_WRITE_READ, 0xff9375d8) = 0 <0.001809>
+21:11:49.446442 ioctl(8, BINDER_WRITE_READ <unfinished ...>
+21:11:50.344530 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 94.45    0.057421       57421         1           wait4
+  3.11    0.001891         315         6           madvise
+  1.08    0.000658          41        16         1 fstatat64
+  0.51    0.000308           6        54           mprotect
+  0.49    0.000297          20        15           mmap2
+  0.37    0.000222          28         8           munmap
+  0.00    0.000000           0         4           close
+  0.00    0.000000           0        16           ioctl
+  0.00    0.000000           0         1           flock
+  0.00    0.000000           0         2           writev
+  0.00    0.000000           0         2           fdatasync
+  0.00    0.000000           0         5           prctl
+  0.00    0.000000           0         1           pread64
+  0.00    0.000000           0         2           fstat64
+  0.00    0.000000           0         1           getuid32
+  0.00    0.000000           0         5           futex
+  0.00    0.000000           0         3         1 openat
+  0.00    0.000000           0         3           unlinkat
+  0.00    0.000000           0         1           readlinkat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.060797                   146         2 total

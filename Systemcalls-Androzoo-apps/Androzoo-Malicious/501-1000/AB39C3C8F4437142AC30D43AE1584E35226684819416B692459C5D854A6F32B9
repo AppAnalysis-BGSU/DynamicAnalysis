@@ -1,0 +1,447 @@
+17:16:30.867749 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1 <1.103756>
+17:16:31.972350 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000172>
+17:16:31.972938 getuid32()              = 12796 <0.000280>
+17:16:31.973293 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0163024, st_size=1, ...}, 0) = 0 <0.000032>
+17:16:31.973413 fstatat64(AT_FDCWD, "/data/app/com.carin.atvquadbikelivewallpaper-1/base.apk", {st_mode=0163024, st_size=1, ...}, 0) = 0 <0.000031>
+17:16:31.973908 getuid32()              = 12796 <0.000024>
+17:16:31.974011 ioctl(8, BINDER_WRITE_READ, 0xffeedb78) = 0 <0.003142>
+17:16:31.977202 getuid32()              = 12796 <0.000038>
+17:16:31.977379 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000227>
+17:16:31.977870 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 32 <0.000218>
+17:16:31.978295 fstat64(32, {st_mode=0, st_size=1, ...}) = 0 <0.000159>
+17:16:31.978673 ioctl(32, ASHMEM_SET_NAME, 0xffeecc20) = 0 <0.000128>
+17:16:31.978993 ioctl(32, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x20000) = 0 <0.000151>
+17:16:31.979345 mmap2(NULL, 131072, PROT_READ|PROT_WRITE, MAP_PRIVATE, 32, 0) = 0xcf922000 <0.000180>
+17:16:31.979714 close(32)               = 0 <0.000137>
+17:16:31.980220 mprotect(0x7430e000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000486>
+17:16:31.980846 ioctl(8, BINDER_WRITE_READ, 0xffeedb98) = 0 <0.000061>
+17:16:31.980942 ioctl(8, BINDER_WRITE_READ, 0xffeedb98) = 0 <0.000972>
+17:16:31.981976 getuid32()              = 12796 <0.000028>
+17:16:31.982061 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000028>
+17:16:31.982149 ioctl(8, BINDER_WRITE_READ, 0xffeede08) = 0 <0.000035>
+17:16:31.982238 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1 <0.147095>
+17:16:32.129410 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000031>
+17:16:32.129523 ioctl(8, BINDER_WRITE_READ, 0xffeedc28) = 0 <0.000457>
+17:16:32.130037 ioctl(8, BINDER_WRITE_READ, 0xffeedc28) = 0 <0.000033>
+17:16:32.130187 ioctl(8, BINDER_WRITE_READ, 0xffeed5e8) = 0 <0.000228>
+17:16:32.130459 ioctl(8, BINDER_WRITE_READ, 0xffeed5e8) = 0 <0.000031>
+17:16:32.130651 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper", F_OK) = 0 <0.000028>
+17:16:32.130901 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases", F_OK) = -1 ENOENT (No such file or directory) <0.000032>
+17:16:32.130981 mkdirat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases", 0771) = 0 <0.000071>
+17:16:32.131092 fchmodat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases", 0771) = 0 <0.000026>
+17:16:32.131390 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db", 0xffeed0b0, 0) = -1 ENOENT (No such file or directory) <0.000025>
+17:16:32.131455 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 32 <0.000034>
+17:16:32.131525 fstat64(32, {st_mode=0, st_size=1, ...}) = 0 <0.000018>
+17:16:32.131579 fstat64(32, {st_mode=0, st_size=1, ...}) = 0 <0.000018>
+17:16:32.131630 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db", {st_mode=070720, st_size=1, ...}, 0) = 0 <0.000021>
+17:16:32.131699 pread64(32, "", 100, 0) = 0 <0.000023>
+17:16:32.131956 futex(0xea9df150, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000019>
+17:16:32.132341 futex(0xea9df150, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000021>
+17:16:32.132452 futex(0xea9df2a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000018>
+17:16:32.132502 futex(0xea9df2a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000021>
+17:16:32.132654 statfs64("/data", 84, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=3265613, f_bfree=3005561, f_bavail=3001465, f_files=838832, f_ffree=830670, f_fsid={-927308987, 1938132309}, f_namelen=255, f_frsize=4096, f_flags=1062}) = 0 <0.000023>
+17:16:32.132766 futex(0xe7ec3254, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000028>
+17:16:32.133312 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000025>
+17:16:32.133377 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000020>
+17:16:32.133435 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000019>
+17:16:32.133489 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", F_OK) = -1 ENOENT (No such file or directory) <0.000030>
+17:16:32.133555 fstat64(32, {st_mode=S_IFREG|S_ISUID|S_ISGID|S_ISVTX|0410, st_size=1, ...}) = 0 <0.000028>
+17:16:32.133635 unlinkat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-wal", 0) = -1 ENOENT (No such file or directory) <0.000036>
+17:16:32.133716 fstat64(32, {st_mode=0177634, st_size=1, ...}) = 0 <0.000059>
+17:16:32.133879 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000021>
+17:16:32.134189 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000021>
+17:16:32.134250 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000036>
+17:16:32.134319 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000019>
+17:16:32.134371 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", F_OK) = -1 ENOENT (No such file or directory) <0.000023>
+17:16:32.134428 fstat64(32, {st_mode=S_IFREG|S_ISUID|S_ISGID|S_ISVTX|0410, st_size=1, ...}) = 0 <0.000018>
+17:16:32.134479 fstat64(32, {st_mode=S_IFREG|S_ISUID|S_ISGID|S_ISVTX|0410, st_size=1, ...}) = 0 <0.000018>
+17:16:32.134528 unlinkat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-wal", 0) = -1 ENOENT (No such file or directory) <0.000021>
+17:16:32.134582 fstat64(32, {st_mode=0177634, st_size=1, ...}) = 0 <0.000018>
+17:16:32.134632 fcntl64(32, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0 <0.000020>
+17:16:32.134686 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db", {st_mode=0, st_size=1, ...}, 0) = 0 <0.000021>
+17:16:32.134757 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 33 <0.000045>
+17:16:32.134837 fstat64(33, {st_mode=0130004, st_size=1, ...}) = 0 <0.000018>
+17:16:32.134888 geteuid32()             = 12796 <0.000017>
+17:16:32.134933 fstat64(33, {st_mode=S_IFSOCK|S_ISUID|0650, st_size=1, ...}) = 0 <0.000018>
+17:16:32.134989 openat(AT_FDCWD, "/dev/urandom", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 34 <0.000023>
+17:16:32.135045 read(34, "\26g\216\5\t\200d1=\325?p|r\303\246\274\7Z\210\32\202ud+\243\6\230\346\247\vJ"..., 256) = 256 <0.000033>
+17:16:32.135109 close(34)               = 0 <0.000020>
+17:16:32.135159 pwrite64(33, "\0\0\0\0\0\0\0\0\0\0\0\0\261\242N\242\0\0\0\0\0\0\2\0\0\0\20\0\0\0\0\0"..., 512, 0) = 512 <0.000036>
+17:16:32.135335 fcntl64(32, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000021>
+17:16:32.135391 fcntl64(32, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000019>
+17:16:32.135443 pread64(33, "", 8, 512) = 0 <0.000018>
+17:16:32.135491 fdatasync(33)           = 0 <0.150117>
+17:16:32.285654 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 34 <0.000029>
+17:16:32.285730 fdatasync(34)           = 0 <0.000018>
+17:16:32.285777 close(34)               = 0 <0.000020>
+17:16:32.285825 pwrite64(33, "\331\325\5\371 \241c\327\0\0\0\0", 12, 0) = 12 <0.000034>
+17:16:32.285892 fdatasync(33)           = 0 <0.000609>
+17:16:32.286624 pwrite64(32, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\1\0\0\0\3"..., 4096, 0) = 4096 <0.000117>
+17:16:32.286871 pwrite64(32, "\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 4096) = 4096 <0.000110>
+17:16:32.287102 pwrite64(32, "\r\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 8192) = 4096 <0.000109>
+17:16:32.287333 fdatasync(32)           = 0 <0.001567>
+17:16:32.289026 pwrite64(33, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 28, 0) = 28 <0.000116>
+17:16:32.289268 fdatasync(33)           = 0 <0.000574>
+17:16:32.289937 fstat64(33, {st_mode=040, st_size=1, ...}) = 0 <0.000080>
+17:16:32.290128 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000086>
+17:16:32.290313 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0 <0.000081>
+17:16:32.290493 close(33)               = 0 <0.000081>
+17:16:32.290669 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000077>
+17:16:32.290964 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000083>
+17:16:32.291148 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000081>
+17:16:32.291326 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000081>
+17:16:32.291506 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", F_OK) = 0 <0.000086>
+17:16:32.291693 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", {st_mode=S_IFREG|S_ISUID|S_ISGID|S_ISVTX|0410, st_size=1, ...}, 0) = 0 <0.000084>
+17:16:32.291880 fcntl64(32, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000194>
+17:16:32.292183 fstat64(32, {st_mode=0, st_size=1, ...}) = 0 <0.000080>
+17:16:32.292368 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db", {st_mode=S_IFREG|S_ISGID|S_ISVTX|0704, st_size=1, ...}, 0) = 0 <0.000083>
+17:16:32.292553 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 33 <0.000085>
+17:16:32.292735 fstat64(33, {st_mode=0177777, st_size=1, ...}) = 0 <0.000079>
+17:16:32.292911 geteuid32()             = 12796 <0.000078>
+17:16:32.293087 fstat64(33, {st_mode=S_IFSOCK|S_ISUID|0630, st_size=1, ...}) = 0 <0.000080>
+17:16:32.293265 pread64(33, "\0", 1, 0) = 1 <0.000080>
+17:16:32.293442 close(33)               = 0 <0.000080>
+17:16:32.293614 fstat64(32, {st_mode=0172767, st_size=1, ...}) = 0 <0.000089>
+17:16:32.293801 pread64(32, "\0\0\0\1\0\0\0\3\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.000080>
+17:16:32.293978 fstat64(32, {st_mode=0172767, st_size=1, ...}) = 0 <0.000079>
+17:16:32.294164 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.000131>
+17:16:32.294428 fstat64(32, {st_mode=0172767, st_size=1, ...}) = 0 <0.000103>
+17:16:32.294678 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000091>
+17:16:32.294943 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000083>
+17:16:32.295117 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000138>
+17:16:32.295394 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000123>
+17:16:32.296409 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", F_OK) = 0 <0.000186>
+17:16:32.296786 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", {st_mode=S_IFREG|S_ISUID|S_ISGID|S_ISVTX|0410, st_size=1, ...}, 0) = 0 <0.000150>
+17:16:32.297655 fcntl64(32, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000573>
+17:16:32.298522 fstat64(32, {st_mode=0, st_size=1, ...}) = 0 <0.000293>
+17:16:32.298872 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db", {st_mode=030774, st_size=1, ...}, 0) = 0 <0.000025>
+17:16:32.299071 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 33 <0.000090>
+17:16:32.299348 fstat64(33, {st_mode=030774, st_size=1, ...}) = 0 <0.000098>
+17:16:32.299622 geteuid32()             = 12796 <0.000085>
+17:16:32.299810 fstat64(33, {st_mode=S_IFSOCK|S_ISUID|0650, st_size=1, ...}) = 0 <0.000110>
+17:16:32.300591 pread64(33, "\0", 1, 0) = 1 <0.000104>
+17:16:32.300812 close(33)               = 0 <0.000146>
+17:16:32.301112 fstat64(32, {st_mode=0172767, st_size=1, ...}) = 0 <0.000155>
+17:16:32.301448 pread64(32, "\0\0\0\1\0\0\0\3\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.000139>
+17:16:32.301745 fstat64(32, {st_mode=0172767, st_size=1, ...}) = 0 <0.000162>
+17:16:32.302060 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.000158>
+17:16:32.302378 fstat64(32, {st_mode=0172767, st_size=1, ...}) = 0 <0.000112>
+17:16:32.302639 fcntl64(32, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0 <0.000164>
+17:16:32.302980 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db", {st_mode=S_IFREG|S_ISUID, st_size=1, ...}, 0) = 0 <0.000096>
+17:16:32.303261 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db", {st_mode=030, st_size=1, ...}, 0) = 0 <0.000159>
+17:16:32.303586 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0600) = 33 <0.000134>
+17:16:32.303880 fstat64(33, {st_mode=010, st_size=1, ...}) = 0 <0.000245>
+17:16:32.304362 geteuid32()             = 12796 <0.000157>
+17:16:32.304674 fstat64(33, {st_mode=S_IFSOCK|S_ISUID|0710, st_size=1, ...}) = 0 <0.000164>
+17:16:32.304987 pwrite64(33, "\0\0\0\0\0\0\0\0\0\0\0\0\2\240\242}\0\0\0\3\0\0\2\0\0\0\20\0\0\0\0\0"..., 512, 0) = 512 <0.000188>
+17:16:32.305289 pwrite64(33, "\0\0\0\3", 4, 512) = 4 <0.000136>
+17:16:32.305578 pwrite64(33, "\r\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 516) = 4096 <0.000253>
+17:16:32.305996 pwrite64(33, "\2\240\242}", 4, 4612) = 4 <0.000122>
+17:16:32.306462 fcntl64(32, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000129>
+17:16:32.306762 fcntl64(32, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000128>
+17:16:32.307072 pwrite64(33, "\0\0\0\1", 4, 4616) = 4 <0.000152>
+17:16:32.307402 pwrite64(33, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\1\0\0\0\3"..., 4096, 4620) = 4096 <0.000144>
+17:16:32.307702 pwrite64(33, "\2\240\242}", 4, 8716) = 4 <0.000145>
+17:16:32.308000 pread64(33, "", 8, 9216) = 0 <0.000201>
+17:16:32.308345 fdatasync(33)           = 0 <0.058174>
+17:16:32.366772 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 34 <0.000128>
+17:16:32.367218 fdatasync(34)           = 0 <0.001659>
+17:16:32.369036 close(34)               = 0 <0.000082>
+17:16:32.369270 pwrite64(33, "\331\325\5\371 \241c\327\0\0\0\2", 12, 0) = 12 <0.000134>
+17:16:32.369532 fdatasync(33)           = 0 <0.000793>
+17:16:32.370372 pwrite64(32, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\2\0\0\0\3"..., 4096, 0) = 4096 <0.000084>
+17:16:32.370613 pwrite64(32, "\r\0\0\0\1\17\367\0\17\367\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 8192) = 4096 <0.000082>
+17:16:32.370837 fdatasync(32)           = 0 <0.001065>
+17:16:32.371939 pwrite64(33, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 28, 0) = 28 <0.000317>
+17:16:32.372421 fdatasync(33)           = 0 <0.000591>
+17:16:32.373111 fstat64(33, {st_mode=040, st_size=1, ...}) = 0 <0.000086>
+17:16:32.373289 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000087>
+17:16:32.373487 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0 <0.000088>
+17:16:32.373652 close(33)               = 0 <0.000032>
+17:16:32.373720 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000020>
+17:16:32.373822 fchmodat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db", 0660) = 0 <0.000028>
+17:16:32.373981 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000020>
+17:16:32.374037 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000019>
+17:16:32.374088 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000032>
+17:16:32.374156 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", F_OK) = 0 <0.000022>
+17:16:32.374212 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", {st_mode=S_IFREG|S_ISUID|S_ISGID|S_ISVTX|0410, st_size=1, ...}, 0) = 0 <0.000020>
+17:16:32.374269 fcntl64(32, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000018>
+17:16:32.374321 fstat64(32, {st_mode=0, st_size=1, ...}) = 0 <0.000018>
+17:16:32.374373 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db", {st_mode=030144, st_size=1, ...}, 0) = 0 <0.000020>
+17:16:32.374428 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 33 <0.000022>
+17:16:32.374482 fstat64(33, {st_mode=0137620, st_size=1, ...}) = 0 <0.000018>
+17:16:32.374532 geteuid32()             = 12796 <0.000018>
+17:16:32.374579 fstat64(33, {st_mode=S_IFSOCK|S_ISUID|S_ISVTX|0550, st_size=1, ...}) = 0 <0.000017>
+17:16:32.374644 pread64(33, "\0", 1, 0) = 1 <0.000019>
+17:16:32.374696 close(33)               = 0 <0.000018>
+17:16:32.374743 fstat64(32, {st_mode=0172767, st_size=1, ...}) = 0 <0.000018>
+17:16:32.374793 pread64(32, "\0\0\0\2\0\0\0\3\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.000019>
+17:16:32.374843 fstat64(32, {st_mode=0172767, st_size=1, ...}) = 0 <0.000017>
+17:16:32.374893 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.000021>
+17:16:32.374946 fstat64(32, {st_mode=0172767, st_size=1, ...}) = 0 <0.000018>
+17:16:32.375004 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000019>
+17:16:32.375095 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000034>
+17:16:32.375164 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000019>
+17:16:32.375216 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000019>
+17:16:32.375266 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", F_OK) = 0 <0.000022>
+17:16:32.375319 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", {st_mode=S_IFREG|S_ISUID|S_ISGID|S_ISVTX|0410, st_size=1, ...}, 0) = 0 <0.000020>
+17:16:32.375376 fcntl64(32, F_GETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1, l_pid=0}) = 0 <0.000018>
+17:16:32.375426 fstat64(32, {st_mode=0, st_size=1, ...}) = 0 <0.000017>
+17:16:32.375478 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db", {st_mode=010, st_size=1, ...}, 0) = 0 <0.000021>
+17:16:32.375534 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 33 <0.000022>
+17:16:32.375586 fstat64(33, {st_mode=S_IFSOCK|S_ISUID|S_ISVTX|0507, st_size=1, ...}) = 0 <0.000018>
+17:16:32.375638 geteuid32()             = 12796 <0.000017>
+17:16:32.375684 fstat64(33, {st_mode=S_IFSOCK|S_ISUID|S_ISVTX|0610, st_size=1, ...}) = 0 <0.000031>
+17:16:32.375741 pread64(33, "\0", 1, 0) = 1 <0.000018>
+17:16:32.375791 close(33)               = 0 <0.000019>
+17:16:32.375838 fstat64(32, {st_mode=0172767, st_size=1, ...}) = 0 <0.000018>
+17:16:32.375888 pread64(32, "\0\0\0\2\0\0\0\3\0\0\0\0\0\0\0\0", 16, 24) = 16 <0.000018>
+17:16:32.375937 fstat64(32, {st_mode=0172767, st_size=1, ...}) = 0 <0.000018>
+17:16:32.375989 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-wal", F_OK) = -1 ENOENT (No such file or directory) <0.000234>
+17:16:32.376268 fstat64(32, {st_mode=0172767, st_size=1, ...}) = 0 <0.000017>
+17:16:32.376321 fcntl64(32, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0 <0.000019>
+17:16:32.376413 fcntl64(32, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0 <0.000018>
+17:16:32.376465 fcntl64(32, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000017>
+17:16:32.376574 writev(3, [{"\0A\5\260A\342Z\3\335q\26", 11}, {"\4", 1}, {"greenDAO\0", 9}, {"Creating tables for schema versi"..., 37}], 4) = 58 <0.000057>
+17:16:32.377037 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db", {st_mode=S_IFREG|S_ISUID, st_size=1, ...}, 0) = 0 <0.000045>
+17:16:32.377184 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db", {st_mode=0163660, st_size=1, ...}, 0) = 0 <0.000031>
+17:16:32.377261 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases/slideshow-lwp-db-journal", O_RDWR|O_CREAT|O_LARGEFILE|O_CLOEXEC, 0660) = 33 <0.000023>
+17:16:32.377325 fstat64(33, {st_mode=034, st_size=1, ...}) = 0 <0.000043>
+17:16:32.377410 geteuid32()             = 12796 <0.000017>
+17:16:32.377474 fstat64(33, {st_mode=0135310, st_size=1, ...}) = 0 <0.000027>
+17:16:32.377544 pwrite64(33, "\0\0\0\0\0\0\0\0\0\0\0\0\267\303M*\0\0\0\3\0\0\2\0\0\0\20\0\0\0\0\0"..., 512, 0) = 512 <0.000057>
+17:16:32.377638 pwrite64(33, "\0\0\0\1", 4, 512) = 4 <0.000021>
+17:16:32.377694 pwrite64(33, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\2\0\0\0\3"..., 4096, 516) = 4096 <0.000022>
+17:16:32.377770 pwrite64(33, "\267\303M*", 4, 4612) = 4 <0.000022>
+17:16:32.377864 pwrite64(33, "\0\0\0\2", 4, 4616) = 4 <0.000020>
+17:16:32.377914 pwrite64(33, "\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 4620) = 4096 <0.000021>
+17:16:32.377964 pwrite64(33, "\267\303M*", 4, 8716) = 4 <0.000019>
+17:16:32.378466 pread64(33, "", 8, 9216) = 0 <0.000019>
+17:16:32.378517 fdatasync(33)           = 0 <0.000937>
+17:16:32.379488 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/databases", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 34 <0.000025>
+17:16:32.379548 fdatasync(34)           = 0 <0.001619>
+17:16:32.381283 close(34)               = 0 <0.000083>
+17:16:32.381464 pwrite64(33, "\331\325\5\371 \241c\327\0\0\0\2", 12, 0) = 12 <0.000098>
+17:16:32.381662 fdatasync(33)           = 0 <0.000645>
+17:16:32.382415 pwrite64(32, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\3\0\0\0\5"..., 4096, 0) = 4096 <0.000095>
+17:16:32.382730 pwrite64(32, "\1\0\0\0\0\1\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 4096) = 4096 <0.000101>
+17:16:32.382929 pwrite64(32, "\r\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 12288) = 4096 <0.000104>
+17:16:32.383144 pwrite64(32, "\r\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 16384) = 4096 <0.000086>
+17:16:32.383338 fdatasync(32)           = 0 <0.002123>
+17:16:32.385561 pwrite64(33, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 28, 0) = 28 <0.000288>
+17:16:32.385958 fdatasync(33)           = 0 <0.000744>
+17:16:32.386809 fstat64(33, {st_mode=040, st_size=1, ...}) = 0 <0.000086>
+17:16:32.387027 fcntl64(32, F_SETLK, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0 <0.000083>
+17:16:32.387209 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0 <0.000110>
+17:16:32.387454 close(33)               = 0 <0.000097>
+17:16:32.387656 fcntl64(32, F_SETLK, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0 <0.000094>
+17:16:32.388941 ioctl(8, BINDER_WRITE_READ, 0xffeed588) = 0 <0.000131>
+17:16:32.389209 ioctl(8, BINDER_WRITE_READ, 0xffeed5b8) = 0 <0.000111>
+17:16:32.389436 ioctl(8, BINDER_WRITE_READ, 0xffeed5b8) = 0 <0.000090>
+17:16:32.389646 ioctl(8, BINDER_WRITE_READ, 0xffeed5b8) = 0 <0.000109>
+17:16:32.389860 ioctl(8, BINDER_WRITE_READ, 0xffeed5b8) = 0 <0.000201>
+17:16:32.390293 faccessat(AT_FDCWD, "/storage/emulated/0/Android/data/com.carin.atvquadbikelivewallpaper", F_OK) = -1 ENOENT (No such file or directory) <0.000573>
+17:16:32.391002 mkdirat(AT_FDCWD, "/storage/emulated/0/Android/data/com.carin.atvquadbikelivewallpaper", 0777) = 0 <0.001574>
+17:16:32.392718 writev(3, [{"\0A\5\260A\342Z\242\267g\27", 11}, {"\5", 1}, {"LWP_Service\0", 12}, {"/storage/emulated/0/Android/data"..., 68}], 4) = 92 <0.000111>
+17:16:32.392995 writev(3, [{"\0A\5\260A\342Z\260\311k\27", 11}, {"\2", 1}, {"LWP_Service_onCreate\0", 21}, {"maxMemory:100663296\0", 20}], 4) = 53 <0.000092>
+17:16:32.393378 writev(3, [{"\0A\5\260A\342Z\323\242q\27", 11}, {"\2", 1}, {"LWP_Service_onCreate\0", 21}, {"memoryClass:96\0", 15}], 4) = 48 <0.000118>
+17:16:32.393688 getuid32()              = 12796 <0.000135>
+17:16:32.393970 ioctl(8, BINDER_WRITE_READ, 0xffeed5d8) = 0 <0.000171>
+17:16:32.394260 ioctl(8, BINDER_WRITE_READ, 0xffeed5d8) = 0 <0.000426>
+17:16:32.394998 writev(3, [{"\0A\5\260A\342Z\331\363\212\27", 11}, {"\3", 1}, {"FPSDK_FancyPushManager\0", 23}, {"FANCYPUSH SDK VERSION 1.0.5\0", 28}], 4) = 63 <0.000072>
+17:16:32.395192 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper", F_OK) = 0 <0.000024>
+17:16:32.395263 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs", F_OK) = -1 ENOENT (No such file or directory) <0.000028>
+17:16:32.395438 mkdirat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs", 0771) = 0 <0.000146>
+17:16:32.395630 fchmodat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs", 0771) = 0 <0.000025>
+17:16:32.395720 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 33 <0.000029>
+17:16:32.395985 fstat64(33, {st_mode=S_IFSOCK|S_ISVTX|0500, st_size=1, ...}) = 0 <0.000037>
+17:16:32.396190 ioctl(33, ASHMEM_SET_NAME, 0xffeec380) = 0 <0.000021>
+17:16:32.396263 ioctl(33, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000020>
+17:16:32.396388 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 33, 0) = 0xdac19000 <0.000028>
+17:16:32.396809 close(33)               = 0 <0.000619>
+17:16:32.397565 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcf77b000 <0.000113>
+17:16:32.397831 madvise(0xcf77b000, 1069056, MADV_MERGEABLE) = 0 <0.000113>
+17:16:32.398074 mprotect(0xcf77b000, 4096, PROT_NONE) = 0 <0.000153>
+17:16:32.398832 prctl(0x53564d41 /* PR_??? */, 0, 0xcf77b000, 4096, "thread stack guard page") = 0 <0.000110>
+17:16:32.399121 clone(child_stack=0xcf87f910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcf87f928, tls={entry_number:12, base_addr:0xcf87f970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xffeec6d0, child_tidptr=0xcf87f928) = 1511 <0.000431>
+17:16:32.399858 futex(0xcf87f960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000470>
+17:16:32.400609 futex(0xe7cc0180, FUTEX_WAKE, 1) = 0 <0.000361>
+17:16:32.401120 futex(0xe7cb0138, FUTEX_WAIT, 50, NULL) = -1 EAGAIN (Try again) <0.000140>
+17:16:32.401444 ioctl(8, BINDER_WRITE_READ, 0xffeeca08) = 0 <0.000352>
+17:16:32.402095 ioctl(8, BINDER_WRITE_READ, 0xffeeca08) = 0 <0.000113>
+17:16:32.403490 writev(3, [{"\0A\5\260A\342Z\367\226\373\27", 11}, {"\3", 1}, {"FPSDK_OpenUDID\0", 15}, {"1 services matches OpenUDID\0", 28}], 4) = 55 <0.000294>
+17:16:32.404386 writev(3, [{"\0A\5\260A\342Z\347M\23\30", 11}, {"\3", 1}, {"FPSDK_OpenUDID\0", 15}, {"Trying service ATV Quad Bike Liv"..., 44}], 4) = 71 <0.000236>
+17:16:32.404978 writev(3, [{"\0A\5\260A\342Z!4!\30", 11}, {"\3", 1}, {"FPSDK_OpenUDID\0", 15}, {"Generating openUDID\0", 20}], 4) = 47 <0.000235>
+17:16:32.405363 getuid32()              = 12796 <0.000150>
+17:16:32.405787 getuid32()              = 12796 <0.000219>
+17:16:32.406188 ioctl(8, BINDER_WRITE_READ, 0xffeec2b8) = 0 <0.000151>
+17:16:32.406501 ioctl(8, BINDER_WRITE_READ, 0xffeec2b8) = 0 <0.000059>
+17:16:32.406732 fstat64(33, {st_mode=S_ISVTX|034, st_size=1, ...}) = 0 <0.000088>
+17:16:32.407007 fstat64(33, {st_mode=070220, st_size=1, ...}) = 0 <0.000059>
+17:16:32.407176 ioctl(33, ASHMEM_GET_SIZE, 0) = 84 <0.000154>
+17:16:32.407486 dup(33)                 = 34 <0.000123>
+17:16:32.407768 close(33)               = 0 <0.000095>
+17:16:32.408001 dup(34)                 = 33 <0.000756>
+17:16:32.408879 fstat64(33, {st_mode=050, st_size=1, ...}) = 0 <0.000092>
+17:16:32.409102 ioctl(33, ASHMEM_GET_SIZE, 0) = 84 <0.000086>
+17:16:32.409296 mmap2(NULL, 84, PROT_READ, MAP_SHARED, 33, 0) = 0xdac43000 <0.000103>
+17:16:32.409508 fstat64(34, {st_mode=013, st_size=1, ...}) = 0 <0.000076>
+17:16:32.409693 fstat64(34, {st_mode=070220, st_size=1, ...}) = 0 <0.000083>
+17:16:32.409870 ioctl(34, ASHMEM_GET_SIZE, 0) = 84 <0.000076>
+17:16:32.410039 close(34)               = 0 <0.000077>
+17:16:32.410255 writev(3, [{"\0A\5\260A\342Z_Js\30", 11}, {"\3", 1}, {"FPSDK_OpenUDID\0", 15}, {"OpenUDID: 6048cb7bf35a1f0\0", 26}], 4) = 53 <0.000094>
+17:16:32.410523 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/openudid_prefs.xml", F_OK) = -1 ENOENT (No such file or directory) <0.000091>
+17:16:32.410756 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/openudid_prefs.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 34 <0.000142>
+17:16:32.411016 fstat64(34, {st_mode=0171710, st_size=1, ...}) = 0 <0.000112>
+17:16:32.411262 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 35 <0.000131>
+17:16:32.411493 fstat64(35, {st_mode=0107, st_size=1, ...}) = 0 <0.000079>
+17:16:32.411683 ioctl(35, ASHMEM_SET_NAME, 0xffeec030) = 0 <0.000077>
+17:16:32.411857 ioctl(35, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000080>
+17:16:32.412139 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 35, 0) = 0xdac16000 <0.000100>
+17:16:32.412350 close(35)               = 0 <0.000079>
+17:16:32.412598 write(34, "<?xml version='1.0' encoding='ut"..., 123) = 123 <0.000108>
+17:16:32.412808 fsync(34)               = 0 <0.001497>
+17:16:32.414425 getsockopt(34, SOL_SOCKET, SO_ERROR, 0xffeec444, 0xffeec440) = -1 ENOTSOCK (Socket operation on non-socket) <0.000080>
+17:16:32.414632 close(34)               = 0 <0.000107>
+17:16:32.414847 fchmodat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/openudid_prefs.xml", 0660) = 0 <0.000092>
+17:16:32.415051 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/openudid_prefs.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000122>
+17:16:32.415321 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/openudid_prefs.xml.bak", 0xffeec3f8, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000092>
+17:16:32.415609 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs", F_OK) = 0 <0.000162>
+17:16:32.415908 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 34 <0.000221>
+17:16:32.416319 fstat64(34, {st_mode=074460, st_size=1, ...}) = 0 <0.000085>
+17:16:32.416527 ioctl(34, ASHMEM_SET_NAME, 0xffeec6a0) = 0 <0.000096>
+17:16:32.416718 ioctl(34, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000078>
+17:16:32.416904 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 34, 0) = 0xdac14000 <0.000090>
+17:16:32.417123 close(34)               = 0 <0.000088>
+17:16:32.417325 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcf77b000 <0.000090>
+17:16:32.417528 madvise(0xcf77b000, 1069056, MADV_MERGEABLE) = 0 <0.000119>
+17:16:32.417742 mprotect(0xcf77b000, 4096, PROT_NONE) = 0 <0.000096>
+17:16:32.417943 prctl(0x53564d41 /* PR_??? */, 0, 0xcf77b000, 4096, "thread stack guard page") = 0 <0.000084>
+17:16:32.418159 clone(child_stack=0xcf87f910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcf87f928, tls={entry_number:12, base_addr:0xcf87f970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xffeec9f0, child_tidptr=0xcf87f928) = 1512 <0.000929>
+17:16:32.419201 futex(0xcf87f960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000109>
+17:16:32.419448 sched_yield()           = 0 <0.000092>
+17:16:32.419714 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", F_OK) = -1 ENOENT (No such file or directory) <0.000095>
+17:16:32.419934 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 34 <0.000487>
+17:16:32.420536 fstat64(34, {st_mode=0171710, st_size=1, ...}) = 0 <0.000084>
+17:16:32.420733 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 35 <0.000086>
+17:16:32.420912 fstat64(35, {st_mode=057730, st_size=1, ...}) = 0 <0.000083>
+17:16:32.421107 ioctl(35, ASHMEM_SET_NAME, 0xffeecf60) = 0 <0.000097>
+17:16:32.421319 ioctl(35, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000079>
+17:16:32.421523 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 35, 0) = 0xdac11000 <0.000104>
+17:16:32.421734 close(35)               = 0 <0.000123>
+17:16:32.422066 write(34, "<?xml version='1.0' encoding='ut"..., 153) = 153 <0.000126>
+17:16:32.422314 fsync(34)               = 0 <0.001437>
+17:16:32.423871 getsockopt(34, SOL_SOCKET, SO_ERROR, 0xffeed374, 0xffeed370) = -1 ENOTSOCK (Socket operation on non-socket) <0.000080>
+17:16:32.424144 close(34)               = 0 <0.000083>
+17:16:32.424361 fchmodat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", 0660) = 0 <0.000095>
+17:16:32.424565 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000102>
+17:16:32.424810 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml.bak", 0xffeed328, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000093>
+17:16:32.425038 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", F_OK) = 0 <0.000091>
+17:16:32.425255 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000099>
+17:16:32.425470 renameat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml.bak") = 0 <0.000096>
+17:16:32.425701 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 34 <0.000167>
+17:16:32.425975 fstat64(34, {st_mode=0171710, st_size=1, ...}) = 0 <0.000081>
+17:16:32.426172 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 35 <0.000083>
+17:16:32.426362 fstat64(35, {st_mode=S_IFREG|S_ISUID|S_ISVTX|060, st_size=1, ...}) = 0 <0.000088>
+17:16:32.426567 ioctl(35, ASHMEM_SET_NAME, 0xffeecf60) = 0 <0.000088>
+17:16:32.426760 ioctl(35, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000083>
+17:16:32.426953 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 35, 0) = 0xdac0c000 <0.000097>
+17:16:32.427164 close(35)               = 0 <0.000083>
+17:16:32.427433 write(34, "<?xml version='1.0' encoding='ut"..., 232) = 232 <0.000090>
+17:16:32.427648 fsync(34)               = 0 <0.001775>
+17:16:32.429568 getsockopt(34, SOL_SOCKET, SO_ERROR, 0xffeed374, 0xffeed370) = -1 ENOTSOCK (Socket operation on non-socket) <0.000237>
+17:16:32.430283 close(34)               = 0 <0.000146>
+17:16:32.430537 fchmodat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", 0660) = 0 <0.000103>
+17:16:32.430769 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000083>
+17:16:32.430981 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000080>
+17:16:32.431163 unlinkat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml.bak", 0) = 0 <0.000131>
+17:16:32.431427 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", F_OK) = 0 <0.000081>
+17:16:32.431619 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000080>
+17:16:32.431805 renameat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml.bak") = 0 <0.000156>
+17:16:32.432197 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 34 <0.000118>
+17:16:32.432439 fstat64(34, {st_mode=0171710, st_size=1, ...}) = 0 <0.000083>
+17:16:32.432646 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 35 <0.000148>
+17:16:32.432951 fstat64(35, {st_mode=S_IFREG|S_ISUID|S_ISVTX|060, st_size=1, ...}) = 0 <0.000093>
+17:16:32.433160 ioctl(35, ASHMEM_SET_NAME, 0xffeecf60) = 0 <0.000122>
+17:16:32.433387 ioctl(35, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000083>
+17:16:32.433572 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 35, 0) = 0xcf91d000 <0.000095>
+17:16:32.433787 close(35)               = 0 <0.000086>
+17:16:32.434044 write(34, "<?xml version='1.0' encoding='ut"..., 291) = 291 <0.000094>
+17:16:32.434244 fsync(34)               = 0 <0.002142>
+17:16:32.436502 getsockopt(34, SOL_SOCKET, SO_ERROR, 0xffeed374, 0xffeed370) = -1 ENOTSOCK (Socket operation on non-socket) <0.000095>
+17:16:32.436707 close(34)               = 0 <0.000086>
+17:16:32.436903 fchmodat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", 0660) = 0 <0.000097>
+17:16:32.437124 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000089>
+17:16:32.437346 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000088>
+17:16:32.437555 unlinkat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml.bak", 0) = 0 <0.000110>
+17:16:32.437808 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", F_OK) = 0 <0.000092>
+17:16:32.438015 faccessat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000088>
+17:16:32.438240 renameat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml.bak") = 0 <0.000106>
+17:16:32.438464 openat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 34 <0.000103>
+17:16:32.438671 fstat64(34, {st_mode=0171710, st_size=1, ...}) = 0 <0.000086>
+17:16:32.438884 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 35 <0.000092>
+17:16:32.439079 fstat64(35, {st_mode=S_IFBLK|S_ISUID|S_ISGID|S_ISVTX|0234, st_rdev=makedev(33, 182), ...}) = 0 <0.000083>
+17:16:32.439271 ioctl(35, ASHMEM_SET_NAME, 0xffeecc40) = 0 <0.000092>
+17:16:32.439465 ioctl(35, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000084>
+17:16:32.439647 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 35, 0) = 0xcf918000 <0.000098>
+17:16:32.439856 close(35)               = 0 <0.000225>
+17:16:32.440332 write(34, "<?xml version='1.0' encoding='ut"..., 346) = 346 <0.000102>
+17:16:32.440543 fsync(34)               = 0 <0.001238>
+17:16:32.441903 getsockopt(34, SOL_SOCKET, SO_ERROR, 0xffeed054, 0xffeed050) = -1 ENOTSOCK (Socket operation on non-socket) <0.000085>
+17:16:32.442093 close(34)               = 0 <0.000087>
+17:16:32.442292 fchmodat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", 0660) = 0 <0.000097>
+17:16:32.442515 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000087>
+17:16:32.442721 fstatat64(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000095>
+17:16:32.442923 unlinkat(AT_FDCWD, "/data/user/0/com.carin.atvquadbikelivewallpaper/shared_prefs/com.google.android.c2dm.xml.bak", 0) = 0 <0.000107>
+17:16:32.443302 mprotect(0x7430f000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000093>
+17:16:32.443563 ioctl(8, BINDER_WRITE_READ, 0xffeeca88) = 0 <0.000119>
+17:16:32.443782 ioctl(8, BINDER_WRITE_READ, 0xffeeca88) = 0 <0.000083>
+17:16:32.444242 mprotect(0x74310000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000240>
+17:16:32.444750 ioctl(8, BINDER_WRITE_READ, 0xffeeccf8) = 0 <0.000174>
+17:16:32.445027 ioctl(8, BINDER_WRITE_READ, 0xffeeccf8) = 0 <0.000169>
+17:16:32.445360 ioctl(8, BINDER_WRITE_READ, 0xffeec9c8) = 0 <0.000126>
+17:16:32.445631 ioctl(8, BINDER_WRITE_READ, 0xffeec9c8) = 0 <0.000271>
+17:16:32.446091 ioctl(8, BINDER_WRITE_READ, 0xffeec9c8) = 0 <0.000111>
+17:16:32.446326 ioctl(8, BINDER_WRITE_READ, 0xffeec9c8) = 0 <0.000101>
+17:16:32.446693 ioctl(8, BINDER_WRITE_READ, 0xffeeca98) = 0 <0.000156>
+17:16:32.446986 ioctl(8, BINDER_WRITE_READ, 0xffeeca98) = 0 <0.000112>
+17:16:32.447377 writev(3, [{"\0A\5\260A\342ZN\245\251\32", 11}, {"\3", 1}, {"AndroidRuntime\0", 15}, {"Shutting down VM\n\0", 18}], 4) = 45 <0.000099>
+17:16:32.475575 writev(3, [{"\4A\5\260A\342Z[M\r\34", 11}, {"\6", 1}, {"AndroidRuntime\0", 15}, {"FATAL EXCEPTION: main\nProcess: c"..., 1041}], 4) = 1068 <0.000935>
+17:16:32.485147 ioctl(8, BINDER_WRITE_READ, 0xffeede28) = 0 <0.000145>
+17:16:32.485333 ioctl(8, BINDER_WRITE_READ <unfinished ...>
+17:16:33.172460 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 55.71    0.003142          64        49           ioctl
+ 37.64    0.002123         142        15           fdatasync
+  3.12    0.000176           3        58           fstat64
+  2.06    0.000116           4        30           pwrite64
+  1.47    0.000083           3        26           close
+  0.00    0.000000           0         2           dup
+  0.00    0.000000           0         5           fsync
+  0.00    0.000000           0         2           clone
+  0.00    0.000000           0         5           mprotect
+  0.00    0.000000           0        11           writev
+  0.00    0.000000           0         1           sched_yield
+  0.00    0.000000           0         2           prctl
+  0.00    0.000000           0        12           pread64
+  0.00    0.000000           0        11           mmap2
+  0.00    0.000000           0         7           getuid32
+  0.00    0.000000           0         7           geteuid32
+  0.00    0.000000           0         2           madvise
+  0.00    0.000000           0        43           fcntl64
+  0.00    0.000000           0         9         1 futex
+  0.00    0.000000           0         1           statfs64
+  0.00    0.000000           0        25           openat
+  0.00    0.000000           0         3           mkdirat
+  0.00    0.000000           0        27         3 fstatat64
+  0.00    0.000000           0         5         2 unlinkat
+  0.00    0.000000           0         3           renameat
+  0.00    0.000000           0         8           fchmodat
+  0.00    0.000000           0        24        14 faccessat
+  0.00    0.000000           0         4           epoll_pwait
+  0.00    0.000000           0         5         5 getsockopt
+  0.00    0.000000           0         3           read
+  0.00    0.000000           0         5           write
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.005640                   410        25 total

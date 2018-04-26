@@ -1,0 +1,1560 @@
+19:55:49.334012 futex(0xdf62abd8, FUTEX_WAIT_BITSET_PRIVATE, 20, NULL, ffffffff) = 0 <0.157375>
+19:55:49.491733 ioctl(8, BINDER_WRITE_READ, 0xff8f06f8) = 0 <0.000067>
+19:55:49.491852 ioctl(8, BINDER_WRITE_READ, 0xff8f06f8) = 0 <0.001731>
+19:55:49.493780 ioctl(8, BINDER_WRITE_READ, 0xff8f05d8) = 0 <0.000122>
+19:55:49.493981 ioctl(8, BINDER_WRITE_READ, 0xff8f05d8) = 0 <0.002611>
+19:55:49.496742 futex(0xe89c0180, FUTEX_WAKE, 1) = 0 <0.000024>
+19:55:49.496817 futex(0xe89b0138, FUTEX_WAIT, 646, NULL) = 0 <0.209721>
+19:55:49.706674 ioctl(8, BINDER_WRITE_READ, 0xff8f05d8) = 0 <0.000046>
+19:55:49.706763 ioctl(8, BINDER_WRITE_READ, 0xff8f05d8) = 0 <0.033815>
+19:55:49.740660 ioctl(8, BINDER_WRITE_READ, 0xff8f05d8) = 0 <0.000208>
+19:55:49.740909 ioctl(8, BINDER_WRITE_READ, 0xff8f05d8) = 0 <0.088413>
+19:55:49.829633 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000074>
+19:55:49.829763 futex(0xe8a322a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000034>
+19:55:49.829834 futex(0xdf62abd8, FUTEX_WAIT_BITSET_PRIVATE, 24, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000119>
+19:55:49.830179 futex(0xe8d0a254, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000020>
+19:55:49.830262 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000035>
+19:55:49.830336 futex(0xdf62ab60, FUTEX_WAIT_BITSET_PRIVATE, 0, NULL, ffffffff) = 0 <0.015225>
+19:55:49.845949 futex(0xdf62abd8, FUTEX_WAIT_BITSET_PRIVATE, 28, NULL, ffffffff) = 0 <0.209942>
+19:55:50.056098 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000128>
+19:55:50.056287 futex(0xdf62abd8, FUTEX_WAIT_BITSET_PRIVATE, 32, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000198>
+19:55:50.056556 ioctl(8, BINDER_WRITE_READ, 0xff8f0748) = 0 <0.000092>
+19:55:50.056907 ioctl(8, BINDER_WRITE_READ, 0xff8f0748) = 0 <0.022840>
+19:55:50.079893 getuid32()              = 12770 <0.000325>
+19:55:50.080384 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1 <0.000145>
+19:55:50.080708 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000071>
+19:55:50.080864 recvfrom(36, 0xff8f00e8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000020>
+19:55:50.080924 ioctl(8, BINDER_WRITE_READ, 0xff8f07f8) = 0 <0.000201>
+19:55:50.081295 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000173>
+19:55:50.081622 futex(0xe8a322a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000155>
+19:55:50.081942 getuid32()              = 12770 <0.000148>
+19:55:50.082251 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000143>
+19:55:50.082585 getuid32()              = 12770 <0.000068>
+19:55:50.082693 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000018>
+19:55:50.082794 ioctl(8, BINDER_WRITE_READ, 0xff8f0928) = 0 <0.000042>
+19:55:50.082869 ioctl(8, BINDER_WRITE_READ, 0xff8f0928) = 0 <0.000403>
+19:55:50.083334 getuid32()              = 12770 <0.000019>
+19:55:50.083387 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000018>
+19:55:50.083446 getuid32()              = 12770 <0.000018>
+19:55:50.083495 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000019>
+19:55:50.083617 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/gamesetpara.xml", F_OK) = -1 ENOENT (No such file or directory) <0.000028>
+19:55:50.083699 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/gamesetpara.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 45 <0.000056>
+19:55:50.083791 fstat64(45, {st_mode=0171710, st_size=1, ...}) = 0 <0.000078>
+19:55:50.083960 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 44 <0.000028>
+19:55:50.084110 fstat64(44, {st_mode=0107, st_size=1, ...}) = 0 <0.000020>
+19:55:50.084167 ioctl(44, ASHMEM_SET_NAME, 0xff8efeb0) = 0 <0.000020>
+19:55:50.084218 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000018>
+19:55:50.084267 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 44, 0) = 0xe21e8000 <0.000031>
+19:55:50.084349 close(44)               = 0 <0.000020>
+19:55:50.084485 write(45, "<?xml version='1.0' encoding='ut"..., 106) = 106 <0.000040>
+19:55:50.084599 fsync(45)               = 0 <0.008398>
+19:55:50.093143 getsockopt(45, SOL_SOCKET, SO_ERROR, 0xff8f02c4, 0xff8f02c0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000114>
+19:55:50.093393 close(45)               = 0 <0.000114>
+19:55:50.093642 fchmodat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/gamesetpara.xml", 0660) = 0 <0.000125>
+19:55:50.093902 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/gamesetpara.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000108>
+19:55:50.094164 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/gamesetpara.xml.bak", 0xff8f0278, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000109>
+19:55:50.094553 pread64(30, "PK\3\4\n\0\0\0\0\0\370\236MC\235\257*B0A\1\0000A\1\0\16\0\0\0", 30, 24876) = 30 <0.000132>
+19:55:50.094822 pread64(30, "assets/img.dat", 14, 24906) = 14 <0.000112>
+19:55:50.095047 mmap2(NULL, 82568, PROT_READ, MAP_SHARED, 30, 0x6000) = 0xcff0a000 <0.000091>
+19:55:50.095282 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 44 <0.000092>
+19:55:50.095475 fstat64(44, {st_mode=01, st_size=1, ...}) = 0 <0.000186>
+19:55:50.095770 ioctl(44, ASHMEM_SET_NAME, 0xff8ef480) = 0 <0.000084>
+19:55:50.095952 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xc000) = 0 <0.000089>
+19:55:50.096168 mmap2(NULL, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE, 44, 0) = 0xcf7f1000 <0.000086>
+19:55:50.096357 close(44)               = 0 <0.000098>
+19:55:50.096586 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 44 <0.000080>
+19:55:50.096760 fstat64(44, {st_mode=01, st_size=1, ...}) = 0 <0.000073>
+19:55:50.096930 ioctl(44, ASHMEM_SET_NAME, 0xff8ef480) = 0 <0.000073>
+19:55:50.097090 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x9000) = 0 <0.000075>
+19:55:50.097254 mmap2(NULL, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE, 44, 0) = 0xdb867000 <0.000079>
+19:55:50.097431 close(44)               = 0 <0.000075>
+19:55:50.097763 munmap(0xcff0a000, 82568) = 0 <0.000085>
+19:55:50.098014 ioctl(8, BINDER_WRITE_READ, 0xff8ef088) = 0 <0.000111>
+19:55:50.098221 ioctl(8, BINDER_WRITE_READ, 0xff8ef088) = 0 <0.000077>
+19:55:50.098725 ioctl(8, BINDER_WRITE_READ, 0xff8ef588) = 0 <0.000117>
+19:55:50.098953 ioctl(8, BINDER_WRITE_READ, 0xff8ef588) = 0 <0.000079>
+19:55:50.099201 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw", F_OK) = 0 <0.000079>
+19:55:50.099408 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex", F_OK) = -1 ENOENT (No such file or directory) <0.000086>
+19:55:50.099612 mkdirat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex", 0777) = 0 <0.000114>
+19:55:50.099839 fchmodat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex", 0771) = 0 <0.000080>
+19:55:50.100071 pread64(30, "PK\3\4\n\0\0\0\0\0\370\236MC\235\257*B0A\1\0000A\1\0\16\0\0\0", 30, 24876) = 30 <0.000085>
+19:55:50.100259 pread64(30, "assets/img.dat", 14, 24906) = 14 <0.000081>
+19:55:50.100438 mmap2(NULL, 82568, PROT_READ, MAP_SHARED, 30, 0x6000) = 0xcff0a000 <0.000083>
+19:55:50.100655 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.zip", F_OK) = -1 ENOENT (No such file or directory) <0.000087>
+19:55:50.100849 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 44 <0.000085>
+19:55:50.101029 fstat64(44, {st_mode=01, st_size=1, ...}) = 0 <0.000091>
+19:55:50.101231 ioctl(44, ASHMEM_SET_NAME, 0xff8ef100) = 0 <0.000080>
+19:55:50.101405 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xc000) = 0 <0.000079>
+19:55:50.101587 mmap2(NULL, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE, 44, 0) = 0xcf7e5000 <0.000087>
+19:55:50.101777 close(44)               = 0 <0.000092>
+19:55:50.101985 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.zip", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000102>
+19:55:50.102189 close(44)               = 0 <0.000089>
+19:55:50.102425 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.zip", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000111>
+19:55:50.102653 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000084>
+19:55:50.102884 write(44, "PK\3\4\24\0\10\0\10\0pR>C\33\365\7\301\256\257\0\0\330\224\1\0\v\0\0\0cl"..., 45110) = 45110 <0.000125>
+19:55:50.103146 munmap(0xcff0a000, 82568) = 0 <0.000097>
+19:55:50.103360 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef254, 0xff8ef250) = -1 ENOTSOCK (Socket operation on non-socket) <0.000085>
+19:55:50.103558 close(44)               = 0 <0.000085>
+19:55:50.103755 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw", F_OK) = 0 <0.000087>
+19:55:50.103957 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs", F_OK) = -1 ENOENT (No such file or directory) <0.000872>
+19:55:50.104947 mkdirat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs", 0777) = 0 <0.000108>
+19:55:50.105170 fchmodat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs", 0771) = 0 <0.000091>
+19:55:50.105382 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs", O_RDONLY|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 44 <0.000090>
+19:55:50.105579 getdents64(44, /* 2 entries */, 4140) = 48 <0.000087>
+19:55:50.105774 getdents64(44, /* 0 entries */, 4140) = 0 <0.000085>
+19:55:50.105966 close(44)               = 0 <0.000085>
+19:55:50.106162 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs", F_OK) = 0 <0.000087>
+19:55:50.106421 pread64(30, "PK\3\4\n\0\0\0\0\0\370\236MC\235\257*B0A\1\0000A\1\0\16\0\0\0", 30, 24876) = 30 <0.000085>
+19:55:50.106607 pread64(30, "assets/img.dat", 14, 24906) = 14 <0.000084>
+19:55:50.106793 mmap2(NULL, 82568, PROT_READ, MAP_SHARED, 30, 0x6000) = 0xcff0a000 <0.000095>
+19:55:50.107011 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 44 <0.000089>
+19:55:50.107200 fstat64(44, {st_mode=01, st_size=1, ...}) = 0 <0.000084>
+19:55:50.107391 ioctl(44, ASHMEM_SET_NAME, 0xff8ef6f0) = 0 <0.000086>
+19:55:50.107574 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xc000) = 0 <0.000085>
+19:55:50.107777 mmap2(NULL, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE, 44, 0) = 0xcf7d9000 <0.000118>
+19:55:50.108046 close(44)               = 0 <0.000094>
+19:55:50.108459 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/btnbg_blue.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000100>
+19:55:50.108662 close(44)               = 0 <0.000093>
+19:55:50.108884 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/btnbg_blue.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000130>
+19:55:50.109130 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000092>
+19:55:50.109454 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\276\0\0\0002\10\6\0\0\0\342\6a"..., 614) = 614 <0.000237>
+19:55:50.109887 write(44, "\" xmpMM:DocumentID=\"xmp.did:F4C3"..., 698) = 698 <0.000130>
+19:55:50.110203 write(44, "\374\263\275\261\337@\5\333\2220B\300\340S\6X\311\272\317\274\4\37\345\300\204\234\370\224\t\312\344\375"..., 505) = 505 <0.000149>
+19:55:50.110536 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000090>
+19:55:50.110741 close(44)               = 0 <0.000100>
+19:55:50.111009 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/btnbg_green.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000109>
+19:55:50.111224 close(44)               = 0 <0.000091>
+19:55:50.111439 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/btnbg_green.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000109>
+19:55:50.111656 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000088>
+19:55:50.111886 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\276\0\0\0002\10\6\0\0\0\342\6a"..., 763) = 763 <0.000158>
+19:55:50.112181 write(44, "ocumentID=\"xmp.did:EAF0197DB3D51"..., 571) = 571 <0.000095>
+19:55:50.112411 write(44, "\241\361\201Q\7\0\361\1\20\37 \212\342[\304\207x6>\346C\234\340T\7\230\361\1\20\37 \6"..., 349) = 349 <0.000102>
+19:55:50.112645 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000111>
+19:55:50.112908 close(44)               = 0 <0.000096>
+19:55:50.113147 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/btnbg_orange.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000107>
+19:55:50.113369 close(44)               = 0 <0.000120>
+19:55:50.113617 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/btnbg_orange.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000146>
+19:55:50.113898 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000103>
+19:55:50.114163 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\276\0\0\0002\10\6\0\0\0\342\6a"..., 763) = 763 <0.000152>
+19:55:50.114457 write(44, "ocumentID=\"xmp.did:FEF6D72CB3D51"..., 575) = 575 <0.000100>
+19:55:50.114709 write(44, "\320\370\0004>\200]\342\323\370\20\311Q\207\306\7\32\37\200\306\7\240\361\1\20\37\200Q\7\200\306\7"..., 359) = 359 <0.000098>
+19:55:50.114928 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000086>
+19:55:50.115119 close(44)               = 0 <0.000086>
+19:55:50.115340 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/btnbg_yellow.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000102>
+19:55:50.115544 close(44)               = 0 <0.000085>
+19:55:50.115749 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/btnbg_yellow.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000099>
+19:55:50.115958 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000083>
+19:55:50.116197 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\276\0\0\0002\10\6\0\0\0\342\6a"..., 613) = 613 <0.000180>
+19:55:50.116507 write(44, "9\" xmpMM:DocumentID=\"xmp.did:055"..., 705) = 705 <0.000090>
+19:55:50.116722 write(44, "\320\370\0\215\17\320\370\0\215\17t|\360i|\204r\325\241\361A\343\0034>\300\305-\20\254\306g"..., 354) = 354 <0.000097>
+19:55:50.116940 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000084>
+19:55:50.117129 close(44)               = 0 <0.000085>
+19:55:50.117342 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/default_bg.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000099>
+19:55:50.117542 close(44)               = 0 <0.000084>
+19:55:50.117738 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/default_bg.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000107>
+19:55:50.117946 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000092>
+19:55:50.118185 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\1h\0\0\1h\10\6\0\0\0z\345a"..., 582) = 582 <0.000102>
+19:55:50.118417 write(44, "DocumentID=\"xmp.did:783714A0B3D6"..., 736) = 736 <0.000092>
+19:55:50.118635 write(44, "\363\371-\26\343|T\215t=\320is\276\265\267\267\27\26\27\27\303\316\316\316\2518W\247\272A7"..., 520) = 520 <0.000088>
+19:55:50.118853 write(44, "\f4\305\265S\220]\271\1P>\332(\305\272\351\37\225\353\326\322V\375\27\245c\213\246-Y\230\1"..., 1024) = 1024 <0.000089>
+19:55:50.119072 write(44, "\3\234?\306\235\"]z\356@\2475\273\376\242\372\343\276\276\2763\257\313?\3\350\325 \227N&\272"..., 223) = 223 <0.000088>
+19:55:50.119293 write(44, "z9\324MG\30\365\251\377\376\332\265k\371-\356\245@\177\35\347\366\344\344d\270w\357\336I\224\353"..., 528) = 528 <0.000093>
+19:55:50.119509 write(44, "\30'\355\345#\355\237\3\320\354Y\234\2358kq\276\t/\276\34\230f\277\333\v\377'\300\0\253\345"..., 50) = 50 <0.000089>
+19:55:50.119733 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000093>
+19:55:50.119935 close(44)               = 0 <0.000095>
+19:55:50.120171 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/dtop_closebtn.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000120>
+19:55:50.120390 close(44)               = 0 <0.000082>
+19:55:50.120580 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/dtop_closebtn.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000136>
+19:55:50.120841 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000081>
+19:55:50.121059 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0(\0\0\0(\10\6\0\0\0\214\376\270"..., 602) = 602 <0.000095>
+19:55:50.121304 write(44, "90B3A9AEB93D\" xmpMM:DocumentID=\""..., 702) = 702 <0.000095>
+19:55:50.121568 write(44, "\362N\366\366\366~\20\32\32z\202.o\273\247\24\327\237q\v\206\271\32>\241\274\274\274\336\337p("..., 511) = 511 <0.000087>
+19:55:50.121802 write(44, "N\t5B\307bpX\20\"~R\22$\"A\267\307\tdA\265\2\241\241P\243\376\376\376b)"..., 513) = 513 <0.000088>
+19:55:50.122008 write(44, "`\202", 2)   = 2 <0.000086>
+19:55:50.122211 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000083>
+19:55:50.122396 close(44)               = 0 <0.000082>
+19:55:50.122625 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/install_btn.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000119>
+19:55:50.122863 close(44)               = 0 <0.000122>
+19:55:50.123139 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/install_btn.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000147>
+19:55:50.123424 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000121>
+19:55:50.123718 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0n\0\0\0#\10\6\0\0\0u\235?"..., 762) = 762 <0.000135>
+19:55:50.124066 write(44, "documentID=\"xmp.did:0C761730C83C"..., 508) = 508 <0.000130>
+19:55:50.124353 futex(0xe8a5a5e0, FUTEX_WAKE, 1) = 1 <0.000147>
+19:55:50.124627 futex(0xe8a5a5c0, FUTEX_WAKE, 1) = 1 <0.000120>
+19:55:50.124885 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000114>
+19:55:50.125140 close(44)               = 0 <0.000106>
+19:55:50.125451 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/listcloseBtn.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000137>
+19:55:50.125731 close(44)               = 0 <0.000132>
+19:55:50.126007 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/listcloseBtn.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000125>
+19:55:50.126365 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000057>
+19:55:50.126592 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0#\0\0\0#\10\6\0\0\0\36\331\263"..., 789) = 789 <0.000139>
+19:55:50.126902 write(44, "CC83B11E2A1C5E2A4E9641FAC\"/> </r"..., 387) = 387 <0.000114>
+19:55:50.127165 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000109>
+19:55:50.127435 close(44)               = 0 <0.000195>
+19:55:50.127801 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/listview_bg.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000164>
+19:55:50.128174 close(44)               = 0 <0.000116>
+19:55:50.128459 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/listview_bg.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000100>
+19:55:50.128663 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000105>
+19:55:50.128960 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\1\270\0\0\1m\10\6\0\0\0u9\177"..., 762) = 762 <0.000105>
+19:55:50.129220 write(44, "documentID=\"xmp.did:67276377C841"..., 1024) = 1024 <0.000158>
+19:55:50.129497 write(44, "\300\1\200\300\1\200\300\1 p\0 p\0 p\0 p\0 p\0\10\34\0\10\34\0\10\34\0"..., 533) = 533 <0.000126>
+19:55:50.129931 write(44, "\205\3\340\250\215\213\331\304,c\3461\263\374g\311\227>\370K\200\1\0\366.\241\36[\315\224M\0"..., 43) = 43 <0.000106>
+19:55:50.130157 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000078>
+19:55:50.130342 close(44)               = 0 <0.000077>
+19:55:50.130547 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/list_title_bg.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000096>
+19:55:50.130738 close(44)               = 0 <0.000089>
+19:55:50.130933 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/list_title_bg.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000091>
+19:55:50.131118 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000076>
+19:55:50.131345 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\1\270\0\0\0002\10\6\0\0\0.\226\316"..., 564) = 564 <0.000088>
+19:55:50.131555 write(44, "stanceID=\"xmp.iid:566AEEECC84111"..., 706) = 706 <0.000082>
+19:55:50.131758 write(44, "\207\231I\234\231u\363\3674\177\37f\244\23\332\337~\206\21\20#q\353\217\302\334\236\20\346\7\350B"..., 522) = 522 <0.000082>
+19:55:50.131968 write(44, "\346v\217\276e^\247\0377\3739\377K\344\213y[B\362C\370/\362\10\274\1771\22\246\257\5\177"..., 522) = 522 <0.000134>
+19:55:50.132263 write(44, "oo\353J&\254\366\341\205\275\210\361.\255\4\232\371B\376\240\312+\301[\346\247\310\232\331\347\324\261"..., 522) = 522 <0.000107>
+19:55:50.132520 write(44, "=\10\257m\n|\3312){\344~m\363=\\(\7\301\353\2369\260=w\206/\356A\267\363="..., 519) = 519 <0.000103>
+19:55:50.132767 write(44, "e|J8(\366\221\350\315\364S\371R\376c\277#\3433|j?!\10\373X\351\v&\377\211\37"..., 519) = 519 <0.000102>
+19:55:50.133011 write(44, "\240\302w\4~\330\3\37\370=\21_\340\267\343\3\345\0170m\3\244\355\26\n\257\340\17\t\36\247?"..., 519) = 519 <0.000106>
+19:55:50.133260 write(44, "P\355u\352\360\7\212\177\226\304\3\352\257\301\320\217\220\337\360\377\341\377\347\342\377e\5w\377C\37W"..., 521) = 521 <0.000102>
+19:55:50.133504 write(44, "\221?k\357\265W%\33N\243\27O\310\356\333\342\237fc\16\377\37\376\177n\376\377\271G\376\r\226"..., 516) = 516 <0.000101>
+19:55:50.133751 write(44, "7N\371\375q\334\336\247\343vv]>HW\2631\255l\313\240\370G\340m\220\331\232\241\223\2356"..., 520) = 520 <0.000083>
+19:55:50.133952 write(44, "\3541p\362\375M'\2749VF\306\301x\363/^`%\260'2\331x3\264\214\\\233l\270\320"..., 519) = 519 <0.000078>
+19:55:50.134153 write(44, "\352/\244\361\371\307R\312'\24\372w\310S\330Cy\311\344\t\372a\3648`\372\1)\257\306\36\24"..., 525) = 525 <0.000080>
+19:55:50.134349 write(44, "\345\336\32\t\310v\252e\226\332r\274s\355\370\\@\225f+\261\361\3515\343+3\2^\276\324g"..., 520) = 520 <0.000079>
+19:55:50.134545 write(44, "\363\27\375O\32?\320\330\7\222\367a\231\372\321\364Q\266c\244}\31\360\f\373\222\364\3\301k\352\203"..., 523) = 523 <0.000086>
+19:55:50.134751 write(44, "\323\313\276a}\3,b)\237\22\2y\263pn\313~\4\366f\335<\36\304x\332F\5\36Hx"..., 523) = 523 <0.000083>
+19:55:50.134952 write(44, "\303\355\240\217E6\247\342\357e/\245\355~D<=\273og\355B\2722\320\344\311\262\311\210\376\252"..., 529) = 529 <0.000078>
+19:55:50.135145 write(44, "&/\247\303_\344\23B\350\333\37\341\27\211>\213\276\211\374U\376\ry\241l\17\377\37\376\177F\376"..., 383) = 383 <0.000079>
+19:55:50.135334 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000074>
+19:55:50.135502 close(44)               = 0 <0.000074>
+19:55:50.135694 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/page_normol.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000099>
+19:55:50.135885 close(44)               = 0 <0.000074>
+19:55:50.136065 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/page_normol.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000088>
+19:55:50.136345 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000077>
+19:55:50.136560 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\16\0\0\0\16\10\6\0\0\0\37H-"..., 763) = 763 <0.000084>
+19:55:50.136761 write(44, "ocumentID=\"xmp.did:A4E25104B3D21"..., 497) = 497 <0.000079>
+19:55:50.136950 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000074>
+19:55:50.137119 close(44)               = 0 <0.000074>
+19:55:50.137322 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/page_selecte_blue.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000088>
+19:55:50.137501 close(44)               = 0 <0.000074>
+19:55:50.137682 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/page_selecte_blue.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000094>
+19:55:50.137866 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000073>
+19:55:50.138059 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\16\0\0\0\16\10\6\0\0\0\37H-"..., 763) = 763 <0.000083>
+19:55:50.138260 write(44, "ocumentID=\"xmp.did:32361134B3D31"..., 506) = 506 <0.000081>
+19:55:50.138460 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000074>
+19:55:50.138627 close(44)               = 0 <0.000074>
+19:55:50.138829 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/page_selecte_green.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000088>
+19:55:50.139007 close(44)               = 0 <0.000074>
+19:55:50.139181 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/page_selecte_green.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000086>
+19:55:50.139357 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000073>
+19:55:50.139547 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\16\0\0\0\16\10\6\0\0\0\37H-"..., 763) = 763 <0.000083>
+19:55:50.139746 write(44, "ocumentID=\"xmp.did:39CC5EF2B3D31"..., 510) = 510 <0.000079>
+19:55:50.139945 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000124>
+19:55:50.140172 close(44)               = 0 <0.000087>
+19:55:50.140382 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/page_selecte_orange.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000085>
+19:55:50.140555 close(44)               = 0 <0.000072>
+19:55:50.140724 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/page_selecte_orange.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000115>
+19:55:50.140930 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000073>
+19:55:50.141120 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\16\0\0\0\16\10\6\0\0\0\37H-"..., 763) = 763 <0.000082>
+19:55:50.141317 write(44, "ocumentID=\"xmp.did:2A38CA68B3D31"..., 491) = 491 <0.000078>
+19:55:50.141501 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000071>
+19:55:50.141664 close(44)               = 0 <0.000086>
+19:55:50.141873 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/page_selecte_yellow.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000087>
+19:55:50.142068 close(44)               = 0 <0.000092>
+19:55:50.142310 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/page_selecte_yellow.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000123>
+19:55:50.142528 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000074>
+19:55:50.142724 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\16\0\0\0\16\10\6\0\0\0\37H-"..., 763) = 763 <0.000086>
+19:55:50.142940 write(44, "ocumentID=\"xmp.did:B1438734B3D21"..., 482) = 482 <0.000079>
+19:55:50.143130 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000074>
+19:55:50.143300 close(44)               = 0 <0.000074>
+19:55:50.143497 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/sc_circle.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 44 <0.000090>
+19:55:50.143677 close(44)               = 0 <0.000087>
+19:55:50.143876 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs/sc_circle.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000088>
+19:55:50.144078 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000081>
+19:55:50.144297 write(44, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\256\0\0\0\256\10\6\0\0\0\257\f6"..., 531) = 531 <0.000090>
+19:55:50.144510 write(44, "\373\365\327_\23N\2348\361\27\220u\0I\325\262\262\2624\7\211\32\215\324i\265\265\2659\243G\217"..., 512) = 512 <0.000084>
+19:55:50.144716 write(44, "\0\322\266@\0\341\241\215\0337\226\231\260\240\372\2\373\374~\177\346\204\t\23\362\372\365\353G\326\370\237"..., 514) = 514 <0.000084>
+19:55:50.144922 write(44, "7\302\2256\316B\322\22\261}0\n;\304\253-\21\362\33\240Do\350\264s\f\372hS\263\262\262"..., 514) = 514 <0.000084>
+19:55:50.145126 write(44, "\33F\324h#a\333 \0203\332\267o\357\307\377\213\357\344\f\v\311\31\351\321 n\n\274\v\v-"..., 510) = 510 <0.000093>
+19:55:50.145345 write(44, "\225\200\220\243\233/\205\20\0\27j\251\221\264 \27\310\245\351\\K\1\312\271E\244\345q\301\301F\v"..., 518) = 518 <0.000084>
+19:55:50.145550 write(44, "\316\272u\353J\246N\235J\375\21\32{kI\2751[\311cW\225\223\270\321R\26\325\213\232x\203"..., 513) = 513 <0.000083>
+19:55:50.145763 write(44, "?|\232\216{\211;\271\276\276\276\227\0qSp\17y\222\324\275$2\305\350+\244\360oKug"..., 514) = 514 <0.000089>
+19:55:50.145974 write(44, "\177|\311\17n\333\266\255\217\304WL\341`\362\3\363e\23\2\222\235it\203\214\fj\367\272\277\242"..., 514) = 514 <0.000085>
+19:55:50.146280 write(44, "\2450\206\346BQ\312c\307\216\215\223\f\341\6KZ\16\267\213\222^#\357\323\6\254^\35\364\224\366"..., 514) = 514 <0.000088>
+19:55:50.146494 write(44, "\262\244\207-\32K\2509P\227K\352g\20J\352>\264u\353\326\336AcI\316\312\312\"\25\203>"..., 512) = 512 <0.000085>
+19:55:50.146701 write(44, "\0$/\235\3616\334\204|\211\214\314\314L?\223\326\332\365\342\247\7 \2405\4\231h\260G\4'"..., 177) = 177 <0.000093>
+19:55:50.146910 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8ef864, 0xff8ef860) = -1 ENOTSOCK (Socket operation on non-socket) <0.000079>
+19:55:50.147091 close(44)               = 0 <0.000080>
+19:55:50.147284 munmap(0xcff0a000, 82568) = 0 <0.000096>
+19:55:50.147567 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex", F_OK) = 0 <0.000085>
+19:55:50.147768 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex", R_OK) = 0 <0.000084>
+19:55:50.147958 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex", W_OK) = 0 <0.000090>
+19:55:50.148170 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.zip", {st_mode=0165264, st_size=1, ...}, 0) = 0 <0.000084>
+19:55:50.148368 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.zip", {st_mode=0165264, st_size=1, ...}, 0) = 0 <0.000082>
+19:55:50.148569 getuid32()              = 12770 <0.000079>
+19:55:50.148750 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex", {st_mode=0172064, st_size=2, ...}, 0) = 0 <0.000082>
+19:55:50.148951 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.dex.flock", O_RDWR|O_CREAT|O_LARGEFILE, 0666) = 44 <0.000095>
+19:55:50.149149 flock(44, LOCK_EX)      = 0 <0.000088>
+19:55:50.149331 fstat64(44, {st_mode=0, st_size=1, ...}) = 0 <0.000078>
+19:55:50.149505 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.dex.flock", {st_mode=0167520, st_size=1, ...}, 0) = 0 <0.000082>
+19:55:50.149693 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.dex", 0xff8eed90, 0) = -1 ENOENT (No such file or directory) <0.000090>
+19:55:50.149895 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/oat/x86/popdex.odex", 0xff8eed90, 0) = -1 ENOENT (No such file or directory) <0.000085>
+19:55:50.150088 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.zip", O_RDONLY|O_LARGEFILE) = 45 <0.000084>
+19:55:50.150285 read(45, "PK\3\4", 4)   = 4 <0.000081>
+19:55:50.150462 lseek(45, 0, SEEK_SET)  = 0 <0.000079>
+19:55:50.150634 _llseek(45, 0, [45110], SEEK_END) = 0 <0.000078>
+19:55:50.150821 _llseek(45, 0, [0], SEEK_SET) = 0 <0.000079>
+19:55:50.150995 read(45, "PK\3\4\24\0\10\0\10\0pR>C\33\365\7\301\256\257\0\0\330\224\1\0\v\0\0\0cl"..., 45110) = 45110 <0.000100>
+19:55:50.151191 mmap2(NULL, 4128, PROT_READ, MAP_SHARED, 45, 0xa000) = 0xe21e6000 <0.000085>
+19:55:50.151380 fcntl64(45, F_GETFD)    = 0 <0.000079>
+19:55:50.151550 fcntl64(45, F_SETFD, FD_CLOEXEC) = 0 <0.000078>
+19:55:50.151728 pread64(45, "PK\3\4\24\0\10\0\10\0pR>C\33\365\7\301\256\257\0\0\330\224\1\0\v\0\0\0", 30, 0) = 30 <0.000079>
+19:55:50.151903 pread64(45, "classes.dex", 11, 30) = 11 <0.000079>
+19:55:50.152098 close(45)               = 0 <0.000081>
+19:55:50.152305 munmap(0xe21e6000, 4128) = 0 <0.000088>
+19:55:50.152488 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.zip", {st_mode=S_IFDIR|S_ISUID|S_ISGID|0300, st_size=1, ...}, 0) = 0 <0.000082>
+19:55:50.152675 unlinkat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.dex", 0) = -1 ENOENT (No such file or directory) <0.000090>
+19:55:50.152871 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.dex", O_RDWR|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 45 <0.000093>
+19:55:50.153067 fchmod(45, 0644)        = 0 <0.000083>
+19:55:50.153263 fstatat64(AT_FDCWD, "/system", {st_mode=0165650, st_size=17, ...}, 0) = 0 <0.000082>
+19:55:50.153472 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xed2c853c) = 18364 <0.002155>
+19:55:50.155774 wait4(18364, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 18364 <0.316424>
+19:55:50.472315 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=18364, si_uid=12770, si_status=0, si_utime=25, si_stime=132} ---
+19:55:50.472422 fdatasync(45)           = 0 <0.000216>
+19:55:50.472734 close(45)               = 0 <0.000081>
+19:55:50.472923 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.dex", {st_mode=0117344, st_size=1, ...}, 0) = 0 <0.000086>
+19:55:50.473138 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000079>
+19:55:50.473320 fstatat64(AT_FDCWD, "/data/user", {st_mode=0, st_size=3, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000077>
+19:55:50.473508 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000079>
+19:55:50.473684 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000078>
+19:55:50.473864 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000076>
+19:55:50.474052 fstatat64(AT_FDCWD, "/data/data", {st_mode=0, st_size=99, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000100>
+19:55:50.474260 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw", {st_mode=0, st_size=6, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000078>
+19:55:50.474441 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000089>
+19:55:50.474633 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.dex", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000078>
+19:55:50.474809 mprotect(0xe21fe000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000078>
+19:55:50.474976 mprotect(0xdf9b0000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000098>
+19:55:50.475200 mprotect(0xece7f000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000128>
+19:55:50.475459 mprotect(0xed0e9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000144>
+19:55:50.475736 mprotect(0xed0ea000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000129>
+19:55:50.476183 mprotect(0xed154000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000248>
+19:55:50.476583 mprotect(0xecc9c000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000209>
+19:55:50.477060 mprotect(0xecce9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000172>
+19:55:50.477468 mprotect(0xecd44000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000175>
+19:55:50.477916 mprotect(0xecd96000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000177>
+19:55:50.478272 mprotect(0xece21000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000136>
+19:55:50.478646 mprotect(0xece67000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000104>
+19:55:50.478891 mprotect(0xecf78000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000114>
+19:55:50.479163 mprotect(0xecfc2000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000177>
+19:55:50.479475 mprotect(0xed0e1000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000110>
+19:55:50.479707 mprotect(0xed129000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000125>
+19:55:50.480235 mprotect(0xed1e7000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000113>
+19:55:50.480467 mprotect(0xe21e5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000153>
+19:55:50.480747 mprotect(0xdf967000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000111>
+19:55:50.480986 mprotect(0xed0e3000, 4096, PROT_READ|PROT_WRITE) = 0 <0.003242>
+19:55:50.484345 mprotect(0xe8a81000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000124>
+19:55:50.484586 mprotect(0xecca9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000125>
+19:55:50.484818 mprotect(0xeccea000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000141>
+19:55:50.485060 mprotect(0xecd4b000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000119>
+19:55:50.485286 mprotect(0xecd65000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000110>
+19:55:50.485501 mprotect(0xecdbc000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000118>
+19:55:50.485805 mprotect(0xed1e9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000111>
+19:55:50.486018 mprotect(0xed1ea000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000113>
+19:55:50.486236 mprotect(0xe22ae000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000117>
+19:55:50.486476 openat(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.dex", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 45 <0.000106>
+19:55:50.486696 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe21e6000 <0.000091>
+19:55:50.486892 madvise(0xe21e6000, 8192, MADV_MERGEABLE) = 0 <0.000085>
+19:55:50.487086 prctl(0x53564d41 /* PR_??? */, 0, 0xe21e6000, 8192, "linker_alloc_lob") = 0 <0.000085>
+19:55:50.487292 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe21cb000 <0.000098>
+19:55:50.487497 madvise(0xe21cb000, 8192, MADV_MERGEABLE) = 0 <0.000086>
+19:55:50.487685 prctl(0x53564d41 /* PR_??? */, 0, 0xe21cb000, 8192, "linker_alloc_lob") = 0 <0.000105>
+19:55:50.487911 readlinkat(AT_FDCWD, "/proc/self/fd/45", "/data/data/com.shoecakedroid.cjs"..., 4096) = 66 <0.000199>
+19:55:50.488239 munmap(0xe21cb000, 8192) = 0 <0.000118>
+19:55:50.488468 munmap(0xe21e6000, 8192) = 0 <0.000125>
+19:55:50.488700 fstat64(45, {st_mode=S_ISVTX|0220, st_size=1, ...}) = 0 <0.000093>
+19:55:50.488933 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe21e7000 <0.000101>
+19:55:50.489143 madvise(0xe21e7000, 4096, MADV_MERGEABLE) = 0 <0.000098>
+19:55:50.489356 prctl(0x53564d41 /* PR_??? */, 0, 0xe21e7000, 4096, "linker_alloc_small_objects") = 0 <0.000096>
+19:55:50.489569 pread64(45, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\0\0\0004\0\0\0"..., 52, 0) = 52 <0.000098>
+19:55:50.489797 mmap2(NULL, 328, PROT_READ, MAP_PRIVATE, 45, 0) = 0xe21e6000 <0.000112>
+19:55:50.490020 mmap2(NULL, 488, PROT_READ, MAP_PRIVATE, 45, 0x61000) = 0xe21cc000 <0.000090>
+19:55:50.490220 mmap2(NULL, 56, PROT_READ, MAP_PRIVATE, 45, 0x60000) = 0xe21cb000 <0.000093>
+19:55:50.490443 mmap2(NULL, 62, PROT_READ, MAP_PRIVATE, 45, 0x5f000) = 0xe21ca000 <0.000092>
+19:55:50.490662 mmap2(NULL, 409600, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xcd79c000 <0.000088>
+19:55:50.490861 madvise(0xcd79c000, 409600, MADV_MERGEABLE) = 0 <0.000091>
+19:55:50.491054 mmap2(0xcd79c000, 200704, PROT_READ, MAP_PRIVATE|MAP_FIXED, 45, 0) = 0xcd79c000 <0.000093>
+19:55:50.491260 mmap2(0xcd7cd000, 186311, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 45, 0x31000) = 0xcd7cd000 <0.000093>
+19:55:50.491464 mmap2(0xcd7fb000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xcd7fb000 <0.000119>
+19:55:50.491719 madvise(0xcd7fb000, 12288, MADV_MERGEABLE) = 0 <0.000108>
+19:55:50.491949 prctl(0x53564d41 /* PR_??? */, 0, 0xcd7fb000, 12288, ".bss") = 0 <0.000131>
+19:55:50.492187 mmap2(0xcd7fe000, 196, PROT_READ, MAP_PRIVATE|MAP_FIXED, 45, 0x5f000) = 0xcd7fe000 <0.000093>
+19:55:50.492380 mmap2(0xcd7ff000, 56, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 45, 0x60000) = 0xcd7ff000 <0.000084>
+19:55:50.492580 close(45)               = 0 <0.000080>
+19:55:50.492768 munmap(0xe21ca000, 62)  = 0 <0.000109>
+19:55:50.492970 munmap(0xe21cb000, 56)  = 0 <0.000106>
+19:55:50.493170 munmap(0xe21cc000, 488) = 0 <0.000106>
+19:55:50.493368 munmap(0xe21e6000, 328) = 0 <0.000104>
+19:55:50.493572 munmap(0xe21e7000, 4096) = 0 <0.000143>
+19:55:50.493816 mprotect(0xe21fe000, 4096, PROT_READ) = 0 <0.000104>
+19:55:50.494013 mprotect(0xdf9b0000, 4096, PROT_READ) = 0 <0.000103>
+19:55:50.494210 mprotect(0xece7f000, 4096, PROT_READ) = 0 <0.000102>
+19:55:50.494405 mprotect(0xed0e9000, 4096, PROT_READ) = 0 <0.000106>
+19:55:50.494603 mprotect(0xed0ea000, 4096, PROT_READ) = 0 <0.000106>
+19:55:50.494809 mprotect(0xed154000, 4096, PROT_READ) = 0 <0.000104>
+19:55:50.495012 mprotect(0xecc9c000, 4096, PROT_READ) = 0 <0.000110>
+19:55:50.495218 mprotect(0xecce9000, 4096, PROT_READ) = 0 <0.000104>
+19:55:50.495416 mprotect(0xecd44000, 4096, PROT_READ) = 0 <0.000102>
+19:55:50.495612 mprotect(0xecd96000, 4096, PROT_READ) = 0 <0.000181>
+19:55:50.495886 mprotect(0xece21000, 4096, PROT_READ) = 0 <0.000183>
+19:55:50.496167 mprotect(0xece67000, 4096, PROT_READ) = 0 <0.000108>
+19:55:50.496367 mprotect(0xecf78000, 4096, PROT_READ) = 0 <0.000104>
+19:55:50.496564 mprotect(0xecfc2000, 4096, PROT_READ) = 0 <0.000102>
+19:55:50.496759 mprotect(0xed0e1000, 4096, PROT_READ) = 0 <0.000106>
+19:55:50.496958 mprotect(0xed129000, 4096, PROT_READ) = 0 <0.000099>
+19:55:50.497150 mprotect(0xed1e7000, 4096, PROT_READ) = 0 <0.000124>
+19:55:50.497366 mprotect(0xe21e5000, 4096, PROT_READ) = 0 <0.000100>
+19:55:50.497558 mprotect(0xdf967000, 4096, PROT_READ) = 0 <0.000104>
+19:55:50.497757 mprotect(0xed0e3000, 4096, PROT_READ) = 0 <0.000101>
+19:55:50.497952 mprotect(0xe8a81000, 4096, PROT_READ) = 0 <0.000101>
+19:55:50.498146 mprotect(0xecca9000, 4096, PROT_READ) = 0 <0.000119>
+19:55:50.498358 mprotect(0xeccea000, 4096, PROT_READ) = 0 <0.000107>
+19:55:50.498558 mprotect(0xecd4b000, 4096, PROT_READ) = 0 <0.000120>
+19:55:50.498772 mprotect(0xecd65000, 4096, PROT_READ) = 0 <0.000101>
+19:55:50.498966 mprotect(0xecdbc000, 4096, PROT_READ) = 0 <0.000104>
+19:55:50.499163 mprotect(0xed1e9000, 4096, PROT_READ) = 0 <0.000108>
+19:55:50.499364 mprotect(0xed1ea000, 4096, PROT_READ) = 0 <0.000101>
+19:55:50.499558 mprotect(0xe22ae000, 4096, PROT_READ) = 0 <0.000102>
+19:55:50.499814 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000085>
+19:55:50.500051 fstatat64(AT_FDCWD, "/data/user", {st_mode=0, st_size=3, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000084>
+19:55:50.500249 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000082>
+19:55:50.500433 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000082>
+19:55:50.500621 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000083>
+19:55:50.500811 fstatat64(AT_FDCWD, "/data/data", {st_mode=0, st_size=99, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000081>
+19:55:50.500999 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw", {st_mode=0, st_size=6, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000082>
+19:55:50.501196 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000085>
+19:55:50.501389 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.zip", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000082>
+19:55:50.501590 fstatat64(AT_FDCWD, "/data", {st_mode=017, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000090>
+19:55:50.501789 fstatat64(AT_FDCWD, "/data/user", {st_mode=017, st_size=3, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000081>
+19:55:50.501977 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=017, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000082>
+19:55:50.502160 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000091>
+19:55:50.502356 fstatat64(AT_FDCWD, "/data", {st_mode=017, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000082>
+19:55:50.502545 fstatat64(AT_FDCWD, "/data/data", {st_mode=017, st_size=99, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000081>
+19:55:50.502738 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw", {st_mode=017, st_size=6, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000082>
+19:55:50.502928 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex", {st_mode=017, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000081>
+19:55:50.503116 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.zip", {st_mode=017, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000091>
+19:55:50.503346 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.art", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000094>
+19:55:50.503555 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.art", 0xff8eee30, 0) = -1 ENOENT (No such file or directory) <0.000082>
+19:55:50.503752 unlinkat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpdex/popdex.dex.flock", 0) = 0 <0.000103>
+19:55:50.503954 flock(44, LOCK_UN)      = 0 <0.000119>
+19:55:50.504181 fdatasync(44)           = 0 <0.000221>
+19:55:50.504496 close(44)               = 0 <0.000096>
+19:55:50.504752 fstatat64(AT_FDCWD, "/system/lib", {st_mode=0172064, st_size=6, ...}, 0) = 0 <0.000084>
+19:55:50.504965 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=0172064, st_size=3, ...}, 0) = 0 <0.000087>
+19:55:50.505193 fstatat64(AT_FDCWD, "/system/lib", {st_mode=0165264, st_size=6, ...}, 0) = 0 <0.000082>
+19:55:50.505400 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=0165264, st_size=3, ...}, 0) = 0 <0.000083>
+19:55:50.505930 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 44 <0.000090>
+19:55:50.506118 fstat64(44, {st_mode=0167020, st_size=1, ...}) = 0 <0.000080>
+19:55:50.506304 ioctl(44, ASHMEM_SET_NAME, 0xff8eecf0) = 0 <0.000081>
+19:55:50.506479 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x20000) = 0 <0.000079>
+19:55:50.506656 mmap2(NULL, 131072, PROT_READ|PROT_WRITE, MAP_PRIVATE, 44, 0) = 0xcf799000 <0.000091>
+19:55:50.506855 close(44)               = 0 <0.000082>
+19:55:50.507756 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw", F_OK) = 0 <0.000089>
+19:55:50.507963 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs", F_OK) = 0 <0.000133>
+19:55:50.508223 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs", O_RDONLY|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 44 <0.000092>
+19:55:50.508427 getdents64(44, /* 18 entries */, 4140) = 720 <0.000091>
+19:55:50.508641 getdents64(44, /* 0 entries */, 4140) = 0 <0.000087>
+19:55:50.508829 close(44)               = 0 <0.000086>
+19:55:50.509052 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_cpimgs", F_OK) = 0 <0.000090>
+19:55:50.509376 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw", F_OK) = 0 <0.000089>
+19:55:50.509588 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs", F_OK) = 0 <0.000089>
+19:55:50.509837 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 44 <0.000091>
+19:55:50.510031 fstat64(44, {st_mode=01, st_size=1, ...}) = 0 <0.000085>
+19:55:50.510226 ioctl(44, ASHMEM_SET_NAME, 0xff8eeb40) = 0 <0.000086>
+19:55:50.510412 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000085>
+19:55:50.510598 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 44, 0) = 0xe21e6000 <0.000100>
+19:55:50.510810 close(44)               = 0 <0.000087>
+19:55:50.511005 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcd697000 <0.000088>
+19:55:50.511203 madvise(0xcd697000, 1069056, MADV_MERGEABLE) = 0 <0.000086>
+19:55:50.511389 mprotect(0xcd697000, 4096, PROT_NONE) = 0 <0.000087>
+19:55:50.511576 prctl(0x53564d41 /* PR_??? */, 0, 0xcd697000, 4096, "thread stack guard page") = 0 <0.000096>
+19:55:50.511794 clone(child_stack=0xcd79b910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcd79b928, tls={entry_number:12, base_addr:0xcd79b970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff8eee90, child_tidptr=0xcd79b928) = 18372 <0.000126>
+19:55:50.512071 futex(0xcd79b960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000122>
+19:55:50.512335 futex(0xe89c0180, FUTEX_WAKE, 1) = 0 <0.000092>
+19:55:50.512538 futex(0xe89b0138, FUTEX_WAIT, 647, NULL) = -1 EAGAIN (Try again) <0.000083>
+19:55:50.512780 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", F_OK) = -1 ENOENT (No such file or directory) <0.000086>
+19:55:50.512989 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000108>
+19:55:50.513222 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000086>
+19:55:50.513424 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 45 <0.000088>
+19:55:50.513613 fstat64(45, {st_mode=0107, st_size=1, ...}) = 0 <0.000107>
+19:55:50.513826 ioctl(45, ASHMEM_SET_NAME, 0xff8eeb70) = 0 <0.000083>
+19:55:50.514006 ioctl(45, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000082>
+19:55:50.514197 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 45, 0) = 0xe21c8000 <0.000136>
+19:55:50.514443 close(45)               = 0 <0.000085>
+19:55:50.514813 write(44, "<?xml version='1.0' encoding='ut"..., 137) = 137 <0.000103>
+19:55:50.515023 fsync(44)               = 0 <0.001402>
+19:55:50.516539 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8eef84, 0xff8eef80) = -1 ENOTSOCK (Socket operation on non-socket) <0.000093>
+19:55:50.516744 close(44)               = 0 <0.000087>
+19:55:50.516944 fchmodat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", 0660) = 0 <0.000099>
+19:55:50.517161 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000097>
+19:55:50.517397 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml.bak", 0xff8eef38, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000089>
+19:55:50.517852 ioctl(8, BINDER_WRITE_READ, 0xff8eee38) = 0 <0.000135>
+19:55:50.518113 ioctl(8, BINDER_WRITE_READ, 0xff8eee38) = 0 <0.000095>
+19:55:50.518351 ioctl(8, BINDER_WRITE_READ, 0xff8eee38) = 0 <0.000123>
+19:55:50.518581 ioctl(8, BINDER_WRITE_READ, 0xff8eee38) = 0 <0.000088>
+19:55:50.518846 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000124>
+19:55:50.519075 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000087>
+19:55:50.519312 ioctl(8, BINDER_WRITE_READ, 0xff8eee78) = 0 <0.000104>
+19:55:50.519520 ioctl(8, BINDER_WRITE_READ, 0xff8eee78) = 0 <0.000531>
+19:55:50.520257 ioctl(8, BINDER_WRITE_READ, 0xff8eee08) = 0 <0.000124>
+19:55:50.520490 ioctl(8, BINDER_WRITE_READ, 0xff8eee08) = 0 <0.000088>
+19:55:50.520714 ioctl(8, BINDER_WRITE_READ, 0xff8eee38) = 0 <0.000103>
+19:55:50.520919 ioctl(8, BINDER_WRITE_READ, 0xff8eee38) = 0 <0.000086>
+19:55:50.521122 ioctl(8, BINDER_WRITE_READ, 0xff8eedf8) = 0 <0.000132>
+19:55:50.521360 ioctl(8, BINDER_WRITE_READ, 0xff8eedf8) = 0 <0.000089>
+19:55:50.521650 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 44 <0.000100>
+19:55:50.521869 fstat64(44, {st_mode=0, st_size=1, ...}) = 0 <0.000087>
+19:55:50.522069 ioctl(44, ASHMEM_SET_NAME, 0xff8ee290) = 0 <0.000087>
+19:55:50.522257 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x20000) = 0 <0.000085>
+19:55:50.522445 mmap2(NULL, 131072, PROT_READ|PROT_WRITE, MAP_PRIVATE, 44, 0) = 0xcd160000 <0.000096>
+19:55:50.522653 close(44)               = 0 <0.000091>
+19:55:50.523055 ioctl(8, BINDER_WRITE_READ, 0xff8eee48) = 0 <0.000125>
+19:55:50.523292 ioctl(8, BINDER_WRITE_READ, 0xff8eee48) = 0 <0.000524>
+19:55:50.523938 ioctl(8, BINDER_WRITE_READ, 0xff8eee08) = 0 <0.000142>
+19:55:50.524181 ioctl(8, BINDER_WRITE_READ, 0xff8eee08) = 0 <0.000088>
+19:55:50.524390 ioctl(8, BINDER_WRITE_READ, 0xff8eee38) = 0 <0.000102>
+19:55:50.524594 ioctl(8, BINDER_WRITE_READ, 0xff8eee38) = 0 <0.000088>
+19:55:50.524824 ioctl(8, BINDER_WRITE_READ, 0xff8eedf8) = 0 <0.000136>
+19:55:50.525083 ioctl(8, BINDER_WRITE_READ, 0xff8eedf8) = 0 <0.000107>
+19:55:50.525320 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000100>
+19:55:50.525526 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000174>
+19:55:50.525832 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000101>
+19:55:50.526037 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000087>
+19:55:50.526256 ioctl(8, BINDER_WRITE_READ, 0xff8eee48) = 0 <0.000095>
+19:55:50.526424 ioctl(8, BINDER_WRITE_READ, 0xff8eee48) = 0 <0.000089>
+19:55:50.526630 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000105>
+19:55:50.526839 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000086>
+19:55:50.527045 ioctl(8, BINDER_WRITE_READ, 0xff8eee48) = 0 <0.000103>
+19:55:50.527253 ioctl(8, BINDER_WRITE_READ, 0xff8eee48) = 0 <0.000086>
+19:55:50.527542 ioctl(8, BINDER_WRITE_READ, 0xff8eee08) = 0 <0.000102>
+19:55:50.527756 ioctl(8, BINDER_WRITE_READ, 0xff8eee08) = 0 <0.000086>
+19:55:50.528054 ioctl(8, BINDER_WRITE_READ, 0xff8eed08) = 0 <0.000103>
+19:55:50.528276 ioctl(8, BINDER_WRITE_READ, 0xff8eed08) = 0 <0.000087>
+19:55:50.528510 ioctl(8, BINDER_WRITE_READ, 0xff8eee48) = 0 <0.000100>
+19:55:50.528716 ioctl(8, BINDER_WRITE_READ, 0xff8eee48) = 0 <0.000087>
+19:55:50.528932 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <0.000100>
+19:55:50.529136 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <0.000062>
+19:55:50.529324 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <0.000102>
+19:55:50.529527 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <0.000087>
+19:55:50.529739 ioctl(8, BINDER_WRITE_READ, 0xff8eed38) = 0 <0.000101>
+19:55:50.529944 ioctl(8, BINDER_WRITE_READ, 0xff8eed38) = 0 <0.000087>
+19:55:50.530768 ioctl(8, BINDER_WRITE_READ, 0xff8eee78) = 0 <0.000102>
+19:55:50.530977 ioctl(8, BINDER_WRITE_READ, 0xff8eee78) = 0 <0.000087>
+19:55:50.531425 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000133>
+19:55:50.531660 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000722>
+19:55:50.532467 ioctl(8, BINDER_WRITE_READ, 0xff8eee58) = 0 <0.000141>
+19:55:50.532722 ioctl(8, BINDER_WRITE_READ, 0xff8eee58) = 0 <0.000182>
+19:55:50.533076 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000259>
+19:55:50.533513 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000130>
+19:55:50.534211 ioctl(8, BINDER_WRITE_READ, 0xff8eee58) = 0 <0.000158>
+19:55:50.534486 ioctl(8, BINDER_WRITE_READ, 0xff8eee58) = 0 <0.000093>
+19:55:50.534708 ioctl(8, BINDER_WRITE_READ, 0xff8eee58) = 0 <0.000413>
+19:55:50.535219 ioctl(8, BINDER_WRITE_READ, 0xff8eee58) = 0 <0.000123>
+19:55:50.535573 ioctl(8, BINDER_WRITE_READ, 0xff8eede8) = 0 <0.000207>
+19:55:50.535982 ioctl(8, BINDER_WRITE_READ, 0xff8eede8) = 0 <0.000158>
+19:55:50.536282 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000110>
+19:55:50.536443 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000031>
+19:55:50.536616 ioctl(8, BINDER_WRITE_READ, 0xff8eede8) = 0 <0.000124>
+19:55:50.536868 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000110>
+19:55:50.537086 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000092>
+19:55:50.537308 ioctl(8, BINDER_WRITE_READ, 0xff8eedb8) = 0 <0.000118>
+19:55:50.537553 ioctl(8, BINDER_WRITE_READ, 0xff8eee08) = 0 <0.000155>
+19:55:50.537851 ioctl(8, BINDER_WRITE_READ, 0xff8eede8) = 0 <0.000118>
+19:55:50.538099 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000160>
+19:55:50.538370 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000092>
+19:55:50.538585 ioctl(8, BINDER_WRITE_READ, 0xff8eede8) = 0 <0.000117>
+19:55:50.538840 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000111>
+19:55:50.539057 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000090>
+19:55:50.539282 ioctl(8, BINDER_WRITE_READ, 0xff8eedb8) = 0 <0.000118>
+19:55:50.539526 ioctl(8, BINDER_WRITE_READ, 0xff8eee08) = 0 <0.000107>
+19:55:50.539738 ioctl(8, BINDER_WRITE_READ, 0xff8eee08) = 0 <0.000090>
+19:55:50.540120 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000132>
+19:55:50.540387 ioctl(8, BINDER_WRITE_READ, 0xff8eee48) = 0 <0.000110>
+19:55:50.540605 ioctl(8, BINDER_WRITE_READ, 0xff8eee48) = 0 <0.000093>
+19:55:50.540827 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000118>
+19:55:50.541070 ioctl(8, BINDER_WRITE_READ, 0xff8eee48) = 0 <0.000147>
+19:55:50.541353 ioctl(8, BINDER_WRITE_READ, 0xff8eee08) = 0 <0.000118>
+19:55:50.541604 ioctl(8, BINDER_WRITE_READ, 0xff8eee58) = 0 <0.000112>
+19:55:50.541791 ioctl(8, BINDER_WRITE_READ, 0xff8eee58) = 0 <4.573791>
+19:55:55.115633 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=18320, si_uid=12770} ---
+19:55:55.115673 futex(0xdbdb8494, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000035>
+19:55:55.115741 futex(0xdbdb8494, FUTEX_WAIT_BITSET_PRIVATE, 6, {89061, 115730997}, ffffffff) = 0 <0.000503>
+19:55:55.116286 futex(0xdbdb8494, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000034>
+19:55:55.116353 rt_sigreturn()          = 0 <0.000021>
+19:55:55.116407 ioctl(8, BINDER_WRITE_READ, 0xff8eee58) = 0 <0.426590>
+19:55:55.543256 ioctl(8, BINDER_WRITE_READ, 0xff8eed58) = 0 <0.000042>
+19:55:55.543340 ioctl(8, BINDER_WRITE_READ, 0xff8eed58) = 0 <0.000070>
+19:55:55.543464 ioctl(8, BINDER_WRITE_READ, 0xff8eeda8) = 0 <0.000081>
+19:55:55.543578 ioctl(8, BINDER_WRITE_READ, 0xff8eeda8) = 0 <0.000019>
+19:55:55.543737 writev(3, [{"\1\220G\213\25\341Z\303\212h ", 11}, {"\3", 1}, {"TelephonyManager\0", 17}, {"getCellLocation returning null b"..., 61}], 4) = 90 <0.000038>
+19:55:55.543871 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <0.000039>
+19:55:55.543943 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <0.000204>
+19:55:55.544201 ioctl(8, BINDER_WRITE_READ, 0xff8eed28) = 0 <0.000038>
+19:55:55.544275 ioctl(8, BINDER_WRITE_READ, 0xff8eed28) = 0 <0.000020>
+19:55:55.544376 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 95 <0.000032>
+19:55:55.544447 fstat64(95, {st_mode=0164164, st_size=1, ...}) = 0 <0.000018>
+19:55:55.544500 ioctl(95, ASHMEM_SET_NAME, 0xff8eea50) = 0 <0.000018>
+19:55:55.544548 ioctl(95, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000017>
+19:55:55.544598 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 95, 0) = 0xd02b8000 <0.000046>
+19:55:55.544685 close(95)               = 0 <0.000020>
+19:55:55.544737 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcb27d000 <0.000022>
+19:55:55.544790 madvise(0xcb27d000, 1069056, MADV_MERGEABLE) = 0 <0.000019>
+19:55:55.544838 mprotect(0xcb27d000, 4096, PROT_NONE) = 0 <0.000020>
+19:55:55.544886 prctl(0x53564d41 /* PR_??? */, 0, 0xcb27d000, 4096, "thread stack guard page") = 0 <0.000018>
+19:55:55.544943 clone(child_stack=0xcb381910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb381928, tls={entry_number:12, base_addr:0xcb381970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff8eeda0, child_tidptr=0xcb381928) = 18456 <0.000050>
+19:55:55.545049 futex(0xe89c0180, FUTEX_WAKE, 1) = 0 <0.000022>
+19:55:55.545103 futex(0xe89b0138, FUTEX_WAIT, 648, NULL) = -1 EAGAIN (Try again) <0.000021>
+19:55:55.545238 ioctl(8, BINDER_WRITE_READ, 0xff8eee88) = 0 <0.000041>
+19:55:55.545315 ioctl(8, BINDER_WRITE_READ, 0xff8eee88) = 0 <0.000245>
+19:55:55.545789 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", F_OK) = 0 <0.000028>
+19:55:55.545863 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000022>
+19:55:55.545927 renameat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml.bak") = 0 <0.000054>
+19:55:55.546025 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000040>
+19:55:55.546100 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000099>
+19:55:55.546241 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 104 <0.000023>
+19:55:55.546296 fstat64(104, {st_mode=0107, st_size=1, ...}) = 0 <0.000018>
+19:55:55.546348 ioctl(104, ASHMEM_SET_NAME, 0xff8eeab0) = 0 <0.000018>
+19:55:55.546395 ioctl(104, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000018>
+19:55:55.546444 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 104, 0) = 0xcff17000 <0.000023>
+19:55:55.546502 close(104)              = 0 <0.000019>
+19:55:55.546623 write(103, "<?xml version='1.0' encoding='ut"..., 276) = 276 <0.000036>
+19:55:55.546699 fsync(103)              = 0 <0.001101>
+19:55:55.547933 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8eeec4, 0xff8eeec0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000143>
+19:55:55.548192 close(103)              = 0 <0.000090>
+19:55:55.548384 fchmodat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", 0660) = 0 <0.000089>
+19:55:55.548581 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000080>
+19:55:55.548787 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000085>
+19:55:55.548972 unlinkat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml.bak", 0) = 0 <0.000112>
+19:55:55.549304 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", F_OK) = 0 <0.000081>
+19:55:55.549493 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000077>
+19:55:55.549674 renameat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml.bak") = 0 <0.000088>
+19:55:55.549868 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000089>
+19:55:55.550048 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000073>
+19:55:55.550225 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 104 <0.000081>
+19:55:55.550398 fstat64(104, {st_mode=0107, st_size=1, ...}) = 0 <0.000075>
+19:55:55.550571 ioctl(104, ASHMEM_SET_NAME, 0xff8eeab0) = 0 <0.000075>
+19:55:55.550738 ioctl(104, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000075>
+19:55:55.550905 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 104, 0) = 0xcff12000 <0.000079>
+19:55:55.551082 close(104)              = 0 <0.000082>
+19:55:55.551305 write(103, "<?xml version='1.0' encoding='ut"..., 338) = 338 <0.000086>
+19:55:55.551487 fsync(103)              = 0 <0.001047>
+19:55:55.552634 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8eeec4, 0xff8eeec0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000083>
+19:55:55.552812 close(103)              = 0 <0.000075>
+19:55:55.552984 fchmodat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", 0660) = 0 <0.000083>
+19:55:55.553169 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000079>
+19:55:55.553371 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000077>
+19:55:55.553543 unlinkat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/spotad_share.xml.bak", 0) = 0 <0.000099>
+19:55:55.553976 openat(AT_FDCWD, "/sys/devices/system/cpu", O_RDONLY|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 103 <0.000082>
+19:55:55.554150 getdents64(103, /* 21 entries */, 4140) = 600 <0.000083>
+19:55:55.554340 getdents64(103, /* 0 entries */, 4140) = 0 <0.000074>
+19:55:55.554501 close(103)              = 0 <0.000074>
+19:55:55.554799 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 103 <0.000079>
+19:55:55.554968 fstat64(103, {st_mode=0, st_size=1, ...}) = 0 <0.000073>
+19:55:55.555137 ioctl(103, ASHMEM_SET_NAME, 0xff8ee230) = 0 <0.000078>
+19:55:55.555303 ioctl(103, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000073>
+19:55:55.555466 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 103, 0) = 0xd02b6000 <0.000080>
+19:55:55.555643 close(103)              = 0 <0.000090>
+19:55:55.555827 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcb178000 <0.000076>
+19:55:55.555992 madvise(0xcb178000, 1069056, MADV_MERGEABLE) = 0 <0.000071>
+19:55:55.556253 mprotect(0xcb178000, 4096, PROT_NONE) = 0 <0.000085>
+19:55:55.556434 prctl(0x53564d41 /* PR_??? */, 0, 0xcb178000, 4096, "thread stack guard page") = 0 <0.000079>
+19:55:55.556619 clone(child_stack=0xcb27c910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb27c928, tls={entry_number:12, base_addr:0xcb27c970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff8ee580, child_tidptr=0xcb27c928) = 18457 <0.000124>
+19:55:55.556852 futex(0xcb27c960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000099>
+19:55:55.557231 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 103 <0.000087>
+19:55:55.557415 fstat64(103, {st_mode=0132000, st_size=1, ...}) = 0 <0.000079>
+19:55:55.557597 ioctl(103, ASHMEM_SET_NAME, 0xff8eefc0) = 0 <0.000080>
+19:55:55.557750 ioctl(103, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000079>
+19:55:55.557923 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 103, 0) = 0xcff0d000 <0.000085>
+19:55:55.558111 close(103)              = 0 <0.000080>
+19:55:55.558291 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcb073000 <0.000085>
+19:55:55.558471 madvise(0xcb073000, 1069056, MADV_MERGEABLE) = 0 <0.000091>
+19:55:55.558699 mprotect(0xcb073000, 4096, PROT_NONE) = 0 <0.000115>
+19:55:55.558944 prctl(0x53564d41 /* PR_??? */, 0, 0xcb073000, 4096, "thread stack guard page") = 0 <0.000086>
+19:55:55.559216 clone(child_stack=0xcb177910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb177928, tls={entry_number:12, base_addr:0xcb177970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff8ef310, child_tidptr=0xcb177928) = 18458 <0.000183>
+19:55:55.559533 futex(0xcb177960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000107>
+19:55:55.559894 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs", F_OK) = 0 <0.000247>
+19:55:55.560490 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 103 <0.000096>
+19:55:55.560700 fstat64(103, {st_mode=0132000, st_size=1, ...}) = 0 <0.000150>
+19:55:55.560965 ioctl(103, ASHMEM_SET_NAME, 0xff8eefc0) = 0 <0.000083>
+19:55:55.561156 ioctl(103, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000173>
+19:55:55.561434 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 103, 0) = 0xcff08000 <0.000091>
+19:55:55.561670 close(103)              = 0 <0.000160>
+19:55:55.561975 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcaf6e000 <0.000130>
+19:55:55.562243 madvise(0xcaf6e000, 1069056, MADV_MERGEABLE) = 0 <0.000122>
+19:55:55.562450 mprotect(0xcaf6e000, 4096, PROT_NONE) = 0 <0.000085>
+19:55:55.562629 prctl(0x53564d41 /* PR_??? */, 0, 0xcaf6e000, 4096, "thread stack guard page") = 0 <0.000090>
+19:55:55.562872 clone(child_stack=0xcb072910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb072928, tls={entry_number:12, base_addr:0xcb072970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff8ef310, child_tidptr=0xcb072928) = 18459 <0.000160>
+19:55:55.563238 futex(0xcb072960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000436>
+19:55:55.563886 futex(0xdb9f13f0, FUTEX_WAKE, 1) = 1 <0.000269>
+19:55:55.564347 futex(0xdb9f13d0, FUTEX_WAKE, 1) = 1 <0.000294>
+19:55:55.569136 futex(0xe89be830, FUTEX_WAKE, 1) = 1 <0.000194>
+19:55:55.571034 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 103 <0.000155>
+19:55:55.571517 fstat64(103, {st_mode=0132000, st_size=1, ...}) = 0 <0.000107>
+19:55:55.571751 ioctl(103, ASHMEM_SET_NAME, 0xff8ee630) = 0 <0.000146>
+19:55:55.572150 ioctl(103, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000153>
+19:55:55.572502 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 103, 0) = 0xcff03000 <0.000155>
+19:55:55.572851 close(103)              = 0 <0.000138>
+19:55:55.573192 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcae69000 <0.000149>
+19:55:55.573497 madvise(0xcae69000, 1069056, MADV_MERGEABLE) = 0 <0.000135>
+19:55:55.573810 mprotect(0xcae69000, 4096, PROT_NONE) = 0 <0.000130>
+19:55:55.574088 prctl(0x53564d41 /* PR_??? */, 0, 0xcae69000, 4096, "thread stack guard page") = 0 <0.000113>
+19:55:55.574351 clone(child_stack=0xcaf6d910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcaf6d928, tls={entry_number:12, base_addr:0xcaf6d970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff8ee980, child_tidptr=0xcaf6d928) = 18460 <0.000136>
+19:55:55.574627 futex(0xcaf6d960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000154>
+19:55:55.574962 futex(0xe8a20740, FUTEX_WAKE, 4294967295) = 1 <0.000217>
+19:55:55.575439 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw", F_OK) = 0 <0.000138>
+19:55:55.575999 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs", F_OK) = -1 ENOENT (No such file or directory) <0.000942>
+19:55:55.577390 mkdirat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs", 0777) = 0 <0.000388>
+19:55:55.577972 fchmodat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs", 0771) = 0 <0.000247>
+19:55:55.579201 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs", O_RDONLY|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 103 <0.000353>
+19:55:55.579831 getdents64(103, /* 2 entries */, 4140) = 48 <0.000220>
+19:55:55.580906 getdents64(103, /* 0 entries */, 4140) = 0 <0.000347>
+19:55:55.581452 close(103)              = 0 <0.000147>
+19:55:55.582038 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs", F_OK) = 0 <0.000172>
+19:55:55.582445 pread64(30, "PK\3\4\n\0\0\0\0\0\370\236MC\37\0072\350\223B\1\0\223B\1\0\f\0\0\0", 30, 8924116) = 30 <0.000139>
+19:55:55.582748 pread64(30, "assets/pfzip", 12, 8924146) = 12 <0.000121>
+19:55:55.583011 mmap2(NULL, 85649, PROT_READ, MAP_SHARED, 30, 0x882000) = 0xcd787000 <0.000194>
+19:55:55.583615 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 103 <0.000118>
+19:55:55.583979 fstat64(103, {st_mode=01, st_size=1, ...}) = 0 <0.000323>
+19:55:55.584448 ioctl(103, ASHMEM_SET_NAME, 0xff8ef480) = 0 <0.000122>
+19:55:55.584735 ioctl(103, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xe000) = 0 <0.000128>
+19:55:55.584991 mmap2(NULL, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE, 103, 0) = 0xcd152000 <0.000117>
+19:55:55.585242 close(103)              = 0 <0.000109>
+19:55:55.585634 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/adwords_bg.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000126>
+19:55:55.585881 close(103)              = 0 <0.000098>
+19:55:55.586087 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/adwords_bg.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000335>
+19:55:55.586515 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000137>
+19:55:55.586811 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\1\340\0\0\0\36\10\2\0\0\0{YZ"..., 843) = 843 <0.000092>
+19:55:55.587035 write(103, "RDF> </x:xmpmeta> <?xpacket end="..., 179) = 179 <0.000080>
+19:55:55.587228 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000074>
+19:55:55.587426 close(103)              = 0 <0.000123>
+19:55:55.587682 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/arrow_down.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000093>
+19:55:55.587888 close(103)              = 0 <0.000367>
+19:55:55.588382 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/arrow_down.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000091>
+19:55:55.588565 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000074>
+19:55:55.588769 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\16\0\0\0\7\10\6\0\0\0008G|"..., 835) = 835 <0.000106>
+19:55:55.589014 write(103, "> </rdf:RDF> </x:xmpmeta> <?xpac"..., 144) = 144 <0.000091>
+19:55:55.589223 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000076>
+19:55:55.589418 close(103)              = 0 <0.000146>
+19:55:55.589686 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/arrow_up.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000094>
+19:55:55.589881 close(103)              = 0 <0.000075>
+19:55:55.590059 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/arrow_up.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000087>
+19:55:55.590236 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000074>
+19:55:55.590439 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\16\0\0\0\7\10\6\0\0\0008G|"..., 835) = 835 <0.000084>
+19:55:55.590638 write(103, "> </rdf:RDF> </x:xmpmeta> <?xpac"..., 135) = 135 <0.000079>
+19:55:55.590827 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000074>
+19:55:55.590997 close(103)              = 0 <0.000075>
+19:55:55.591191 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/bottom_bg.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000089>
+19:55:55.591379 close(103)              = 0 <0.000074>
+19:55:55.591555 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/bottom_bg.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000085>
+19:55:55.591731 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000107>
+19:55:55.591988 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\1\340\0\0\0J\10\6\0\0\0c$\207"..., 639) = 639 <0.000253>
+19:55:55.592437 write(103, "id:DB858A15A25011E2B98B945E2D5DF"..., 697) = 697 <0.000106>
+19:55:55.592689 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000093>
+19:55:55.592888 close(103)              = 0 <0.000083>
+19:55:55.593124 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/bottom_btn_cancel.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000115>
+19:55:55.593417 close(103)              = 0 <0.000085>
+19:55:55.593613 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/bottom_btn_cancel.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000100>
+19:55:55.593806 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000084>
+19:55:55.594091 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\327\0\0\0006\10\6\0\0\0Te\f"..., 763) = 763 <0.000090>
+19:55:55.594301 write(103, "ocumentID=\"xmp.did:F44E3354A2501"..., 588) = 588 <0.000109>
+19:55:55.594602 write(103, "\270\224\f\207\2118\216\303i\0009H\222\304\4K\334 \10\342\301 \362\312\3452\247\2\344 \212\""..., 257) = 257 <0.000095>
+19:55:55.594821 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000091>
+19:55:55.595067 close(103)              = 0 <0.000087>
+19:55:55.595281 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/bottom_btn_install.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000111>
+19:55:55.595516 close(103)              = 0 <0.000083>
+19:55:55.595707 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/bottom_btn_install.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000089>
+19:55:55.595902 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000176>
+19:55:55.596309 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\327\0\0\0006\10\6\0\0\0Te\f"..., 763) = 763 <0.000226>
+19:55:55.596668 write(103, "ocumentID=\"xmp.did:03F650B6A2511"..., 578) = 578 <0.000083>
+19:55:55.596870 write(103, "\213\213?\"\3\34\v\1\216\205\0q\261s\1\304\5p,\4\300\316\5\20\27@\\\0\210\v ."..., 329) = 329 <0.000087>
+19:55:55.597070 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000075>
+19:55:55.597243 close(103)              = 0 <0.000075>
+19:55:55.597445 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/btn_install.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000094>
+19:55:55.597633 close(103)              = 0 <0.000075>
+19:55:55.597811 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/btn_install.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000088>
+19:55:55.598006 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000078>
+19:55:55.598259 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0n\0\0\0#\10\6\0\0\0u\235?"..., 763) = 763 <0.000124>
+19:55:55.598518 write(103, "ocumentID=\"xmp.did:7D5150B4A2501"..., 573) = 573 <0.000081>
+19:55:55.598715 write(103, "\316qg\340\2\26>\326\353uM\3612-\232\233\"_\225\227\212?\355\335\372'7\\Zk?\300"..., 104) = 104 <0.000080>
+19:55:55.598906 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000084>
+19:55:55.599087 close(103)              = 0 <0.000076>
+19:55:55.599282 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/img_bg.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000091>
+19:55:55.599467 close(103)              = 0 <0.000075>
+19:55:55.599645 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/img_bg.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000087>
+19:55:55.599823 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000075>
+19:55:55.600081 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\1\340\0\0\1\220\10\2\0\0\0\371\224$"..., 756) = 756 <0.000120>
+19:55:55.600429 write(103, "stRef:documentID=\"xmp.did:FB019C"..., 1024) = 1024 <0.000099>
+19:55:55.600668 write(103, "@\3 \320\0\2\r\200@\3\0104\0\2\r\200@\3\0104\0\2\r \320\0\0104\0\2\r "..., 398) = 398 <0.000087>
+19:55:55.600884 write(103, "\371\304\341\0\r\20\3458q\234\257\355h\200\327\267\363\21\350}A\317]\266\243\1BJ}\335\240\275"..., 92) = 92 <0.000095>
+19:55:55.601096 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000081>
+19:55:55.601277 close(103)              = 0 <0.000081>
+19:55:55.601478 futex(0xe8a5a5e0, FUTEX_WAKE, 1) = 1 <0.000095>
+19:55:55.601668 futex(0xe8a5a5c0, FUTEX_WAKE, 1) = 1 <0.000095>
+19:55:55.601878 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/item_btn.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000108>
+19:55:55.602086 close(103)              = 0 <0.000084>
+19:55:55.602280 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/item_btn.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000096>
+19:55:55.602476 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000083>
+19:55:55.602689 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0n\0\0\0#\10\6\0\0\0u\235?"..., 763) = 763 <0.000094>
+19:55:55.602908 write(103, "ocumentID=\"xmp.did:9C738BD5A2501"..., 512) = 512 <0.000091>
+19:55:55.603126 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000083>
+19:55:55.603314 close(103)              = 0 <0.000084>
+19:55:55.603552 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/m_star.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000148>
+19:55:55.603922 close(103)              = 0 <0.000499>
+19:55:55.604602 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/m_star.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000106>
+19:55:55.604819 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000080>
+19:55:55.605067 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\20\0\0\0\20\10\6\0\0\0\37\363\377"..., 763) = 763 <0.000148>
+19:55:55.605413 write(103, "ocumentID=\"xmp.did:4AD0F285A1911"..., 574) = 574 <0.000102>
+19:55:55.605668 write(103, "\335\227Pp\330`B\215$\366NtLt\275\32\272\355\6\342\351Q(\275\301U\265]\203\211c\f"..., 149) = 149 <0.000088>
+19:55:55.605877 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000088>
+19:55:55.606067 close(103)              = 0 <0.000081>
+19:55:55.606275 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/pop_back.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000098>
+19:55:55.606497 close(103)              = 0 <0.000081>
+19:55:55.606689 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/pop_back.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000092>
+19:55:55.606879 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000080>
+19:55:55.607086 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0(\0\0\0(\10\6\0\0\0\214\376\270"..., 763) = 763 <0.000090>
+19:55:55.607301 write(103, "ocumentID=\"xmp.did:884FE409A3481"..., 537) = 537 <0.000086>
+19:55:55.607503 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000080>
+19:55:55.607685 close(103)              = 0 <0.000081>
+19:55:55.607890 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/pop_bottom_btn.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000096>
+19:55:55.608053 close(103)              = 0 <0.000088>
+19:55:55.608259 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/pop_bottom_btn.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000234>
+19:55:55.608710 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000117>
+19:55:55.609026 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\1\302\0\0\0006\10\6\0\0\0Tl\231"..., 610) = 610 <0.000270>
+19:55:55.609451 write(103, "94BF\" xmpMM:DocumentID=\"xmp.did:"..., 716) = 716 <0.000151>
+19:55:55.609732 write(103, "F\1\320\0105B\0\4!\0$\310\321(\0\32\241F\10@\322A\350/\313\0\220x#\264\10\0"..., 378) = 378 <0.000087>
+19:55:55.609938 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000080>
+19:55:55.610128 close(103)              = 0 <0.000078>
+19:55:55.610358 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/safe_icon.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000097>
+19:55:55.610549 close(103)              = 0 <0.000079>
+19:55:55.610733 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/safe_icon.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000115>
+19:55:55.610943 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000077>
+19:55:55.611160 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0H\0\0\0\24\10\6\0\0\0.\241{"..., 593) = 593 <0.000088>
+19:55:55.611385 write(103, "111E29079C44B03C197B9\" xmpMM:Doc"..., 699) = 699 <0.000083>
+19:55:55.611586 write(103, "|\344\351\345\254Gp\223|?\7IlO$s\33\362\371\302\275\231\244ts^/\367\10i\16\355"..., 512) = 512 <0.000083>
+19:55:55.611805 write(103, "eM\26\223e\23\367<\361\16\312\215\20/\237\254\341sw\257\211\347X.@\"l#\354^#&"..., 510) = 510 <0.000083>
+19:55:55.612002 write(103, "\205H\1\331\237\234k\353%M0\30ND&H\276\1\313\355\342\360\33W\321r\246\311\246)H)"..., 512) = 512 <0.000096>
+19:55:55.612333 write(103, "\\\312\202\324d\2718ZOu\251\200\0334N\371|v\373\236\1\35'\256(x\341\364\34\"\363|"..., 509) = 509 <0.000089>
+19:55:55.612546 write(103, "\247\257\177i91[\226\365\371z\273;UJHx\352\266$n\355\5\232V\20\237\0024\202\244G"..., 511) = 511 <0.000083>
+19:55:55.612822 write(103, "#_q\2228\336H\343\365F\217y\321,}6\264\363OE\345a\363\34\263k\343'o\f\20\317"..., 407) = 407 <0.000140>
+19:55:55.613135 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000081>
+19:55:55.613320 close(103)              = 0 <0.000082>
+19:55:55.613529 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/safe_line.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000098>
+19:55:55.613725 close(103)              = 0 <0.000101>
+19:55:55.613967 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/safe_line.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000111>
+19:55:55.614192 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000110>
+19:55:55.614461 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\1\326\0\0\0\10\10\6\0\0\0DY\336"..., 756) = 756 <0.000093>
+19:55:55.614680 write(103, "stRef:documentID=\"xmp.did:8BB392"..., 542) = 542 <0.000086>
+19:55:55.614883 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000044>
+19:55:55.615033 close(103)              = 0 <0.000081>
+19:55:55.615242 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/sc_circle.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000098>
+19:55:55.615438 close(103)              = 0 <0.000081>
+19:55:55.615627 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/sc_circle.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000093>
+19:55:55.615828 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000080>
+19:55:55.616042 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\256\0\0\0\256\10\6\0\0\0\257\f6"..., 531) = 531 <0.000106>
+19:55:55.616445 write(103, "\373\365\327_\23N\2348\361\27\220u\0I\325\262\262\2624\7\211\32\215\324i\265\265\2659\243G\217"..., 512) = 512 <0.000122>
+19:55:55.616697 write(103, "\0\322\266@\0\341\241\215\0337\226\231\260\240\372\2\373\374~\177\346\204\t\23\362\372\365\353G\326\370\237"..., 514) = 514 <0.000085>
+19:55:55.616908 write(103, "7\302\2256\316B\322\22\261}0\n;\304\253-\21\362\33\240Do\350\264s\f\372hS\263\262\262"..., 514) = 514 <0.000085>
+19:55:55.617115 write(103, "\33F\324h#a\333 \0203\332\267o\357\307\377\213\357\344\f\v\311\31\351\321 n\n\274\v\v-"..., 510) = 510 <0.000084>
+19:55:55.617324 write(103, "\225\200\220\243\233/\205\20\0\27j\251\221\264 \27\310\245\351\\K\1\312\271E\244\345q\301\301F\v"..., 518) = 518 <0.000085>
+19:55:55.617531 write(103, "\316\272u\353J\246N\235J\375\21\32{kI\2751[\311cW\225\223\270\321R\26\325\213\232x\203"..., 513) = 513 <0.000085>
+19:55:55.617738 write(103, "?|\232\216{\211;\271\276\276\276\227\0qSp\17y\222\324\275$2\305\350+\244\360oKug"..., 514) = 514 <0.000090>
+19:55:55.617951 write(103, "\177|\311\17n\333\266\255\217\304WL\341`\362\3\363e\23\2\222\235it\203\214\fj\367\272\277\242"..., 514) = 514 <0.000085>
+19:55:55.618165 write(103, "\2450\206\346BQ\312c\307\216\215\223\f\341\6KZ\16\267\213\222^#\357\323\6\254^\35\364\224\366"..., 514) = 514 <0.000082>
+19:55:55.618391 write(103, "\262\244\207-\32K\2509P\227K\352g\20J\352>\264u\353\326\336AcI\316\312\312\"\25\203>"..., 512) = 512 <0.000083>
+19:55:55.618590 write(103, "\0$/\235\3616\334\204|\211\214\314\314L?\223\326\332\365\342\247\7 \2405\4\231h\260G\4'"..., 177) = 177 <0.000083>
+19:55:55.618786 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000156>
+19:55:55.619067 close(103)              = 0 <0.000103>
+19:55:55.619304 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/tj_line.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000137>
+19:55:55.619647 close(103)              = 0 <0.000166>
+19:55:55.619923 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/tj_line.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000110>
+19:55:55.620165 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000243>
+19:55:55.620612 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\1\340\0\0\0\1\10\2\0\0\0\211\331\352"..., 859) = 859 <0.000124>
+19:55:55.620867 write(103, "> <?xpacket end=\"r\"?>\237I\32\1\0\0\0\32IDA"..., 75) = 75 <0.000086>
+19:55:55.621071 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000080>
+19:55:55.621253 close(103)              = 0 <0.000082>
+19:55:55.621463 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/top_bg.png", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000096>
+19:55:55.621656 close(103)              = 0 <0.000080>
+19:55:55.621843 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs/top_bg.png", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000092>
+19:55:55.622033 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000079>
+19:55:55.622247 write(103, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\1\340\0\0\0E\10\2\0\0\0\35\20\242"..., 638) = 638 <0.000099>
+19:55:55.622471 write(103, "did:0836FE03A18911E2B8F9A3FC0FA9"..., 762) = 762 <0.000115>
+19:55:55.622717 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef5f4, 0xff8ef5f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000082>
+19:55:55.622902 close(103)              = 0 <0.000081>
+19:55:55.623090 munmap(0xcd787000, 85649) = 0 <0.000141>
+19:55:55.623504 ioctl(8, BINDER_WRITE_READ, 0xff8ef648) = 0 <0.000126>
+19:55:55.623752 ioctl(8, BINDER_WRITE_READ, 0xff8ef648) = 0 <0.000088>
+19:55:55.624044 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw", F_OK) = 0 <0.000113>
+19:55:55.624318 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", F_OK) = -1 ENOENT (No such file or directory) <0.000120>
+19:55:55.624575 mkdirat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", 0777) = 0 <0.000117>
+19:55:55.624813 fchmodat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", 0771) = 0 <0.000103>
+19:55:55.625329 pread64(30, "PK\3\4\n\0\0\0\0\0\370\236MC\37\0072\350\223B\1\0\223B\1\0\f\0\0\0", 30, 8924116) = 30 <0.000110>
+19:55:55.625601 pread64(30, "assets/pfzip", 12, 8924146) = 12 <0.000105>
+19:55:55.625822 mmap2(NULL, 85649, PROT_READ, MAP_SHARED, 30, 0x882000) = 0xcd787000 <0.000092>
+19:55:55.626080 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", F_OK) = -1 ENOENT (No such file or directory) <0.000090>
+19:55:55.626370 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 103 <0.000109>
+19:55:55.626664 fstat64(103, {st_mode=01, st_size=1, ...}) = 0 <0.000107>
+19:55:55.626893 ioctl(103, ASHMEM_SET_NAME, 0xff8ef0a0) = 0 <0.000081>
+19:55:55.627068 ioctl(103, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0xe000) = 0 <0.000079>
+19:55:55.627244 mmap2(NULL, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE, 103, 0) = 0xcd144000 <0.000099>
+19:55:55.627478 close(103)              = 0 <0.000126>
+19:55:55.627728 futex(0xe89b00f8, FUTEX_WAKE, 1) = 1 <0.000105>
+19:55:55.627931 futex(0xe89bfeb0, FUTEX_WAKE, 1) = 1 <0.000099>
+19:55:55.628342 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 103 <0.000185>
+19:55:55.628685 close(103)              = 0 <0.000157>
+19:55:55.628969 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 103 <0.000127>
+19:55:55.629220 fstat64(103, {st_mode=0171710, st_size=1, ...}) = 0 <0.000103>
+19:55:55.629494 write(103, "PK\3\4\24\0\10\0\10\0\311U6Cz(\231S\216\323\0\0(\316\1\0\v\0\0\0cl"..., 54294) = 54294 <0.000175>
+19:55:55.629881 getsockopt(103, SOL_SOCKET, SO_ERROR, 0xff8ef1f4, 0xff8ef1f0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000115>
+19:55:55.630106 close(103)              = 0 <0.000084>
+19:55:55.630297 munmap(0xcd787000, 85649) = 0 <0.000140>
+19:55:55.630572 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", F_OK) = 0 <0.000087>
+19:55:55.630778 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", R_OK) = 0 <0.000088>
+19:55:55.630976 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", W_OK) = 0 <0.000087>
+19:55:55.631228 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", {st_mode=0165264, st_size=1, ...}, 0) = 0 <0.000086>
+19:55:55.631431 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", {st_mode=0165264, st_size=1, ...}, 0) = 0 <0.000086>
+19:55:55.631642 getuid32()              = 12770 <0.000083>
+19:55:55.631825 futex(0xe8a20a10, FUTEX_WAKE, 1) = 0 <0.000106>
+19:55:55.632066 futex(0xe89b0128, FUTEX_WAIT, 14, NULL) = -1 EAGAIN (Try again) <0.000073>
+19:55:55.632390 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", {st_mode=0172064, st_size=2, ...}, 0) = 0 <0.000135>
+19:55:55.632694 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex.flock", O_RDWR|O_CREAT|O_LARGEFILE, 0666) = 103 <0.000152>
+19:55:55.633117 flock(103, LOCK_EX)     = 0 <0.000153>
+19:55:55.633420 fstat64(103, {st_mode=0, st_size=1, ...}) = 0 <0.000128>
+19:55:55.633707 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex.flock", {st_mode=0132000, st_size=1, ...}, 0) = 0 <0.000147>
+19:55:55.634020 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex", 0xff8eea40, 0) = -1 ENOENT (No such file or directory) <0.000148>
+19:55:55.634363 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/oat/x86/ghkn.odex", 0xff8eea40, 0) = -1 ENOENT (No such file or directory) <0.000116>
+19:55:55.634621 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", O_RDONLY|O_LARGEFILE) = 104 <0.000096>
+19:55:55.634812 read(104, "PK\3\4", 4)  = 4 <0.000134>
+19:55:55.635053 lseek(104, 0, SEEK_SET) = 0 <0.000088>
+19:55:55.635261 _llseek(104, 0, [54294], SEEK_END) = 0 <0.000091>
+19:55:55.635462 _llseek(104, 0, [0], SEEK_SET) = 0 <0.000088>
+19:55:55.635681 read(104, "PK\3\4\24\0\10\0\10\0\311U6Cz(\231S\216\323\0\0(\316\1\0\v\0\0\0cl"..., 54294) = 54294 <0.000135>
+19:55:55.636146 mmap2(NULL, 1024, PROT_READ, MAP_SHARED, 104, 0xd000) = 0xe21ec000 <0.000115>
+19:55:55.636434 fcntl64(104, F_GETFD)   = 0 <0.000085>
+19:55:55.636617 fcntl64(104, F_SETFD, FD_CLOEXEC) = 0 <0.000083>
+19:55:55.636804 pread64(104, "PK\3\4\24\0\10\0\10\0\311U6Cz(\231S\216\323\0\0(\316\1\0\v\0\0\0", 30, 0) = 30 <0.000091>
+19:55:55.636997 pread64(104, "classes.dex", 11, 30) = 11 <0.000085>
+19:55:55.637184 close(104)              = 0 <0.000083>
+19:55:55.637365 munmap(0xe21ec000, 1024) = 0 <0.000136>
+19:55:55.637600 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", {st_mode=0166340, st_size=1, ...}, 0) = 0 <0.000087>
+19:55:55.637793 unlinkat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex", 0) = -1 ENOENT (No such file or directory) <0.000087>
+19:55:55.637989 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex", O_RDWR|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000105>
+19:55:55.638209 fchmod(44, 0644)        = 0 <0.000086>
+19:55:55.638419 fstatat64(AT_FDCWD, "/system", {st_mode=0164130, st_size=17, ...}, 0) = 0 <0.000084>
+19:55:55.638631 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0xed2c853c) = 18464 <0.001830>
+19:55:55.640568 wait4(18464, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 18464 <0.241922>
+19:55:55.882644 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=18464, si_uid=12770, si_status=0, si_utime=22, si_stime=62} ---
+19:55:55.882809 fdatasync(44)           = 0 <0.000278>
+19:55:55.883217 close(44)               = 0 <0.000105>
+19:55:55.883459 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex", {st_mode=0117344, st_size=1, ...}, 0) = 0 <0.000092>
+19:55:55.883721 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000080>
+19:55:55.883910 fstatat64(AT_FDCWD, "/data/user", {st_mode=0, st_size=3, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000078>
+19:55:55.884416 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000105>
+19:55:55.884663 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000099>
+19:55:55.884888 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000134>
+19:55:55.885236 fstatat64(AT_FDCWD, "/data/data", {st_mode=0, st_size=99, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000094>
+19:55:55.885447 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw", {st_mode=0, st_size=8, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000084>
+19:55:55.885722 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000084>
+19:55:55.885914 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000084>
+19:55:55.886107 mprotect(0xe21fe000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000123>
+19:55:55.886326 mprotect(0xdf9b0000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000084>
+19:55:55.886508 mprotect(0xece7f000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+19:55:55.886692 mprotect(0xed0e9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000102>
+19:55:55.886912 mprotect(0xed0ea000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000127>
+19:55:55.887142 mprotect(0xed154000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000120>
+19:55:55.887356 mprotect(0xecc9c000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+19:55:55.887533 mprotect(0xecce9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000086>
+19:55:55.887720 mprotect(0xecd44000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000082>
+19:55:55.887896 mprotect(0xecd96000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000082>
+19:55:55.888141 mprotect(0xece21000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000195>
+19:55:55.888461 mprotect(0xece67000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000115>
+19:55:55.888674 mprotect(0xecf78000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000093>
+19:55:55.888864 mprotect(0xecfc2000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000084>
+19:55:55.889043 mprotect(0xed0e1000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+19:55:55.889223 mprotect(0xed129000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+19:55:55.889401 mprotect(0xed1e7000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+19:55:55.889580 mprotect(0xe21e5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+19:55:55.889769 mprotect(0xdf967000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000082>
+19:55:55.889947 mprotect(0xed0e3000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000080>
+19:55:55.890120 mprotect(0xe8a81000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000083>
+19:55:55.890295 mprotect(0xecca9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000080>
+19:55:55.890467 mprotect(0xeccea000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000082>
+19:55:55.890640 mprotect(0xecd4b000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000081>
+19:55:55.890813 mprotect(0xecd65000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000081>
+19:55:55.890985 mprotect(0xecdbc000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000080>
+19:55:55.891157 mprotect(0xed1e9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000086>
+19:55:55.891335 mprotect(0xed1ea000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000080>
+19:55:55.891507 mprotect(0xe22ae000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000081>
+19:55:55.891731 openat(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 44 <0.000104>
+19:55:55.891946 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe21eb000 <0.000099>
+19:55:55.892132 madvise(0xe21eb000, 8192, MADV_MERGEABLE) = 0 <0.000080>
+19:55:55.892315 prctl(0x53564d41 /* PR_??? */, 0, 0xe21eb000, 8192, "linker_alloc_lob") = 0 <0.000096>
+19:55:55.892532 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe21e9000 <0.000086>
+19:55:55.892714 madvise(0xe21e9000, 8192, MADV_MERGEABLE) = 0 <0.000077>
+19:55:55.892881 prctl(0x53564d41 /* PR_??? */, 0, 0xe21e9000, 8192, "linker_alloc_lob") = 0 <0.000078>
+19:55:55.893065 readlinkat(AT_FDCWD, "/proc/self/fd/44", "/data/data/com.shoecakedroid.cjs"..., 4096) = 64 <0.000098>
+19:55:55.893270 munmap(0xe21e9000, 8192) = 0 <0.000111>
+19:55:55.893470 munmap(0xe21eb000, 8192) = 0 <0.000080>
+19:55:55.893643 fstat64(44, {st_mode=S_ISVTX|0420, st_size=1, ...}) = 0 <0.000079>
+19:55:55.893831 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe21ec000 <0.000078>
+19:55:55.893999 madvise(0xe21ec000, 4096, MADV_MERGEABLE) = 0 <0.000076>
+19:55:55.894178 prctl(0x53564d41 /* PR_??? */, 0, 0xe21ec000, 4096, "linker_alloc_small_objects") = 0 <0.000080>
+19:55:55.894366 pread64(44, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\0\0\0004\0\0\0"..., 52, 0) = 52 <0.000078>
+19:55:55.894537 mmap2(NULL, 328, PROT_READ, MAP_PRIVATE, 44, 0) = 0xe21eb000 <0.000079>
+19:55:55.894713 mmap2(NULL, 488, PROT_READ, MAP_PRIVATE, 44, 0x6b000) = 0xe21ea000 <0.000079>
+19:55:55.894885 mmap2(NULL, 56, PROT_READ, MAP_PRIVATE, 44, 0x6a000) = 0xe21e9000 <0.000079>
+19:55:55.895053 mmap2(NULL, 60, PROT_READ, MAP_PRIVATE, 44, 0x69000) = 0xe21e8000 <0.000078>
+19:55:55.895232 mmap2(NULL, 450560, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xccf12000 <0.000080>
+19:55:55.895404 madvise(0xccf12000, 450560, MADV_MERGEABLE) = 0 <0.000076>
+19:55:55.895560 mmap2(0xccf12000, 225280, PROT_READ, MAP_PRIVATE|MAP_FIXED, 44, 0) = 0xccf12000 <0.000149>
+19:55:55.895859 mmap2(0xccf49000, 204790, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 44, 0x37000) = 0xccf49000 <0.000213>
+19:55:55.896206 mmap2(0xccf7b000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xccf7b000 <0.000108>
+19:55:55.896426 madvise(0xccf7b000, 12288, MADV_MERGEABLE) = 0 <0.000092>
+19:55:55.896622 prctl(0x53564d41 /* PR_??? */, 0, 0xccf7b000, 12288, ".bss") = 0 <0.000099>
+19:55:55.896830 mmap2(0xccf7e000, 192, PROT_READ, MAP_PRIVATE|MAP_FIXED, 44, 0x69000) = 0xccf7e000 <0.000096>
+19:55:55.897031 mmap2(0xccf7f000, 56, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 44, 0x6a000) = 0xccf7f000 <0.000094>
+19:55:55.897255 close(44)               = 0 <0.000092>
+19:55:55.897457 munmap(0xe21e8000, 60)  = 0 <0.000127>
+19:55:55.897688 munmap(0xe21e9000, 56)  = 0 <0.000117>
+19:55:55.897926 munmap(0xe21ea000, 488) = 0 <0.000107>
+19:55:55.898151 munmap(0xe21eb000, 328) = 0 <0.000128>
+19:55:55.898391 munmap(0xe21ec000, 4096) = 0 <0.000096>
+19:55:55.898598 mprotect(0xe21fe000, 4096, PROT_READ) = 0 <0.000102>
+19:55:55.898805 mprotect(0xdf9b0000, 4096, PROT_READ) = 0 <0.000093>
+19:55:55.899003 mprotect(0xece7f000, 4096, PROT_READ) = 0 <0.000094>
+19:55:55.899202 mprotect(0xed0e9000, 4096, PROT_READ) = 0 <0.000096>
+19:55:55.899402 mprotect(0xed0ea000, 4096, PROT_READ) = 0 <0.000232>
+19:55:55.899752 mprotect(0xed154000, 4096, PROT_READ) = 0 <0.000129>
+19:55:55.900245 mprotect(0xecc9c000, 4096, PROT_READ) = 0 <0.000141>
+19:55:55.900513 mprotect(0xecce9000, 4096, PROT_READ) = 0 <0.000284>
+19:55:55.900917 mprotect(0xecd44000, 4096, PROT_READ) = 0 <0.000128>
+19:55:55.901148 mprotect(0xecd96000, 4096, PROT_READ) = 0 <0.000204>
+19:55:55.901462 mprotect(0xece21000, 4096, PROT_READ) = 0 <0.000126>
+19:55:55.901690 mprotect(0xece67000, 4096, PROT_READ) = 0 <0.000226>
+19:55:55.902057 mprotect(0xecf78000, 4096, PROT_READ) = 0 <0.000129>
+19:55:55.902296 mprotect(0xecfc2000, 4096, PROT_READ) = 0 <0.000182>
+19:55:55.902585 mprotect(0xed0e1000, 4096, PROT_READ) = 0 <0.000149>
+19:55:55.902839 mprotect(0xed129000, 4096, PROT_READ) = 0 <0.000202>
+19:55:55.903163 mprotect(0xed1e7000, 4096, PROT_READ) = 0 <0.000125>
+19:55:55.903399 mprotect(0xe21e5000, 4096, PROT_READ) = 0 <0.000188>
+19:55:55.903708 mprotect(0xdf967000, 4096, PROT_READ) = 0 <0.000149>
+19:55:55.904220 mprotect(0xed0e3000, 4096, PROT_READ) = 0 <0.000152>
+19:55:55.904495 mprotect(0xe8a81000, 4096, PROT_READ) = 0 <0.000258>
+19:55:55.904865 mprotect(0xecca9000, 4096, PROT_READ) = 0 <0.000122>
+19:55:55.905091 mprotect(0xeccea000, 4096, PROT_READ) = 0 <0.000219>
+19:55:55.905417 mprotect(0xecd4b000, 4096, PROT_READ) = 0 <0.000141>
+19:55:55.905659 mprotect(0xecd65000, 4096, PROT_READ) = 0 <0.000330>
+19:55:55.906097 mprotect(0xecdbc000, 4096, PROT_READ) = 0 <0.000127>
+19:55:55.906327 mprotect(0xed1e9000, 4096, PROT_READ) = 0 <0.000203>
+19:55:55.906646 mprotect(0xed1ea000, 4096, PROT_READ) = 0 <0.000128>
+19:55:55.906874 mprotect(0xe22ae000, 4096, PROT_READ) = 0 <0.000189>
+19:55:55.907243 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000103>
+19:55:55.907466 fstatat64(AT_FDCWD, "/data/user", {st_mode=0, st_size=3, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000197>
+19:55:55.907805 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000102>
+19:55:55.908073 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000094>
+19:55:55.908287 fstatat64(AT_FDCWD, "/data", {st_mode=0, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000098>
+19:55:55.908506 fstatat64(AT_FDCWD, "/data/data", {st_mode=0, st_size=99, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000105>
+19:55:55.908740 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw", {st_mode=0, st_size=8, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000094>
+19:55:55.908963 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", {st_mode=0, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000094>
+19:55:55.909179 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", {st_mode=0, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000098>
+19:55:55.909410 fstatat64(AT_FDCWD, "/data", {st_mode=015, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000097>
+19:55:55.909640 fstatat64(AT_FDCWD, "/data/user", {st_mode=015, st_size=3, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000095>
+19:55:55.909857 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=015, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000105>
+19:55:55.910077 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000093>
+19:55:55.910288 fstatat64(AT_FDCWD, "/data", {st_mode=015, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000092>
+19:55:55.910501 fstatat64(AT_FDCWD, "/data/data", {st_mode=015, st_size=99, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000093>
+19:55:55.910715 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw", {st_mode=015, st_size=8, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000095>
+19:55:55.910933 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", {st_mode=015, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000097>
+19:55:55.911177 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", {st_mode=015, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000097>
+19:55:55.911444 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.art", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000105>
+19:55:55.911666 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.art", 0xff8eeae0, 0) = -1 ENOENT (No such file or directory) <0.000086>
+19:55:55.911868 unlinkat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex.flock", 0) = 0 <0.000218>
+19:55:55.912194 flock(103, LOCK_UN)     = 0 <0.000091>
+19:55:55.912387 fdatasync(103)          = 0 <0.000254>
+19:55:55.912764 close(103)              = 0 <0.000103>
+19:55:55.913038 fstatat64(AT_FDCWD, "/system/lib", {st_mode=0172064, st_size=6, ...}, 0) = 0 <0.000083>
+19:55:55.913256 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=0172064, st_size=3, ...}, 0) = 0 <0.000095>
+19:55:55.913485 fstatat64(AT_FDCWD, "/system/lib", {st_mode=0165264, st_size=6, ...}, 0) = 0 <0.000087>
+19:55:55.913694 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=0165264, st_size=3, ...}, 0) = 0 <0.000088>
+19:55:55.914540 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs", F_OK) = 0 <0.000094>
+19:55:55.914790 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 44 <0.000098>
+19:55:55.915002 fstat64(44, {st_mode=01, st_size=1, ...}) = 0 <0.000086>
+19:55:55.915201 ioctl(44, ASHMEM_SET_NAME, 0xff8eeb70) = 0 <0.000087>
+19:55:55.915389 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000092>
+19:55:55.915584 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 44, 0) = 0xe21eb000 <0.000093>
+19:55:55.915795 close(44)               = 0 <0.000089>
+19:55:55.916138 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcb073000 <0.000085>
+19:55:55.916320 madvise(0xcb073000, 1069056, MADV_MERGEABLE) = 0 <0.000079>
+19:55:55.916493 mprotect(0xcb073000, 4096, PROT_NONE) = 0 <0.000091>
+19:55:55.916666 prctl(0x53564d41 /* PR_??? */, 0, 0xcb073000, 4096, "thread stack guard page") = 0 <0.000094>
+19:55:55.916915 clone(child_stack=0xcb177910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcb177928, tls={entry_number:12, base_addr:0xcb177970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xff8eeec0, child_tidptr=0xcb177928) = 18473 <0.000143>
+19:55:55.917184 futex(0xcb177960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000110>
+19:55:55.917435 sched_yield()           = 0 <0.000117>
+19:55:55.917690 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", F_OK) = -1 ENOENT (No such file or directory) <0.000099>
+19:55:55.917926 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000117>
+19:55:55.918153 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000093>
+19:55:55.918368 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 47 <0.000095>
+19:55:55.918573 fstat64(47, {st_mode=S_IFCHR, st_rdev=makedev(33, 182), ...}) = 0 <0.000092>
+19:55:55.918780 ioctl(47, ASHMEM_SET_NAME, 0xff8eeba0) = 0 <0.000092>
+19:55:55.918977 ioctl(47, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000071>
+19:55:55.919157 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 47, 0) = 0xe21e8000 <0.000097>
+19:55:55.919371 close(47)               = 0 <0.000092>
+19:55:55.919656 write(44, "<?xml version='1.0' encoding='ut"..., 120) = 120 <0.000107>
+19:55:55.919877 fsync(44)               = 0 <0.001171>
+19:55:55.921176 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8eefb4, 0xff8eefb0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000091>
+19:55:55.921383 close(44)               = 0 <0.000091>
+19:55:55.921592 fchmodat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", 0660) = 0 <0.000104>
+19:55:55.921818 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000095>
+19:55:55.922074 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak", 0xff8eef68, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory) <0.000096>
+19:55:55.922320 mprotect(0x74309000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000098>
+19:55:55.922634 ioctl(8, BINDER_WRITE_READ, 0xff8ef648) = 0 <0.000216>
+19:55:55.922960 ioctl(8, BINDER_WRITE_READ, 0xff8ef648) = 0 <0.000091>
+19:55:55.923246 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", F_OK) = 0 <0.000104>
+19:55:55.923469 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000096>
+19:55:55.923689 renameat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak") = 0 <0.000105>
+19:55:55.923918 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000152>
+19:55:55.924203 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000119>
+19:55:55.924444 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 47 <0.000108>
+19:55:55.924664 fstat64(47, {st_mode=S_IFCHR|S_ISUID|S_ISGID|S_ISVTX|060, st_rdev=makedev(33, 182), ...}) = 0 <0.000090>
+19:55:55.924873 ioctl(47, ASHMEM_SET_NAME, 0xff8eeba0) = 0 <0.000090>
+19:55:55.925083 ioctl(47, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000092>
+19:55:55.925295 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 47, 0) = 0xe21c8000 <0.000131>
+19:55:55.925567 close(47)               = 0 <0.000094>
+19:55:55.925914 write(44, "<?xml version='1.0' encoding='ut"..., 170) = 170 <0.000218>
+19:55:55.926416 fsync(44)               = 0 <0.001131>
+19:55:55.927678 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8eefb4, 0xff8eefb0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000087>
+19:55:55.927877 close(44)               = 0 <0.000088>
+19:55:55.928137 fchmodat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", 0660) = 0 <0.000121>
+19:55:55.928384 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000121>
+19:55:55.928628 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000080>
+19:55:55.928806 unlinkat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak", 0) = 0 <0.000115>
+19:55:55.929104 ioctl(8, BINDER_WRITE_READ, 0xff8ef648) = 0 <0.000223>
+19:55:55.929480 ioctl(8, BINDER_WRITE_READ, 0xff8ef648) = 0 <0.000102>
+19:55:55.929949 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", F_OK) = 0 <0.000100>
+19:55:55.930190 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000117>
+19:55:55.930516 renameat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak") = 0 <0.000139>
+19:55:55.930828 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000191>
+19:55:55.931151 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000104>
+19:55:55.931408 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 47 <0.000167>
+19:55:55.931680 fstat64(47, {st_mode=S_IFCHR|S_ISUID|S_ISGID|S_ISVTX|060, st_rdev=makedev(33, 182), ...}) = 0 <0.000113>
+19:55:55.931932 ioctl(47, ASHMEM_SET_NAME, 0xff8eeba0) = 0 <0.000191>
+19:55:55.932249 ioctl(47, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000116>
+19:55:55.932496 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 47, 0) = 0xdb86b000 <0.000230>
+19:55:55.932900 close(47)               = 0 <0.000117>
+19:55:55.933223 write(44, "<?xml version='1.0' encoding='ut"..., 220) = 220 <0.000108>
+19:55:55.933443 fsync(44)               = 0 <0.001314>
+19:55:55.934875 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8eefb4, 0xff8eefb0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000091>
+19:55:55.935074 close(44)               = 0 <0.000085>
+19:55:55.935269 fchmodat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", 0660) = 0 <0.000097>
+19:55:55.935484 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000084>
+19:55:55.935691 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000092>
+19:55:55.935896 unlinkat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak", 0) = 0 <0.000231>
+19:55:55.936550 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw", F_OK) = 0 <0.000087>
+19:55:55.936754 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs", F_OK) = 0 <0.000081>
+19:55:55.936940 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs", O_RDONLY|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 44 <0.000120>
+19:55:55.937204 getdents64(44, /* 19 entries */, 4140) = 688 <0.000115>
+19:55:55.937468 getdents64(44, /* 0 entries */, 4140) = 0 <0.000111>
+19:55:55.937704 close(44)               = 0 <0.000109>
+19:55:55.937971 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_pushimgs", F_OK) = 0 <0.000195>
+19:55:55.938892 ioctl(8, BINDER_WRITE_READ, 0xff8eeef8) = 0 <0.000156>
+19:55:55.939185 ioctl(8, BINDER_WRITE_READ, 0xff8eeef8) = 0 <0.000198>
+19:55:55.939573 ioctl(8, BINDER_WRITE_READ, 0xff8eeef8) = 0 <0.000169>
+19:55:55.939894 ioctl(8, BINDER_WRITE_READ, 0xff8eeef8) = 0 <0.000085>
+19:55:55.940218 ioctl(8, BINDER_WRITE_READ, 0xff8eee78) = 0 <0.000157>
+19:55:55.940547 ioctl(8, BINDER_WRITE_READ, 0xff8eee78) = 0 <0.000122>
+19:55:55.940828 ioctl(8, BINDER_WRITE_READ, 0xff8eee78) = 0 <0.000141>
+19:55:55.941106 ioctl(8, BINDER_WRITE_READ, 0xff8eee78) = 0 <0.000117>
+19:55:55.941643 ioctl(8, BINDER_WRITE_READ, 0xff8eee88) = 0 <0.000133>
+19:55:55.941911 ioctl(8, BINDER_WRITE_READ, 0xff8eee88) = 0 <0.000130>
+19:55:55.942192 ioctl(8, BINDER_WRITE_READ, 0xff8eee88) = 0 <0.000118>
+19:55:55.942435 ioctl(8, BINDER_WRITE_READ, 0xff8eee88) = 0 <0.000112>
+19:55:55.942721 ioctl(8, BINDER_WRITE_READ, 0xff8eee38) = 0 <0.000138>
+19:55:55.942975 ioctl(8, BINDER_WRITE_READ, 0xff8eee38) = 0 <0.000633>
+19:55:55.943782 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <0.000336>
+19:55:55.944256 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <0.000143>
+19:55:55.944850 ioctl(8, BINDER_WRITE_READ, 0xff8eee38) = 0 <0.000258>
+19:55:55.945384 ioctl(8, BINDER_WRITE_READ, 0xff8eee38) = 0 <0.000080>
+19:55:55.945776 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <0.000287>
+19:55:55.946185 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <0.000095>
+19:55:55.946681 ioctl(8, BINDER_WRITE_READ, 0xff8eedf8) = 0 <0.000120>
+19:55:55.946895 ioctl(8, BINDER_WRITE_READ, 0xff8eedf8) = 0 <0.000255>
+19:55:55.947319 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000485>
+19:55:55.947945 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.001322>
+19:55:55.949434 ioctl(8, BINDER_WRITE_READ, 0xff8eedf8) = 0 <0.000256>
+19:55:55.949820 ioctl(8, BINDER_WRITE_READ, 0xff8eedf8) = 0 <0.000094>
+19:55:55.950438 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000146>
+19:55:55.950755 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000100>
+19:55:55.951191 ioctl(8, BINDER_WRITE_READ, 0xff8eedc8) = 0 <0.000113>
+19:55:55.951423 ioctl(8, BINDER_WRITE_READ, 0xff8eedc8) = 0 <0.000117>
+19:55:55.951693 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000204>
+19:55:55.952115 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000096>
+19:55:55.952344 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000123>
+19:55:55.952584 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000099>
+19:55:55.952814 ioctl(8, BINDER_WRITE_READ, 0xff8eee58) = 0 <0.000183>
+19:55:55.953113 ioctl(8, BINDER_WRITE_READ, 0xff8eee58) = 0 <0.000093>
+19:55:55.953334 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000126>
+19:55:55.953571 ioctl(8, BINDER_WRITE_READ, 0xff8eee28) = 0 <0.000089>
+19:55:55.953791 ioctl(8, BINDER_WRITE_READ, 0xff8eee58) = 0 <0.000165>
+19:55:55.954065 ioctl(8, BINDER_WRITE_READ, 0xff8eee58) = 0 <0.000094>
+19:55:55.954303 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000108>
+19:55:55.954535 ioctl(8, BINDER_WRITE_READ, 0xff8eee18) = 0 <0.000093>
+19:55:55.954770 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <0.000109>
+19:55:55.955007 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <5.001400>
+19:56:00.956643 ioctl(8, BINDER_WRITE_READ, 0xff8eed68) = 0 <0.000086>
+19:56:00.956810 ioctl(8, BINDER_WRITE_READ, 0xff8eed68) = 0 <0.000040>
+19:56:00.956982 ioctl(8, BINDER_WRITE_READ, 0xff8eedb8) = 0 <0.000134>
+19:56:00.957183 ioctl(8, BINDER_WRITE_READ, 0xff8eedb8) = 0 <0.000037>
+19:56:00.957315 writev(3, [{"\1\220G\220\25\341Zb\27\0179", 11}, {"\3", 1}, {"TelephonyManager\0", 17}, {"getCellLocation returning null b"..., 61}], 4) = 90 <0.000078>
+19:56:00.957567 ioctl(8, BINDER_WRITE_READ, 0xff8eee78) = 0 <0.000134>
+19:56:00.957768 ioctl(8, BINDER_WRITE_READ, 0xff8eee78) = 0 <0.000037>
+19:56:00.957953 ioctl(8, BINDER_WRITE_READ, 0xff8eee98) = 0 <0.000173>
+19:56:00.958246 ioctl(8, BINDER_WRITE_READ, 0xff8eee98) = 0 <0.000311>
+19:56:00.958809 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs", F_OK) = 0 <0.000054>
+19:56:00.958993 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", F_OK) = 0 <0.000043>
+19:56:00.959115 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000041>
+19:56:00.959232 renameat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak") = 0 <0.000205>
+19:56:00.959855 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000487>
+19:56:00.960476 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000144>
+19:56:00.960748 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 47 <0.000052>
+19:56:00.960869 fstat64(47, {st_mode=S_IFDIR|S_ISVTX|0532, st_size=1, ...}) = 0 <0.000036>
+19:56:00.961345 ioctl(47, ASHMEM_SET_NAME, 0xff8eeac0) = 0 <0.000067>
+19:56:00.961520 ioctl(47, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000036>
+19:56:00.961628 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 47, 0) = 0xcff17000 <0.000052>
+19:56:00.961754 close(47)               = 0 <0.000039>
+19:56:00.962548 write(44, "<?xml version='1.0' encoding='ut"..., 359) = 359 <0.000075>
+19:56:00.962722 fsync(44)               = 0 <0.002568>
+19:56:00.965655 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8eeed4, 0xff8eeed0) = -1 ENOTSOCK (Socket operation on non-socket) <0.000255>
+19:56:00.966404 close(44)               = 0 <0.000251>
+19:56:00.966967 fchmodat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", 0660) = 0 <0.000489>
+19:56:00.967717 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000115>
+19:56:00.968373 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000236>
+19:56:00.969074 unlinkat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak", 0) = 0 <0.000323>
+19:56:00.969666 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <0.000412>
+19:56:00.970373 ioctl(8, BINDER_WRITE_READ, 0xff8eee68) = 0 <0.001034>
+19:56:00.972133 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", F_OK) = 0 <0.000281>
+19:56:00.972848 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak", F_OK) = -1 ENOENT (No such file or directory) <0.000887>
+19:56:00.974560 renameat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak") = 0 <0.000193>
+19:56:00.975090 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 44 <0.000340>
+19:56:00.975794 fstat64(44, {st_mode=0171710, st_size=1, ...}) = 0 <0.000439>
+19:56:00.976566 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 47 <0.000278>
+19:56:00.977172 fstat64(47, {st_mode=S_IFIFO|S_ISVTX|0100, st_size=1, ...}) = 0 <0.000212>
+19:56:00.977679 ioctl(47, ASHMEM_SET_NAME, 0xff8eea50) = 0 <0.000165>
+19:56:00.978119 ioctl(47, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x5000) = 0 <0.000227>
+19:56:00.978558 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE, 47, 0) = 0xcff12000 <0.000272>
+19:56:00.979159 close(47)               = 0 <0.000211>
+19:56:00.979634 write(44, "<?xml version='1.0' encoding='ut"..., 421) = 421 <0.000214>
+19:56:00.980110 fsync(44)               = 0 <0.002322>
+19:56:00.982656 getsockopt(44, SOL_SOCKET, SO_ERROR, 0xff8eee64, 0xff8eee60) = -1 ENOTSOCK (Socket operation on non-socket) <0.000165>
+19:56:00.983045 close(44)               = 0 <0.000166>
+19:56:00.983421 fchmodat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", 0660) = 0 <0.000188>
+19:56:00.983850 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml", {st_mode=0172064, st_size=1, ...}, 0) = 0 <0.000339>
+19:56:00.984484 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak", {st_mode=S_IFLNK|S_ISGID|0243, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000180>
+19:56:00.984881 unlinkat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/shared_prefs/dyd_push.xml.bak", 0) = 0 <0.000225>
+19:56:00.985903 getuid32()              = 12770 <0.000166>
+19:56:00.986339 ioctl(8, BINDER_WRITE_READ, 0xff8eed88) = 0 <0.000242>
+19:56:00.986793 ioctl(8, BINDER_WRITE_READ, 0xff8eed88) = 0 <0.000676>
+19:56:00.987735 ioctl(8, BINDER_WRITE_READ, 0xff8eef08) = 0 <0.000397>
+19:56:00.988352 ioctl(8, BINDER_WRITE_READ, 0xff8eef08) = 0 <0.000162>
+19:56:00.988771 ioctl(8, BINDER_WRITE_READ, 0xff8eef08) = 0 <0.000182>
+19:56:00.989196 ioctl(8, BINDER_WRITE_READ, 0xff8eef08) = 0 <0.000148>
+19:56:00.989610 ioctl(8, BINDER_WRITE_READ, 0xff8eeef8) = 0 <0.000181>
+19:56:00.989983 ioctl(8, BINDER_WRITE_READ, 0xff8eeef8) = 0 <0.000161>
+19:56:00.990368 ioctl(8, BINDER_WRITE_READ, 0xff8eef48) = 0 <0.000186>
+19:56:00.990782 ioctl(8, BINDER_WRITE_READ, 0xff8eef48) = 0 <0.001155>
+19:56:00.992385 ioctl(8, BINDER_WRITE_READ, 0xff8eeed8) = 0 <0.000385>
+19:56:00.993153 ioctl(8, BINDER_WRITE_READ, 0xff8eeed8) = 0 <0.001384>
+19:56:00.994680 ioctl(8, BINDER_WRITE_READ, 0xff8eef08) = 0 <0.000109>
+19:56:00.995039 ioctl(8, BINDER_WRITE_READ, 0xff8eef08) = 0 <0.000089>
+19:56:00.995248 ioctl(8, BINDER_WRITE_READ, 0xff8eeec8) = 0 <0.000107>
+19:56:00.995539 ioctl(8, BINDER_WRITE_READ, 0xff8eeec8) = 0 <0.000089>
+19:56:00.995764 ioctl(8, BINDER_WRITE_READ, 0xff8eef18) = 0 <0.000161>
+19:56:00.996343 ioctl(8, BINDER_WRITE_READ, 0xff8eef18) = 0 <0.000176>
+19:56:00.996641 ioctl(8, BINDER_WRITE_READ, 0xff8eeed8) = 0 <0.000217>
+19:56:00.996972 ioctl(8, BINDER_WRITE_READ, 0xff8eeed8) = 0 <0.000092>
+19:56:00.997186 ioctl(8, BINDER_WRITE_READ, 0xff8eef08) = 0 <0.000141>
+19:56:00.997435 ioctl(8, BINDER_WRITE_READ, 0xff8eef08) = 0 <0.000091>
+19:56:00.997646 ioctl(8, BINDER_WRITE_READ, 0xff8eeec8) = 0 <0.000103>
+19:56:00.997852 ioctl(8, BINDER_WRITE_READ, 0xff8eeec8) = 0 <0.000089>
+19:56:00.998060 ioctl(8, BINDER_WRITE_READ, 0xff8eeef8) = 0 <0.000126>
+19:56:00.998289 ioctl(8, BINDER_WRITE_READ, 0xff8eeef8) = 0 <0.000100>
+19:56:00.998519 ioctl(8, BINDER_WRITE_READ, 0xff8eeee8) = 0 <0.000105>
+19:56:00.998725 ioctl(8, BINDER_WRITE_READ, 0xff8eeee8) = 0 <0.000088>
+19:56:00.998933 ioctl(8, BINDER_WRITE_READ, 0xff8eef18) = 0 <0.000106>
+19:56:00.999154 ioctl(8, BINDER_WRITE_READ, 0xff8eef18) = 0 <0.000088>
+19:56:00.999359 ioctl(8, BINDER_WRITE_READ, 0xff8eeee8) = 0 <0.000104>
+19:56:00.999564 ioctl(8, BINDER_WRITE_READ, 0xff8eeee8) = 0 <0.000087>
+19:56:00.999770 ioctl(8, BINDER_WRITE_READ, 0xff8eef18) = 0 <0.000125>
+19:56:01.000094 ioctl(8, BINDER_WRITE_READ, 0xff8eef18) = 0 <0.000091>
+19:56:01.000384 ioctl(8, BINDER_WRITE_READ, 0xff8eeed8) = 0 <0.000104>
+19:56:01.000593 ioctl(8, BINDER_WRITE_READ, 0xff8eeed8) = 0 <0.000088>
+19:56:01.000884 getuid32()              = 12770 <0.000090>
+19:56:01.001084 epoll_pwait(29, [{EPOLLIN, {u32=42, u64=42}}, {EPOLLIN, {u32=36, u64=36}}], 16, 0, NULL, 8) = 2 <0.000088>
+19:56:01.001302 recvfrom(42, "\2\0\0\0\300\5\300\354\10\304\3\0\0o\325_\200\30\226\322\375P\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000093>
+19:56:01.001662 sendto(42, "\3\0\0\0\0\264\240\350\10\304\3\0\1r)\342", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000182>
+19:56:01.001971 recvfrom(42, "\2\0\0\0\300\5\300\354\n\304\3\0\0o\325_\300Z\245\322\375P\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224 <0.000106>
+19:56:01.002307 sendto(42, "\3\0\0\0\0\264\240\350\n\304\3\0\1r)\342", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16 <0.000197>
+19:56:01.002650 recvfrom(42, 0xe8a78c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000088>
+19:56:01.002856 recvfrom(36, "nysv\0\0\0\0\344#\361\322\375P\0\0\371A\1\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000096>
+19:56:01.003073 recvfrom(36, 0xff8f0138, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000097>
+19:56:01.003325 getuid32()              = 12770 <0.000134>
+19:56:01.003606 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000127>
+19:56:01.003896 getuid32()              = 12770 <0.000198>
+19:56:01.004275 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000134>
+19:56:01.004587 getuid32()              = 12770 <0.000133>
+19:56:01.004876 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000129>
+19:56:01.005150 getuid32()              = 12770 <0.000115>
+19:56:01.005397 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000211>
+19:56:01.005749 getuid32()              = 12770 <0.000114>
+19:56:01.005995 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000114>
+19:56:01.006266 writev(3, [{"\0\220G\221\25\341Z\267\211^\0", 11}, {"\4", 1}, {"Choreographer\0", 14}, {"Skipped 654 frames!  The applica"..., 84}], 4) = 110 <0.000199>
+19:56:01.006612 recvfrom(42, 0xe8a78c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000097>
+19:56:01.006843 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000119>
+19:56:01.007170 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000124>
+19:56:01.007403 futex(0xe8a322a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000107>
+19:56:01.007613 futex(0xdf62abd4, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000105>
+19:56:01.007819 futex(0xdf62abd8, FUTEX_WAIT_BITSET_PRIVATE, 36, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000258>
+19:56:01.008325 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000150>
+19:56:01.008744 futex(0xe8a322a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000612>
+19:56:01.010227 futex(0xdf62ab5c, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000166>
+19:56:01.010545 futex(0xdf62ab60, FUTEX_WAIT_BITSET_PRIVATE, 4, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000104>
+19:56:01.010846 futex(0xdf62abd8, FUTEX_WAIT_BITSET_PRIVATE, 40, NULL, ffffffff) = 0 <0.048251>
+19:56:01.059292 write(35, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000277>
+19:56:01.060053 futex(0xe8a322a8, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000165>
+19:56:01.060353 futex(0xdf62abd4, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000127>
+19:56:01.060681 futex(0xdf62abd8, FUTEX_WAIT_BITSET_PRIVATE, 44, NULL, ffffffff) = -1 EAGAIN (Try again) <0.000104>
+19:56:01.060926 ioctl(8, BINDER_WRITE_READ, 0xff8f0748) = 0 <0.000317>
+19:56:01.061384 ioctl(8, BINDER_WRITE_READ, 0xff8f0748) = 0 <0.000090>
+19:56:01.061607 getuid32()              = 12770 <0.000081>
+19:56:01.061787 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1 <0.000082>
+19:56:01.061979 read(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000081>
+19:56:01.062165 getuid32()              = 12770 <0.000080>
+19:56:01.062340 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000082>
+19:56:01.062589 getuid32()              = 12770 <0.000081>
+19:56:01.062765 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000080>
+19:56:01.062982 getuid32()              = 12770 <0.000104>
+19:56:01.063185 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=0113266, st_size=1, ...}, 0) = 0 <0.000190>
+19:56:01.063550 fstatat64(AT_FDCWD, "/data/app/com.shoecakedroid.cjsieblgptmxjsuw-1/base.apk", {st_mode=0113266, st_size=1, ...}, 0) = 0 <0.000118>
+19:56:01.063951 getuid32()              = 12770 <0.000230>
+19:56:01.064577 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", F_OK) = 0 <0.000154>
+19:56:01.064895 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", R_OK) = 0 <0.000151>
+19:56:01.065242 faccessat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", W_OK) = 0 <0.000126>
+19:56:01.065547 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", {st_mode=0165264, st_size=1, ...}, 0) = 0 <0.000146>
+19:56:01.065955 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", {st_mode=0165264, st_size=1, ...}, 0) = 0 <0.000142>
+19:56:01.066329 getuid32()              = 12770 <0.000107>
+19:56:01.066618 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", {st_mode=0172064, st_size=2, ...}, 0) = 0 <0.000092>
+19:56:01.066842 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex.flock", O_RDWR|O_CREAT|O_LARGEFILE, 0666) = 44 <0.000139>
+19:56:01.067121 flock(44, LOCK_EX)      = 0 <0.000124>
+19:56:01.067362 fstat64(44, {st_mode=0, st_size=1, ...}) = 0 <0.000121>
+19:56:01.067669 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex.flock", {st_mode=S_ISVTX|0724, st_size=1, ...}, 0) = 0 <0.000138>
+19:56:01.067942 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex", {st_mode=0174110, st_size=1, ...}, 0) = 0 <0.000087>
+19:56:01.068162 fstatat64(AT_FDCWD, "/data", {st_mode=S_IFBLK|S_ISUID|0277, st_rdev=makedev(65, 249), ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000089>
+19:56:01.068369 fstatat64(AT_FDCWD, "/data/user", {st_mode=S_IFBLK|S_ISUID|0277, st_rdev=makedev(65, 201), ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000109>
+19:56:01.068611 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=S_IFBLK|S_ISUID|0277, st_rdev=makedev(161, 255), ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000103>
+19:56:01.068834 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000095>
+19:56:01.069069 fstatat64(AT_FDCWD, "/data", {st_mode=S_IFBLK|S_ISUID|0277, st_rdev=makedev(65, 249), ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000188>
+19:56:01.069382 fstatat64(AT_FDCWD, "/data/data", {st_mode=S_IFBLK|S_ISUID|0277, st_rdev=makedev(65, 249), ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000106>
+19:56:01.069625 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw", {st_mode=S_IFBLK|S_ISUID|0277, st_rdev=makedev(65, 233), ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000102>
+19:56:01.069849 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", {st_mode=S_IFBLK|S_ISUID|0277, st_rdev=makedev(65, 249), ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000096>
+19:56:01.070074 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex", {st_mode=S_IFBLK|S_ISUID|0277, st_rdev=makedev(129, 164), ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000098>
+19:56:01.070292 mprotect(0xe21fe000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000141>
+19:56:01.070537 mprotect(0xdf9b0000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000098>
+19:56:01.070741 mprotect(0xece7f000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000125>
+19:56:01.070980 mprotect(0xed0e9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000103>
+19:56:01.071198 mprotect(0xed0ea000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000129>
+19:56:01.071428 mprotect(0xed154000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000110>
+19:56:01.071653 mprotect(0xecc9c000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000128>
+19:56:01.071895 mprotect(0xecce9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000155>
+19:56:01.072159 mprotect(0xecd44000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000126>
+19:56:01.072393 mprotect(0xecd96000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000095>
+19:56:01.072595 mprotect(0xece21000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000114>
+19:56:01.072781 mprotect(0xece67000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000086>
+19:56:01.072967 mprotect(0xecf78000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000125>
+19:56:01.073164 mprotect(0xecfc2000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000134>
+19:56:01.073401 mprotect(0xed0e1000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000124>
+19:56:01.073631 mprotect(0xed129000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000132>
+19:56:01.073882 mprotect(0xed1e7000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000127>
+19:56:01.074112 mprotect(0xe21e5000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000089>
+19:56:01.074304 mprotect(0xdf967000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000247>
+19:56:01.074657 mprotect(0xed0e3000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000138>
+19:56:01.074925 mprotect(0xe8a81000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000199>
+19:56:01.075250 mprotect(0xecca9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000334>
+19:56:01.075703 mprotect(0xeccea000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000144>
+19:56:01.076284 mprotect(0xecd4b000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000193>
+19:56:01.076590 mprotect(0xecd65000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000113>
+19:56:01.076804 mprotect(0xecdbc000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000086>
+19:56:01.077072 mprotect(0xed1e9000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000166>
+19:56:01.077505 mprotect(0xed1ea000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000105>
+19:56:01.077710 mprotect(0xe22ae000, 4096, PROT_READ|PROT_WRITE) = 0 <0.000085>
+19:56:01.077912 openat(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 53 <0.000089>
+19:56:01.078113 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xcff0d000 <0.000085>
+19:56:01.078296 madvise(0xcff0d000, 8192, MADV_MERGEABLE) = 0 <0.000083>
+19:56:01.078472 prctl(0x53564d41 /* PR_??? */, 0, 0xcff0d000, 8192, "linker_alloc_lob") = 0 <0.000089>
+19:56:01.078671 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xcff0b000 <0.000077>
+19:56:01.078846 madvise(0xcff0b000, 8192, MADV_MERGEABLE) = 0 <0.000081>
+19:56:01.079022 prctl(0x53564d41 /* PR_??? */, 0, 0xcff0b000, 8192, "linker_alloc_lob") = 0 <0.000091>
+19:56:01.079223 readlinkat(AT_FDCWD, "/proc/self/fd/53", "/data/data/com.shoecakedroid.cjs"..., 4096) = 64 <0.000095>
+19:56:01.079427 munmap(0xcff0b000, 8192) = 0 <0.000089>
+19:56:01.079624 munmap(0xcff0d000, 8192) = 0 <0.000083>
+19:56:01.079805 fstat64(53, {st_mode=S_ISVTX|0620, st_size=1, ...}) = 0 <0.000080>
+19:56:01.080146 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xdb867000 <0.000085>
+19:56:01.080342 madvise(0xdb867000, 4096, MADV_MERGEABLE) = 0 <0.000081>
+19:56:01.080514 prctl(0x53564d41 /* PR_??? */, 0, 0xdb867000, 4096, "linker_alloc") = 0 <0.000081>
+19:56:01.080708 mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xcff0e000 <0.000084>
+19:56:01.080887 madvise(0xcff0e000, 4096, MADV_MERGEABLE) = 0 <0.000084>
+19:56:01.081070 prctl(0x53564d41 /* PR_??? */, 0, 0xcff0e000, 4096, "linker_alloc_small_objects") = 0 <0.000082>
+19:56:01.081258 pread64(53, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\0\0\0004\0\0\0"..., 52, 0) = 52 <0.000083>
+19:56:01.081437 mmap2(NULL, 328, PROT_READ, MAP_PRIVATE, 53, 0) = 0xcff0d000 <0.000083>
+19:56:01.081613 mmap2(NULL, 488, PROT_READ, MAP_PRIVATE, 53, 0x6b000) = 0xcff0c000 <0.000089>
+19:56:01.081797 mmap2(NULL, 56, PROT_READ, MAP_PRIVATE, 53, 0x6a000) = 0xcff0b000 <0.000082>
+19:56:01.081972 mmap2(NULL, 60, PROT_READ, MAP_PRIVATE, 53, 0x69000) = 0xcff0a000 <0.000081>
+19:56:01.082158 mmap2(NULL, 450560, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xccea4000 <0.000083>
+19:56:01.082333 madvise(0xccea4000, 450560, MADV_MERGEABLE) = 0 <0.000080>
+19:56:01.082525 mmap2(0xccea4000, 225280, PROT_READ, MAP_PRIVATE|MAP_FIXED, 53, 0) = 0xccea4000 <0.000085>
+19:56:01.082703 mmap2(0xccedb000, 204790, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 53, 0x37000) = 0xccedb000 <0.000083>
+19:56:01.082879 mmap2(0xccf0d000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xccf0d000 <0.000083>
+19:56:01.083054 madvise(0xccf0d000, 12288, MADV_MERGEABLE) = 0 <0.000080>
+19:56:01.083246 prctl(0x53564d41 /* PR_??? */, 0, 0xccf0d000, 12288, ".bss") = 0 <0.000083>
+19:56:01.083425 mmap2(0xccf10000, 192, PROT_READ, MAP_PRIVATE|MAP_FIXED, 53, 0x69000) = 0xccf10000 <0.000083>
+19:56:01.083601 mmap2(0xccf11000, 56, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 53, 0x6a000) = 0xccf11000 <0.000084>
+19:56:01.083795 close(53)               = 0 <0.000082>
+19:56:01.083975 munmap(0xcff0a000, 60)  = 0 <0.000073>
+19:56:01.084164 munmap(0xcff0b000, 56)  = 0 <0.000079>
+19:56:01.084331 munmap(0xcff0c000, 488) = 0 <0.000099>
+19:56:01.084531 munmap(0xcff0d000, 328) = 0 <0.000105>
+19:56:01.084752 munmap(0xcff0e000, 4096) = 0 <0.000081>
+19:56:01.084928 mprotect(0xdb867000, 4096, PROT_READ) = 0 <0.000079>
+19:56:01.085096 mprotect(0xe21fe000, 4096, PROT_READ) = 0 <0.000114>
+19:56:01.085309 mprotect(0xdf9b0000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.085481 mprotect(0xece7f000, 4096, PROT_READ) = 0 <0.000082>
+19:56:01.085654 mprotect(0xed0e9000, 4096, PROT_READ) = 0 <0.000084>
+19:56:01.085829 mprotect(0xed0ea000, 4096, PROT_READ) = 0 <0.000082>
+19:56:01.086002 mprotect(0xed154000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.086259 mprotect(0xecc9c000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.086431 mprotect(0xecce9000, 4096, PROT_READ) = 0 <0.000082>
+19:56:01.086604 mprotect(0xecd44000, 4096, PROT_READ) = 0 <0.000087>
+19:56:01.086782 mprotect(0xecd96000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.086954 mprotect(0xece21000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.087125 mprotect(0xece67000, 4096, PROT_READ) = 0 <0.000125>
+19:56:01.087352 mprotect(0xecf78000, 4096, PROT_READ) = 0 <0.000082>
+19:56:01.087525 mprotect(0xecfc2000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.087697 mprotect(0xed0e1000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.087869 mprotect(0xed129000, 4096, PROT_READ) = 0 <0.000078>
+19:56:01.088052 mprotect(0xed1e7000, 4096, PROT_READ) = 0 <0.000084>
+19:56:01.088236 mprotect(0xe21e5000, 4096, PROT_READ) = 0 <0.000082>
+19:56:01.088408 mprotect(0xdf967000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.088580 mprotect(0xed0e3000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.088753 mprotect(0xe8a81000, 4096, PROT_READ) = 0 <0.000079>
+19:56:01.088922 mprotect(0xecca9000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.089094 mprotect(0xeccea000, 4096, PROT_READ) = 0 <0.000082>
+19:56:01.089271 mprotect(0xecd4b000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.089443 mprotect(0xecd65000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.089615 mprotect(0xecdbc000, 4096, PROT_READ) = 0 <0.000105>
+19:56:01.089812 mprotect(0xed1e9000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.089984 mprotect(0xed1ea000, 4096, PROT_READ) = 0 <0.000081>
+19:56:01.090156 mprotect(0xe22ae000, 4096, PROT_READ) = 0 <0.000088>
+19:56:01.090366 fstatat64(AT_FDCWD, "/data", {st_mode=052770, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000083>
+19:56:01.090556 fstatat64(AT_FDCWD, "/data/user", {st_mode=052770, st_size=3, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000082>
+19:56:01.090751 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=052770, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000080>
+19:56:01.090928 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000079>
+19:56:01.091109 fstatat64(AT_FDCWD, "/data", {st_mode=052770, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000087>
+19:56:01.091299 fstatat64(AT_FDCWD, "/data/data", {st_mode=052770, st_size=99, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000079>
+19:56:01.091479 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw", {st_mode=052770, st_size=8, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000080>
+19:56:01.091668 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", {st_mode=052770, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000080>
+19:56:01.091927 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", {st_mode=052770, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000142>
+19:56:01.092244 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", O_RDONLY|O_LARGEFILE) = 53 <0.000118>
+19:56:01.092493 read(53, "PK\3\4", 4)   = 4 <0.000098>
+19:56:01.092745 lseek(53, 0, SEEK_SET)  = 0 <0.000088>
+19:56:01.092936 _llseek(53, 0, [54294], SEEK_END) = 0 <0.000082>
+19:56:01.093118 _llseek(53, 0, [0], SEEK_SET) = 0 <0.000083>
+19:56:01.093300 read(53, "PK\3\4\24\0\10\0\10\0\311U6Cz(\231S\216\323\0\0(\316\1\0\v\0\0\0cl"..., 54294) = 54294 <0.000104>
+19:56:01.093504 mmap2(NULL, 1024, PROT_READ, MAP_SHARED, 53, 0xd000) = 0xcff0e000 <0.000086>
+19:56:01.093707 fcntl64(53, F_GETFD)    = 0 <0.000085>
+19:56:01.093897 fcntl64(53, F_SETFD, FD_CLOEXEC) = 0 <0.000085>
+19:56:01.094090 pread64(53, "PK\3\4\24\0\10\0\10\0\311U6Cz(\231S\216\323\0\0(\316\1\0\v\0\0\0", 30, 0) = 30 <0.000092>
+19:56:01.094285 pread64(53, "classes.dex", 11, 30) = 11 <0.000084>
+19:56:01.094474 close(53)               = 0 <0.000083>
+19:56:01.094662 munmap(0xcff0e000, 1024) = 0 <0.000091>
+19:56:01.094855 fstatat64(AT_FDCWD, "/data", {st_mode=015, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000079>
+19:56:01.095039 fstatat64(AT_FDCWD, "/data/user", {st_mode=015, st_size=3, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000082>
+19:56:01.095248 fstatat64(AT_FDCWD, "/data/user/0", {st_mode=015, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000084>
+19:56:01.095436 readlinkat(AT_FDCWD, "/data/user/0", "/data/data", 4095) = 10 <0.000080>
+19:56:01.095622 fstatat64(AT_FDCWD, "/data", {st_mode=015, st_size=34, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000084>
+19:56:01.095821 fstatat64(AT_FDCWD, "/data/data", {st_mode=015, st_size=99, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000079>
+19:56:01.096000 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw", {st_mode=015, st_size=8, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000175>
+19:56:01.096312 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk", {st_mode=015, st_size=2, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000082>
+19:56:01.096498 fstatat64(AT_FDCWD, "/data/data/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.zip", {st_mode=015, st_size=1, ...}, AT_SYMLINK_NOFOLLOW) = 0 <0.000079>
+19:56:01.096711 openat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.art", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000081>
+19:56:01.096899 fstatat64(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.art", 0xff8ef880, 0) = -1 ENOENT (No such file or directory) <0.000079>
+19:56:01.097090 unlinkat(AT_FDCWD, "/data/user/0/com.shoecakedroid.cjsieblgptmxjsuw/app_mdexk/ghkn.dex.flock", 0) = 0 <0.000096>
+19:56:01.097285 flock(44, LOCK_UN)      = 0 <0.000075>
+19:56:01.097456 fdatasync(44)           = 0 <0.000989>
+19:56:01.098538 close(44)               = 0 <0.000096>
+19:56:01.098765 fstatat64(AT_FDCWD, "/system/lib", {st_mode=0172064, st_size=6, ...}, 0) = 0 <0.000078>
+19:56:01.099008 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=0172064, st_size=3, ...}, 0) = 0 <0.000087>
+19:56:01.099232 fstatat64(AT_FDCWD, "/system/lib", {st_mode=0165264, st_size=6, ...}, 0) = 0 <0.000082>
+19:56:01.099429 fstatat64(AT_FDCWD, "/vendor/lib", {st_mode=0165264, st_size=3, ...}, 0) = 0 <0.000080>
+19:56:01.099817 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 44 <0.000085>
+19:56:01.099992 fstat64(44, {st_mode=0174220, st_size=1, ...}) = 0 <0.000080>
+19:56:01.100185 ioctl(44, ASHMEM_SET_NAME, 0xff8ef770) = 0 <0.000092>
+19:56:01.100384 ioctl(44, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x20000) = 0 <0.000090>
+19:56:01.100581 mmap2(NULL, 131072, PROT_READ|PROT_WRITE, MAP_PRIVATE, 44, 0) = 0xcf7dd000 <0.000097>
+19:56:01.100794 close(44)               = 0 <0.000090>
+19:56:01.101230 ioctl(8, BINDER_WRITE_READ, 0xff8f09c8) = 0 <0.000116>
+19:56:01.101478 getuid32()              = 12770 <0.000089>
+19:56:01.101672 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000089>
+19:56:01.101967 writev(3, [{"\0\220G\221\25\341Z\6\7\23\6", 11}, {"\4", 1}, {"plog\0", 5}, {"action : getLocation\0", 21}], 4) = 38 <0.000116>
+19:56:01.102473 ioctl(8, BINDER_WRITE_READ, 0xff8f09e8) = 0 <0.000266>
+19:56:01.102875 getuid32()              = 12770 <0.000089>
+19:56:01.103066 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000080>
+19:56:01.103280 ioctl(8, BINDER_WRITE_READ, 0xff8f0a38) = 0 <0.000106>
+19:56:01.103504 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000090>
+19:56:01.103707 epoll_pwait(29,  <unfinished ...>
+19:56:06.672642 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 75.12    1.783226        6832       261           ioctl
+ 23.52    0.558346      279173         2           wait4
+  1.05    0.024881         553        45         8 futex
+  0.11    0.002568         285         9           fsync
+  0.09    0.002155         239         9           clone
+  0.03    0.000616           5       120           close
+  0.02    0.000468           4       123         3 openat
+  0.02    0.000368           5        80           mmap2
+  0.01    0.000322           2       183           mprotect
+  0.01    0.000278          56         5           fdatasync
+  0.01    0.000266           2       148           write
+  0.01    0.000234           5        44        44 getsockopt
+  0.00    0.000103           1       130        10 fstatat64
+  0.00    0.000079           4        22           getuid32
+  0.00    0.000000           0         3           lseek
+  0.00    0.000000           0        29           munmap
+  0.00    0.000000           0         2           fchmod
+  0.00    0.000000           0         6           _llseek
+  0.00    0.000000           0         6           flock
+  0.00    0.000000           0         4           writev
+  0.00    0.000000           0         1           sched_yield
+  0.00    0.000000           0        20           prctl
+  0.00    0.000000           0         1           rt_sigreturn
+  0.00    0.000000           0        19           pread64
+  0.00    0.000000           0        75           fstat64
+  0.00    0.000000           0        23           madvise
+  0.00    0.000000           0        10           getdents64
+  0.00    0.000000           0         6           fcntl64
+  0.00    0.000000           0         4           mkdirat
+  0.00    0.000000           0        11         2 unlinkat
+  0.00    0.000000           0         6           renameat
+  0.00    0.000000           0        12           readlinkat
+  0.00    0.000000           0        13           fchmodat
+  0.00    0.000000           0        47        15 faccessat
+  0.00    0.000000           0        17           epoll_pwait
+  0.00    0.000000           0         2           sendto
+  0.00    0.000000           0         7         4 recvfrom
+  0.00    0.000000           0         8           read
+------ ----------- ----------- --------- --------- ----------------
+100.00    2.373910                  1513        86 total

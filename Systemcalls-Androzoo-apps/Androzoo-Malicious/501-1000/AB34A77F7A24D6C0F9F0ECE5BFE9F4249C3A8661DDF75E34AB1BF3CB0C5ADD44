@@ -1,0 +1,504 @@
+20:59:50.104427 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.000360>
+20:59:50.105613 madvise(0xd6f50000, 12288, MADV_DONTNEED) = 0 <0.000342>
+20:59:50.106219 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.000928>
+20:59:50.107326 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.000130>
+20:59:50.107889 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.001107>
+20:59:50.109259 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.000183>
+20:59:50.109761 madvise(0xd6f53000, 20480, MADV_DONTNEED) = 0 <0.000193>
+20:59:50.111041 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.000745>
+20:59:50.112303 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.000358>
+20:59:50.113062 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.000898>
+20:59:50.114156 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.000164>
+20:59:50.114620 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.002728>
+20:59:50.117649 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.000250>
+20:59:50.119245 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.000469>
+20:59:50.119912 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.000374>
+20:59:50.122479 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.000543>
+20:59:50.123599 ioctl(8, BINDER_WRITE_READ, 0xfff1a848) = 0 <0.000233>
+20:59:50.124400 ioctl(8, BINDER_WRITE_READ, 0xfff1a858) = 0 <0.001526>
+20:59:50.126310 ioctl(8, BINDER_WRITE_READ, 0xfff1a858) = 0 <0.000340>
+20:59:50.127750 writev(3, [{"\0\233\36\206$\341Z2\275\232\7", 11}, {"\5", 1}, {"cr_AwContents\0", 14}, {"onDetachedFromWindow called when"..., 60}], 4) = 86 <0.000448>
+20:59:50.129830 ioctl(8, BINDER_WRITE_READ, 0xfff1ad68) = 0 <0.001849>
+20:59:50.132186 ioctl(8, BINDER_WRITE_READ, 0xfff1ad68) = 0 <0.000491>
+20:59:50.134883 writev(3, [{"\0\233\36\206$\341Z\356\274\363\7", 11}, {"\3", 1}, {"cr_Ime\0", 7}, {"[InputMethodManagerWrapper.java:"..., 52}], 4) = 71 <0.000794>
+20:59:50.138418 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 65 <0.000396>
+20:59:50.139022 fstat64(65, {st_mode=S_IFREG|S_ISUID|S_ISGID|0240, st_size=1, ...}) = 0 <0.000172>
+20:59:50.139408 ioctl(65, ASHMEM_SET_NAME, 0xfff1a910) = 0 <0.000155>
+20:59:50.140235 ioctl(65, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000189>
+20:59:50.140542 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 65, 0) = 0xca211000 <0.000140>
+20:59:50.140885 close(65)               = 0 <0.000457>
+20:59:50.141559 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xc8f72000 <0.000238>
+20:59:50.141973 madvise(0xc8f72000, 1069056, MADV_MERGEABLE) = 0 <0.000213>
+20:59:50.142384 mprotect(0xc8f72000, 4096, PROT_NONE) = 0 <0.000123>
+20:59:50.142654 prctl(0x53564d41 /* PR_??? */, 0, 0xc8f72000, 4096, "thread stack guard page") = 0 <0.000291>
+20:59:50.143229 clone(child_stack=0xc9076910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xc9076928, tls={entry_number:12, base_addr:0xc9076970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xfff1ac60, child_tidptr=0xc9076928) = 7876 <0.000411>
+20:59:50.145067 futex(0xc9076960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000361>
+20:59:50.145966 futex(0xe3b40180, FUTEX_WAKE, 1) = 0 <0.000763>
+20:59:50.146977 futex(0xe3b30138, FUTEX_WAIT, 161, NULL) = -1 EAGAIN (Try again) <0.000525>
+20:59:50.147784 write(65, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000187>
+20:59:50.148489 futex(0xd6f21130, FUTEX_WAKE, 1) = 1 <0.000814>
+20:59:50.149516 futex(0xd6f21110, FUTEX_WAKE, 1) = 1 <0.000319>
+20:59:50.150824 write(65, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000463>
+20:59:50.152023 futex(0xd6f21130, FUTEX_WAKE, 1) = 1 <0.000416>
+20:59:50.152775 futex(0xd6f21110, FUTEX_WAKE, 1) = 1 <0.000155>
+20:59:50.153063 futex(0xcb53318c, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000244>
+20:59:50.155013 ioctl(8, BINDER_WRITE_READ, 0xfff1ab88) = 0 <0.000172>
+20:59:50.155373 ioctl(8, BINDER_WRITE_READ, 0xfff1ab88) = 0 <0.000086>
+20:59:50.155764 ioctl(8, BINDER_WRITE_READ, 0xfff1ab58) = 0 <0.000203>
+20:59:50.156101 ioctl(8, BINDER_WRITE_READ, 0xfff1ab58) = 0 <0.000184>
+20:59:50.165267 getuid32()              = 12797 <0.000092>
+20:59:50.165532 ioctl(8, BINDER_WRITE_READ, 0xfff1b168) = 0 <0.000238>
+20:59:50.165944 ioctl(8, BINDER_WRITE_READ, 0xfff1b168) = 0 <0.004910>
+20:59:50.173068 ioctl(8, BINDER_WRITE_READ, 0xfff1b198) = 0 <0.000153>
+20:59:50.173504 ioctl(8, BINDER_WRITE_READ, 0xfff1b198) = 0 <0.010567>
+20:59:50.184295 getuid32()              = 12797 <0.000130>
+20:59:50.184583 getuid32()              = 12797 <0.000133>
+20:59:50.191525 fstat64(62, {st_mode=0, st_size=1, ...}) = 0 <0.000203>
+20:59:50.192939 ioctl(62, ASHMEM_GET_SIZE, 0) = 84 <0.000145>
+20:59:50.193273 fstat64(62, {st_mode=0, st_size=1, ...}) = 0 <0.000121>
+20:59:50.193533 ioctl(62, ASHMEM_PIN, 0xfff1b210) = 0 <0.000116>
+20:59:50.193910 ioctl(8, BINDER_WRITE_READ, 0xfff1b028) = 0 <0.005564>
+20:59:50.200080 ioctl(8, BINDER_WRITE_READ, 0xfff1b028) = 0 <0.015056>
+20:59:50.215599 read(37, "\246R\17>\222u5\33", 8) = 8 <0.000163>
+20:59:50.216123 write(46, "\0", 1)      = 1 <0.007223>
+20:59:50.223519 futex(0xda847acc, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000549>
+20:59:50.224246 read(37, "\3375\271\204\377\3330z5fq\346#\366\214X", 16) = 16 <0.000139>
+20:59:50.224531 read(37, "\203\206\361\360\3557Z\21\21\334DG\275\222\334\206", 16) = 16 <0.000111>
+20:59:50.225741 read(37, "7\177\264%\322\235\351\350", 8) = 8 <0.000851>
+20:59:50.229056 read(37, "\360\217&\"4\323oQ\256G0x\346;v\354", 16) = 16 <0.000868>
+20:59:50.231831 read(37, "\233\344\375Gm\235\264\376\304\345]K\342rn\213", 16) = 16 <0.000784>
+20:59:50.234447 read(37, "[{;\2704ZJ\362", 8) = 8 <0.000484>
+20:59:50.237353 read(37, "\344*\360\345\325=nIv\0247Uc#>.", 16) = 16 <0.001357>
+20:59:50.240973 read(37, "\237\2f\307y\354|N\10\353\372}\241\33W=", 16) = 16 <0.000801>
+20:59:50.242903 read(37, "F9\312\35\247\242c6", 8) = 8 <0.001297>
+20:59:50.245975 read(37, "5;{\375\315X\251k%@\237\2620\367xv", 16) = 16 <0.000727>
+20:59:50.247642 read(37, "kp\310\311C\314\244mP\302\330\363o\231bQ", 16) = 16 <0.000152>
+20:59:50.248090 ioctl(8, BINDER_WRITE_READ, 0xfff1aa68) = 0 <0.001024>
+20:59:50.249313 ioctl(8, BINDER_WRITE_READ, 0xfff1aa68) = 0 <0.000154>
+20:59:50.249757 futex(0xe7c99254, FUTEX_WAKE_PRIVATE, 2147483647) = 0 <0.000168>
+20:59:50.250164 ioctl(8, BINDER_WRITE_READ, 0xfff1aa98) = 0 <0.000151>
+20:59:50.250479 ioctl(8, BINDER_WRITE_READ, 0xfff1aa98) = 0 <0.000115>
+20:59:50.250784 ioctl(8, BINDER_WRITE_READ, 0xfff1ae88) = 0 <0.000193>
+20:59:50.251094 ioctl(8, BINDER_WRITE_READ, 0xfff1ae88) = 0 <0.000106>
+20:59:50.251932 writev(3, [{"\0\233\36\206$\341Zj\377\2\17", 11}, {"\3", 1}, {"cr_Ime\0", 7}, {"[InputMethodManagerWrapper.java:"..., 48}], 4) = 67 <0.000161>
+20:59:50.252328 write(46, "\0", 1)      = 1 <0.000159>
+20:59:50.252676 futex(0xda847acc, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000160>
+20:59:50.253088 ioctl(8, BINDER_WRITE_READ, 0xfff1a858) = 0 <0.000262>
+20:59:50.253472 ioctl(8, BINDER_WRITE_READ, 0xfff1a858) = 0 <0.000105>
+20:59:50.253912 writev(3, [{"\0\233\36\206$\341Z\276\10!\17", 11}, {"\5", 1}, {"cr_AwContents\0", 14}, {"onDetachedFromWindow called when"..., 60}], 4) = 86 <0.000121>
+20:59:50.254348 writev(3, [{"\0\233\36\206$\341Z\265\2(\17", 11}, {"\3", 1}, {"cr_Ime\0", 7}, {"[InputMethodManagerWrapper.java:"..., 52}], 4) = 71 <0.000176>
+20:59:50.254715 write(65, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000119>
+20:59:50.254954 futex(0xd6f21130, FUTEX_WAKE, 1) = 1 <0.000111>
+20:59:50.255177 futex(0xd6f21110, FUTEX_WAKE, 1) = 1 <0.000109>
+20:59:50.255410 futex(0xcb53318c, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000111>
+20:59:50.255713 ioctl(8, BINDER_WRITE_READ, 0xfff1ab88) = 0 <0.000117>
+20:59:50.255943 ioctl(8, BINDER_WRITE_READ, 0xfff1ab88) = 0 <0.000128>
+20:59:50.256310 ioctl(8, BINDER_WRITE_READ, 0xfff1ab58) = 0 <0.000125>
+20:59:50.256548 ioctl(8, BINDER_WRITE_READ, 0xfff1ab58) = 0 <0.000097>
+20:59:50.256940 getuid32()              = 12797 <0.000097>
+20:59:50.257161 ioctl(8, BINDER_WRITE_READ, 0xfff1b168) = 0 <0.000114>
+20:59:50.257388 ioctl(8, BINDER_WRITE_READ, 0xfff1b168) = 0 <0.000098>
+20:59:50.257624 ioctl(8, BINDER_WRITE_READ, 0xfff1b198) = 0 <0.000113>
+20:59:50.257849 ioctl(8, BINDER_WRITE_READ, 0xfff1b198) = 0 <0.000097>
+20:59:50.258071 getuid32()              = 12797 <0.000095>
+20:59:50.258282 getuid32()              = 12797 <0.000096>
+20:59:50.258502 fstat64(62, {st_mode=0, st_size=1, ...}) = 0 <0.000097>
+20:59:50.258715 ioctl(62, ASHMEM_GET_SIZE, 0) = 84 <0.000096>
+20:59:50.258935 fstat64(62, {st_mode=0, st_size=1, ...}) = 0 <0.000096>
+20:59:50.259145 ioctl(62, ASHMEM_PIN, 0xfff1b210) = 0 <0.000096>
+20:59:50.259394 ioctl(8, BINDER_WRITE_READ, 0xfff1b028) = 0 <0.000112>
+20:59:50.259618 ioctl(8, BINDER_WRITE_READ, 0xfff1b028) = 0 <0.000097>
+20:59:50.259925 read(37, ">\243Zk\301*\234k", 8) = 8 <0.000121>
+20:59:50.260191 write(46, "\0", 1)      = 1 <0.000108>
+20:59:50.260409 futex(0xda847acc, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000107>
+20:59:50.260648 read(37, "\341\364\372\222,\2566NY0\3050p\215?\230", 16) = 16 <0.000093>
+20:59:50.260856 read(37, "i\257c\1\1\306\0J\340\315\224M\350)\352d", 16) = 16 <0.000093>
+20:59:50.261072 read(37, "\")\315j@\256\r\361", 8) = 8 <0.000092>
+20:59:50.261282 read(37, ")|}\377\22\262\35\1\256\226\2\332\360;z\376", 16) = 16 <0.000182>
+20:59:50.261580 read(37, "\215\7p\223\263\220>\224\250\305'\324}\343\\'", 16) = 16 <0.000091>
+20:59:50.261786 read(37, "\261oi\2408\253z\314", 8) = 8 <0.000091>
+20:59:50.261996 read(37, "\20'k\275/\223\231\37\335\232\5\31\247Q%$", 16) = 16 <0.000120>
+20:59:50.262287 read(37, "\251\16\371\263~\230\334E\204\244>\10\302\364\363\372", 16) = 16 <0.000138>
+20:59:50.262594 read(37, "\304\374\376\256'f\325\345", 8) = 8 <0.000098>
+20:59:50.262863 read(37, "\267\306\375\221\321VM\262\261A\2309\371O\333x", 16) = 16 <0.000121>
+20:59:50.263132 read(37, "\7i\376\336\377\362\231\355\210\251\\\17\231*io", 16) = 16 <0.000119>
+20:59:50.263589 ioctl(8, BINDER_WRITE_READ, 0xfff1aa68) = 0 <0.000597>
+20:59:50.264395 ioctl(8, BINDER_WRITE_READ, 0xfff1aa98) = 0 <0.000191>
+20:59:50.264798 ioctl(8, BINDER_WRITE_READ, 0xfff1aa98) = 0 <0.000337>
+20:59:50.265380 ioctl(8, BINDER_WRITE_READ, 0xfff1ae88) = 0 <0.000158>
+20:59:50.265722 ioctl(8, BINDER_WRITE_READ, 0xfff1ae88) = 0 <0.000183>
+20:59:50.266467 writev(3, [{"\0\233\36\206$\341Zx7\340\17", 11}, {"\3", 1}, {"cr_Ime\0", 7}, {"[InputMethodManagerWrapper.java:"..., 48}], 4) = 67 <0.000189>
+20:59:50.266966 write(46, "\0", 1)      = 1 <0.000216>
+20:59:50.268159 ioctl(8, BINDER_WRITE_READ, 0xfff1a858) = 0 <0.000091>
+20:59:50.268527 ioctl(8, BINDER_WRITE_READ, 0xfff1a858) = 0 <0.000110>
+20:59:50.269012 writev(3, [{"\0\233\36\206$\341Z-\336\7\20", 11}, {"\5", 1}, {"cr_AwContents\0", 14}, {"onDetachedFromWindow called when"..., 60}], 4) = 86 <0.000144>
+20:59:50.269586 writev(3, [{"\0\233\36\206$\341Z\251E\20\20", 11}, {"\3", 1}, {"cr_Ime\0", 7}, {"[InputMethodManagerWrapper.java:"..., 52}], 4) = 71 <0.000132>
+20:59:50.270071 write(65, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000159>
+20:59:50.270433 futex(0xd6f21130, FUTEX_WAKE, 1) = 1 <0.000136>
+20:59:50.270693 futex(0xd6f21110, FUTEX_WAKE, 1) = 1 <0.000160>
+20:59:50.271016 futex(0xcb53318c, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000191>
+20:59:50.272111 ioctl(8, BINDER_WRITE_READ, 0xfff1ab88) = 0 <0.000620>
+20:59:50.272893 ioctl(8, BINDER_WRITE_READ, 0xfff1ab88) = 0 <0.000203>
+20:59:50.273618 ioctl(8, BINDER_WRITE_READ, 0xfff1ab58) = 0 <0.000156>
+20:59:50.274540 ioctl(8, BINDER_WRITE_READ, 0xfff1ab58) = 0 <0.000132>
+20:59:50.275240 getuid32()              = 12797 <0.000101>
+20:59:50.275473 ioctl(8, BINDER_WRITE_READ, 0xfff1b168) = 0 <0.000132>
+20:59:50.275746 ioctl(8, BINDER_WRITE_READ, 0xfff1b168) = 0 <0.000103>
+20:59:50.275989 ioctl(8, BINDER_WRITE_READ, 0xfff1b198) = 0 <0.000106>
+20:59:50.276203 ioctl(8, BINDER_WRITE_READ, 0xfff1b198) = 0 <0.000103>
+20:59:50.276423 getuid32()              = 12797 <0.000087>
+20:59:50.276623 getuid32()              = 12797 <0.000087>
+20:59:50.276826 fstat64(62, {st_mode=0, st_size=1, ...}) = 0 <0.000089>
+20:59:50.277027 ioctl(62, ASHMEM_GET_SIZE, 0) = 84 <0.000088>
+20:59:50.277235 fstat64(62, {st_mode=0, st_size=1, ...}) = 0 <0.000089>
+20:59:50.277431 ioctl(62, ASHMEM_PIN, 0xfff1b210) = 0 <0.000088>
+20:59:50.277674 ioctl(8, BINDER_WRITE_READ, 0xfff1b028) = 0 <0.000105>
+20:59:50.277883 ioctl(8, BINDER_WRITE_READ, 0xfff1b028) = 0 <0.000089>
+20:59:50.278184 read(37, "?,\26H1\351\300\344", 8) = 8 <0.000094>
+20:59:50.278421 write(46, "\0", 1)      = 1 <0.000108>
+20:59:50.278635 futex(0xda847acc, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000102>
+20:59:50.278890 read(37, "\201\323\21T\224-\237\340I\270\202\3272\23\313\33", 16) = 16 <0.000110>
+20:59:50.279160 read(37, ",V\2173l\376\274w\252J\251\341*k\2569", 16) = 16 <0.000077>
+20:59:50.279385 read(37, "\304\277f\241\262\302\234r", 8) = 8 <0.000156>
+20:59:50.279796 read(37, "\314\333Jc\224\236C\262\330Q\206\244\246E\323\205", 16) = 16 <0.000136>
+20:59:50.280124 read(37, "Lk\303\362d\330\213\327\352\357\35o\"@\372\346", 16) = 16 <0.000107>
+20:59:50.280744 read(37, "\254\275\200\241\266h\252T", 8) = 8 <0.000330>
+20:59:50.281348 read(37, "\370#d\207\0\341a\354\214$\33\213\361\307\272\354", 16) = 16 <0.000224>
+20:59:50.281910 read(37, "\306\331F;bG5R\371.\4\317:/\250\23", 16) = 16 <0.000118>
+20:59:50.282339 read(37, "\266\277\224\2002f\244 ", 8) = 8 <0.000105>
+20:59:50.282597 read(37, "\264\213\360\340\332\301\232;\213\203\230\360\3451uO", 16) = 16 <0.000102>
+20:59:50.282990 read(37, "\326-\7\325\311\335\200\344\231,\351\ft\250{\234", 16) = 16 <0.000173>
+20:59:50.283532 ioctl(8, BINDER_WRITE_READ, 0xfff1aa68) = 0 <0.000340>
+20:59:50.284230 ioctl(8, BINDER_WRITE_READ, 0xfff1aa68) = 0 <0.000133>
+20:59:50.284611 ioctl(8, BINDER_WRITE_READ, 0xfff1aa98) = 0 <0.000334>
+20:59:50.285058 ioctl(8, BINDER_WRITE_READ, 0xfff1aa98) = 0 <0.000208>
+20:59:50.285438 ioctl(8, BINDER_WRITE_READ, 0xfff1ae88) = 0 <0.000175>
+20:59:50.285810 ioctl(8, BINDER_WRITE_READ, 0xfff1ae88) = 0 <0.000091>
+20:59:50.286406 writev(3, [{"\0\233\36\206$\341Zy8\20\21", 11}, {"\3", 1}, {"cr_Ime\0", 7}, {"[InputMethodManagerWrapper.java:"..., 48}], 4) = 67 <0.000191>
+20:59:50.286793 write(46, "\0", 1)      = 1 <0.000274>
+20:59:50.287205 futex(0xda847acc, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000272>
+20:59:50.287717 ioctl(8, BINDER_WRITE_READ, 0xfff1a858) = 0 <0.000106>
+20:59:50.287959 ioctl(8, BINDER_WRITE_READ, 0xfff1a858) = 0 <0.000204>
+20:59:50.288469 writev(3, [{"\0\233\36\206$\341Z\354\3010\21", 11}, {"\5", 1}, {"cr_AwContents\0", 14}, {"onDetachedFromWindow called when"..., 60}], 4) = 86 <0.000117>
+20:59:50.288883 writev(3, [{"\0\233\36\206$\341Zza7\21", 11}, {"\3", 1}, {"cr_Ime\0", 7}, {"[InputMethodManagerWrapper.java:"..., 52}], 4) = 71 <0.000114>
+20:59:50.289178 write(65, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000147>
+20:59:50.289456 futex(0xd6f21130, FUTEX_WAKE, 1) = 1 <0.000123>
+20:59:50.289708 futex(0xd6f21110, FUTEX_WAKE, 1) = 1 <0.000164>
+20:59:50.289993 futex(0xcb53318c, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000110>
+20:59:50.290310 ioctl(8, BINDER_WRITE_READ, 0xfff1ab88) = 0 <0.000113>
+20:59:50.290558 ioctl(8, BINDER_WRITE_READ, 0xfff1ab88) = 0 <0.000097>
+20:59:50.290927 ioctl(8, BINDER_WRITE_READ, 0xfff1ab58) = 0 <0.000113>
+20:59:50.291151 ioctl(8, BINDER_WRITE_READ, 0xfff1ab58) = 0 <0.000095>
+20:59:50.291878 writev(3, [{"\0\233\36\206$\341ZB\270d\21", 11}, {"\4", 1}, {"DomobSDK\0", 9}, {"Current publisherID is 56OJz+Gou"..., 42}], 4) = 63 <0.000175>
+20:59:50.292255 faccessat(AT_FDCWD, "/data/user/0/com.kyle.memorygame", F_OK) = 0 <0.000100>
+20:59:50.292479 faccessat(AT_FDCWD, "/data/user/0/com.kyle.memorygame/shared_prefs", F_OK) = 0 <0.000083>
+20:59:50.292694 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 69 <0.000090>
+20:59:50.292881 fstat64(69, {st_mode=0, st_size=1, ...}) = 0 <0.000078>
+20:59:50.293074 ioctl(69, ASHMEM_SET_NAME, 0xfff1a9d0) = 0 <0.000078>
+20:59:50.293245 ioctl(69, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000077>
+20:59:50.293419 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 69, 0) = 0xca20c000 <0.000088>
+20:59:50.293613 close(69)               = 0 <0.000081>
+20:59:50.293793 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xc8e6d000 <0.000088>
+20:59:50.293976 madvise(0xc8e6d000, 1069056, MADV_MERGEABLE) = 0 <0.000078>
+20:59:50.294146 mprotect(0xc8e6d000, 4096, PROT_NONE) = 0 <0.000079>
+20:59:50.294316 prctl(0x53564d41 /* PR_??? */, 0, 0xc8e6d000, 4096, "thread stack guard page") = 0 <0.000086>
+20:59:50.294532 clone(child_stack=0xc8f71910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xc8f71928, tls={entry_number:12, base_addr:0xc8f71970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xfff1ad20, child_tidptr=0xc8f71928) = 7877 <0.000141>
+20:59:50.294791 futex(0xc8f71960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000098>
+20:59:50.295061 sched_yield()           = 0 <0.000099>
+20:59:50.295466 ioctl(8, BINDER_WRITE_READ, 0xfff1ad78) = 0 <0.000493>
+20:59:50.296409 getuid32()              = 12797 <0.000218>
+20:59:50.296765 ioctl(8, BINDER_WRITE_READ, 0xfff1af08) = 0 <0.000099>
+20:59:50.296964 ioctl(8, BINDER_WRITE_READ, 0xfff1af08) = 0 <0.000084>
+20:59:50.297164 ioctl(8, BINDER_WRITE_READ, 0xfff1af38) = 0 <0.000094>
+20:59:50.297368 ioctl(8, BINDER_WRITE_READ, 0xfff1af38) = 0 <0.000093>
+20:59:50.297569 getuid32()              = 12797 <0.000077>
+20:59:50.297747 getuid32()              = 12797 <0.000077>
+20:59:50.297926 fstat64(62, {st_mode=0, st_size=1, ...}) = 0 <0.000082>
+20:59:50.298106 ioctl(62, ASHMEM_GET_SIZE, 0) = 84 <0.000077>
+20:59:50.298285 fstat64(62, {st_mode=0, st_size=1, ...}) = 0 <0.000078>
+20:59:50.298460 ioctl(62, ASHMEM_PIN, 0xfff1afb0) = 0 <0.000078>
+20:59:50.298681 ioctl(8, BINDER_WRITE_READ, 0xfff1adc8) = 0 <0.000109>
+20:59:50.298904 ioctl(8, BINDER_WRITE_READ, 0xfff1adc8) = 0 <0.000089>
+20:59:50.299194 read(37, "K9j'\313\352\223]", 8) = 8 <0.000094>
+20:59:50.299437 write(46, "\0", 1)      = 1 <0.000107>
+20:59:50.299651 futex(0xda847acc, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000104>
+20:59:50.299897 read(37, "\2\227\324\5\325\222\306\270\264,\201\340\205h\300\243", 16) = 16 <0.000091>
+20:59:50.300167 read(37, "=7\304\220\301\267\277\234s*8\5\217\223$\"", 16) = 16 <0.000092>
+20:59:50.300386 read(37, "\271\234q2\372g\202I", 8) = 8 <0.000090>
+20:59:50.300598 read(37, "\335i\244\270\265\333\252\370\335\n\375\355\207\323\214\214", 16) = 16 <0.000091>
+20:59:50.300809 read(37, "u\240i\346{\32\341\201\372\234\237hr\371\311\243", 16) = 16 <0.000095>
+20:59:50.301032 read(37, "B{\230c_^x\31", 8) = 8 <0.000090>
+20:59:50.301249 read(37, "Y\35RE\334\347\343\362T'\252\206\237\233\r\304", 16) = 16 <0.000172>
+20:59:50.301535 read(37, "\5~E\225l\250\277\316\0\343l\3646\1S\265", 16) = 16 <0.000091>
+20:59:50.301740 read(37, "\253\312l\304\323|\205\21", 8) = 8 <0.000090>
+20:59:50.301966 read(37, "\2759D\366\225\335N\350\364^\262\212\203\354\315}", 16) = 16 <0.000091>
+20:59:50.302163 read(37, "\344\357\316<\33\310\30\327\371\23xm\346\23D\235", 16) = 16 <0.000090>
+20:59:50.302435 ioctl(8, BINDER_WRITE_READ, 0xfff1a808) = 0 <0.000106>
+20:59:50.302646 ioctl(8, BINDER_WRITE_READ, 0xfff1a808) = 0 <0.000089>
+20:59:50.302861 ioctl(8, BINDER_WRITE_READ, 0xfff1a838) = 0 <0.000109>
+20:59:50.303086 ioctl(8, BINDER_WRITE_READ, 0xfff1a838) = 0 <0.000104>
+20:59:50.303364 ioctl(8, BINDER_WRITE_READ, 0xfff1ac28) = 0 <0.000188>
+20:59:50.303724 ioctl(8, BINDER_WRITE_READ, 0xfff1ac28) = 0 <0.000128>
+20:59:50.304716 writev(3, [{"\0\233\36\206$\341ZR\267(\22", 11}, {"\3", 1}, {"cr_Ime\0", 7}, {"[InputMethodManagerWrapper.java:"..., 48}], 4) = 67 <0.000153>
+20:59:50.305095 write(46, "\0", 1)      = 1 <0.000106>
+20:59:50.305337 futex(0xda847acc, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000125>
+20:59:50.305745 ioctl(8, BINDER_WRITE_READ, 0xfff1a5f8) = 0 <0.000112>
+20:59:50.305993 ioctl(8, BINDER_WRITE_READ, 0xfff1a5f8) = 0 <0.000110>
+20:59:50.306440 writev(3, [{"\0\233\36\206$\341Z\210\300B\22", 11}, {"\5", 1}, {"cr_AwContents\0", 14}, {"onDetachedFromWindow called when"..., 60}], 4) = 86 <0.000170>
+20:59:50.307133 writev(3, [{"\0\233\36\206$\341Zl2J\22", 11}, {"\3", 1}, {"cr_Ime\0", 7}, {"[InputMethodManagerWrapper.java:"..., 52}], 4) = 71 <0.000240>
+20:59:50.307883 write(65, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000262>
+20:59:50.308288 futex(0xd6f21130, FUTEX_WAKE, 1) = 1 <0.000230>
+20:59:50.308669 futex(0xd6f21110, FUTEX_WAKE, 1) = 1 <0.000357>
+20:59:50.309172 futex(0xcb53318c, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000160>
+20:59:50.309647 ioctl(8, BINDER_WRITE_READ, 0xfff1a928) = 0 <0.000139>
+20:59:50.309913 ioctl(8, BINDER_WRITE_READ, 0xfff1a928) = 0 <0.000076>
+20:59:50.310263 ioctl(8, BINDER_WRITE_READ, 0xfff1a8f8) = 0 <0.000093>
+20:59:50.310628 ioctl(8, BINDER_WRITE_READ, 0xfff1c5d8) = 0 <0.000030>
+20:59:50.310856 ioctl(8, BINDER_WRITE_READ, 0xfff1c5d8) = 0 <0.000065>
+20:59:50.311080 ioctl(8, BINDER_WRITE_READ, 0xfff1c618) = 0 <0.000110>
+20:59:50.311407 ioctl(8, BINDER_WRITE_READ, 0xfff1c738) = 0 <0.000211>
+20:59:50.311676 ioctl(8, BINDER_WRITE_READ, 0xfff1c5e8) = 0 <0.000039>
+20:59:50.311751 ioctl(8, BINDER_WRITE_READ, 0xfff1c5e8) = 0 <0.000115>
+20:59:50.311915 getuid32()              = 12797 <0.000019>
+20:59:50.311981 writev(3, [{"\2\233\36\206$\341Z.E\230\22", 11}, {"Fu\0\0", 4}, {"\3\3\0\0\0\0\0\2\36\0\0\0com.kyle.memorygame."..., 63}], 3) = 78 <0.000125>
+20:59:50.312229 ioctl(8, BINDER_WRITE_READ, 0xfff1c5b8) = 0 <0.000231>
+20:59:50.312498 ioctl(8, BINDER_WRITE_READ, 0xfff1c5b8) = 0 <0.009409>
+20:59:50.322363 ioctl(8, BINDER_WRITE_READ, 0xfff1c518) = 0 <0.000043>
+20:59:50.322451 ioctl(8, BINDER_WRITE_READ, 0xfff1c518) = 0 <0.000167>
+20:59:50.322760 recvfrom(66, 0xfff1bc18, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000022>
+20:59:50.322826 ioctl(8, BINDER_WRITE_READ, 0xfff1c328) = 0 <0.000127>
+20:59:50.323279 ioctl(8, BINDER_WRITE_READ, 0xfff1c598) = 0 <0.000293>
+20:59:50.323707 ioctl(8, BINDER_WRITE_READ, 0xfff1c598) = 0 <0.000360>
+20:59:50.324220 dup(69)                 = 70 <0.000122>
+20:59:50.324508 fcntl64(70, F_SETFL, O_RDONLY|O_NONBLOCK) = 0 <0.000114>
+20:59:50.324786 close(69)               = 0 <0.000119>
+20:59:50.325087 epoll_ctl(29, EPOLL_CTL_ADD, 70, {EPOLLIN, {u32=70, u64=70}}) = 0 <0.000099>
+20:59:50.325375 ioctl(8, BINDER_WRITE_READ, 0xfff1c738) = 0 <0.000312>
+20:59:50.325808 ioctl(8, BINDER_WRITE_READ, 0xfff1c738) = 0 <0.000297>
+20:59:50.326257 getuid32()              = 12797 <0.000104>
+20:59:50.326493 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000115>
+20:59:50.326781 getuid32()              = 12797 <0.000098>
+20:59:50.327001 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000095>
+20:59:50.327257 read(37, "\204\224\2456\16&\377\265!?\243\225\242]&\205", 16) = 16 <0.000100>
+20:59:50.327497 read(37, "\351\274Vy\330\336D(@\350\22\32O\225\307\244", 16) = 16 <0.000098>
+20:59:50.327707 read(37, "\3057\4qF\377\242\265\rE\216\306\360\273\275\273", 16) = 16 <0.000095>
+20:59:50.327928 read(37, "\271i\207\341\315O\0I\276\264\377\313\341y\340`", 16) = 16 <0.000210>
+20:59:50.328319 getuid32()              = 12797 <0.000114>
+20:59:50.328552 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000095>
+20:59:50.328788 read(37, "\232\342~M\7o\0\212\24\rJc\331\304\212\r", 16) = 16 <0.000534>
+20:59:50.329558 getuid32()              = 12797 <0.000115>
+20:59:50.329812 epoll_pwait(29, [{EPOLLIN, {u32=66, u64=66}}], 16, 0, NULL, 8) = 1 <0.000166>
+20:59:50.330144 recvfrom(66, "nysv\0\0\0\0,\360\245\362{T\0\0\237\21\0\0eate", 2400, MSG_DONTWAIT, NULL, NULL) = 24 <0.000105>
+20:59:50.330396 recvfrom(66, 0xfff1bef8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000126>
+20:59:50.330728 getuid32()              = 12797 <0.000105>
+20:59:50.330951 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000101>
+20:59:50.331242 getuid32()              = 12797 <0.000100>
+20:59:50.331457 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000101>
+20:59:50.331774 getuid32()              = 12797 <0.000098>
+20:59:50.331988 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000107>
+20:59:50.332223 getuid32()              = 12797 <0.000099>
+20:59:50.332436 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000107>
+20:59:50.332682 write(46, "\0", 1)      = 1 <0.000115>
+20:59:50.332915 futex(0xda847acc, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000114>
+20:59:50.333143 futex(0xd3571b84, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000113>
+20:59:50.333374 getuid32()              = 12797 <0.000098>
+20:59:50.333590 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000099>
+20:59:50.333810 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 69 <0.000109>
+20:59:50.334045 ioctl(69, ASHMEM_SET_NAME, 0xfff1c5d0) = 0 <0.000100>
+20:59:50.334263 ioctl(69, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x1fff4) = 0 <0.000098>
+20:59:50.334477 ioctl(69, _IOC(_IOC_WRITE, 0x77, 0x05, 0x04), 0x7) = 0 <0.000101>
+20:59:50.334693 dup(69)                 = 71 <0.000098>
+20:59:50.334904 mmap2(NULL, 131060, PROT_READ|PROT_WRITE, MAP_SHARED, 69, 0) = 0xc8f52000 <0.000122>
+20:59:50.335198 munmap(0xca216000, 131060) = 0 <0.000149>
+20:59:50.335461 close(52)               = 0 <0.000107>
+20:59:50.335681 close(53)               = 0 <0.000117>
+20:59:50.335906 getuid32()              = 12797 <0.000197>
+20:59:50.336223 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000088>
+20:59:50.336546 futex(0xd6f1a428, FUTEX_WAKE, 1) = 1 <0.000112>
+20:59:50.336774 futex(0xd6f34e90, FUTEX_WAKE, 1) = 1 <0.000107>
+20:59:50.337006 futex(0xd6f0c5d0, FUTEX_WAKE, 1) = 1 <0.000113>
+20:59:50.337230 futex(0xd6f0c5f0, FUTEX_WAKE, 1) = 1 <0.000109>
+20:59:50.337445 futex(0xd6f0c5d0, FUTEX_WAKE, 1) = 1 <0.000102>
+20:59:50.337766 getuid32()              = 12797 <0.000103>
+20:59:50.337993 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000110>
+20:59:50.338319 getuid32()              = 12797 <0.000093>
+20:59:50.338562 ioctl(8, BINDER_WRITE_READ, 0xfff1c078) = 0 <0.000130>
+20:59:50.338822 ioctl(8, BINDER_WRITE_READ, 0xfff1c078) = 0 <0.000096>
+20:59:50.339089 ioctl(8, BINDER_WRITE_READ, 0xfff1c038) = 0 <0.000129>
+20:59:50.339340 ioctl(8, BINDER_WRITE_READ, 0xfff1c038) = 0 <0.000091>
+20:59:50.339563 ioctl(8, BINDER_WRITE_READ, 0xfff1c088) = 0 <0.000110>
+20:59:50.339796 ioctl(8, BINDER_WRITE_READ, 0xfff1c088) = 0 <0.000090>
+20:59:50.340128 ioctl(8, BINDER_WRITE_READ, 0xfff1bfd8) = 0 <0.000115>
+20:59:50.340364 ioctl(8, BINDER_WRITE_READ, 0xfff1bfd8) = 0 <0.000089>
+20:59:50.340652 ioctl(8, BINDER_WRITE_READ, 0xfff1bee8) = 0 <0.000140>
+20:59:50.340921 ioctl(8, BINDER_WRITE_READ, 0xfff1bee8) = 0 <0.000107>
+20:59:50.341166 ioctl(8, BINDER_WRITE_READ, 0xfff1bf68) = 0 <0.000116>
+20:59:50.341387 ioctl(8, BINDER_WRITE_READ, 0xfff1bf68) = 0 <0.000191>
+20:59:50.341716 ioctl(8, BINDER_WRITE_READ, 0xfff1bff8) = 0 <0.000106>
+20:59:50.341947 ioctl(8, BINDER_WRITE_READ, 0xfff1bff8) = 0 <0.000100>
+20:59:50.342294 ioctl(8, BINDER_WRITE_READ, 0xfff1c0a8) = 0 <0.000122>
+20:59:50.342536 ioctl(8, BINDER_WRITE_READ, 0xfff1c0a8) = 0 <0.000093>
+20:59:50.342764 write(46, "\0", 1)      = 1 <0.000111>
+20:59:50.342994 futex(0xda847acc, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000124>
+20:59:50.343242 getuid32()              = 12797 <0.000092>
+20:59:50.343440 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000083>
+20:59:50.343661 write(46, "\0", 1)      = 1 <0.000106>
+20:59:50.343883 futex(0xda847acc, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000211>
+20:59:50.344203 getuid32()              = 12797 <0.000092>
+20:59:50.344401 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000092>
+20:59:50.344663 futex(0xda7a9788, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000114>
+20:59:50.345011 getuid32()              = 12797 <0.000116>
+20:59:50.345230 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000087>
+20:59:50.345426 getuid32()              = 12797 <0.000099>
+20:59:50.345665 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000094>
+20:59:50.345905 getuid32()              = 12797 <0.000090>
+20:59:50.346098 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000090>
+20:59:50.346297 getuid32()              = 12797 <0.000091>
+20:59:50.346493 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000102>
+20:59:50.346752 getuid32()              = 12797 <0.000085>
+20:59:50.346938 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000090>
+20:59:50.347172 getuid32()              = 12797 <0.000090>
+20:59:50.347365 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000083>
+20:59:50.347570 getuid32()              = 12797 <0.000083>
+20:59:50.347760 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000091>
+20:59:50.347968 getuid32()              = 12797 <0.000201>
+20:59:50.348295 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000096>
+20:59:50.348529 getuid32()              = 12797 <0.000098>
+20:59:50.348746 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000095>
+20:59:50.348975 getuid32()              = 12797 <0.000101>
+20:59:50.349187 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000102>
+20:59:50.349427 getuid32()              = 12797 <0.000110>
+20:59:50.349657 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000095>
+20:59:50.349881 getuid32()              = 12797 <0.000094>
+20:59:50.350087 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000095>
+20:59:50.350304 getuid32()              = 12797 <0.000104>
+20:59:50.350527 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000097>
+20:59:50.350756 getuid32()              = 12797 <0.000107>
+20:59:50.350974 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000108>
+20:59:50.351210 getuid32()              = 12797 <0.000099>
+20:59:50.351421 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000174>
+20:59:50.351734 getuid32()              = 12797 <0.000098>
+20:59:50.351948 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000203>
+20:59:50.352305 getuid32()              = 12797 <0.000095>
+20:59:50.352523 epoll_pwait(29, [], 16, 0, NULL, 8) = 0 <0.000103>
+20:59:50.352774 recvfrom(70, 0xe3bf8c10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again) <0.000102>
+20:59:50.353013 write(25, "\1\0\0\0\0\0\0\0", 8) = 8 <0.000112>
+20:59:50.353406 ioctl(8, BINDER_WRITE_READ, 0xfff1b0e8) = 0 <0.000159>
+20:59:50.353747 ioctl(8, BINDER_WRITE_READ, 0xfff1b0e8) = 0 <0.000124>
+20:59:50.354054 ioctl(8, BINDER_WRITE_READ, 0xfff1b0e8) = 0 <0.000123>
+20:59:50.354284 ioctl(8, BINDER_WRITE_READ, 0xfff1b0e8) = 0 <0.000144>
+20:59:50.354580 ioctl(8, BINDER_WRITE_READ, 0xfff1b0e8) = 0 <0.000159>
+20:59:50.354916 ioctl(8, BINDER_WRITE_READ, 0xfff1b0e8) = 0 <0.000169>
+20:59:50.355283 ioctl(8, BINDER_WRITE_READ, 0xfff1b0e8) = 0 <0.000312>
+20:59:50.355747 ioctl(8, BINDER_WRITE_READ, 0xfff1b0e8) = 0 <0.000113>
+20:59:50.356213 ioctl(8, BINDER_WRITE_READ, 0xfff1b0e8) = 0 <0.000156>
+20:59:50.356514 ioctl(8, BINDER_WRITE_READ, 0xfff1b0e8) = 0 <0.000122>
+20:59:50.357079 madvise(0xcb507000, 4096, MADV_DONTNEED) = 0 <0.000148>
+20:59:50.357597 ioctl(8, BINDER_WRITE_READ, 0xfff1aa68) = 0 <0.000256>
+20:59:50.357993 ioctl(8, BINDER_WRITE_READ, 0xfff1aa68) = 0 <0.000140>
+20:59:50.358371 ioctl(8, BINDER_WRITE_READ, 0xfff1aa98) = 0 <0.000196>
+20:59:50.358717 ioctl(8, BINDER_WRITE_READ, 0xfff1aa98) = 0 <0.000082>
+20:59:50.359018 getuid32()              = 12797 <0.000110>
+20:59:50.359264 getuid32()              = 12797 <0.000330>
+20:59:50.359799 ioctl(8, BINDER_WRITE_READ, 0xfff1a378) = 0 <0.000091>
+20:59:50.360428 ioctl(8, BINDER_WRITE_READ, 0xfff1a378) = 0 <0.000096>
+20:59:50.360668 fstat64(52, {st_mode=S_ISVTX|034, st_size=1, ...}) = 0 <0.000095>
+20:59:50.360877 fstat64(52, {st_mode=S_IFREG|0220, st_size=1, ...}) = 0 <0.000102>
+20:59:50.361113 ioctl(52, ASHMEM_GET_SIZE, 0) = 84 <0.000094>
+20:59:50.361322 dup(52)                 = 53 <0.000081>
+20:59:50.361509 close(52)               = 0 <0.000078>
+20:59:50.361791 dup(53)                 = 52 <0.000078>
+20:59:50.361980 fstat64(52, {st_mode=050, st_size=1, ...}) = 0 <0.000078>
+20:59:50.362190 ioctl(52, ASHMEM_GET_SIZE, 0) = 84 <0.000156>
+20:59:50.362484 mmap2(NULL, 84, PROT_READ, MAP_SHARED, 52, 0) = 0xe2a39000 <0.000125>
+20:59:50.362745 fstat64(53, {st_mode=013, st_size=1, ...}) = 0 <0.000089>
+20:59:50.362944 fstat64(53, {st_mode=S_IFREG|0220, st_size=1, ...}) = 0 <0.000088>
+20:59:50.363139 ioctl(53, ASHMEM_GET_SIZE, 0) = 84 <0.000093>
+20:59:50.363337 close(53)               = 0 <0.000087>
+20:59:50.363581 ioctl(8, BINDER_WRITE_READ, 0xfff1a438) = 0 <0.000122>
+20:59:50.363832 ioctl(8, BINDER_WRITE_READ, 0xfff1a438) = 0 <0.000092>
+20:59:50.364104 ioctl(8, BINDER_WRITE_READ, 0xfff1a488) = 0 <0.000112>
+20:59:50.364328 ioctl(8, BINDER_WRITE_READ, 0xfff1a488) = 0 <0.000518>
+20:59:50.364987 ioctl(8, BINDER_WRITE_READ, 0xfff1a758) = 0 <0.000116>
+20:59:50.365213 ioctl(8, BINDER_WRITE_READ, 0xfff1a758) = 0 <0.000090>
+20:59:50.365428 ioctl(8, BINDER_WRITE_READ, 0xfff1a788) = 0 <0.000161>
+20:59:50.365697 ioctl(8, BINDER_WRITE_READ, 0xfff1a788) = 0 <0.000090>
+20:59:50.365909 ioctl(8, BINDER_WRITE_READ, 0xfff1a748) = 0 <0.000115>
+20:59:50.366129 ioctl(8, BINDER_WRITE_READ, 0xfff1a748) = 0 <0.000104>
+20:59:50.366459 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 53 <0.000102>
+20:59:50.366678 fstat64(53, {st_mode=0, st_size=1, ...}) = 0 <0.000089>
+20:59:50.366881 ioctl(53, ASHMEM_SET_NAME, 0xfff19be0) = 0 <0.000089>
+20:59:50.367073 ioctl(53, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x20000) = 0 <0.000091>
+20:59:50.367274 mmap2(NULL, 131072, PROT_READ|PROT_WRITE, MAP_PRIVATE, 53, 0) = 0xc8f32000 <0.000098>
+20:59:50.367489 close(53)               = 0 <0.000090>
+20:59:50.367814 ioctl(8, BINDER_WRITE_READ, 0xfff1a798) = 0 <0.000098>
+20:59:50.368086 ioctl(8, BINDER_WRITE_READ, 0xfff1a798) = 0 <0.000574>
+20:59:50.368852 fstatat64(AT_FDCWD, "/data/user/0/com.kyle.memorygame/shared_prefs/domob_config.xml", 0xfff1a858, 0) = -1 ENOENT (No such file or directory) <0.000086>
+20:59:50.369114 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 53 <0.000087>
+20:59:50.369298 fstat64(53, {st_mode=04, st_size=1, ...}) = 0 <0.000078>
+20:59:50.369479 ioctl(53, ASHMEM_SET_NAME, 0xfff1a410) = 0 <0.000079>
+20:59:50.369650 ioctl(53, _IOC(_IOC_WRITE, 0x77, 0x03, 0x04), 0x2000) = 0 <0.000079>
+20:59:50.369824 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 53, 0) = 0xca22d000 <0.000085>
+20:59:50.370013 close(53)               = 0 <0.000115>
+20:59:50.370251 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xc8e2d000 <0.000090>
+20:59:50.370449 madvise(0xc8e2d000, 1069056, MADV_MERGEABLE) = 0 <0.000102>
+20:59:50.370662 mprotect(0xc8e2d000, 4096, PROT_NONE) = 0 <0.000092>
+20:59:50.370885 prctl(0x53564d41 /* PR_??? */, 0, 0xc8e2d000, 4096, "thread stack guard page") = 0 <0.000180>
+20:59:50.371200 clone(child_stack=0xc8f31910, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xc8f31928, tls={entry_number:12, base_addr:0xc8f31970, limit:4096, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}, tls=0xfff1a760, child_tidptr=0xc8f31928) = 7878 <0.000149>
+20:59:50.371593 futex(0xc8f31960, FUTEX_WAKE_PRIVATE, 1) = 1 <0.000531>
+20:59:50.372250 futex(0xdd285a50, FUTEX_WAKE, 1) = 1 <0.000203>
+20:59:50.372577 futex(0xdd285a30, FUTEX_WAKE, 1) = 1 <0.000079>
+20:59:50.372756 futex(0xdd285a30, FUTEX_WAKE, 1) = 0 <0.000085>
+20:59:50.372935 futex(0xdd285a50, FUTEX_WAIT, 1, NULL) = -1 EAGAIN (Try again) <0.000079>
+20:59:50.373179 ioctl(8, BINDER_WRITE_READ, 0xfff1aa68) = 0 <0.000119>
+20:59:50.373410 ioctl(8, BINDER_WRITE_READ, 0xfff1aa68) = 0 <0.000081>
+20:59:50.373623 ioctl(8, BINDER_WRITE_READ, 0xfff1aa68) = 0 <0.000108>
+20:59:50.373829 ioctl(8, BINDER_WRITE_READ, 0xfff1aa68) = 0 <0.000079>
+20:59:50.374038 ioctl(8, BINDER_WRITE_READ, 0xfff1a748) = 0 <0.000140>
+20:59:50.374275 ioctl(8, BINDER_WRITE_READ, 0xfff1a748) = 0 <0.000079>
+20:59:50.374494 ioctl(8, BINDER_WRITE_READ, 0xfff1a748) = 0 <0.000095>
+20:59:50.374684 ioctl(8, BINDER_WRITE_READ, 0xfff1a748) = 0 <0.000086>
+20:59:50.375006 ioctl(8, BINDER_WRITE_READ, 0xfff1a768) = 0 <0.000174>
+20:59:50.375277 ioctl(8, BINDER_WRITE_READ, 0xfff1a768) = 0 <0.000079>
+20:59:50.375487 ioctl(8, BINDER_WRITE_READ, 0xfff1a768) = 0 <0.000096>
+20:59:50.375676 ioctl(8, BINDER_WRITE_READ, 0xfff1a768) = 0 <0.000083>
+20:59:50.375910 ioctl(8, BINDER_WRITE_READ, 0xfff1a428) = 0 <0.000189>
+20:59:50.376194 ioctl(8, BINDER_WRITE_READ, 0xfff1a428) = 0 <0.000080>
+20:59:50.376403 ioctl(8, BINDER_WRITE_READ, 0xfff1a4a8) = 0 <0.000141>
+20:59:50.376640 ioctl(8, BINDER_WRITE_READ, 0xfff1a4a8) = 0 <0.000079>
+20:59:50.376892 ioctl(8, BINDER_WRITE_READ, 0xfff1a5f8) = 0 <0.000097>
+20:59:50.377084 ioctl(8, BINDER_WRITE_READ, 0xfff1a5f8) = 0 <0.000185>
+20:59:50.377438 ioctl(8, BINDER_WRITE_READ, 0xfff1a698) = 0 <0.000439>
+20:59:50.377976 ioctl(8, BINDER_WRITE_READ, 0xfff1a698) = 0 <0.001495>
+20:59:50.379940 writev(3, [{"\0\233\36\206$\341Z\217\337\242\26", 11}, {"\3", 1}, {"AndroidRuntime\0", 15}, {"Shutting down VM\n\0", 18}], 4) = 45 <0.000228>
+20:59:50.380553 writev(3, [{"\4\233\36\206$\341ZI\321\255\26", 11}, {"\6", 1}, {"AndroidRuntime\0", 15}, {"FATAL EXCEPTION: main\nProcess: c"..., 2376}], 4) = 2403 <0.000136>
+20:59:50.381028 ioctl(8, BINDER_WRITE_READ, 0xfff1ca38) = 0 <0.000115>
+20:59:50.381262 ioctl(8, BINDER_WRITE_READ <unfinished ...>
+20:59:51.920324 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 83.00    0.007262          37       196           ioctl
+  9.73    0.000851          16        53           read
+  5.95    0.000521          12        44         2 futex
+  1.31    0.000115           6        18           write
+  0.00    0.000000           0         9           close
+  0.00    0.000000           0         4           dup
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           clone
+  0.00    0.000000           0         3           mprotect
+  0.00    0.000000           0        18           writev
+  0.00    0.000000           0         1           sched_yield
+  0.00    0.000000           0         3           prctl
+  0.00    0.000000           0         9           mmap2
+  0.00    0.000000           0        17           fstat64
+  0.00    0.000000           0        46           getuid32
+  0.00    0.000000           0         6           madvise
+  0.00    0.000000           0         1           fcntl64
+  0.00    0.000000           0         1           epoll_ctl
+  0.00    0.000000           0         5           openat
+  0.00    0.000000           0         1         1 fstatat64
+  0.00    0.000000           0         2           faccessat
+  0.00    0.000000           0        30           epoll_pwait
+  0.00    0.000000           0         4         3 recvfrom
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.008749                   475         6 total

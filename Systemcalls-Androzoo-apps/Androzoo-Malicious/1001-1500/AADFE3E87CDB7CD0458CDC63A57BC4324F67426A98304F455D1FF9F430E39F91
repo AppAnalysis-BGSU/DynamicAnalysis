@@ -1,0 +1,33 @@
+20:29:51.555549 ioctl(8, BINDER_WRITE_READ, 0xff936478) = 0 <0.000114>
+20:29:51.555888 ioctl(8, BINDER_WRITE_READ, 0xff936478) = 0 <0.000082>
+20:29:51.556640 ioctl(8, BINDER_WRITE_READ, 0xff9360c8) = 0 <0.000106>
+20:29:51.557395 ioctl(8, BINDER_WRITE_READ, 0xff9360c8) = 0 <0.001476>
+20:29:51.559074 openat(AT_FDCWD, "/data/app/com.sino.app.advancedA98033-1/lib/x86/libvi_voslib.so", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000108>
+20:29:51.559368 openat(AT_FDCWD, "/system/fake-libs/libvi_voslib.so", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000089>
+20:29:51.559635 fstatat64(AT_FDCWD, "/data/app/com.sino.app.advancedA98033-1/base.apk", {st_mode=0165264, st_size=1, ...}, 0) = 0 <0.000090>
+20:29:51.559850 fstatat64(AT_FDCWD, "/data/app/com.sino.app.advancedA98033-1/base.apk", {st_mode=0165264, st_size=1, ...}, 0) = 0 <0.000081>
+20:29:51.560128 openat(AT_FDCWD, "/data/app/com.sino.app.advancedA98033-1/base.apk", O_RDONLY|O_LARGEFILE) = 32 <0.001258>
+20:29:51.561864 read(32, "PK\3\4", 4)   = 4 <0.001059>
+20:29:51.563045 _llseek(32, 0, [6426112], SEEK_END) = 0 <0.000080>
+20:29:51.563226 _llseek(32, 6425984, [6425984], SEEK_SET) = 0 <0.000078>
+20:29:51.563401 read(32, "libbdpush_V1_0.soPK\1\2\24\0\24\0\10\0\10\0\24e\4"..., 128) = 128 <0.000080>
+20:29:51.563595 mmap2(NULL, 77312, PROT_READ, MAP_SHARED, 32, 0x60e000) = 0xda948000 <0.000756>
+20:29:51.564721 fstatat64(AT_FDCWD, "/data/app/com.sino.app.advancedA98033-1/base.apk", {st_mode=0165264, st_size=1, ...}, 0) = 0 <0.000936>
+20:29:51.566083 openat(AT_FDCWD, "/system/lib/libvi_voslib.so", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000417>
+20:29:51.567670 openat(AT_FDCWD, "/vendor/lib/libvi_voslib.so", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory) <0.000156>
+20:29:51.569432 writev(3, [{"\0\2207\377\313\337Z\250\17\357!", 11}, {"\3", 1}, {"AndroidRuntime\0", 15}, {"Shutting down VM\n\0", 18}], 4) = 45 <0.001152>
+20:29:51.572197 writev(3, [{"\4\2207\377\313\337Z$:\20\"", 11}, {"\6", 1}, {"AndroidRuntime\0", 15}, {"FATAL EXCEPTION: main\nProcess: c"..., 1393}], 4) = 1420 <0.000165>
+20:29:51.573503 ioctl(8, BINDER_WRITE_READ, 0xff9375d8) = 0 <0.000323>
+20:29:51.573874 ioctl(8, BINDER_WRITE_READ <unfinished ...>
+20:29:52.516492 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+  0.00    0.000000           0         2           read
+  0.00    0.000000           0         5           ioctl
+  0.00    0.000000           0         2           _llseek
+  0.00    0.000000           0         2           writev
+  0.00    0.000000           0         1           mmap2
+  0.00    0.000000           0         5         4 openat
+  0.00    0.000000           0         3           fstatat64
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000000                    20         4 total

@@ -1,0 +1,10 @@
+13:03:08.566104 restart_syscall(<... resuming interrupted futex ...>) = -1 ETIMEDOUT (Connection timed out) <2.672578>
+13:03:11.238993 writev(3, [{"\0P4\317\264\340Z\242B>\16", 11}, {"\4", 1}, {"Process\0", 8}, {"Sending signal. PID: 13392 SIG: "..., 34}], 4) = 54 <0.000260>
+13:03:11.239382 kill(13392, SIGKILL <unfinished ...>
+13:03:11.261839 +++ killed by SIGKILL +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+  0.00    0.000000           0         1           writev
+  0.00    0.000000           0         1         1 restart_syscall
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000000                     2         1 total
