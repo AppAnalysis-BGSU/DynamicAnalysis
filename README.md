@@ -11,12 +11,22 @@
 
 Contains System calls of both benign and Malicious android applications obtained from Androzoo (Broken down to folders of 500 each due to github restrictions). I will keep on adding files to this directory as required.
 
+### Systemcalls-AMD-apps
+Contains System calls of Malicious android applications obtained from the AMD Dataset.
+
+### Outputs and Observations
+Contains graphs and summary of results obtained. 
+
 Some options I have used are 
 
-* Throttle of `10` milliseconds between each event 
-* `2500` Random events  
+* Throttle of `20` milliseconds between each event 
+* `5000` Random events  
  
 ## How to Obtain System calls  
+
+We use Genymotion on AWS to execute our applications. Desktop version of Genymotion had issue with executing large number of applications and we shifted to the cloud. Android nougat emulator used to execute the applications.
+
+OR
 
 1. Run Genymotion as administrator and start a device
 2. Change the device's read only permission to read write as `adb shell mount -o rw,remount -t yaffs2 rootfs /`
